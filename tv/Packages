@@ -1,13 +1,13 @@
 Package: com.popcorntimetv.popcorntime.tvos
-Version: 3.2.20-1
+Version: 3.2.20-2
 Section: Applications
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 10.2), mobilesubstrate
 Architecture: appletvos-arm64
-Filename: debs//com.popcorntimetv.popcorntime.tvos.deb
-Size: 90920052
-md5sum: 97db612bba5a07662c1b2e0098d4bf9c
+Filename: debs//com.popcorntimetv.popcorntime.tvos-3.2.20-2.deb
+Size: 91586948
+md5sum: 02c6a1060d7ec5fbf70dd45f8d5c124e
 Description: PopcornTime for the Apple TV
 Name: PopcornTime
 Author: PopcornTimeTV

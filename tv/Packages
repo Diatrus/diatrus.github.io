@@ -6,8 +6,8 @@ Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 10.2), mobilesubstrate
 Architecture: appletvos-arm64
 Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-20.deb
-Size: 91964476
-md5sum: 93f3c3073985d693806a7e6bd72f5b50
+Size: 91968756
+md5sum: 1e1165a484224c01e76e2f1ea772c50a
 Description: Popcorn Time for the Apple TV
 Name: Popcorn Time
 Author: PopcornTimeTV

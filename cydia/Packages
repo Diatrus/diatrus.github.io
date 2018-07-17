@@ -4,10 +4,10 @@ Section: Applications
 Maintainer: Diatrus
 Depends: firmware (>= 9.0)
 Architecture: iphoneos-arm
-Filename: debs//com.popcorntimetv.popcorntime.ios-3.2.20.deb
-Size: 66299628
-md5sum: 19648cd24faa056a2d6fc882a40b8376
-Description: PopcornTime for iOS
-Name: PopcornTime
+Filename: debs//com.popcorntimetv.popcorntime.ios_3.2-20.deb
+Size: 66285932
+md5sum: 30e075feb3925379c333ef6ab67539a6
+Description: Popcorn Time for iOS
+Name: Popcorn Time
 Author: PopcornTimeTV
 

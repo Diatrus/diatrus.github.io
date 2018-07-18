@@ -1,3 +1,17 @@
+Package: com.diatrus.tvbrowser
+Version: 3.0-3000
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 9.0), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//com.diatrus.tvbrowser_3.0-3000.deb
+Size: 137788
+md5sum: 697192da765b5c98ae9da167f0360ef1
+Description: Browser for the Apple TV
+Name: Browser
+Author: jvanakker
+
 Package: com.popcorntimetv.popcorntime.tvos
 Version: 3.2-20
 Section: Applications

@@ -1,10 +1,9 @@
 {
   "LongDescription" : "tvOS port of tuyu for iOS. View featured videos, sign in to your account, view all account playlists and channels subscriptions, extremely powerful search with channel and playlist support.",
-  "MainTextColor" : "FFFFFF",
+  "MainTextColor" : "00FFFF",
   "BackgroundColor" : "e62d27",
   "FlowcaseIconURL" : "",
   "AppIconURL" : "http:\/\/nitosoft.com\/ATV4\/tuyu\/tuyu_logo.png",
-  "BackgroundImageURL" : "",
   "Screenshots" : [
     "http:\/\/nitosoft.com\/ATV4\/tuyu\/tuyu_1.png",
     "http:\/\/nitosoft.com\/ATV4\/tuyu\/tuyu_2.png",

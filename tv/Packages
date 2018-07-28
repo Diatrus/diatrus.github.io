@@ -12,6 +12,20 @@ Description: Browser for the Apple TV
 Name: Browser
 Author: jvanakker
 
+Package: com.iBaa.PlexConnectApp
+Version: 0.1-1
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 9.0), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//PlexRevenant_0.1-1.deb
+Size: 2617212
+md5sum: 8eb62e7b546a9bcabaab8e511cb28621
+Description: PlexConnectApp for the Apple TV
+Name: PlexConnectApp
+Author: iBaa
+
 Package: com.popcorntimetv.popcorntime.tvos
 Version: 3.2-20
 Section: Applications

@@ -28,14 +28,15 @@ Author: iBaa
 
 Package: com.lucasharding.antenna
 Version: 1.0.2-3
+Priority: Extra
 Section: Applications
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
 Architecture: appletvos-arm64
 Filename: debs//com.lucasharding.antenna_1.0.2-3.deb
-Size: 21161784
-md5sum: 10f0853075e4dc3b66410790da67f27f
+Size: 20865680
+md5sum: d1659458cf63a2b58e4a374c87483296
 Description: Antenna for the Apple TV
 Name: Antenna
 Author: Lucas Harding

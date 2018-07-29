@@ -26,6 +26,20 @@ Description: PlexConnectApp for the Apple TV
 Name: PlexConnectApp
 Author: iBaa
 
+Package: com.lucasharding.antenna
+Version: 1.0.2-3
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 9.0), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//com.lucasharding.antenna_1.0.2-3.deb
+Size: 20831996
+md5sum: af6d61cecfd09aae3fb5ffbb631aaa86
+Description: Antenna for the Apple TV
+Name: Antenna
+Author: lucasharding
+
 Package: com.popcorntimetv.popcorntime.tvos
 Version: 3.2-20
 Section: Applications
@@ -39,4 +53,32 @@ md5sum: 1e1165a484224c01e76e2f1ea772c50a
 Description: Popcorn Time for the Apple TV
 Name: Popcorn Time
 Author: PopcornTimeTV
+
+Package: com.provenance.provenance-tvos
+Version: 1.5-1581
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 9.0), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//com.kakaswr22-emu.provenancetv_1.5-1581.deb
+Size: 25963812
+md5sum: 4d3fece7a5c0928aaf26f0e514febf83
+Description: Provenance for the Apple TV
+Name: Provenance
+Author: James Addyman
+
+Package: ws.jesse.tv.aerial
+Version: 1.0-1
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 9.0), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//ws.jesse.tv.aerial_1.0-1.deb
+Size: 9933488
+md5sum: 22ba1b11640d3919a7f5c1ef8fa6c5be
+Description: Aerial for the Apple TV
+Name: Aerial
+Author: okofish
 

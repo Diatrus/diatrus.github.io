@@ -71,6 +71,50 @@ Description: Popcorn Time for the Apple TV
 Name: Popcorn Time
 Author: PopcornTimeTV
 
+Package: com.popcorntimetv.popcorntime.tvos
+Version: 3.2.33
+Priority: Extra
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 10.2), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-33.deb
+Size: 101890668
+md5sum: a282605d0bcb8ea9656e93afcfd89cfd
+Description: Popcorn Time for the Apple TV
+Name: Popcorn Time
+Author: PopcornTimeTV
+
+Package: com.popcorntimetv.popcorntime.tvos
+Version: 3.2.22
+Priority: Extra
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 10.2), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-22.deb
+Size: 93427448
+md5sum: decadfe17f05c40e87d8ca77154c8cef
+Description: Popcorn Time for the Apple TV
+Name: Popcorn Time
+Author: PopcornTimeTV
+
+Package: com.popcorntimetv.popcorntime.tvos
+Version: 3.2-20
+Section: Applications
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 10.2), mobilesubstrate
+Architecture: appletvos-arm64
+Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-20.deb
+Size: 91968756
+md5sum: 1e1165a484224c01e76e2f1ea772c50a
+Description: Popcorn Time for the Apple TV
+Name: Popcorn Time
+Author: PopcornTimeTV
+
 Package: com.provenance.provenance-tvos
 Version: 1.5-1581
 Section: Applications

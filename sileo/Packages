@@ -1,13 +1,12 @@
 Package: apt-key
-Version: 999
+Version: 1:0
 Architecture: iphoneos-arm
 Maintainer: Diatrus
-Installed-Size: 64
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: coreutils, libapt
 Conflicts: apt7-key (<<1:0)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4), apt7-key
-Filename: https://apt.bingner.com/debs/1443.00/apt-key_1.4.8-3_iphoneos-arm.deb
+Filename: ./debs/apt-key_1/0_iphoneos-arm.deb
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
@@ -15,14 +14,13 @@ Name: APT (apt-key)
 Tag: purpose::console, role::hacker
 
 Package: apt1.4
-Version: 999
+Version: 1:0
 Architecture: iphoneos-arm
 Maintainer: Diatrus
-Installed-Size: 3200
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt-key, berkeleydb, libapt (>= 1.4.8)
 Conflicts: apt7 (<<1:0)
-Filename: https://apt.bingner.com/debs/1443.00/apt1.4_1.4.8-3_iphoneos-arm.deb
+Filename: ./debs/apt1.4_1.0_iphoneos-arm.deb
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
@@ -30,15 +28,14 @@ Name: APT Strict
 Tag: purpose::console, role::hacker
 
 Package: libapt
-Version: 999
+Version: 1:0
 Architecture: iphoneos-arm
 Essential: no
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 5368
+Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg (>=1.4.8)
 Conflicts: apt7-lib (<<1:0), apt7 (<<1:0), apt7-key (<<1:0), com.mc.xz
-Filename: https://apt.bingner.com/debs/1443.00/libapt_1.4.8-7_iphoneos-arm.deb
+Filename: ./debs/libapt_1.0_iphoneos-arm.deb
 Section: Packaging
 Priority: optional
 Description: the advanced packaging library from Debian
@@ -46,18 +43,13 @@ Name: APT Strict (lib)
 Tag: purpose::library, role::developer
 
 Package: libapt-pkg-dev
-Version: 999
+Version: 1:0
 Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1328
+Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libapt-pkg5.0
 Provides: libapt-pkg (=1.4.8)
-Filename: https://apt.bingner.com/debs/1443.00/libapt-pkg-dev_1.4.8-2_iphoneos-arm.deb
-Size: 98990
-MD5sum: d8efc1eec45e8e60db74b2b48b70f7e6
-SHA1: de7133cefc8807e4bb94c12dc4cb5d537bbec341
-SHA256: 4a0e7dcd51dfeb458db6a4be49259aa49414ce24f43502355b69b24c24f80c1f
+Filename: ./debs/libapt-pkg-dev_1.0_iphoneos-arm.deb
 Section: Packaging
 Priority: optional
 Description: the advanced packaging library from Debian
@@ -65,21 +57,16 @@ Name: APT 1.4 Strict (libapt-pkg-dev)
 Tag: purpose::library, role::developer
 
 Package: libapt-pkg5.0
-Version: 999
+Version: 1:0
 Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 7968
+Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, lz4, lzma, xz
 Conflicts: apt7-lib (<<1:0), com.mc.xz (<<5.2.4-7)
 Provides: libapt-pkg (=1.4.8)
-Filename: https://apt.bingner.com/debs/1443.00/libapt-pkg5.0_1.4.8-4_iphoneos-arm.deb
-Size: 1008806
-MD5sum: 2783d7d0190c37e41c4eb559b743c81c
-SHA1: 57e581e566300cd01f52c4451d506c7ca7ef26be
-SHA256: d7452e86ca89371de09b693445a70789502dc312d8c932ac4e7ae7942a88845b
+Filename: ./debs/libapt-pkg5.0_1.0_iphoneos-arm.deb
 Section: Packaging
-Priority: required
+Priority: optional
 Description: the advanced packaging library from Debian
 Name: APT 1.4 Strict (libapt-pkg)
 Tag: purpose::library, role::developer

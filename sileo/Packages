@@ -85,7 +85,7 @@ Name: APT 1.4 Strict (libapt-pkg)
 Tag: purpose::library, role::developer
 
 Package: apt7
-Version: 1.7.2
+Version: 1:1.7.2
 Architecture: iphoneos-arm
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
@@ -103,7 +103,7 @@ Description: the advanced packaging tool from Debian
 Name: APT 1.7 Strict
 
 Package: apt7-key
-Version: 1.7.2
+Version: 1:1.7.2
 Architecture: iphoneos-arm
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
@@ -121,7 +121,7 @@ Description: repository encryption key management tool
 Name: APT 1.7 (apt-key)
 
 Package: apt7-lib
-Version: 1.7.2-sileo
+Version: 1:1.7.2-sileo
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: Diatrus

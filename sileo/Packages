@@ -90,6 +90,7 @@ Architecture: iphoneos-arm
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-key, apt7-lib (>= 1.7.0), berkeleydb, cy+cpu.arm64
+Conflicts: apt
 Replaces: apt
 Provides: apt
 Filename: https://electrarepo64.coolstar.org/debs/apt/apt7_1.7.2_iphoneos-arm.deb
@@ -108,6 +109,7 @@ Architecture: iphoneos-arm
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-lib (>= 1.7.0), cy+cpu.arm64
+Conflicts: apt-key
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4), apt-key
 Provides: apt-key
 Filename: https://electrarepo64.coolstar.org/debs/apt/apt7-key_1.7.2_iphoneos-arm.deb
@@ -127,9 +129,9 @@ Essential: yes
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma, cy+cpu.arm64
-Conflicts: apt7-ssl
+Conflicts: apt7-ssl, libapt-pkg5.0, libapt, libapt-pkg-dev
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
-Replaces: libapt-pkg5.0, libapt, apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Replaces: libapt-pkg5.0, libapt, apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl, libapt-pkg-dev
 Provides: apt7-ssl, libapt-pkg (=1.4.8), libapt
 Filename: https://electrarepo64.coolstar.org/debs/apt/apt7-lib_1.7.2_iphoneos-arm.deb
 Size: 1539848

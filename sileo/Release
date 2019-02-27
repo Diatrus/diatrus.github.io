@@ -1,0 +1,8 @@
+Origin: Diatrus Sileo
+Label: Diatrus Sileo for unc0ver
+Suite: stable
+Version: 1.0
+Codename: fcahsileo
+Architectures: iphoneos-arm
+Components: main
+Description: Diatrus Sileo for unc0ver

@@ -1,13 +1,13 @@
 Package: com.diatrus.sileo-installer
-Version: 0.9-7
+Version: 1.0
 Section: Utilities
 Maintainer: Diatrus
 Depends: curl, com.midnightchips.localhostssh, gawk
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo
 Architecture: iphoneos-arm
-Filename: debs//com.diatrus.sileo-installer_0.9-7-iphoneos-arm.deb
-Size: 10204
-md5sum: 39086a0c47889315a3d936edc63f4c4a
+Filename: debs//com.diatrus.sileo-installer_1.0-iphoneos-arm.deb
+Size: 9684
+md5sum: e77311232cf63f31fdfe5a0dee5c0208
 Description: Safely install official Sileo on unc0ver. Run the command "installsileo" over ssh or MTerminal to install, and "removesileo" to uninstall. For it to work properly, rejailbreak with Reload System Daemons turned on before installing.
 Name: Sileo for unc0ver
 Author: Diatrus

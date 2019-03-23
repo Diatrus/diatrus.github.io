@@ -9,9 +9,9 @@ Provides: appsync
 Replaces: us.hackulo.appsync50
 Architecture: appletvos-arm64
 Filename: debs//us.diatr.appsyncunified_32.0_appletvos-arm64.deb
-Size: 16050
+Size: 16136
 Installed-Size: 144
-md5sum: f99cb35e1f4225b64978f9973d9ef41f
+md5sum: d57712208862eda5ca40e892dc427ac3
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Name: AppSync Unified
 Author: Diatrus

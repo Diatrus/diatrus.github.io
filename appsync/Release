@@ -1,0 +1,8 @@
+Origin: AppSync Apple TV
+Label: AppSync Apple TV
+Suite: stable
+Version: 1.0
+Codename: appsynctvos 
+Architectures: darwin-arm64, appletvos-arm64
+Components: main
+Description: AppSync ported to tvOS by Diatrus

@@ -1,145 +1,165 @@
 Package: com.diatrus.tvbrowser
 Version: 3.0-3000
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.diatrus.tvbrowser_3.0-3000.deb
+Filename: debs/com.diatrus.tvbrowser_3.0-3000.deb
 Size: 137788
-md5sum: 697192da765b5c98ae9da167f0360ef1
+MD5sum: 697192da765b5c98ae9da167f0360ef1
+SHA1: b82da58fdb429038c25afc618199bcd6f5cae0f3
+SHA256: 4b3789754350be059838b37b041b7b5b8c06bc7bc9389d672f47918bec652a91
+Section: Applications
 Description: Browser for the Apple TV
-Name: Browser
 Author: jvanakker
+Name: Browser
 
 Package: com.google.ios.youtube
 Version: 1.2.1
-Priority: Extra
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.google.ios.youtube_1.2-1.2.1.deb
+Filename: debs/com.google.ios.youtube_1.2-1.2.1.deb
 Size: 566144
-md5sum: 49fa9fc498b5193b27faccb54545a796
+MD5sum: 49fa9fc498b5193b27faccb54545a796
+SHA1: 7b98732e700e043dcce95530576c298a3380dd5f
+SHA256: 7e42b910eb5760e8cf369ac81d63d4c17514758026ec38c9aa2f5f59ab691b0e
+Section: Applications
+Priority: Extra
 Description: The old version of YouTube, free of the new shitty design!
-Name: YouTubeTV
 Author: Google, Inc.
+Name: YouTubeTV
 
 Package: com.iBaa.PlexConnectApp
 Version: 0.1-1
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//PlexRevenant_0.1-1.deb
+Filename: debs/PlexRevenant_0.1-1.deb
 Size: 2617212
-md5sum: 8eb62e7b546a9bcabaab8e511cb28621
+MD5sum: 8eb62e7b546a9bcabaab8e511cb28621
+SHA1: bf8c2695577531bdf6dca79d23d88902fdc85639
+SHA256: e0f2ef3dbea5fa28556844cb308ded70cd8bb325b2ba391c5ef1b2e36f1b8db6
+Section: Applications
 Description: PlexConnectApp for the Apple TV
-Name: PlexConnectApp
 Author: iBaa
+Name: PlexConnectApp
 
 Package: com.lucasharding.antenna
 Version: 1.0.2-3
-Priority: Extra
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.lucasharding.antenna_1.0.2-3.deb
+Filename: debs/com.lucasharding.antenna_1.0.2-3.deb
 Size: 20865680
-md5sum: d1659458cf63a2b58e4a374c87483296
+MD5sum: d1659458cf63a2b58e4a374c87483296
+SHA1: a53f4b43977009068b82baea92e7758a89d8e41b
+SHA256: d274e39991fa880312802618bd5fa31e38a39d38d3f49aa9fef48bd6d80ade4b
+Section: Applications
+Priority: Extra
 Description: Antenna for the Apple TV
-Name: Antenna
 Author: Lucas Harding
-
-Package: com.popcorntimetv.popcorntime.tvos
-Version: 3.2.30
-Priority: Extra
-Section: Applications
-Maintainer: Diatrus
-Pre-Depends: cy+cpu.arm64
-Depends: firmware (>= 10.2), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-30.deb
-Size: 99358732
-md5sum: 7a778945f7bb0a110614c59b389e42b7
-Description: Popcorn Time for the Apple TV
-Name: Popcorn Time
-Author: PopcornTimeTV
-
-Package: com.popcorntimetv.popcorntime.tvos
-Version: 3.2.33
-Priority: Extra
-Section: Applications
-Maintainer: Diatrus
-Pre-Depends: cy+cpu.arm64
-Depends: firmware (>= 10.2), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-33.deb
-Size: 101890668
-md5sum: a282605d0bcb8ea9656e93afcfd89cfd
-Description: Popcorn Time for the Apple TV
-Name: Popcorn Time
-Author: PopcornTimeTV
-
-Package: com.popcorntimetv.popcorntime.tvos
-Version: 3.2.22
-Priority: Extra
-Section: Applications
-Maintainer: Diatrus
-Pre-Depends: cy+cpu.arm64
-Depends: firmware (>= 10.2), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-22.deb
-Size: 93427448
-md5sum: decadfe17f05c40e87d8ca77154c8cef
-Description: Popcorn Time for the Apple TV
-Name: Popcorn Time
-Author: PopcornTimeTV
+Name: Antenna
 
 Package: com.popcorntimetv.popcorntime.tvos
 Version: 3.2-20
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 10.2), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.popcorntimetv.popcorntime.tvos_3.2-20.deb
+Filename: debs/com.popcorntimetv.popcorntime.tvos_3.2-20.deb
 Size: 91968756
-md5sum: 1e1165a484224c01e76e2f1ea772c50a
+MD5sum: 1e1165a484224c01e76e2f1ea772c50a
+SHA1: 2c85a1dce1dbed41cafc6e0356fde1066bdbfc34
+SHA256: 78eed97ad7e33ffd45f4460897dee46c3b0937a5680f4ad516771e42e4839dbe
+Section: Applications
 Description: Popcorn Time for the Apple TV
-Name: Popcorn Time
 Author: PopcornTimeTV
+Name: Popcorn Time
+
+Package: com.popcorntimetv.popcorntime.tvos
+Version: 3.2.22
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 10.2), mobilesubstrate
+Filename: debs/com.popcorntimetv.popcorntime.tvos_3.2-22.deb
+Size: 93427448
+MD5sum: decadfe17f05c40e87d8ca77154c8cef
+SHA1: 59d58ef509e821faa6ed1d11c4e9e06eaa62bf3c
+SHA256: d76089b3999cc9a0e30f4ab6a83daee00f8f62a3c01c2aa31a9ad2ea7cfb2af7
+Section: Applications
+Priority: Extra
+Description: Popcorn Time for the Apple TV
+Author: PopcornTimeTV
+Name: Popcorn Time
+
+Package: com.popcorntimetv.popcorntime.tvos
+Version: 3.2.30
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 10.2), mobilesubstrate
+Filename: debs/com.popcorntimetv.popcorntime.tvos_3.2-30.deb
+Size: 99358732
+MD5sum: 7a778945f7bb0a110614c59b389e42b7
+SHA1: ee1e83c608018cf68e55d1a7faa6e9c9581f6ee0
+SHA256: d10dc495d568396c0740eb52090a4fc82d31c393692b101f65102455bb48fb20
+Section: Applications
+Priority: Extra
+Description: Popcorn Time for the Apple TV
+Author: PopcornTimeTV
+Name: Popcorn Time
+
+Package: com.popcorntimetv.popcorntime.tvos
+Version: 3.2.33
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 10.2), mobilesubstrate
+Filename: debs/com.popcorntimetv.popcorntime.tvos_3.2-33.deb
+Size: 101890668
+MD5sum: a282605d0bcb8ea9656e93afcfd89cfd
+SHA1: 3307403fbc6f1ae2dae560abf2ec6a853d5b6669
+SHA256: 3a9206693db32da9750c55afe987ba0707f965a114972dcd2b2ce08850371b1c
+Section: Applications
+Priority: Extra
+Description: Popcorn Time for the Apple TV
+Author: PopcornTimeTV
+Name: Popcorn Time
 
 Package: com.provenance.provenance-tvos
 Version: 1.5-1581
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//com.kakaswr22-emu.provenancetv_1.5-1581.deb
+Filename: debs/com.kakaswr22-emu.provenancetv_1.5-1581.deb
 Size: 25963812
-md5sum: 4d3fece7a5c0928aaf26f0e514febf83
+MD5sum: 4d3fece7a5c0928aaf26f0e514febf83
+SHA1: 90e7ca70ccd87add02865ecdd8d07cc3cffac11b
+SHA256: 377fea10d1f0eafdcde2bc6144e8cc429fca4313b001a49c941fbec0abbcd891
+Section: Applications
 Description: Provenance for the Apple TV
-Name: Provenance
 Author: James Addyman
+Name: Provenance
 
 Package: ws.jesse.tv.aerial
 Version: 1.0-1
-Section: Applications
+Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: cy+cpu.arm64
 Depends: firmware (>= 9.0), mobilesubstrate
-Architecture: appletvos-arm64
-Filename: debs//ws.jesse.tv.aerial_1.0-1.deb
+Filename: debs/ws.jesse.tv.aerial_1.0-1.deb
 Size: 9933488
-md5sum: 22ba1b11640d3919a7f5c1ef8fa6c5be
+MD5sum: 22ba1b11640d3919a7f5c1ef8fa6c5be
+SHA1: eec7e1930b1a77d8abe193fcb0fe023484a58906
+SHA256: 084115138c025e3c7c8e220f23fc9b19e06d566e70fb7b3c05f39c75e6a223b9
+Section: Applications
 Description: Aerial for the Apple TV
-Name: Aerial
 Author: okofish
+Name: Aerial
 

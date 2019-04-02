@@ -5,10 +5,10 @@ Maintainer: Diatrus
 Installed-Size: 76936
 Depends: curl, openssl
 Filename: debs/git_2.16.2-1_appletvos-arm64.deb
-Size: 8793312
-MD5sum: 687bb65a03c736d69d598a1c7178b0d9
-SHA1: 3b37443766d5155c6990a8c2b8e26d0564510724
-SHA256: 356431533285e1431a44bd76a690995c4e52bb955691f375370fa02c30f108b6
+Size: 8789552
+MD5sum: 34357c07a20fee53d5f1f6c66e06c112
+SHA1: 1b2d836a7547f0768da6de0fdbcb2a75f239bccf
+SHA256: 284b105ba09a4526e178818b928c8ed69d43aa728371b0f5fe57beb72a20c9f2
 Section: Data_Storage
 Priority: optional
 Description: fast content-addressable filesystem
@@ -21,10 +21,10 @@ Version: 2:1.2.2-coolstar2
 Architecture: appletvos-arm64
 Maintainer: Diatrus
 Filename: debs/ldid_2_1.2.2-coolstar2_appletvos-arm64.deb
-Size: 26208
-MD5sum: 810f9fe0418f205fb7de04bd4bc86493
-SHA1: 6f9fd09b58773c1a7401506d9a41a62d1eaa1dcf
-SHA256: 363de66695c43d6a19d30180a2c1f5596d61c38ebf751df6d7a5c0e841f04a02
+Size: 25860
+MD5sum: 98212c86db7717cf7b425b6600e3abbb
+SHA1: 7d0e4515a407c4a629be3a07ad8d5f18b29a09aa
+SHA256: 544d311f19db74a27a8b88ad69645433e4d43342c74a71c826e7a75522165a50
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
@@ -38,10 +38,10 @@ Architecture: appletvos-arm64
 Maintainer: Diatrus
 Depends: cy+cpu.arm64
 Filename: debs/make_4.2.1_appletvos-arm64.deb
-Size: 87548
-MD5sum: 5b6ee560816e27272e5968d817f80f5b
-SHA1: ede4a429e420a9ca19f98dc70d71d19b48f0c515
-SHA256: 01b8fee6fe47feb2aa336745b099b395fb7da860c22f82c744c8925660a56a73
+Size: 87168
+MD5sum: 84fa8e1af161e4d36d8f2249a366681c
+SHA1: 9dac4f1f55cab5a513f425fb6262eb3dc5dbbd06
+SHA256: 4e9b18258a4b043d50fad151563a8e3cb31c491fc8367e254db88e4fd3d8afce
 Section: Development
 Priority: important
 Description: dependency-based build environments
@@ -54,10 +54,10 @@ Architecture: appletvos-arm64
 Maintainer: Diatrus
 Depends: git, grep, dpkg, coreutils, rsync, ca-certificates, us.diatr.tvostoolchain, perl
 Filename: debs/theosdependencies_0.0.3.deb
-Size: 1216
-MD5sum: 28e21818391d7a50a5c5eb87387d5a47
-SHA1: ea1eee47e73ba4cbcaf6ab06efc244be48a67077
-SHA256: 9ded6ecc1d2134c58e9da18ec8dcd46635f88ef6944e29aa1180411b17500e85
+Size: 872
+MD5sum: cf77f7c3ea5b28a07f791ec56a495047
+SHA1: 7407781ec616bcd1be885d53513647d310a85027
+SHA256: cbadab175f623409d4f82f753917b9602c87d8135625678d0406de44a487c721
 Section: Development
 Priority: optional
 Description: What Theos needs.
@@ -71,10 +71,10 @@ Version: 5.26.1-6
 Architecture: appletvos-arm64
 Maintainer: Diatrus
 Filename: debs/perl_5.26.1-6_appletvos-arm64.deb
-Size: 19223456
-MD5sum: c18a48ed7f6913aca63cbf03e2db1b8b
-SHA1: 423d2aa7c6bee6bf6d8470425239636cf78f9f05
-SHA256: ac8104366c399ff6939c3c54e8160d49b9e572b884d150dbbd4a3293cef1edbe
+Size: 19218588
+MD5sum: f1587637b0c68e473e0672740625c161
+SHA1: 9c6447bd3762c02692fc20b61cbf66953b942f3e
+SHA256: e0070d07536cdc8bdb7c6058e839903ece4c48bdedaec03a385da068fc0b4f99
 Section: Development
 Description: Perl
 Tag: purpose::console, role::hacker
@@ -88,10 +88,10 @@ Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
 Filename: debs/rsync_3.1.3_appletvos-arm64.deb
-Size: 209760
-MD5sum: 87679ee86d12d0e13aba505ec9a075ff
-SHA1: bdfea205ee1f3afa3ccb482a85f21430c958938b
-SHA256: 7e76c7f3d2103a70362dff4ec0e676e7250bbf34e930465389b826be232851f3
+Size: 209456
+MD5sum: e96e94a19b86122ac328ffa7781775d8
+SHA1: 32500b1097cd5d27635f5afdae024a72b2e46e79
+SHA256: 90d8ffecebf4c6cb6b895bf3228a9db797ebf4cafdcae2a91175c3e61f7fa9e7
 Section: Networking
 Priority: important
 Description: synchronize files between computers
@@ -123,10 +123,10 @@ Architecture: appletvos-arm64
 Maintainer: Diatrus
 Depends: openssl, uuid, us.diatr.ld64
 Filename: debs/cctools_895.deb
-Size: 1289212
-MD5sum: c4259bd04702a7133ffea2630ac5f630
-SHA1: fbd055c5d550dadca8dbca4e151131639a9ab78a
-SHA256: 9b2e160167276e3e4924c4abf9c3b1fe577fe672628e9498f6822f7c9cb55159
+Size: 1289368
+MD5sum: 3e76d45a3d466e0d6cba07ceae6375a2
+SHA1: 6e1310a1a4f8c8b98b37a976e9b50e1212f9ed23
+SHA256: db4d45013b59b773ef7c69f70ead7ec0f998675f8ca7098d79e4739938f06abe
 Section: Development
 Priority: optional
 Description: tools to work with mach-o files
@@ -139,10 +139,10 @@ Version: 274.2
 Architecture: appletvos-arm64
 Maintainer: Diatrus
 Filename: debs/ld64_274.2.deb
-Size: 1518492
-MD5sum: d0f65d1991ff720d668f6489583d8168
-SHA1: 7f9a7f98a8235c7be4618ef07cf046df31d1a6f6
-SHA256: 4f4ae406a4446460f8be5adfaed9d7a988292fc81598d1b8d4124bf745f2a324
+Size: 1518504
+MD5sum: d5f0b8dd122b5bc11aa442c4fbb8b454
+SHA1: c8759ad803bc00f86e540a136e2c01989bcfde8d
+SHA256: eac4de736ca6032f624bef6b407ed3a983a6ebf6e4af85889e9c6ff4a5003745
 Section: Development
 Priority: optional
 Description: linker for building on iOS
@@ -156,10 +156,10 @@ Architecture: appletvos-arm64
 Maintainer: Diatrus
 Depends: us.diatr.llvm-clang, us.diatr.ld64, us.diatr.cctools, make, ldid
 Filename: debs/tvostoolchain_6.1-1.deb
-Size: 1336
-MD5sum: 1bd4265016cd0048ef6a9b97129aa22a
-SHA1: 11fc2e38c2270150bf472aaff537239450869f59
-SHA256: d1f6d0e5be777a6b504cfe688701d0a417465c26ba643ead94e0cffaea18f03a
+Size: 800
+MD5sum: b07afa788926a53a44152fd607afc975
+SHA1: 5289c65f79d15464f5ea4b0d9282e829d423336d
+SHA256: 91d25813ee98ed833d1ec9b372682af6859983f5ec95781c7d8e80a77e110954
 Section: Development
 Priority: optional
 Description: LLVM+Clang, ld64, CC tools, Make, ldid
@@ -173,10 +173,10 @@ Architecture: appletvos-arm64
 Maintainer: Diatrus
 Depends: cy+cpu.arm64
 Filename: debs/uuid_1.6.2_appletvos-arm64.deb
-Size: 23640
-MD5sum: 8de298509bb97fe0695cbf4615c839d2
-SHA1: db54d84c49add2b78a6e9f00f27d2f87c3d1955f
-SHA256: 9179e10ee971f022ba327ce237bb90c612936d60d60948deaab71efdc71707f1
+Size: 23276
+MD5sum: b18188a3e6d45688b76c720fc07ab9d8
+SHA1: 00131b347cca150dc4a86463e0edb2a033960b22
+SHA256: ca97206b739620878d05f6828992f202635a0e0ce32257d6e502a733e721b37b
 Section: System
 Priority: important
 Description: universally unique identifiers

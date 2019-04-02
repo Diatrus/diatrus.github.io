@@ -113,6 +113,36 @@ Priority: important
 Description: synchronize files between computers
 Tag: purpose::console, role::hacker
 
+Package: top
+Version: 111.20.1
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/top_111.20.1_appletvos-arm64.deb
+Size: 114808
+MD5sum: 19141bd2cc31a1c47c6fd1c8137cdbe1
+SHA1: d3ea11933bb6a690c92efc0efee07ce1db1a5472
+SHA256: d888ab3b8a5cb87f96bc394d103365274e7bf21afe3a5a94f124d80d789a03d6
+Section: Administration
+Priority: important
+Description: at-a-glance process watching tool
+
+Package: unzip
+Version: 6.0
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Depends: cy+cpu.arm64
+Filename: debs/unzip_6.0_appletvos-arm64.deb
+Size: 74296
+MD5sum: db1bd538255061081ff0215e87ee5ace
+SHA1: 827c0351312af9eecf0a75b7e1f0657d66933b7a
+SHA256: 9725cb00a60a09772181b9630c2a6993d61edde4aa0102c3d6936dc86d937050
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
 Package: us.diatr.appsyncunified
 Version: 32.0-2
 Architecture: appletvos-arm64
@@ -198,4 +228,19 @@ Priority: important
 Description: universally unique identifiers
 Tag: purpose::library, purpose::console, role::developer
 Name: UUID Generator
+
+Package: zip
+Version: 3.0
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Depends: cy+cpu.arm64
+Filename: debs/zip_3.0_appletvos-arm64.deb
+Size: 97020
+MD5sum: a7fe06f955298f2320073b71fce0a75e
+SHA1: f9d3631ae58d261a03269d00b91685d0792d68d3
+SHA256: 5363ffdc17031c389dda7acaed297a7bc9905a391c861e31c306226eadbd58d9
+Section: Archiving
+Priority: important
+Description: standard Windows compression tool
+Tag: purpose::console, role::hacker
 

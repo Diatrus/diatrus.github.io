@@ -64,6 +64,22 @@ Description: dependency-based build environments
 Tag: purpose::console, role::hacker
 Name: Make
 
+Package: nghttp2
+Version: 1.37.0
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Pre-Depends: dpkg (>= 1.14.24-8)
+Depends: cy+cpu.arm64
+Filename: debs/nghttp2_1.37_iphoneos-arm.deb
+Size: 86012
+MD5sum: 147a46e29c1e119247c1eb6dada8d8f7
+SHA1: 824b74fc2b2a284f628721d34dd482a5696c6740
+SHA256: b189f5cd4a389191fbffb4704a218b94cd855ce63b107ad78b7de7b4f06c8f4d
+Section: Networking
+Priority: standard
+Description: HTTP/2 C library
+Name: Nghttp2
+
 Package: org.theos.dependencies
 Version: 0.0.3
 Architecture: appletvos-arm64

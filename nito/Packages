@@ -1,17 +1,17 @@
 Package: curl
-Version: 7.64.1-1
+Version: 7.58.0-2
 Architecture: appletvos-arm64
 Maintainer: Diatrus
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl, nghttp2, cy+cpu.arm64
-Filename: debs/curl_7.64.1-1_appletvos-arm64.deb
-Size: 291788
-MD5sum: 8e1f01cdf79fe1146f7cbda235c3dfc0
-SHA1: 45962e64b326fd2d79e1ec7964b20492d43b06e6
-SHA256: fdc3c374a49702c90ef30298661bb5b672313e1933cc7fbb4fde41ed3973eba2
+Filename: debs/curl_7.58.0-2_appletvos-arm64.deb
+Size: 520920
+MD5sum: 545fcca4be4691c37dff625d2497813b
+SHA1: 7a2fa62c73badd7b7f368b1bd2357192fea01045
+SHA256: 09115c335520f71dffdc84c5c270748de86ebcbcf48a522e980e330a7a0ce635
 Section: Networking
 Priority: standard
 Description: flexible multi-protocol file transfers
+Tag: purpose::console, role::hacker
+Author: Samuel Bingner
 Name: cURL
 
 Package: git
@@ -63,22 +63,6 @@ Priority: important
 Description: dependency-based build environments
 Tag: purpose::console, role::hacker
 Name: Make
-
-Package: nghttp2
-Version: 1.37.0
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Pre-Depends: dpkg (>= 1.14.24-8)
-Depends: cy+cpu.arm64
-Filename: debs/nghttp2_1.37_appletvos-arm64.deb
-Size: 85824
-MD5sum: 7e856fc5be36807ae8aa8d196dbbd82e
-SHA1: e40683559c633afae974504f70ed5e36b4d9e3f5
-SHA256: 8559d5830713fcc722a37c49508436e5c69f393fec6a75b9580a3f906a7df94a
-Section: Networking
-Priority: standard
-Description: HTTP/2 C library
-Name: Nghttp2
 
 Package: org.theos.dependencies
 Version: 0.0.3

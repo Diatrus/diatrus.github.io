@@ -186,10 +186,10 @@ Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: curl, ldid
 Filename: debs/us.diatr.jtool_1.0-1_appletvos-arm64.deb
-Size: 1088
-MD5sum: f330bfb00c00e0bed3ee0918c86db1f6
-SHA1: 8f926c7c94b8fd891901a8db8bf89cb70feef089
-SHA256: cbeb709b67bdb0b7cdb752812dcc931d5c4d26a3156520f7022433eb51b1c39a
+Size: 1092
+MD5sum: 4e2aeb607794fe14765b40a8fd8fe1ac
+SHA1: 04247885f537fcf71a257728d9312cfdea023ede
+SHA256: def0fc5f9cb68782533d63ac8e9d7b978134786de8dc337c512ddd3692e8f4f1
 Section: System
 Description: Installer for Jonathan Levin's jtool on tvOS. Does not redistribute binaries.
 Author: Diatrus

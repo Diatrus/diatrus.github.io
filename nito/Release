@@ -1,8 +1,8 @@
-Origin: Diatrus
+Origin: Diatrus tvOS Essentials
 Label: Diatrus tvOS Essentials
 Suite: stable
 Version: 1.0
 Codename: fcahtvosessential 
 Architectures: darwin-arm64, appletvos-arm64
 Components: main
-Description: Diatrus tvOS Essentials
+Description: Extra tvOS tools and tweaks not included in Nitosoft

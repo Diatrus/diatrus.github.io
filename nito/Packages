@@ -181,15 +181,15 @@ Author: Diatrus
 Name: Darwin CC Tools
 
 Package: us.diatr.jtool
-Version: 1.0
+Version: 1.0-1
 Architecture: appletvos-arm64
 Maintainer: Diatrus
 Pre-Depends: curl, ldid
-Filename: debs/us.diatr.jtool_1.0_appletvos-arm64.deb
-Size: 1072
-MD5sum: 2da2658a5a99c647826db62acb7b6cb8
-SHA1: 8be21bbbbdcb7ef2535ec1aa89cae3c97939387d
-SHA256: 6bbaaf6c9d115c93ddb343ffad15c2ecc5c997e70bf8c7cb26ab46016fdc3a28
+Filename: debs/us.diatr.jtool_1.0-1_appletvos-arm64.deb
+Size: 1088
+MD5sum: f330bfb00c00e0bed3ee0918c86db1f6
+SHA1: 8f926c7c94b8fd891901a8db8bf89cb70feef089
+SHA256: cbeb709b67bdb0b7cdb752812dcc931d5c4d26a3156520f7022433eb51b1c39a
 Section: System
 Description: Installer for Jonathan Levin's jtool on tvOS. Does not redistribute binaries.
 Author: Diatrus

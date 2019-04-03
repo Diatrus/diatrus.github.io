@@ -33,14 +33,14 @@ Author: Diatrus
 Name: Git
 
 Package: ldid
-Version: 2:1.2.2-coolstar2
+Version: 2.0.1
 Architecture: appletvos-arm64
 Maintainer: Diatrus
-Filename: debs/ldid_2_1.2.2-coolstar2_appletvos-arm64.deb
-Size: 25880
-MD5sum: ae80729bfbaa82109a650d0c57f34292
-SHA1: 9c23c4ac34983b1bb54649565abdb7afcbeeff0e
-SHA256: bb47735d76bb32a566ede6b137eec78343191bf4f4827eb1edd7b4b161fbe705
+Filename: debs/ldid_2.0.1_appletvos-arm64.deb
+Size: 569552
+MD5sum: ae1f48bb8ecc411261381dc82a261619
+SHA1: 46b21741da7ee78638e2092c101e56c7e929090f
+SHA256: 6ba37ee822ffe21da2212bf1c25ca8d83abbebb1ff3c117b8629078858c9ee8d
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files

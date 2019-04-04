@@ -126,9 +126,9 @@ Depends: firmware (>= 10.0), mobilesubstrate
 Provides: appsync
 Architecture: appletvos-arm64
 Filename: debs//us.diatr.appsyncunified_32.0-4_appletvos-arm64.deb
-Size: 12324
+Size: 13242
 Installed-Size: 80
-md5sum: b1c6b45f846483eae0bf9cfc956ca06f
+md5sum: f17acf07e754f44cc4bbfc8d8e2ab915
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Name: AppSync Unified
 Author: Diatrus

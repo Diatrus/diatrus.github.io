@@ -1,18 +1,16 @@
 Package: us.diatr.appsyncunified
-Version: 32.0-2
-Architecture: appletvos-arm64
+Version: 32.0-3
+Section: Tweaks
 Maintainer: Diatrus
-Installed-Size: 80
 Pre-Depends: cy+model.appletv
 Depends: firmware (>= 10.0), mobilesubstrate
 Provides: appsync
-Filename: debs/us.diatr.appsyncunified_32.0-2_appletvos-arm64.deb
-Size: 15034
-MD5sum: 9e532607ac25b8a3b6f95c9082eaadc7
-SHA1: cf1e6e1f8a8277f5f6fb67a92fbfe293e4d203fc
-SHA256: 3b0e09a41175f1207b74f63906af57da581c11984b5063e2f657671a23dd4250
-Section: Tweaks
+Architecture: appletvos-arm64
+Filename: debs//us.diatr.appsyncunified_32.0-3_appletvos-arm64.deb
+Size: 12316
+Installed-Size: 80
+md5sum: ab4b56079c43c9a36f099e7460abf84b
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Diatrus
 Name: AppSync Unified
+Author: Diatrus
 

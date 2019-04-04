@@ -1,259 +1,214 @@
 Package: curl
 Version: 7.58.0-2
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Filename: debs/curl_7.58.0-2_appletvos-arm64.deb
-Size: 520920
-MD5sum: 545fcca4be4691c37dff625d2497813b
-SHA1: 7a2fa62c73badd7b7f368b1bd2357192fea01045
-SHA256: 09115c335520f71dffdc84c5c270748de86ebcbcf48a522e980e330a7a0ce635
-Section: Networking
 Priority: standard
+Section: Networking
+Maintainer: Diatrus
+Architecture: appletvos-arm64
+Filename: debs//curl_7.58.0-2_appletvos-arm64.deb
+Size: 520920
+md5sum: 545fcca4be4691c37dff625d2497813b
 Description: flexible multi-protocol file transfers
-Tag: purpose::console, role::hacker
-Author: Samuel Bingner
 Name: cURL
+Author: Samuel Bingner
 
 Package: git
 Version: 2.16.2-1
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Installed-Size: 76936
-Depends: curl, openssl
-Filename: debs/git_2.16.2-1_appletvos-arm64.deb
-Size: 8789552
-MD5sum: 34357c07a20fee53d5f1f6c66e06c112
-SHA1: 1b2d836a7547f0768da6de0fdbcb2a75f239bccf
-SHA256: 284b105ba09a4526e178818b928c8ed69d43aa728371b0f5fe57beb72a20c9f2
-Section: Data_Storage
 Priority: optional
+Section: Data_Storage
+Maintainer: Diatrus
+Depends: curl, openssl
+Architecture: appletvos-arm64
+Filename: debs//git_2.16.2-1_appletvos-arm64.deb
+Size: 8789552
+Installed-Size: 76936
+md5sum: 34357c07a20fee53d5f1f6c66e06c112
 Description: fast content-addressable filesystem
-Tag: purpose::console, role::hacker
-Author: Diatrus
 Name: Git
+Author: Diatrus
 
 Package: ldid
 Version: 2.0.1
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Filename: debs/ldid_2.0.1_appletvos-arm64.deb
-Size: 569552
-MD5sum: ae1f48bb8ecc411261381dc82a261619
-SHA1: 46b21741da7ee78638e2092c101e56c7e929090f
-SHA256: 6ba37ee822ffe21da2212bf1c25ca8d83abbebb1ff3c117b8629078858c9ee8d
-Section: Development
 Priority: optional
+Section: Development
+Maintainer: Diatrus
+Architecture: appletvos-arm64
+Filename: debs//ldid_2.0.1_appletvos-arm64.deb
+Size: 569552
+md5sum: ae1f48bb8ecc411261381dc82a261619
 Description: pseudo-codesign Mach-O files
-Tag: purpose::console, role::developer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
 
 Package: make
 Version: 4.2.1
-Architecture: appletvos-arm64
+Priority: important
+Section: Development
 Maintainer: Diatrus
 Depends: cy+cpu.arm64
-Filename: debs/make_4.2.1_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//make_4.2.1_appletvos-arm64.deb
 Size: 87168
-MD5sum: 84fa8e1af161e4d36d8f2249a366681c
-SHA1: 9dac4f1f55cab5a513f425fb6262eb3dc5dbbd06
-SHA256: 4e9b18258a4b043d50fad151563a8e3cb31c491fc8367e254db88e4fd3d8afce
-Section: Development
-Priority: important
+md5sum: 84fa8e1af161e4d36d8f2249a366681c
 Description: dependency-based build environments
-Tag: purpose::console, role::hacker
 Name: Make
 
 Package: org.theos.dependencies
 Version: 0.0.3
-Architecture: appletvos-arm64
+Priority: optional
+Section: Development
 Maintainer: Diatrus
 Depends: git, grep, dpkg, coreutils, rsync, ca-certificates, us.diatr.tvostoolchain, perl
-Filename: debs/theosdependencies_0.0.3.deb
+Architecture: appletvos-arm64
+Filename: debs//theosdependencies_0.0.3.deb
 Size: 872
-MD5sum: cf77f7c3ea5b28a07f791ec56a495047
-SHA1: 7407781ec616bcd1be885d53513647d310a85027
-SHA256: cbadab175f623409d4f82f753917b9602c87d8135625678d0406de44a487c721
-Section: Development
-Priority: optional
+md5sum: cf77f7c3ea5b28a07f791ec56a495047
 Description: What Theos needs.
  This metapackage installs git, grep, dpkg, coreutils, rsync, CA Certs, perl and tvOS Toolchain in one go.
-Tag: purpose::console, role::hacker
-Author: Diatrus
 Name: Theos Dependencies
+Author: Diatrus
 
 Package: perl
 Version: 5.26.1-6
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Filename: debs/perl_5.26.1-6_appletvos-arm64.deb
-Size: 19218588
-MD5sum: f1587637b0c68e473e0672740625c161
-SHA1: 9c6447bd3762c02692fc20b61cbf66953b942f3e
-SHA256: e0070d07536cdc8bdb7c6058e839903ece4c48bdedaec03a385da068fc0b4f99
 Section: Development
+Maintainer: Diatrus
+Architecture: appletvos-arm64
+Filename: debs//perl_5.26.1-6_appletvos-arm64.deb
+Size: 19218588
+md5sum: f1587637b0c68e473e0672740625c161
 Description: Perl
-Tag: purpose::console, role::hacker
-Author: Diatrus
 Name: Perl
+Author: Diatrus
 
 Package: rsync
 Version: 3.1.3
-Architecture: appletvos-arm64
+Priority: important
+Section: Networking
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
-Filename: debs/rsync_3.1.3_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//rsync_3.1.3_appletvos-arm64.deb
 Size: 209456
-MD5sum: e96e94a19b86122ac328ffa7781775d8
-SHA1: 32500b1097cd5d27635f5afdae024a72b2e46e79
-SHA256: 90d8ffecebf4c6cb6b895bf3228a9db797ebf4cafdcae2a91175c3e61f7fa9e7
-Section: Networking
-Priority: important
+md5sum: e96e94a19b86122ac328ffa7781775d8
 Description: synchronize files between computers
-Tag: purpose::console, role::hacker
 
 Package: top
 Version: 111.20.1
-Architecture: appletvos-arm64
+Priority: important
+Section: Administration
 Maintainer: Diatrus
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: ncurses, cy+cpu.arm64
-Filename: debs/top_111.20.1_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//top_111.20.1_appletvos-arm64.deb
 Size: 114808
-MD5sum: 19141bd2cc31a1c47c6fd1c8137cdbe1
-SHA1: d3ea11933bb6a690c92efc0efee07ce1db1a5472
-SHA256: d888ab3b8a5cb87f96bc394d103365274e7bf21afe3a5a94f124d80d789a03d6
-Section: Administration
-Priority: important
+md5sum: 19141bd2cc31a1c47c6fd1c8137cdbe1
 Description: at-a-glance process watching tool
 
 Package: unzip
 Version: 6.0
-Architecture: appletvos-arm64
+Priority: important
+Section: Archiving
 Maintainer: Diatrus
 Depends: cy+cpu.arm64
-Filename: debs/unzip_6.0_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//unzip_6.0_appletvos-arm64.deb
 Size: 74296
-MD5sum: db1bd538255061081ff0215e87ee5ace
-SHA1: 827c0351312af9eecf0a75b7e1f0657d66933b7a
-SHA256: 9725cb00a60a09772181b9630c2a6993d61edde4aa0102c3d6936dc86d937050
-Section: Archiving
-Priority: important
+md5sum: db1bd538255061081ff0215e87ee5ace
 Description: de-compesses files in zip format
-Tag: purpose::console, role::hacker
 
 Package: us.diatr.appsyncunified
-Version: 32.0-2
-Architecture: appletvos-arm64
+Version: 32.0-3
+Section: Tweaks
 Maintainer: Diatrus
-Installed-Size: 80
 Pre-Depends: cy+model.appletv
 Depends: firmware (>= 10.0), mobilesubstrate
 Provides: appsync
-Filename: debs/us.diatr.appsyncunified_32.0-2_appletvos-arm64.deb
-Size: 15034
-MD5sum: 9e532607ac25b8a3b6f95c9082eaadc7
-SHA1: cf1e6e1f8a8277f5f6fb67a92fbfe293e4d203fc
-SHA256: 3b0e09a41175f1207b74f63906af57da581c11984b5063e2f657671a23dd4250
-Section: Tweaks
+Architecture: appletvos-arm64
+Filename: debs//us.diatr.appsyncunified_32.0-3_appletvos-arm64.deb
+Size: 12316
+Installed-Size: 80
+md5sum: ab4b56079c43c9a36f099e7460abf84b
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Diatrus
 Name: AppSync Unified
+Author: Diatrus
 
 Package: us.diatr.cctools
 Version: 895
-Architecture: appletvos-arm64
+Priority: optional
+Section: Development
 Maintainer: Diatrus
 Depends: openssl, uuid, us.diatr.ld64
-Filename: debs/cctools_895.deb
+Architecture: appletvos-arm64
+Filename: debs//cctools_895.deb
 Size: 1289368
-MD5sum: 3e76d45a3d466e0d6cba07ceae6375a2
-SHA1: 6e1310a1a4f8c8b98b37a976e9b50e1212f9ed23
-SHA256: db4d45013b59b773ef7c69f70ead7ec0f998675f8ca7098d79e4739938f06abe
-Section: Development
-Priority: optional
+md5sum: 3e76d45a3d466e0d6cba07ceae6375a2
 Description: tools to work with mach-o files
-Tag: purpose::console
-Author: Diatrus
 Name: Darwin CC Tools
+Author: Diatrus
 
 Package: us.diatr.jtool
 Version: 1.0-1
-Architecture: appletvos-arm64
+Section: System
 Maintainer: Diatrus
 Pre-Depends: curl, ldid
-Filename: debs/us.diatr.jtool_1.0-1_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//us.diatr.jtool_1.0-1_appletvos-arm64.deb
 Size: 1092
-MD5sum: 4e2aeb607794fe14765b40a8fd8fe1ac
-SHA1: 04247885f537fcf71a257728d9312cfdea023ede
-SHA256: def0fc5f9cb68782533d63ac8e9d7b978134786de8dc337c512ddd3692e8f4f1
-Section: System
+md5sum: 4e2aeb607794fe14765b40a8fd8fe1ac
 Description: Installer for Jonathan Levin's jtool on tvOS. Does not redistribute binaries.
-Author: Diatrus
 Name: jtool Installer
+Author: Diatrus
 
 Package: us.diatr.ld64
 Version: 274.2
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Filename: debs/ld64_274.2.deb
-Size: 1518504
-MD5sum: d5f0b8dd122b5bc11aa442c4fbb8b454
-SHA1: c8759ad803bc00f86e540a136e2c01989bcfde8d
-SHA256: eac4de736ca6032f624bef6b407ed3a983a6ebf6e4af85889e9c6ff4a5003745
-Section: Development
 Priority: optional
+Section: Development
+Maintainer: Diatrus
+Architecture: appletvos-arm64
+Filename: debs//ld64_274.2.deb
+Size: 1518504
+md5sum: d5f0b8dd122b5bc11aa442c4fbb8b454
 Description: linker for building on iOS
-Tag: purpose::console
-Author: Diatrus
 Name: LD64
+Author: Diatrus
 
 Package: us.diatr.tvostoolchain
 Version: 6.1-1
-Architecture: appletvos-arm64
+Priority: optional
+Section: Development
 Maintainer: Diatrus
 Depends: us.diatr.llvm-clang, us.diatr.ld64, us.diatr.cctools, make, ldid
-Filename: debs/tvostoolchain_6.1-1.deb
+Architecture: appletvos-arm64
+Filename: debs//tvostoolchain_6.1-1.deb
 Size: 800
-MD5sum: b07afa788926a53a44152fd607afc975
-SHA1: 5289c65f79d15464f5ea4b0d9282e829d423336d
-SHA256: 91d25813ee98ed833d1ec9b372682af6859983f5ec95781c7d8e80a77e110954
-Section: Development
-Priority: optional
+md5sum: b07afa788926a53a44152fd607afc975
 Description: LLVM+Clang, ld64, CC tools, Make, ldid
-Tag: purpose::console
-Author: Diatrus
 Name: tvOS Toolchain
+Author: Diatrus
 
 Package: uuid
 Version: 1.6.2
-Architecture: appletvos-arm64
+Priority: important
+Section: System
 Maintainer: Diatrus
 Depends: cy+cpu.arm64
-Filename: debs/uuid_1.6.2_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//uuid_1.6.2_appletvos-arm64.deb
 Size: 23276
-MD5sum: b18188a3e6d45688b76c720fc07ab9d8
-SHA1: 00131b347cca150dc4a86463e0edb2a033960b22
-SHA256: ca97206b739620878d05f6828992f202635a0e0ce32257d6e502a733e721b37b
-Section: System
-Priority: important
+md5sum: b18188a3e6d45688b76c720fc07ab9d8
 Description: universally unique identifiers
-Tag: purpose::library, purpose::console, role::developer
 Name: UUID Generator
 
 Package: zip
 Version: 3.0
-Architecture: appletvos-arm64
+Priority: important
+Section: Archiving
 Maintainer: Diatrus
 Depends: cy+cpu.arm64
-Filename: debs/zip_3.0_appletvos-arm64.deb
+Architecture: appletvos-arm64
+Filename: debs//zip_3.0_appletvos-arm64.deb
 Size: 97020
-MD5sum: a7fe06f955298f2320073b71fce0a75e
-SHA1: f9d3631ae58d261a03269d00b91685d0792d68d3
-SHA256: 5363ffdc17031c389dda7acaed297a7bc9905a391c861e31c306226eadbd58d9
-Section: Archiving
-Priority: important
+md5sum: a7fe06f955298f2320073b71fce0a75e
 Description: standard Windows compression tool
-Tag: purpose::console, role::hacker
 

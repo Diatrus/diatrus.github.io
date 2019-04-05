@@ -206,6 +206,19 @@ Description: linker for building on iOS
 Name: LD64
 Author: Diatrus
 
+Package: us.diatr.plutil
+Version: 0.1.0
+Section: System
+Maintainer: Diatrus
+Depends: firmware (>=10.0)
+Architecture: appletvos-arm64
+Filename: debs//com.bingner.plutil_0.1.0_appletvos-arm64.deb
+Size: 48676
+md5sum: 827d4801606ae251cb16dea1f2782468
+Description: plutil as from erica sadun
+Name: plutil
+Author: Samuel Bingner
+
 Package: us.diatr.tvostoolchain
 Version: 6.1-1
 Priority: optional

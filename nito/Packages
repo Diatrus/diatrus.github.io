@@ -150,6 +150,22 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 Name: AppSync Unified
 Author: Diatrus
 
+Package: us.diatr.appsyncunified
+Version: 32.0-5
+Section: Tweaks
+Maintainer: Diatrus
+Pre-Depends: cy+model.appletv
+Depends: firmware (>= 10.0), mobilesubstrate
+Provides: appsync
+Architecture: appletvos-arm64
+Filename: debs//us.diatr.appsyncunified_32.0-5_appletvos-arm64.deb
+Size: 14428
+Installed-Size: 96
+md5sum: 91baf2d7ccf0a0f1f997ecad05a3db8f
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Diatrus
+
 Package: us.diatr.cctools
 Version: 895
 Priority: optional

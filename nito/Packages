@@ -118,8 +118,8 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: ncurses, cy+cpu.arm64
 Architecture: appletvos-arm64
 Filename: debs//top_111.20.1_appletvos-arm64.deb
-Size: 114808
-md5sum: 19141bd2cc31a1c47c6fd1c8137cdbe1
+Size: 114980
+md5sum: c7a8476165069304fc96fcb1f8fb6a86
 Description: at-a-glance process watching tool
 
 Package: unzip
@@ -205,19 +205,6 @@ md5sum: d5f0b8dd122b5bc11aa442c4fbb8b454
 Description: linker for building on iOS
 Name: LD64
 Author: Diatrus
-
-Package: us.diatr.plutil
-Version: 0.1.0
-Section: System
-Maintainer: Diatrus
-Depends: firmware (>=10.0)
-Architecture: appletvos-arm64
-Filename: debs//com.bingner.plutil_0.1.0_appletvos-arm64.deb
-Size: 48676
-md5sum: 827d4801606ae251cb16dea1f2782468
-Description: plutil as from erica sadun
-Name: plutil
-Author: Samuel Bingner
 
 Package: us.diatr.tvostoolchain
 Version: 6.1-1

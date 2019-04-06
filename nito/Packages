@@ -43,6 +43,19 @@ Description: fast content-addressable filesystem
 Name: Git
 Author: Diatrus
 
+Package: htop
+Version: 2.0.2
+Priority: important
+Section: Administration
+Maintainer: Diatrus
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Architecture: appletvos-arm64
+Filename: debs//htop_2.2.0_appletvos-arm64.deb
+Size: 54032
+md5sum: 4ec491d6fdafa6a76cfa5f739a73e8c7
+Description: An interactive process viewer for Unix systems.
+
 Package: ldid
 Version: 2.0.1
 Priority: optional

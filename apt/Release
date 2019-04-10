@@ -1,0 +1,8 @@
+Origin: Diatrus/Misceo
+Label: Diatrus/Misceo
+Suite: stable
+Version: 1.0
+Codename: fcahapt 
+Architectures: iphoneos-arm
+Components: main
+Description: Mixing of elecubratus and electra base binaries

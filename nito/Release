@@ -1,11 +1,11 @@
-Origin: Diatrus/Misceo
-Label: Diatrus/Misceo
+Origin: Diatrus tvOS Essentials
+Label: Diatrus tvOS Essentials
 Suite: stable
 Version: 1.0
-Codename: fcahapt 
+Codename: fcahnito 
 Architectures: iphoneos-arm
 Components: main
-Description: Mixing of elecubratus and electra base binaries
+Description: Essentials packages/tweaks for all modern NitoTV jailbreaks.
 MD5Sum:
  315ae29026e545d9db3448bb8790b76b 7198 Packages
  cffdd813e83b2e083fbcc6a415fa48a9 2339 Packages.bz2

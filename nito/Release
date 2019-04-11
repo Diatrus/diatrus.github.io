@@ -1,8 +1,12 @@
-Origin: Diatrus tvOS Essentials
-Label: Diatrus tvOS Essentials
+Origin: Diatrus/Misceo
+Label: Diatrus/Misceo
 Suite: stable
 Version: 1.0
-Codename: fcahtvosessential 
-Architectures: darwin-arm64, appletvos-arm64
+Codename: fcahapt 
+Architectures: iphoneos-arm
 Components: main
-Description: Extra tvOS tools and tweaks not included in Nitosoft
+Description: Mixing of elecubratus and electra base binaries
+MD5Sum:
+ 315ae29026e545d9db3448bb8790b76b 7198 Packages
+ cffdd813e83b2e083fbcc6a415fa48a9 2339 Packages.bz2
+

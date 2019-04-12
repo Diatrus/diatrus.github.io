@@ -1014,8 +1014,8 @@ Provides: bigbossbetarepo, cydia-sources
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Architecture: iphoneos-arm
 Filename: debs//cydia_1.1.32~b13_iphoneos-arm.deb
-Size: 1267980
-md5sum: 89347b0d7779544b34c41aef00d48fa3
+Size: 1267856
+md5sum: 14dc531c12b7421aa2c105c04da5ebfc
 Description: graphical iPhone front-end for APT
 Name: Cydia Installer
 Author: Jay Freeman (saurik) <saurik@saurik.com>

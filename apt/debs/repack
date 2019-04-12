@@ -1,0 +1,12 @@
+#!/bin/bash
+for f in ./*.deb; do
+	filename=$(basename -- "$f")
+	filename="${filename%.*}"
+	echo "$filename"
+	sudo dpkg-deb -R "$f" "$filename"
+	sudo sed -i '/Installed-Size:/d' ./"$filename"/DEBIAN/control
+	sudo rm -rf "$f"
+	dpkg-deb -b "$filename"
+	sudo rm -rf "$filename"
+done
+

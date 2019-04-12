@@ -4647,13 +4647,14 @@ Package: openssh
 Version: 7.9p1-3
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 9496
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libssl1.0
 Filename: debs/openssh_7.9p1-3_iphoneos-arm.deb
-Size: 760
-MD5sum: 627774c17065f8b5f3e9e133a689fc2b
-SHA1: 5e42caf4fe736304a4aa7dfaacf060e2698501e6
-SHA256: a8c7388292aa9226552cc0c1cbc2b1c81c99743ef80edf4aeb6e81838b50f8e3
+Size: 1760384
+MD5sum: f10c5c590d7dc70fdfd36b8dc342754f
+SHA1: 0f3460ec82855fd9df4da895dac2ae14b25055fa
+SHA256: a9051f905bb0c01c36daa8966d5f934038b0831899d5e665b49cdc2e0d045106
 Section: Networking
 Priority: important
 Description: secure remote access between machines

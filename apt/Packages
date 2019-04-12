@@ -1084,6 +1084,19 @@ md5sum: cbd7883133c34cf3e82e971e63949b14
 Description: pretty much just run-parts. yep? run-parts
 Name: Debian Utilities
 
+Package: developer-cmds
+Version: 48-1
+Priority: important
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs//developer-cmds_48-1_iphoneos-arm.deb
+Size: 63334
+Installed-Size: 776
+md5sum: 8b72faafe969d9aeca698b58b40a9c43
+Description: ctags, error, hexdump, rpcgen, unifdef
+
 Package: dict
 Version: 1.9.9-1
 Priority: optional

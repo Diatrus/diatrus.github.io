@@ -6335,10 +6335,10 @@ Depends: mobilesubstrate, org.coolstar.sileo
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.diatrus.sileo-installer, us.diatr.sillyo2, com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
 Replaces: com.diatrus.sileo-installer, us.diatr.sillyo2, com.level3tjg.sileofix, org.juulstar.sileo
 Filename: debs/us.diatr.sillyo_1.0_iphoneos-arm.deb
-Size: 3298
-MD5sum: 1a4368e3c10ff26d3782c7804f259655
-SHA1: 304fbce130e03ab224bebfade90e0d6b35f551f9
-SHA256: 9583c6cf44d63d4c883a26fd965cb6eb9a4591aec03dfed5d13776996c77d73d
+Size: 3316
+MD5sum: c1ad1eb0e94bcff4b9edac7e361ce441
+SHA1: a13d3f30773dbccdd4cc84a0b78f7a63699cde9a
+SHA256: 4693d9ed367bd75ee6d461d69f3d4ef44f0bc7cc8ae89adf0381d6cc45e1df15
 Section: Tweaks
 Description: Sileo Compatibility layer for u0 black.
 Author: Diatrus

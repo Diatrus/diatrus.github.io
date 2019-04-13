@@ -6326,6 +6326,24 @@ Priority: important
 Multi-Arch: foreign
 Description: de-compesses files in zip format
 
+Package: us.diatr.sillyo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Diatrus
+Installed-Size: 72
+Depends: mobilesubstrate, org.coolstar.sileo
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.diatrus.sileo-installer, us.diatr.sillyo2, com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
+Replaces: com.diatrus.sileo-installer, us.diatr.sillyo2, com.level3tjg.sileofix, org.juulstar.sileo
+Filename: debs/us.diatr.sillyo_1.0_iphoneos-arm.deb
+Size: 3298
+MD5sum: 1a4368e3c10ff26d3782c7804f259655
+SHA1: 304fbce130e03ab224bebfade90e0d6b35f551f9
+SHA256: 9583c6cf44d63d4c883a26fd965cb6eb9a4591aec03dfed5d13776996c77d73d
+Section: Tweaks
+Description: Sileo Compatibility layer for u0 black.
+Author: Diatrus
+Name: Sileo Compatibility Layer
+
 Package: uuid
 Version: 1.6.2-1
 Architecture: iphoneos-arm

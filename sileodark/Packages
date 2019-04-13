@@ -1,5 +1,5 @@
 Package: org.coolstar.sileo
-Version: 0.8b10
+Version: 0.8b11
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8)

@@ -1,0 +1,8 @@
+Origin: Sileo for Unc0ver Dark
+Label: Sileo for Unc0ver Dark
+Suite: stable
+Version: 1.0
+Codename: fcahsileoblack
+Architectures: iphoneos-arm
+Components: main
+Description: Sileo repoproxy for unc0ver black

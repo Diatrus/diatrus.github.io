@@ -5,7 +5,7 @@ Version: 1.0
 Codename: fcahapt 
 Architectures: iphoneos-arm
 Components: main
-Description: Mixing of elecubratus and electra base binaries
+Description: Mixing of Elucubratus and Electra base binaries
 MD5Sum:
  3c66ca6c86cb63edd2332e8026f7ae65 224565 Packages
  205c25750011f044a6358230d20504fd 49770 Packages.bz2

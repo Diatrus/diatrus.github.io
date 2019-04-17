@@ -302,13 +302,14 @@ Maintainer: Diatrus
 Installed-Size: 5020
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/us.diatr.wiivamptv_1.0b2_appletvos-arm64.deb
-Size: 4979454
-MD5sum: 0cff1302985ef4d6de47d877c94e6052
-SHA1: 93a0613da1a52d238b0b3a0437665136a3541b4d
-SHA256: a8d8aa6c4d7491a1b5a53bcabb7abfc8042ed3280f368b177a353220d50fc2af
+Size: 4979400
+MD5sum: 9da818c8ca83cf3ca90b7d454b5acb78
+SHA1: 441a354491242f181423354dd8c549d052200e00
+SHA256: c8987c8e483fa8e5c3b300b08ebeee6eaafa0509019705d444af76b5a71efed5
 Section: Tweaks
 Description: Play your favorite Wii songs inside your apps! A rewrite for the AppleTV of Wiivamp by Jack.
 Author: Diatrus
+Depiction: https://diatr.us/nito/depictions/wiivamptv/wiivamptv.json
 Name: WiivampTV
 
 Package: uuid

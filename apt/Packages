@@ -6326,19 +6326,33 @@ Priority: important
 Multi-Arch: foreign
 Description: de-compesses files in zip format
 
-Package: us.diatr.sillyo
+Package: us.diatr.sileorespring
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Diatrus
-Installed-Size: 72
 Depends: mobilesubstrate, org.coolstar.sileo
+Filename: debs/us.diatr.sileorespring_1.0_iphoneos-arm.deb
+Size: 1016
+MD5sum: 9ca07be8ff94ba01b96b4daef3271daf
+SHA1: 3d060177e48617a8447608082ebd0fbb5df5d0b3
+SHA256: 83578f4c0cf107fec4819c6598b987fc7a459c94fef5190f7f1763708562acb1
+Section: Tweaks
+Description: Adds respring capability to Sileo.
+Author: Diatrus
+Name: Respring Essential
+
+Package: us.diatr.sillyo
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Diatrus
+Depends: mobilesubstrate, org.coolstar.sileo, us.diatr.sileorespring
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.diatrus.sileo-installer, us.diatr.sillyo2, com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
 Replaces: com.diatrus.sileo-installer, us.diatr.sillyo2, com.level3tjg.sileofix, org.juulstar.sileo
-Filename: debs/us.diatr.sillyo_1.0_iphoneos-arm.deb
-Size: 3316
-MD5sum: c1ad1eb0e94bcff4b9edac7e361ce441
-SHA1: a13d3f30773dbccdd4cc84a0b78f7a63699cde9a
-SHA256: 4693d9ed367bd75ee6d461d69f3d4ef44f0bc7cc8ae89adf0381d6cc45e1df15
+Filename: debs/us.diatr.sillyo_1.1_iphoneos-arm.deb
+Size: 1356
+MD5sum: 938e0b5ca4ef1156eaef214919c1de01
+SHA1: a896ac055bc41803033a9b24cd57d4ae8e8bf433
+SHA256: 42b984de61cb489e3a209e292e2f1c518518081e3baef47e5787435775b6d434
 Section: Tweaks
 Description: Sileo Compatibility layer for u0 black.
 Author: Diatrus

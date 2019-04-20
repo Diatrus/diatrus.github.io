@@ -342,6 +342,22 @@ Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox
 Name: Bourne-Again SHell
 
+Package: bash-completion
+Version: 2.8-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/bash-completion_2.8-1_iphoneos-arm.deb
+Size: 144450
+MD5sum: 7600920ac683dac3fe8ab6eac52f0c86
+SHA1: 67134d83aed4b729564b05c9c029ae59e18a0459
+SHA256: ce3331ecce97f07c2f118f9ecd433bdae975dfcf9db5893afd2a8174ebc16bc8
+Section: Terminal_Support
+Priority: standard
+Description: Programmable completion for Bash 4.1+
+Name: Bash Completion
+
 Package: basic-cmds
 Version: 48-1
 Architecture: iphoneos-arm
@@ -1400,6 +1416,22 @@ Homepage: http://vu1tur.eu.org/tools/
 Description: converts compressed dmgs to HFS+
 Name: DMG2IMG
 
+Package: dns2tcp
+Version: 0.5.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 376
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/dns2tcp_0.5.2-1_iphoneos-arm.deb
+Size: 32352
+MD5sum: 3464ddfaad070d838df5871e25bee168
+SHA1: 0fb24b379ddff00139d893ad5b17f5486b592d72
+SHA256: b24ad7c4e3941e94180621d5b39719b4b1c122eada3cb9f5cdb310c27bbdef63
+Section: Networking
+Priority: standard
+Homepage: https://www.aldeid.com/wiki/Dns2tcp#Description
+Description: TCP over DNS (unconfigured, just software)
+
 Package: dpkg
 Version: 1.18.25-10
 Architecture: iphoneos-arm
@@ -1798,6 +1830,23 @@ SHA256: 4b44c63f483ec85e689d2ddb9b337e8d027e8a33c855041dedf6480fdce06096
 Section: Utilities
 Priority: important
 Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+Name: Find Utilities
+
+Package: findutils
+Version: 4.6.0-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1592
+Depends: bash, sed
+Filename: debs/findutils_4.6.0-2_iphoneos-arm.deb
+Size: 212748
+MD5sum: e1e14478157f53157d6a7aa11c3c3865
+SHA1: c3fab8068691b9b4fc9e8bc969dc313e281c1060
+SHA256: fb683abb9c0c7ca3b6bcb3aa87ce31785ad2480fd46e650c2fc757a22fa51516
+Section: Utilities
+Priority: important
 Homepage: http://www.gnu.org/software/findutils/
 Description: indexes and searches filesystems
 Name: Find Utilities
@@ -4429,6 +4478,22 @@ Multi-Arch: foreign
 Description: dependency-based build environments
 Name: Make
 
+Package: make
+Version: 4.2.1-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/make_4.2.1-2_iphoneos-arm.deb
+Size: 82476
+MD5sum: 1bc5dcad64d11b1b3d9d2794231cfa52
+SHA1: 5c84bc746c5a4cd3a44211e6172739cac6376102
+SHA256: 1e74d832608dfd7c104b4dd1024da39697049f569e0bf8854d508bdcbd477f50
+Section: Development
+Priority: important
+Description: dependency-based build environments
+Name: Make
+
 Package: mc
 Version: 4.8.21-1
 Architecture: iphoneos-arm
@@ -5918,6 +5983,24 @@ Homepage: http://www.stunnel.org/
 Description: wraps connections with SSL support
 Name: Stunnel
 
+Package: stunnel
+Version: 5.51-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0
+Filename: debs/stunnel_5.51-1_iphoneos-arm.deb
+Size: 64086
+MD5sum: 583ddead5c53a087ef9d3267fb625f89
+SHA1: 97e7f95d4d627e596c3778d236228e8d3b8a15c6
+SHA256: c7bcd48ae93f25002906bb49fe4b8be66403a0ef3aa9e1adc56e72a493e5d76f
+Section: Networking
+Priority: standard
+Homepage: http://www.stunnel.org/
+Description: wraps connections with SSL support
+Name: Stunnel
+
 Package: subversion
 Version: 1.10.2-1
 Architecture: iphoneos-arm
@@ -6240,6 +6323,23 @@ Section: Administration
 Priority: important
 Multi-Arch: foreign
 Description: at-a-glance process watching tool
+
+Package: transmission
+Version: 2.94-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 9848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libevent
+Filename: debs/transmission_2.94-1_iphoneos-arm.deb
+Size: 633018
+MD5sum: ff17eb9eae2673cccddee28559561b61
+SHA1: bcfb6c1232b5d2bcba66c517924aaf0d7671cdec
+SHA256: 50e908c94b175a9f6f30845b24804f175447b9045f640b2a20542a896bedd411
+Section: Networking
+Priority: optional
+Description: Lightweight BitTorrent client
+Name: Transmission
 
 Package: tsschecker
 Version: 252-1

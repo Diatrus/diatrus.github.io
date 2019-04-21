@@ -7,7 +7,7 @@ Architectures: iphoneos-arm
 Components: main
 Description: Mixing of Elucubratus and Electra base binaries
 MD5Sum:
- 7e68fd48410fab94f57f16c0136933b1 228150 Packages
- 728c22007bc441bc53b6bc9242916a1f 50666 Packages.bz2
- d9bdac6a4826c2ada22616542e286433 52164 Packages.xz
+ 93fdd06a1f67e5f7bfd8a7e6fcbd3b3b 224391 Packages
+ 45f8d4b1fb1922c655cdfb75cbb93b4a 50003 Packages.bz2
+ e69e8b3d7408a84010f0ba28a52d6c66 51500 Packages.xz
 

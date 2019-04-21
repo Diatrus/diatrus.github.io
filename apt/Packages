@@ -4380,69 +4380,22 @@ Homepage: http://savannah.nongnu.org/projects/lzip/
 Description: Lzip is a lossless data compressor with a user interface similar to the one of gzip or bzip2.
 
 Package: lzma
-Version: 1:4.32.7-1
+Version: 5.2.4-1
 Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 736
-Filename: debs/lzma_1_4.32.7-1_iphoneos-arm.deb
-Size: 69922
-MD5sum: e5d07ed38919ad1294761fbfcf767184
-SHA1: e71a5bf8a16ba51b7526054c7df09c851a9ebdf3
-SHA256: 91e973f225f77b7cf25f7c5a55bbdaccf6c6bf666bdb0ad2b0292663e82bf746
+Maintainer: Diatrus
+Depends: grep, sed
+Replaces: xz, xz-utils
+Provides: xz, xz-utils
+Filename: debs/lzma_5.2.4-1_iphoneos-arm.deb
+Size: 139912
+MD5sum: 65b497e636d6836911ca871cd6b03f30
+SHA1: e86c3a6f5b514e9d133fdab82d8ae2cbf858b548
+SHA256: acdd3583462705886ad0532daf7dcfd266238e3894cbd8cba1ca03b6d6f36693
 Section: Archiving
 Priority: important
-Homepage: http://tukaani.org/lzma/
+Homepage: https://tukaani.org/xz/
 Description: slower, but better, compression algorithm
-Name: LZMA Utils
-
-Package: lzma
-Version: 2:4.32.7-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 736
-Filename: debs/lzma_2_4.32.7-1_iphoneos-arm.deb
-Size: 69920
-MD5sum: 5f2b57b0c3e154be7703040cfa6ca8d0
-SHA1: 41104102a07b56e25683ea18d3f7540ef9006cac
-SHA256: 762c04e3030010055c6404a393d5da0e5618f40b0e99893c3f3a7c8cb3b759ef
-Section: Archiving
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: LZMA Utils
-
-Package: lzma
-Version: 2:4.32.7-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 736
-Conflicts: com.mc.xz
-Filename: debs/lzma_2_4.32.7-2_iphoneos-arm.deb
-Size: 69930
-MD5sum: 31d304172b109340f5cc60f9bb5b1a6a
-SHA1: b286111eabd262032f24549d36516cd8534d0899
-SHA256: 86f4c93a6084478fb1642d083d9186b5172783e42ef35306d311cf82205194f0
-Section: Archiving
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: LZMA Utils
-
-Package: lzma
-Version: 4.32.7-5
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 736
-Filename: debs/lzma_4.32.7-5_iphoneos-arm.deb
-Size: 69908
-MD5sum: 62455ac5d5141abf7b812d3b8edf2528
-SHA1: b21eb99bd1723d57ef7c9204ee15d3d80336e48f
-SHA256: 17091bb76fedf01b29f8aae352f37ed29a7d0147c3c9cdf16f86ce9227c69940
-Section: Archiving
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: LZMA Utils
+Name: XZ Utils
 
 Package: m4
 Version: 1.4.18-1
@@ -6883,85 +6836,6 @@ SHA256: 718e7443330da9f8d1480c2f72b00e69292e8a0b386e2283ad43a746dcc15f2a
 Section: X_Window
 Priority: optional
 Description: X transport abstraction library
-
-Package: xz
-Version: 5.2.4-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1176
-Depends: lzma (=4.32.7-5)
-Conflicts: xz-utils
-Provides: xz-utils
-Filename: debs/xz_5.2.4-1_iphoneos-arm.deb
-Size: 150144
-MD5sum: 05d1f830631f7dc8ad043d14ba93ee9c
-SHA1: 187c96254290d60dff96527af0db9e3d75b281bf
-SHA256: bf4c619e65dfaee7756a55d9d5cf93cc9a9b17b507c495b973da8560919f59f0
-Section: Archiving
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
-
-Package: xz
-Version: 5.2.4-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1176
-Depends: lzma (>=1:0)
-Conflicts: xz-utils
-Provides: xz-utils
-Filename: debs/xz_5.2.4-2_iphoneos-arm.deb
-Size: 150254
-MD5sum: 895859ef5808b3b00b3212f626539a19
-SHA1: 9e6416cb7107d8f2ce1bced842704877af7ef64d
-SHA256: b4b7bc948b9588a71a02d557c2ce3488105f80663c6fa16b84607c10837a80a7
-Section: Archiving
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
-
-Package: xz
-Version: 5.2.4-3
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1176
-Depends: lzma (>=1:0)
-Conflicts: xz-utils
-Provides: xz-utils
-Filename: debs/xz_5.2.4-3_iphoneos-arm.deb
-Size: 150288
-MD5sum: 50a8c66098a2748974ada9dcfb3daad5
-SHA1: dfe194f0bd3b09d27a043e9469560fe9fdcf89a3
-SHA256: 6c200d6365965f5b72ea2043398fbf27f3cc4967a381b68665c2536db7d46ced
-Section: Archiving
-Priority: required
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
-
-Package: xz
-Version: 5.2.4-4
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1176
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: lzma (>=1:0)
-Conflicts: xz-utils, com.mc.xz
-Provides: xz-utils
-Filename: debs/xz_5.2.4-4_iphoneos-arm.deb
-Size: 158670
-MD5sum: e3c267a3e6a44c5e60a9b0adce283ce3
-SHA1: 54545e8bb94beb763befb06dd214dde78f899bba
-SHA256: da2834050f80bb96009a6d158e77e76fcc638c8e22bc4ea698b85913369dc421
-Section: Archiving
-Priority: required
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
 
 Package: zip
 Version: 2.32-1

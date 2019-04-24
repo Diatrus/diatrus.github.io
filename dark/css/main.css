@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Painting with Chocolate';
+    src: url('../fonts/Painting_With_Chocolate.ttf');
+}
+
+h1 {
+   font-family: 'Painting with Chocolate', sans-serif;
+   src: url('/font/Painting_With_Chocolate.ttf');
+   font-size: 450%;
+   color: white;
+}
+
+h2 {
+   font-size: 170%;
+   font-family: 'Lato', sans-serif;
+   color: white;
+}
+
+p {
+   font-family: 'Lato', sans-serif;
+   color: white;
+   max-width: 80;
+   
+}
+
+img {
+   margin: 0 auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%
+}
+
+.subtitle {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 120%;
+}
+
+.button {
+  background-color: #0E0E0E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 80px;
+}
+
+a {
+   text-decoration: none;
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   color: white;
+}
+
+.content {
+   max-width: 80%;
+}
+
+.h2 {
+   font-family: 'Lato', sans-serif;
+}
+
+.button {
+   text-decoration: none;
+   color: white;
+}
+
+body {
+   background-color: black;
+}
+
+hr {
+   max-width: 90%;
+   border-color: #4c4c4c;
+}
+
+.warning {
+   color: black;
+}

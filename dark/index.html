@@ -1,176 +1,185 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-   <link rel="stylesheet" href="css/main.css">
-   <title>unc0ver dark</title>
-   <link rel="shortcut icon" type="image/png" href="https://i.vgy.me/yUQzKD.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>unc0ver Dark</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./img/darklogo.png">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="unc0ver Dark">
+    <meta property="og:description"
+        content="Official website of unc0ver Dark, the OLED-friendly, beautiful fork of unc0ver, the iOS 11.0-12.1.2 jailbreak..">
+    <meta property="og:url" content="https://diatr.us/dark">
+    <meta property="og:image" content="https://diatr.us/dark/img/darklogo-no-mask.png">
 </head>
+
 <body>
-   <div id=content>
-      <p class="warning">turn off dark reader, this site is dark</p>
+    <br>
+    <nav class="navbar is-flex" role="navigation" style="background-color: black" aria-label="main navigation">
+        <div class='navbar-brand has-image-centered'>
+            <img src="./img/darklogo.png" style="width: 55px; height: 55px; justify-content: center;">
+        </div>
+    </nav>
 
-      <h1 align="center">unc0ver dark</h1>
-      <p class="subtitle" align="center"> join the dark side</p>
-      <p class="subtitle" align="center"><i>for iOS 12.0 - 12.1.2</i></p>
+    <section class="mySection">
+        <div class="columns is-vcentered">
+            <div class="column is-5-tablet is-5-desktop">
+                <div class="myHero">
+                    <h1>
+                        <span class="white">unc0ver dark</span>
+                        <br>Join the dark side.
+                    </h1>
+                    <br>
+                    <p>unc0ver dark is a UI improved fork of the popular jailbreak unc0ver, now bursting with less
+                        color. Not only
+                        does it sport a beautiful, OLED-compatible design, unc0ver dark also uses Sileo as its main
+                        package manager and downloads Substrate directly from the source.</p>
+                    <br>
+                    <br>
+                    <div class="buttons">
+                        <a class="button btn-1 is-medium is-rounded" href="https://github.com/nqcshady/unc0ver-dark/releases/download/v1.0.3/Undecimus.ipa">
+                            <span class="icon">
+                                <i class="fas fa-arrow-down"></i>
+                            </span>
+                            <span>Download now</span>
+                        </a>
+                        <a class="button btn-1 is-medium is-rounded" href="#main"
+                            onclick="$('main').animatescroll({easing:'easeOutQuart'});"><i
+                                class="fas fa-chevron-down"></i></a>
+                    </div>
+                    <br>
+                    <p style='font-size:12px; line-height: 15px'>sha256:
+                        6bfcb4e83fade3ff3b9df2578945adc5d016260a6d40a8dacd3031dd658a3d2c<br><br>an internet connection
+                        is required for the intital jailbreak, rejailbreaking does not require internet</p>
+                </div>
+            </div>
+            <div class="column is-7-tablet is-7-desktop">
+                <figure class="image is-3by3">
+                    <img src="./img/Real.png">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <main id="main">
+        <section class="section">
+            <div class="container">
+                <h1 class="title has-text-centered white is-3">FAQ</h1>
+                <p class="subtitle has-text-centered is-4" style="color: #9A96A3;">Frequently asked questions about
+                    unc0ver dark.</p>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <h1 class="title white is-4">What are the differences between unc0ver dark and normal unc0ver?</h1>
+                <p class="subtitle is-5">The main differences are the dark UI, apt 1.7, Sileo support (not required),
+                    and
+                    Substrate (which is downloaded from the source to comply with licenses).</p>
+            </div>
+            <br>
+            <div class="container">
+                <h1 class="title white is-4">What is Sileo?</h1>
+                <p class="subtitle is-5">Sileo is a more modern package manager that was made and designed for iOS 11
+                    and
+                    up. It's a faster alternative to Cydia, with a more modern UI and speed enhancements (such as not
+                    going
+                    full screen when refreshing sources).</p>
+            </div>
+            <br>
+            <div class="container">
+                <h1 class="title white is-4">What is the Diatrus/Misceo repo?</h1>
+                <p class="subtitle is-5">The Diatrus/Misceo hosts essential packages needed for unc0ver dark to run, as
+                    well
+                    as
+                    numerous other utilities. It is like Elucubratus on unc0ver, electrarepo64 on Electra, or
+                    Telesphoreo
+                    on older jailbreaks. <strong style="color: rgba(255, 255, 255, 0.781);">Do not add Elucubratus to
+                        your
+                        sources when using unc0ver dark</strong>.
+                </p>
+            </div>
+            <br>
+            <div class="container">
+                <h1 class="title white is-4">How do I transfer my Cydia sources to Cydia?</h1>
+                <p class="subtitle is-5">Download Flame from Cydia and use it to export your sources list, then copy all
+                    of
+                    the sources and batch add them to Sileo.
+                </p>
+            </div>
+            <br>
+            <div class="container">
+                <h1 class="title white is-4">Do I have to restore root filesystem to use unc0ver Dark?</h1>
+                <p class="subtitle is-5">Nope! Just simply reboot and rejailbreak with unc0ver Dark.
+                </p>
+            </div>
+            <br>
+            <div class="container">
+                <h1 class="title white is-4">Can I remove Sileo?</h1>
+                <p class="subtitle is-5">Yes! Just uninstall it in Cydia and use Cydia as your main. If you want to
+                    re-install at any time, toggle the switch in the app to reinstall Sileo.
+                </p>
+            </div>
+        </section>
+    </main>
+    <section class="section">
+        <div class="container">
+            <h1 class="title white has-text-centered is-3">Credits</h1>
+            <p class="subtitle has-text-centered is-4" style="color: #9A96A3;">The team behind unc0ver Dark.</p>
+            <div class="container" style="width: 95%">
+                <div class="columns">
+                    <a href="https://twitter.com/pinseeker75" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px"
+                            src="./img/hayden.png" />
+                        <p style="float:left">
+                            <h4 class="title white is-4">Diatrus</h4>
+                            <h6 class="subtitle is-6">Development, Sileo porting, other wacky stuff</h6>
+                        </p>
+                    </a>
+                    <a href="https://twitter.com/versusses" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px"
+                            src="https://pbs.twimg.com/profile_images/1120457380058284032/CtZX62GP_400x400.jpg" />
+                        <p style="float:right">
+                            <h4 class="title white is-4">Shady</h4>
+                            <h6 class="subtitle is-6">Development, Substrate downloading method, more crazy stuff</h6>
+                        </p>
+                    </a>
+                </div>
+                <div class="columns" style="margin-top: 10px">
+                    <a href="https://twitter.com/pixelomer" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px"
+                            src="https://pbs.twimg.com/profile_images/1091345925606440960/TCpN2Ost_400x400.jpg" />
+                        <p style="float:left">
+                            <h4 class="title white is-4">Pixelomer</h4>
+                            <h6 class="subtitle is-6">Cydia compiling wizard</h6>
+                        </p>
+                    </a>
+                    <a href="https://jacc.host/" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px"
+                            src="./img/jacc.png" />
+                        <p style="float:left">
+                            <h4 class="title white is-4">jacc</h4>
+                            <h6 class="subtitle is-6">Design</h6>
+                        </p>
+                    </a>
+                </div>
+            </div>
+    </section>
 
-      <br>
-
-      <img src="https://camo.githubusercontent.com/ec343122f1af79c26b3b61cc5a0cf0ec571f1bfd/68747470733a2f2f64696174722e75732f696d672f64762e676966" alt="vader" class="center">
-
-      <br>
-      <br>
-
-      <a class="button" align="center" href="https://github.com/nqcshady/unc0ver-dark/releases/download/v1.0.3/Undecimus.ipa">download</a>
-
-      <br>
-
-      <p align="center">latest version: 1.0.3</p>
-      <br>
-      <p align="center">sha256: 6bfcb4e83fade3ff3b9df2578945adc5d016260a6d40a8dacd3031dd658a3d2c</p>
-      <p align="center">verify the hash by running <code>openssl dgst -sha256 /full/path/to/ipa</code> in your terminal of choice</p>
-      <p align="center">this is recommended for your safety</p>
-
-      <br>
-
-      <p align="center">an internet connection is required for the initial jailbreaking process</p>
-      <p align="center">rejailbreaking does not require internet</p>
-
-      <br>
-      <br>
-
-      <a href="https://coolstar.org/electra">please do not use this on ios 11 right now; use electra instead</a>
-      <br>
-
-      <br>
-      <br>
-      <hr>
-      <br>
-      <h2 align="center">changes from u0 white</h2>
-
-      <br>
-
-      <p align="center">apt 1.7</p>
-
-      <p align="center">sileo support (cydia is still available)</p>
-
-      <p align="center">substrate is downloaded from the internet to comply with licenses</p>
-
-      <br>
-      <br>
-      <hr>
-      <br>
-
-      <h2 align="center">faq</h2>
-
-      <br>
-
-      <p align="center"><i>will i need to restore rootfs to switch to this from u0 white?</i></p>
-      <p align="center">no, you can switch to u0 dark by simply rebooting and jailbreaking with it</p>
-
-      <br>
-
-      <p align="center"><i>why is my cydia crashing on u0 dark?</i></p>
-      <p align="center">cydown makes cydia crash, remove it to fix the problem</p>
-
-      <br>
-
-      <p align="center"><i>what is the diatrus/misceo repo?</i></p>
-      <p align="center">diatrus/misceo hosts essential packages needed for u0 dark to run, as well as numerous other utilities; it is like elucubratus on u0 white, electrarepo64 on electra, or telesphoreo on older jailbreaks. <strong>do not add elucubratus to your sources when using u0 dark</strong></p>
-
-      <br>
-
-      <p align="center"><i>what is sileo?</i></p>
-      <p align="center">sileo is a more modern package manager made for ios 11 and up. it's a faster alternative to cydia with a more modern ui and some other quality of life changes (example: it doesn't go full screen when refreshing sources)</p>
-
-      <br>
-
-      <p align="center"><i>how do i transfer my cydia sources to sileo?</i></p>
-      <p align="center">download flame from cydia and use it to export your sources list, then copy all of the sources and batch add them to sileo</p>
-
-      <br>
-      <br>
-      <hr>
-      <br>
-
-      <h2 align="center">support</h2>
-
-      <br>
-
-      <center>
-
-      <a href="https://discord.gg/WxveAHs">official u0 dark discord server</a>
-      <br>
-      <br>
-      <a href="https://discord.gg/jb">official r/jailbreak discord server</a>
-      <br>
-      <br>
-      <a href="https://reddit.com/r/jailbreak">r/jailbreak on reddit</a>
-      <br>
-
-      </center>
-
-      <br>
-      <br>
-      <hr>
-      <br>
-
-      <h2 align="center">credits</h2>
-
-      <br>
-
-      <a href="https://twitter.com/pinseeker75">diatrus - development, sileo porting, other wacky stuff</a>
-
-      <br>
-      <br>
-
-      <a href="https://twitter.com/versusess">shady - development, substrate downloading method, more crazy things</a>
-
-      <br>
-      <br>
-
-      <a href="https://twitter.com/pixelomer">pixelomer - somehow compiling cydia</a>
-
-      <br>
-      <br>
-
-      <a href="https://twitter.com/coderedkillah">coderedkillah - design man, making this website, sucking at xcode</a>
-
-      <br>
-      <br>
-
-      <a href="https://twitter.com/nookajb">nooka - moral support</a>
-
-      <br>
-      <br>
-
-      <a href="https://github.com/pwn20wndstuff/Undecimus/blob/master/README.md">u0 white credits</a>
-
-      <br>
-      <br>
-      <hr>
-      <br>
-
-      <h2 align="center">source code</h2>
-
-      <br>
-
-      <p align="center">u0 dark is completely open source and will stay that way</p>
-
-      <p align="center">the source code is available at https://github.com/nqcshady/unc0ver-dark</p>
-
-      <br>
-      <br>
-      <hr>
-
-      <br>
-      <br>
-
-      <p align="center"><i>"Everything has a shadow-side. In my opinion, that is what makes life interesting."</i></p>
-
-      <p align="center">-Anne Fortier, <i>Juliet</i></p>
-
-      <br>
-      <br>
-
-   </div>
+    <footer class="footer mySection">
+        <div class="content has-text-centered">
+            <p>
+                <strong>unc0ver Dark website</strong> designed and developed by <strong><a href="https://jacc.host">Jack
+                        LaFond</a></strong>.
+            </p>
+        </div>
+    </footer>
 </body>
+
+</html>

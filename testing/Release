@@ -1,0 +1,17 @@
+Origin: Misceo Tests
+Label: Misceo Tests
+Suite: stable
+Version: 1.0
+Codename: fcahtests 
+Architectures: iphoneos-arm
+Components: main
+Description: Misceo Tests
+MD5Sum:
+ a2b716d8248aff2c12fbb2c028679f0e 2003 Packages
+ 10bc97913b24e95bee19d3bda7cd69a3 1016 Packages.bz2
+ fc454e7dcb8aedd52d84544d3db77523 948 Packages.xz
+SHA256:
+ 7ebb371031c186fd9912e09a6ab2525852a87e663144bff79f84266e888bbbfa 2003 Packages
+ b801d32b72b6fe4fd30fde79f03388557a379391941a843c4e333a4acf49ed74 1016 Packages.bz2
+ 052d46f7a4365def828f5b9452293fe06bb4bb752bf834b8cb33a47a9426f654 948 Packages.xz
+

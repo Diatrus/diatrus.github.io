@@ -9,10 +9,10 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispa
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_1.9.3~b1_iphoneos-arm.deb
-Size: 1584316
-MD5sum: 6155d2daef48a15e1ccb1ad2b81bf3e2
-SHA1: 13a9da102e4228a3333d2d36950b53fe0310b1c4
-SHA256: a68845ee5c322c033b6475bd12c7b4efa5cad2fc9d2052ad81bb2d017b921664
+Size: 1583872
+MD5sum: e5fac55ff140c291937a12c54899c711
+SHA1: 8e6a3c2bfd7244491a8ce94ad3ccc83dc2b4791c
+SHA256: ce59fb1d2ad07f2cd24f6bf8fa6cbfd298ca5c9415f9b5abfe57746ef053e181
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT

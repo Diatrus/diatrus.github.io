@@ -1601,6 +1601,25 @@ Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager
 
+Package: dpkg
+Version: 1:1.19.2-4dark
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 5952
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, file, findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
+Filename: debs/dpkg_1_1.19.2-4dark_iphoneos-arm.deb
+Size: 473608
+MD5sum: 717d31c6f6d17876bafacd76e2cd830e
+SHA1: 61ae6c7009a3e88ed5b88e63678bd9a3f2af81ba
+SHA256: 08275f2a2fb472c9c78a627ada09a201a92f797de17e8ee335a45cc9871ca096
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
 Package: dpkg-perl
 Version: 1.18.25-2
 Architecture: iphoneos-arm

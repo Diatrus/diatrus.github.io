@@ -65,10 +65,10 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispa
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_2.0_iphoneos-arm.deb
-Size: 95080
-MD5sum: 3ac035a19a2099d0ba39818ca037e433
-SHA1: 2c7f1353d1240d9183ef28c02a1d2609909ab442
-SHA256: 4ebede2c9075565f885101d58ff192472c6f96966ccaac9a087dbb117d8a0142
+Size: 95072
+MD5sum: e0da52e7529b33c302779e81f47abe6e
+SHA1: 153ffec5e542670551780a8168dc9c62a15c28e2
+SHA256: 4aeb8037150055e9640fc37a8d686d558626114c0e2486e7eda4e6c35d0d632f
 Section: Packaging
 Priority: required
 Description: Required for Cydia/Sileo to work
@@ -87,10 +87,10 @@ Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwint
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Filename: debs/cydia-dark_1.9.3~b1_iphoneos-arm.deb
-Size: 1489884
-MD5sum: 06246b2f3dd1824a7bdc700b4053d917
-SHA1: 93f6003516eb2bfe8f3cf9d971ab4bb039ffd005
-SHA256: 99231d7736d70d29ad122650f44323f440f9cd2373fbb1322f16a44558f49f57
+Size: 1489620
+MD5sum: 2b655e96d766fcfa2adb8cbfab0be92d
+SHA1: a3ca786db1781835e7f089326b3986790b22ff45
+SHA256: bb4e2e415636cef5657734a7d70e51415a46e3a7accdb5f5ef243e34c1e8e06a
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT

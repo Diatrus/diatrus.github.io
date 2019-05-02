@@ -1,22 +1,100 @@
-Package: cydia
-Version: 1.9.3~b1
+Package: apt
+Version: 1.8.0
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 12728
+Maintainer: Diatrus <me@diatr.us>
+Pre-Depends: dpkg (>= 1.18)
+Depends: apt-key, apt-lib (>= 1.8.0), berkeleydb, cy+cpu.arm64
+Replaces: apt7
+Provides: apt7 (= 1.8.0)
+Filename: debs/apt_1.8.0_iphoneos-arm.deb
+Size: 276544
+MD5sum: f243a96a893f55ab4e23cacb43edab40
+SHA1: 87053c163f1d1cf7d8c9ecada734181f5aa9b9d1
+SHA256: d239a629e44120b6156a112d731698048ffc896df11b819ab8200dd4854a1afb
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 1.8 Strict
+
+Package: apt-key
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: Diatrus <me@diatr.us>
+Pre-Depends: dpkg (>= 1.18)
+Depends: apt-lib (>= 1.8.0), cy+cpu.arm64
+Replaces: apt7-key
+Provides: apt7-key (= 1.8.0)
+Filename: debs/apt-key_1.8.0_iphoneos-arm.deb
+Size: 9158
+MD5sum: e0576216ef46b59bc36a9d208c95a1d0
+SHA1: ce7167d73192ed45aad95fad15240a3e08ad7b06
+SHA256: 66b2ff7a0ca9e7dceefd272b039c033856ec33c8d4c817058fc877234ef7724d
+Section: Packaging
+Priority: standard
+Description: repository encryption key management tool
+Name: APT 1.8 (apt-key)
+
+Package: apt-lib
+Version: 1.8.0-sileo
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Diatrus <me@diatr.us>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.2), gnupg, gzip, lzma, cy+cpu.arm64
+Conflicts: apt7-ssl
+Replaces: apt7-lib
+Provides: apt7-ssl, apt7-lib (= 1.8.0)
+Filename: debs/apt-lib_1.8.0-sileo_iphoneos-arm.deb
+Size: 3182346
+MD5sum: 01813ee3c4d5c1414b8069436b6bfb7f
+SHA1: 2df03c85faede42ec9075ab26277db3cde58fbd6
+SHA256: 9ed1c43f8717756c4194bed7fcbb982d331676a1505d35decb292ef22f8e8330
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (lib)
+
+Package: cydia
+Version: 1:2.0
+Architecture: iphoneos-arm
+Maintainer: Diatrus <me@diatr.us>
+Installed-Size: 1176
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
-Filename: debs/cydia_1.9.3~b1_iphoneos-arm.deb
-Size: 1583872
-MD5sum: e5fac55ff140c291937a12c54899c711
-SHA1: 8e6a3c2bfd7244491a8ce94ad3ccc83dc2b4791c
-SHA256: ce59fb1d2ad07f2cd24f6bf8fa6cbfd298ca5c9415f9b5abfe57746ef053e181
+Filename: debs/cydia_2.0_iphoneos-arm.deb
+Size: 95080
+MD5sum: 3ac035a19a2099d0ba39818ca037e433
+SHA1: 2c7f1353d1240d9183ef28c02a1d2609909ab442
+SHA256: 4ebede2c9075565f885101d58ff192472c6f96966ccaac9a087dbb117d8a0142
+Section: Packaging
+Priority: required
+Description: Required for Cydia/Sileo to work
+Tag: cydia::essential
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Compatibility Layer
+
+Package: cydia-dark
+Version: 1.9.3~b1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 11552
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: debs/cydia-dark_1.9.3~b1_iphoneos-arm.deb
+Size: 1489884
+MD5sum: 06246b2f3dd1824a7bdc700b4053d917
+SHA1: 93f6003516eb2bfe8f3cf9d971ab4bb039ffd005
+SHA256: 99231d7736d70d29ad122650f44323f440f9cd2373fbb1322f16a44558f49f57
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, cydia::essential, role::enduser
+Tag: purpose::uikit, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
@@ -32,10 +110,10 @@ Conflicts: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
 Filename: debs/cydia-lproj_1.9.3~b1_iphoneos-arm.deb
-Size: 66920
-MD5sum: 197b0cd16fa4ad9b302992278bbd9e09
-SHA1: 6d36b1a4ddf6d211d178767ae372dd3b0c8e34eb
-SHA256: 06ae0c68bcc6f962dcd18a87ba50b01113dd24e85301766b4e5124e4b56b2513
+Size: 66936
+MD5sum: dd03deddff659f2bafb1ee0218814cad
+SHA1: 893498a8f4f5c06203a9713d3b6b08505480d7f9
+SHA256: 63a62eb7f567e72eb23e2adde263f32388ac6e78950ebad3f31b7cc9e7507879
 Section: Packaging
 Priority: required
 Description: languages and translations for Cydia

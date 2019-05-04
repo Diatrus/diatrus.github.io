@@ -8,10 +8,10 @@ Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwint
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-uni
 Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
-Size: 1593208
-MD5sum: 99bda5bff5c90d6b3a9266804eaa9617
-SHA1: 83a9fb32713bb34effecd224a4e2565ca16d28ad
-SHA256: 9b7ed7754ce349387473ac566ea91271f3e1d931d6322302077c4695935dbf4c
+Size: 1593264
+MD5sum: e48256699d1c1e51161a8d58b6ebb01e
+SHA1: 2950b21b40e40408bb242caf95d890889890c64e
+SHA256: beb00a2f221745821a06a6970374d18bb1f7c7398b72ab6cc8a74959f34adadc
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
@@ -31,10 +31,10 @@ Conflicts: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
 Filename: debs/cydia-lproj_1.9.3~chimera_iphoneos-arm.deb
-Size: 66940
-MD5sum: 5b510fe8b2f536dc92f919659c855323
-SHA1: 53399870e9e178bf7bf41631b9321415c7a40bdc
-SHA256: 2a23b3251eef5789bfd571ac0530ab029559d609ecf9d0126301649af7f3dc5e
+Size: 66928
+MD5sum: 423198b6e4ace8c6dbe7735eb337ded3
+SHA1: 1937bd69e0839ad43c74a965bc76fa27993be917
+SHA256: 0ba35ddb14c1876e3afa1f968cf670fffe4504f249fbe8fcf988b5e4551be9f7
 Section: Packaging
 Priority: required
 Description: languages and translations for Cydia

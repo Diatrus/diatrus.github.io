@@ -1,0 +1,17 @@
+Origin: Cydia for Chimera/Electra
+Label: Cydia for Chimera/Electra
+Suite: stable
+Version: 1.0
+Codename: fcahchimera
+Architectures: iphoneos-arm
+Components: main
+Description: Cydia for Chimera/Electra by Diatrus 
+MD5Sum:
+ 0e75a19a077a5d20cd8841098dcb1cdc 1972 Packages
+ 8dd8d32f84a3882e737e08793e420041 1048 Packages.bz2
+ c2bafeac455e014f6b3f5dad4978c973 1004 Packages.xz
+SHA256:
+ 83948be02f4fef53cdbc68c9407e60b243cc265f5046a697c550b11357fc1f91 1972 Packages
+ 03c1290ef91f50845a30b01052e15eb66826b5d445ff13c7da7c595ed331a20f 1048 Packages.bz2
+ d131c2fe0304db2f054e79b741c4c066d1c17c50977ccfc6b0eab6ab337e6766 1004 Packages.xz
+

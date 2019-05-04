@@ -6530,6 +6530,23 @@ Description: Sileo Compatibility layer for u0 black.
 Author: Diatrus
 Name: Sileo Compatibility Layer
 
+Package: us.diatr.sillyo
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Diatrus
+Depends: mobilesubstrate, org.coolstar.sileo, us.diatr.sileorespring
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.diatrus.sileo-installer, us.diatr.sillyo2, com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
+Replaces: com.diatrus.sileo-installer, us.diatr.sillyo2, com.level3tjg.sileofix, org.juulstar.sileo
+Filename: debs/us.diatr.sillyo_1.4_iphoneos-arm.deb
+Size: 1280
+MD5sum: abdbf6c04bf0487f5f6a6c4a9ff5a676
+SHA1: 1a6e158b9d8eeef3045fb4c632b6a12447c32893
+SHA256: 5ba3d23243eba8e41d24153665b367237ba9364769e304adf3e0a1804c1620d8
+Section: Tweaks
+Description: Sileo Compatibility layer for u0 black.
+Author: Diatrus
+Name: Sileo Compatibility Layer
+
 Package: uuid
 Version: 1.6.2-1
 Architecture: iphoneos-arm

@@ -6,12 +6,12 @@ Installed-Size: 13600
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-uni
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
-Size: 1593264
-MD5sum: e48256699d1c1e51161a8d58b6ebb01e
-SHA1: 2950b21b40e40408bb242caf95d890889890c64e
-SHA256: beb00a2f221745821a06a6970374d18bb1f7c7398b72ab6cc8a74959f34adadc
+Size: 1592624
+MD5sum: 1a6c63a2a36ec8fe450c2358047f00a1
+SHA1: 0bd6ea4972ce7203b5757f899d255ba0a112cb4e
+SHA256: 396a5f483817f670b6592c16290dcfb91fcc39577709666fd8394eddf6de762b
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
@@ -19,7 +19,7 @@ Tag: purpose::uikit, role::enduser
 Author: Diatrus <me@diatr.us>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer for Chimera/Electra
+Name: Cydia for Chimera/Electra
 
 Package: cydia-lproj
 Version: 1.9.3~chimera

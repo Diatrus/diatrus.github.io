@@ -1276,6 +1276,29 @@ Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
 
+Package: cydia-dark
+Version: 1.9.3~b2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 11552
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: debs/cydia-dark_1.9.3~b2_iphoneos-arm.deb
+Size: 1491684
+MD5sum: 8878ce55d169ac5e7033045b1e43e24b
+SHA1: f66e36e17e1900ee15f7262538981dca1a8e6768
+SHA256: a3c254271f5fddbc5362bfbdc4c825b061666ee0f719b7b3485eba2302fcce93
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
 Package: cydia-lproj
 Version: 1.9.3~b1
 Architecture: iphoneos-arm
@@ -4246,6 +4269,23 @@ Priority: required
 Description: upgraded libxml2 library for iPhoneOS 2.x
 Name: libxml2 Upgrade
 
+Package: libxslt1-dev
+Version: 1.1.28-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 384
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: libxslt-dev
+Filename: debs/libxslt1-dev_1.1.28-1_iphoneos-arm.deb
+Size: 26062
+MD5sum: 76c1720e4fb70e43587cb898f8302c12
+SHA1: 219abf9943b17b0912e170c2e19e755b07920feb
+SHA256: 4690809c40f6d96ad32d33a2b74ad5da70cdbf017404afae0aa24967f5b93780
+Section: Development
+Priority: optional
+Homepage: http://xmlsoft.org/XSLT/
+Description: GNOME's C XSL/T library over libxml2 (development)
+
 Package: libxvidcore-dev
 Version: 1.3.5-1
 Architecture: iphoneos-arm
@@ -6941,6 +6981,22 @@ SHA256: 3f393361be09b7c416a81813433b55dcc72af9f025c9e8c1a3a142a9080a51e9
 Section: X_Window
 Priority: optional
 Description: prototypes for core X libraries
+
+Package: xsltproc
+Version: 1.1.28-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/xsltproc_1.1.28-1_iphoneos-arm.deb
+Size: 7854
+MD5sum: 995360925ff293bfb61f7179b7180425
+SHA1: 921a9a2d27fc5957cd50734b5c573d2b682a70d8
+SHA256: 8c9b2b18b0aad5ac6037eb1c1459bd622a3f5a49dc08a4ed40b7bb3a5155781d
+Section: Development
+Priority: optional
+Homepage: http://xmlsoft.org/XSLT/
+Description: XSLT 1.0 command line processor
 
 Package: xt
 Version: 1.1.5-1

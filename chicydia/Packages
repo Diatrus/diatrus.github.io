@@ -4,14 +4,14 @@ Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 13600
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), xz, cydia
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-uni
 Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
-Size: 1593152
-MD5sum: 76e1bddda3a39f2096c968535385089e
-SHA1: 7d82437d08a013618729b7694ed7ab5982f3accf
-SHA256: 692427abf4a7f354b4d1f29fb4adf93ce0d5a07ba9b7dde875b921b3eedf9a5b
+Size: 1593208
+MD5sum: 99bda5bff5c90d6b3a9266804eaa9617
+SHA1: 83a9fb32713bb34effecd224a4e2565ca16d28ad
+SHA256: 9b7ed7754ce349387473ac566ea91271f3e1d931d6322302077c4695935dbf4c
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
@@ -42,4 +42,21 @@ Tag: purpose::uikit, cydia::essential, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
+
+Package: org.thebigboss.repo.icons
+Version: 1.0
+Architecture: all
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
+Size: 11530
+MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
+SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
+SHA256: 826001ef4cf513d9f49f3a8ac142addb9ca586bbad6c1410c7921f509901ee4e
+Section: Repositories
+Priority: optional
+Multi-Arch: foreign
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
 

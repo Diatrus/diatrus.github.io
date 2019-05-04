@@ -5,7 +5,7 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui
-Filename: debs/org.coolstar.sileo_1.0.5_iphoneos-arm.deb
+Filename: https://electrarepo64.coolstar.org/debs/org.coolstar.sileo_1.0.5_iphoneos-arm.deb
 Size: 2093028
 MD5sum: 9b510ac09042dc6356709d8ba0898dea
 SHA1: bc8dcfcc9f566cd9ac1c627aca709d32bbc878e9

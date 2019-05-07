@@ -1,21 +1,21 @@
 Package: us.diatr.sileoplaceholder
-Version: 2:2
+Version: 2:3
 Architecture: iphoneos-arm
 Essential: no
 Maintainer: Diatrus
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
-Conflicts: cydia-gui
+Conflicts: cydia-gui, org.coolstar.Sileo
 Replaces: org.coolstar.Sileo
 Provides: org.coolstar.Sileo
 Filename: debs/us.diatr.sileoplaceholder_2_1_iphoneos-arm.deb
-Size: 928
-MD5sum: 9d4925ff19683c24dd7829f2975470d6
-SHA1: 861c4a7ded2ca0eba3bdd3d9d331f892e7c7c053
-SHA256: d6eb7046297f0b4c490ff7e445c327c6f6a98efd9a47e9dba52bc31bb97eb97d
+Size: 924
+MD5sum: c12b63cbf7c46dc9ea2d26fa5b498f98
+SHA1: 1b751605519ce81eff6c9f576c02a8d602792031
+SHA256: 1e082ea3faef624d19f199af340d515494413a27e05f65f362aaf222b85bcf9a
 Section: Packaging
 Priority: required
-Description: Install this to remove Sileo. Downgrade this to a normal version to get Sileo back.
+Description: Install this to remove Sileo. Remove this and reinstall Sileo to get it back.
 Tag: purpose::console, role::hacker
 Name: Remove Sileo
 

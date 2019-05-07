@@ -7,11 +7,11 @@ Architectures: iphoneos-arm
 Components: main
 Description: Misceo Tests
 MD5Sum:
- 5f1512823182047a37e81723de49847e 1929 Packages
- bd9a289df68eee99ab0298814c6c2563 1015 Packages.bz2
- 844ecdc9c85e3a6f9cdfbbb6f2ce068f 952 Packages.xz
+ 08fdab9c0d51ab59f07fe4ade48fa7d1 784 Packages
+ 254ab5a03a9d9a7c0f77c89539298109 557 Packages.bz2
+ 3b02b8c8b41c58779888134e27adf339 588 Packages.xz
 SHA256:
- 20afc19b3134cef17f6f4ad8b28c08680c29d12785963bbdc0d79e3addce51f5 1929 Packages
- 255d284b08f18b1f8b0a9ebf1582d4db643910445f88aada86c49e9b26b244f7 1015 Packages.bz2
- 3089a9b76d56d7c790f9d0034af0c6db41249d6923f214afc8a163d6e31fc395 952 Packages.xz
+ 8f6e54690244a01d5e3dc3ada0f51608795f2ecb1b6ba7a0f6ecd1dbc368c2c7 784 Packages
+ 4c28eec9b4c3cb2ccc072257f7b700fd2492e4215c513a09da93fcd0b95c38bb 557 Packages.bz2
+ 955a764c61bd6d92bb582fd415717cb1053a7cfc5b2012dbad2d8bc91a95634e 588 Packages.xz
 

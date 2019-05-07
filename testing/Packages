@@ -1,45 +1,21 @@
-Package: cydia-dark
-Version: 1.9.3~b2
+Package: us.diatr.sileoplaceholder
+Version: 2:0
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 11552
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~b2_iphoneos-arm.deb
-Size: 1491684
-MD5sum: 8878ce55d169ac5e7033045b1e43e24b
-SHA1: f66e36e17e1900ee15f7262538981dca1a8e6768
-SHA256: a3c254271f5fddbc5362bfbdc4c825b061666ee0f719b7b3485eba2302fcce93
+Essential: yes
+Maintainer: Diatrus
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
+Conflicts: cydia-gui
+Replaces: org.coolstar.Sileo
+Provides: org.coolstar.Sileo
+Filename: debs/us.diatr.sileoplaceholder_2_0_iphoneos-arm.deb
+Size: 928
+MD5sum: 3e57d2e311d0b4942b56e93794ca27ef
+SHA1: d3f856c720312d479ca63ec44051f75d2ed1c74d
+SHA256: 76320c496ab97b1c7f3d9b15798dc21d0191e3547c68f026d6d80c5a0f29f700
 Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-
-Package: cydia-lproj
-Version: 1.9.3~b2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 712
-Depends: cydia
-Conflicts: org.thebigboss.russiancydia
-Replaces: cydia, org.thebigboss.russiancydia
-Provides: org.thebigboss.russiancydia
-Filename: debs/cydia-lproj_1.9.3~b2_iphoneos-arm.deb
-Size: 66960
-MD5sum: 7df5891ec7bfd056c27c0a5473dfa873
-SHA1: 7c365c851ac8d6d9557ef4398749da78c548bcfe
-SHA256: 7996c53458fde78fe607149d78643ced021bf1189aab0c0f7670abf1670e0679
-Section: Packaging
-Priority: required
-Description: languages and translations for Cydia
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia-lproj/
-Name: Cydia Translations
+Priority: optional
+Description: Install this to remove Sileo. Downgrade this to a normal version to get Sileo back.
+Tag: purpose::console, role::hacker
+Name: Sileo Placeholder
 

@@ -1657,6 +1657,25 @@ Description: package maintainance tools from Debian
 Name: Debian Packager
 
 Package: dpkg
+Version: 1:1.19.2-11dark
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 4112
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, file, findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
+Filename: debs/dpkg_1.19.2-11dark_iphoneos-arm.deb
+Size: 327488
+MD5sum: bcef5d26157e9170993256e223e41d79
+SHA1: 7c5a515a5b3ea55c1dc0548fbc1bb414e1728c36
+SHA256: ab71e457472efa84bc381c22f8dae8b34ec4bc21c48a3619b427f89777c5b0d6
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
+Package: dpkg
 Version: 1:1.19.2-4dark
 Architecture: iphoneos-arm
 Essential: yes

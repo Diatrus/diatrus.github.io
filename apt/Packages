@@ -678,6 +678,23 @@ Description: reverse engineer Objective-C headers
 Depiction: http://cydia.saurik.com/info/class-dump/
 Name: Class Dump
 
+Package: cmake
+Version: 3.14.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 87488
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0, ncurses
+Filename: debs/cmake_3.14.2-1_iphoneos-arm.deb
+Size: 6353200
+MD5sum: 4d3db0f06f2d90cf79fbb3c9fca10ff9
+SHA1: 8b7f0e594118e267a4d586d77c8a72d840079610
+SHA256: 123c193b246fe7ae86f42410924ae3c0be7d3657eab3106b177643933060ce39
+Section: Development
+Priority: optional
+Description: Cross-platfrom make
+Name: CMake
+
 Package: com.bingner.plutil
 Version: 0.0.4
 Architecture: iphoneos-arm
@@ -1486,6 +1503,23 @@ Section: Networking
 Priority: standard
 Homepage: https://www.aldeid.com/wiki/Dns2tcp#Description
 Description: TCP over DNS (unconfigured, just software)
+
+Package: dos2unix
+Version: 7.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 360
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/dos2unix_7.4.0-1_iphoneos-arm.deb
+Size: 19424
+MD5sum: 171cb7242264f9b76f748750f2674234
+SHA1: 688f4f8e34912139b8b662d4df350d9339239810
+SHA256: e284b4ec388b3db133b2bc1bf7cda597f4acc1195bf1b33b2ac8bc27adc5f2ff
+Section: Utilities
+Priority: optional
+Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
+Description: Convert text between DOS, UNIX, and Mac formats
+Name: Dos2unix
 
 Package: dpkg
 Version: 1.18.25-10
@@ -3609,6 +3643,38 @@ Section: Multimedia
 Priority: optional
 Description: FFmpeg library for post processing
 
+Package: libpython3.7
+Version: 3.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 108136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, readline, expat, xz, libssl1.0, libffi
+Filename: debs/libpython3.7_3.7.3-1_iphoneos-arm.deb
+Size: 10173370
+MD5sum: 1211e52a47c1580a93d3565452c02dd7
+SHA1: 1f7a7af79149fe5f8ea89792a0eb41586aa101d8
+SHA256: 4a42e01487f9a75df2a2649b3cf7710d4af171a21e4943c43f0bcd86f11586a7
+Section: Scripting
+Priority: optional
+Description: Shared Python runtime libraries (version 3.7)
+
+Package: libpython3.7-dev
+Version: 3.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 10024
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpython3.7
+Filename: debs/libpython3.7-dev_3.7.3-1_iphoneos-arm.deb
+Size: 1086908
+MD5sum: fdda3d1a0e0f6b8f4bfe87e975e856b4
+SHA1: e56fe59aaea4fda13e58f5b37d3daa46c77df2c9
+SHA256: f3837a8cfae53da0a80c84c0d38131906cab78e1f37dfde796c627be1faf34ec
+Section: Scripting
+Priority: optional
+Description: Development files for python version 3.7.3
+
 Package: libresolv
 Version: 25-1
 Architecture: iphoneos-arm
@@ -4925,6 +4991,24 @@ Homepage: https://gmplib.org/
 Description: Nettle is a cryptographic library
 Name: Nettle
 
+Package: nettle
+Version: 3.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2480
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgmp10
+Filename: debs/nettle_3.4.1-1_iphoneos-arm.deb
+Size: 282592
+MD5sum: 1ddd741edb10bf62061a3c2f5e6c6bb2
+SHA1: 8e305e64901157ad0a394a35748cd5faefd05897
+SHA256: 7928ea5af9c85d4a0129038aac001d777b573b675a92ddbb44c228167fb19ae1
+Section: Security
+Priority: optional
+Homepage: https://gmplib.org/
+Description: Nettle is a cryptographic library
+Name: Nettle
+
 Package: network-cmds
 Version: 543-1
 Architecture: iphoneos-arm
@@ -5446,6 +5530,40 @@ Homepage: http://www.python.org/
 Description: architectural programming language
 Name: Python
 
+Package: python3
+Version: 3.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: python3.7
+Filename: debs/python3_3.7.3-1_iphoneos-arm.deb
+Size: 636
+MD5sum: 1c202bc36a51766bbdca6ff6fdf30735
+SHA1: 5fc43bd9963f1a559a5fe6a4340f4801ce0e5d0e
+SHA256: f619589dbc931ed6b6e85192f8b80101a6142628e07321a3cff2db60a6c4e025
+Section: Scripting
+Priority: optional
+Description: Interpreted, interactive, object-oriendted programming language.
+Name: Python 3
+
+Package: python3.7
+Version: 3.7.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 256
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpython3.7
+Filename: debs/python3.7_3.7.3-1_iphoneos-arm.deb
+Size: 3360
+MD5sum: 9c36acee5c044e39a40fce30f73d442e
+SHA1: 161eb1b430b5e246177298f41ac809135cd6a1b7
+SHA256: 75abb651da2204cb5e53e00cd19921196297333d2b7c9bf1b0ab6011657fbe91
+Section: Scripting
+Priority: optional
+Description: Interpreted, interactive, object-oriendted programming language.
+Name: Python 3.7
+
 Package: pzb
 Version: 1.0.1-1
 Architecture: iphoneos-arm
@@ -5635,6 +5753,23 @@ Section: Archiving
 Priority: standard
 Multi-Arch: foreign
 Description: the best compression algorithm
+
+Package: sc-im
+Version: 0.7.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1088
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libxml2, libzip, ncurses
+Filename: debs/sc-im_0.7.0-1_iphoneos-arm.deb
+Size: 139400
+MD5sum: c8aedf8dc6ad6364d07b8644143e30db
+SHA1: 597e661b9701b7e4b646a81d294ca787497d031d
+SHA256: f61349f4e830d7d1a617d974d0c2b45bf92d1ce28eec27b4b3dd7b0494507610
+Section: Utilities
+Priority: optional
+Description: Spreadsheet program for the terminal, using ncurses
+Name: SC-IM
 
 Package: science.xnu.injector
 Version: 0.0.1

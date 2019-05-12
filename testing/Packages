@@ -1,21 +1,43 @@
-Package: us.diatr.sileoplaceholder
-Version: 2:3
+Package: apt-lib
+Version: 1.8.0-sileo2
 Architecture: iphoneos-arm
-Essential: no
-Maintainer: Diatrus
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
-Conflicts: cydia-gui, org.coolstar.Sileo
-Replaces: org.coolstar.Sileo
-Provides: org.coolstar.Sileo
-Filename: debs/us.diatr.sileoplaceholder_2_1_iphoneos-arm.deb
-Size: 924
-MD5sum: c12b63cbf7c46dc9ea2d26fa5b498f98
-SHA1: 1b751605519ce81eff6c9f576c02a8d602792031
-SHA256: 1e082ea3faef624d19f199af340d515494413a27e05f65f362aaf222b85bcf9a
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui (<<99.0)
+Replaces: apt7-lib
+Provides: apt7-ssl, apt7-lib (= 1.8.0)
+Filename: debs/apt-lib_1.8.0_sileo2_iphoneos-arm.deb
+Size: 1568336
+MD5sum: 10ab06b827a8beb16bfc50682b81ae35
+SHA1: 0b193f6ccad4750610f008d4493f9cc9573a49fa
+SHA256: da3bb3181e1d2ce56a9f323c1a328fdb5b92d4383e5055aafd534b5d0030061f
 Section: Packaging
 Priority: required
-Description: Install this to remove Sileo. Remove this and reinstall Sileo to get it back.
-Tag: purpose::console, role::hacker
-Name: Remove Sileo
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (lib)
+
+Package: cydia-dark
+Version: 1.9.3~b4
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 8880
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: debs/cydia-dark_1.9.3~b4_iphoneos-arm.deb
+Size: 1283120
+MD5sum: e8ea036b558e1e9f5154a0086b13a9c3
+SHA1: 0b3c912b27fddab725c769ddde9a64dbd03dde66
+SHA256: 5e4814785f3c9cd781b59c7fe7b8bd2f94d378f020b4f52baa396831fa39bf10
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
 

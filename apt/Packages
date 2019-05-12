@@ -236,6 +236,26 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 1.8 Strict (lib)
 
+Package: apt-lib
+Version: 1.8.0-sileo2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui (<<99.0)
+Replaces: apt7-lib
+Provides: apt7-ssl, apt7-lib (= 1.8.0)
+Filename: debs/apt-lib_1.8.0_sileo2_iphoneos-arm.deb
+Size: 1568336
+MD5sum: 10ab06b827a8beb16bfc50682b81ae35
+SHA1: 0b193f6ccad4750610f008d4493f9cc9573a49fa
+SHA256: da3bb3181e1d2ce56a9f323c1a328fdb5b92d4383e5055aafd534b5d0030061f
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (lib)
+
 Package: aspell
 Version: 0.60.6.1-1
 Architecture: iphoneos-arm
@@ -1330,6 +1350,29 @@ Size: 1187244
 MD5sum: f83ba25472e6c6a21f55bb5107f06fb5
 SHA1: 3377afe712fc7c02e8997850b947ad04f88b0f4e
 SHA256: c64977b0b0739efe87ad7bcc700a5d498732966be58167fe80878379a8249ed1
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
+Package: cydia-dark
+Version: 1.9.3~b4
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 8880
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: debs/cydia-dark_1.9.3~b4_iphoneos-arm.deb
+Size: 1283120
+MD5sum: e8ea036b558e1e9f5154a0086b13a9c3
+SHA1: 0b3c912b27fddab725c769ddde9a64dbd03dde66
+SHA256: 5e4814785f3c9cd781b59c7fe7b8bd2f94d378f020b4f52baa396831fa39bf10
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT

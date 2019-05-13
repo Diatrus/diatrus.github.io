@@ -197,46 +197,6 @@ Description: repository encryption key management tool
 Name: APT 1.8 (apt-key)
 
 Package: apt-lib
-Version: 1.7.4-sileo
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: dpkg (>= 1.18)
-Depends: bzip2, gnupg, gzip, lzma
-Conflicts: apt7-ssl
-Replaces: apt7-lib
-Provides: apt7-ssl, apt7-lib (= 1.7.4)
-Filename: debs/apt-lib_1.7.4-sileo_iphoneos-arm.deb
-Size: 1545648
-MD5sum: 70ec7669ad5996bbebfdd087e86d129c
-SHA1: f6ce92e75c55962f530882db0cb770aa832c1b5e
-SHA256: e545d1ee8d7a5f93137b599422f4560d37f5eb6f31d83788f7529ddad6ffbdbe
-Section: Packaging
-Priority: required
-Description: the advanced packaging library from Debian
-Name: APT 1.7 Strict (lib)
-
-Package: apt-lib
-Version: 1.8.0-sileo
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Diatrus <me@diatr.us>
-Pre-Depends: dpkg (>= 1.18)
-Depends: bzip2, dpkg (>= 1.19.2), gnupg, gzip, lzma
-Conflicts: apt7-ssl
-Replaces: apt7-lib
-Provides: apt7-ssl, apt7-lib (= 1.8.0)
-Filename: debs/apt-lib_1.8.0-sileo_iphoneos-arm.deb
-Size: 1658252
-MD5sum: f27130a26568271a01232861ca60c763
-SHA1: c6de3773f0afddf5b791f699ee3d763859489935
-SHA256: 1c9f9c79b3d3545125c6a483505acf1223c7e1c31d21a76b086f3a8426fb1c15
-Section: Packaging
-Priority: required
-Description: the advanced packaging library from Debian
-Name: APT 1.8 Strict (lib)
-
-Package: apt-lib
 Version: 1.8.0-sileo2
 Architecture: iphoneos-arm
 Essential: yes
@@ -1289,75 +1249,6 @@ Tag: cydia::essential
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Compatibility Layer
-
-Package: cydia-dark
-Version: 1.9.3~b1
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 11552
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~b1_iphoneos-arm.deb
-Size: 1489620
-MD5sum: 2b655e96d766fcfa2adb8cbfab0be92d
-SHA1: a3ca786db1781835e7f089326b3986790b22ff45
-SHA256: bb4e2e415636cef5657734a7d70e51415a46e3a7accdb5f5ef243e34c1e8e06a
-Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-
-Package: cydia-dark
-Version: 1.9.3~b2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 11552
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~b2_iphoneos-arm.deb
-Size: 1491684
-MD5sum: 8878ce55d169ac5e7033045b1e43e24b
-SHA1: f66e36e17e1900ee15f7262538981dca1a8e6768
-SHA256: a3c254271f5fddbc5362bfbdc4c825b061666ee0f719b7b3485eba2302fcce93
-Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-
-Package: cydia-dark
-Version: 1.9.3~b3
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 6936
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~b3_iphoneos-arm.deb
-Size: 1187244
-MD5sum: f83ba25472e6c6a21f55bb5107f06fb5
-SHA1: 3377afe712fc7c02e8997850b947ad04f88b0f4e
-SHA256: c64977b0b0739efe87ad7bcc700a5d498732966be58167fe80878379a8249ed1
-Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
 
 Package: cydia-dark
 Version: 1.9.3~b4

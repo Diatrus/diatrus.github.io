@@ -291,6 +291,24 @@ Homepage: http://www.harding.motd.ca/autossh/
 Description: continually reconnects an ssh session
 Name: Automatic SSH
 
+Package: axel
+Version: 2.17.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 192
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0
+Filename: debs/axel_2.17.2-1_iphoneos-arm.deb
+Size: 22328
+MD5sum: 13ad35b0fbebd27b95ea88caa1dbc7fd
+SHA1: a559444f101ff5b329dcc9813f9319e5d1f445d0
+SHA256: bb15503667cadb5c12db593c9ad5d6d4c4a9319db05181c1861e69eef9e813e4
+Section: Networking
+Priority: optional
+Homepage: https://github.com/eribertomota/axel
+Description: Light UNIX download accelerator
+Name: Axel
+
 Package: base
 Version: 1-1
 Architecture: iphoneos-arm
@@ -1383,6 +1401,24 @@ Section: Development
 Priority: important
 Multi-Arch: foreign
 Description: ctags, error, hexdump, rpcgen, unifdef
+
+Package: dialog
+Version: 1.3-20190211-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 480
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/dialog_1.3-20190211-1_iphoneos-arm.deb
+Size: 88052
+MD5sum: 88c6895c0b5c151c259c8099f60d8e35
+SHA1: 8abb3282c3c5f1de8c9e75dcc5a4247890fe1db9
+SHA256: 97721fe7d97ac05615aab48483f1d182f881d7d9745487f9597f29b68e6ad7a1
+Section: Utilities
+Priority: optional
+Homepage: https://invisible-island.net/dialog/
+Description: Display user-friendly message boxes from shell scripts
+Name: Dialog
 
 Package: dict
 Version: 1.9.9-1
@@ -2995,6 +3031,38 @@ Section: Multimedia
 Priority: optional
 Description: FFmpeg library with functions for simplifying programming
 
+Package: libcares-dev
+Version: 1.15.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libcares-dev_1.15.0-1_iphoneos-arm.deb
+Size: 8994
+MD5sum: be76ea409e4ed4936813aecde45408db
+SHA1: f4a3e04d0163ec89ac88a38463d1c48db81b6bcf
+SHA256: 94f50a4a695822b602c7e528c302a0298854a2f757b61a9dad0b5bdf6251bc75
+Section: Development
+Priority: optional
+Homepage: https://c-ares.haxx.se/
+Description: Asynchronous DNS library (Development)
+
+Package: libcares2
+Version: 1.15.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 232
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libcares2_1.15.0-1_iphoneos-arm.deb
+Size: 26340
+MD5sum: 5ad69252fcd8b6f8785be376912b72e4
+SHA1: ed9a06c76fe2425d7b7c844a51b95d4c90c29d45
+SHA256: 8a39a636f1c02f99de46aefdf6c1431337e9579a9cea6a0d515afbfae478c039
+Section: Development
+Priority: optional
+Homepage: https://c-ares.haxx.se/
+Description: Asynchronous DNS library
+
 Package: libcompress-raw-lzma-perl
 Version: 2.082-1
 Architecture: iphoneos-arm
@@ -4602,6 +4670,23 @@ Section: Development
 Priority: important
 Description: dependency-based build environments
 Name: Make
+
+Package: masscan
+Version: 1.0.5-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 680
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/masscan_1.0.5-1_iphoneos-arm.deb
+Size: 135650
+MD5sum: 131954a0d9555ef01ac32629092b5ddf
+SHA1: 552665c581362bb5d32c896184ab922c4a319b3b
+SHA256: 6324d211b2faf536008719f0802d91d0c48c105570f245c1dddc5f588487e279
+Section: Networking
+Priority: optional
+Homepage: https://github.com/robertdavidgraham/masscan/
+Description: TCP port scanner, scans entire Internet in under 5 minutes
+Name: Masscan
 
 Package: mc
 Version: 4.8.21-1

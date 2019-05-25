@@ -216,6 +216,24 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 1.8 Strict (lib)
 
+Package: aria2
+Version: 1.34.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 6608
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, libcares2, libgmp10, libssh2, libxml2
+Filename: debs/aria2_1.34.0-1_iphoneos-arm.deb
+Size: 794842
+MD5sum: 5fec71eb259f7a5785c68080fcae6393
+SHA1: 6dddb8e5151124981a23ee9c34c17d8be5f46b82
+SHA256: ff00c8e85777e2af931e726dbe5eade7add94a353bc1cc0ef72d7a3e76f665f8
+Section: Networking
+Priority: optional
+Homepage: https://aria2.github.io/
+Description: Downloader with resuming and segmented downloading.
+Name: Aria2
+
 Package: aspell
 Version: 0.60.6.1-1
 Architecture: iphoneos-arm
@@ -581,6 +599,23 @@ Size: 69374
 MD5sum: d823938a468c4e7794014cfbda7a67df
 SHA1: 9b47dc9f9d9053f3312c075f225c9dfb38012cb7
 SHA256: 05b14df1356bc4ec25c094f8dfb6b3886c0f32875e856f88537a71e0d1fb067a
+Section: Development
+Priority: optional
+Description: Mach interface and stub generator
+Name: Bootstrap Commands
+
+Package: bootstrap-cmds
+Version: 60-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 592
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cc
+Filename: debs/bootstrap-cmds_60-2_iphoneos-arm.deb
+Size: 71408
+MD5sum: d1fdd4762f959fa2ae0b260f2cb78843
+SHA1: 254048a0038e4747a66173c0901c0c3be20a1fe1
+SHA256: 71a74723ba76731f5db8b8e9eab8662d27ae65e7cb6fdbdd7eff9273e31efaf3
 Section: Development
 Priority: optional
 Description: Mach interface and stub generator
@@ -2503,6 +2538,24 @@ Priority: optional
 Description: supposedly advanced console IRC client
 
 Package: jailbreak-resources
+Version: 1.0~b21
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 740
+Pre-Depends: dpkg (>= 1.18.25-9)
+Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
+Conflicts: science.xnu.undecimus.resources
+Filename: debs/jailbreak-resources_1.0~b21_iphoneos-arm.deb
+Size: 105026
+MD5sum: b979e194397cd1e93e6f86a7cc9c1710
+SHA1: e9dc0a414257ffcfa2b672ec1b113b0ef4075af7
+SHA256: c9a8626385ad4e106cfc0f8a9a9fe8b10344858296f3a8e8388bfb85dd0e53f7
+Section: System
+Description: Resources used by KPPLess Jailbreaks
+Author: Sam Bingner <maintainer@sbdhi.com>
+Name: Jailbreak Resources
+
+Package: jailbreak-resources
 Version: 1.0~b5
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
@@ -3975,6 +4028,23 @@ Priority: standard
 Description: OpenSSL Libraries for version 1.0
 Name: OpenSSL 1.0 Libraries
 
+Package: libssl1.1
+Version: 1.1.1b~1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 6600
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Filename: debs/libssl1.1_1.1.1b~1-1_iphoneos-arm.deb
+Size: 1175708
+MD5sum: fd85ba977e10b7a2bdca08ee5238ddeb
+SHA1: cd8cbd7478bc29e62515daca1c47208ce7f69e32
+SHA256: 760d8ce41759274aa81e4e93a7d6ee8adccfceef27d9b55ccd79c5acded7f394
+Section: Security
+Priority: standard
+Description: OpenSSL Libraries for version 1.1
+Name: OpenSSL 1.1 Libraries
+
 Package: libstdc++
 Version: 0-1
 Architecture: iphoneos-arm
@@ -4530,6 +4600,26 @@ Size: 40386670
 MD5sum: 6c6961fc79b9c3376baf04aefb02aafc
 SHA1: 0eade958134052037665e1aa61a1dbd3181a3d80
 SHA256: de86c7fad50d6b7ab3c58290e80e3178c20e39a153b5025bd5a4bda2a4937c10
+Section: Development
+Priority: optional
+Description: A toolkit for the construction of highly optimized compilers, optimizers, and runtime environments and a compiler front-end for the C family of languages (C, C++, Objective-C, and Objective-C++) which is built as part of the LLVM compiler infrastructure project.
+Name: LLVM Clang
+
+Package: llvm-clang
+Version: 5.0.2-3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 402928
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: dpkg (>= 1.18.25-9)
+Conflicts: org.coolstar.llvm-clang64, org.coolstar.llvm-clang
+Replaces: org.coolstar.llvm-clang64, org.coolstar.llvm-clang
+Provides: org.coolstar.llvm-clang64, org.coolstar.llvm-clang, cc, gcc
+Filename: debs/llvm-clang_5.0.2-3_iphoneos-arm.deb
+Size: 40489786
+MD5sum: 7a6e94711add527b69879b508478d748
+SHA1: 7d582d1982606e50d4393fa1072f550706af629d
+SHA256: d743b3e8ac24a8a642090d05b34ee0283cb1a5cd0d05a2f46fe27c41009100a7
 Section: Development
 Priority: optional
 Description: A toolkit for the construction of highly optimized compilers, optimizers, and runtime environments and a compiler front-end for the C family of languages (C, C++, Objective-C, and Objective-C++) which is built as part of the LLVM compiler infrastructure project.

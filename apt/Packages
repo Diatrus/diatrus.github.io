@@ -1742,25 +1742,6 @@ Description: package maintainance tools from Debian
 Name: Debian Packager
 
 Package: dpkg
-Version: 1:1.19.2-11dark
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 4112
-Pre-Depends: tar (>= 1.23)
-Depends: bash, bzip2, coreutils-bin, diffutils, file, findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
-Filename: debs/dpkg_1.19.2-11dark_iphoneos-arm.deb
-Size: 327488
-MD5sum: bcef5d26157e9170993256e223e41d79
-SHA1: 7c5a515a5b3ea55c1dc0548fbc1bb414e1728c36
-SHA256: ab71e457472efa84bc381c22f8dae8b34ec4bc21c48a3619b427f89777c5b0d6
-Section: Packaging
-Priority: required
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: package maintainance tools from Debian
-Name: Debian Packager
-
-Package: dpkg
 Version: 1:1.19.2-4dark
 Architecture: iphoneos-arm
 Essential: yes
@@ -2556,6 +2537,24 @@ Author: Sam Bingner <maintainer@sbdhi.com>
 Name: Jailbreak Resources
 
 Package: jailbreak-resources
+Version: 1.0~b23
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 740
+Pre-Depends: dpkg (>= 1.18.25-9)
+Depends: firmware (>= 11.0), firmware (<< 12.0) | signing-certificate, trustinjector, mobilesubstrate (>= 0.9.7020), firmware (<< 12.0) | mobilesubstrate (>= 0.9.7031), ldid (>= 2:2.1.1+elucubratus1)
+Conflicts: science.xnu.undecimus.resources
+Filename: debs/jailbreak-resources_1.0~b23_iphoneos-arm.deb
+Size: 105074
+MD5sum: e49923f3ec678ad7f974573ee441cf43
+SHA1: 30328524b96aab1271e789709afc617b5fbc9285
+SHA256: f9b6935c098123e4b987b9d5c8cf3be9e6e95467c4c0116cf142b34bcdf4ce29
+Section: System
+Description: Resources used by KPPLess Jailbreaks
+Author: Sam Bingner <maintainer@sbdhi.com>
+Name: Jailbreak Resources
+
+Package: jailbreak-resources
 Version: 1.0~b5
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
@@ -3084,6 +3083,38 @@ Section: Multimedia
 Priority: optional
 Description: FFmpeg library with functions for simplifying programming
 
+Package: libc-ares-dev
+Version: 1.15.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libc-ares-dev_1.15.0-1_iphoneos-arm.deb
+Size: 8990
+MD5sum: dde5f272293b1f3f1ecf7c183794a20a
+SHA1: a1743ff91a011f309219b636791ae1c41348f5d3
+SHA256: 897fdad9e9f62bce9ce08e59c15caa168714e18e8df27d0109e4188e2ec8b581
+Section: Development
+Priority: optional
+Homepage: https://c-ares.haxx.se/
+Description: Asynchronous DNS library (Development)
+
+Package: libc-ares2
+Version: 1.15.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 232
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libc-ares2_1.15.0-1_iphoneos-arm.deb
+Size: 26338
+MD5sum: 76c6f1ca5795410d761903d2d58007cc
+SHA1: d8169695761c36081b11c83c36a989c09e128cb2
+SHA256: 96a19bf2edd83cb37fada851a243fed83b51d1e074969f3a869b532202e19a2a
+Section: Development
+Priority: optional
+Homepage: https://c-ares.haxx.se/
+Description: Asynchronous DNS library
+
 Package: libcares-dev
 Version: 1.15.0-1
 Architecture: iphoneos-arm
@@ -3532,6 +3563,42 @@ Section: Development
 Priority: standard
 Homepage: https://nghttp2.org/
 Description: an implementation of HTTP/2 and its header compression algorithm HPACK in C.
+
+Package: libnghttp2-14
+Version: 1.38.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: nghttp2, libnghttp2
+Replaces: nghttp2, libnghttp2
+Provides: nghttp2, libnghttp2
+Filename: debs/libnghttp2-14_1.38.0-1_iphoneos-arm.deb
+Size: 53574
+MD5sum: 5cc7cbfd6402934f61454fa47f7f1fe9
+SHA1: 4dc4afabbf7823b38ca34c6ecc782ea165bd046c
+SHA256: d030b9359202c76bd74b218dd7219c5fbf524c41fffa5e1dafce6c03b56c8a29
+Section: Development
+Priority: standard
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (shared library)
+
+Package: libnghttp2-dev
+Version: 1.38.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libnghttp2-14
+Filename: debs/libnghttp2-dev_1.38.0-1_iphoneos-arm.deb
+Size: 31654
+MD5sum: cf9d9cb4c52e5205bb9bf805bfa4ee9a
+SHA1: ad1239f42289fea3d22108d8dc17f34aba454a38
+SHA256: ae3683c10c32ff4e5067607a2ec9d47f2472c0efdbc9a24a68a3419e1fcf5915
+Section: Development
+Priority: standard
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (development files)
 
 Package: libogg-dev
 Version: 1.3.3-1
@@ -4141,6 +4208,21 @@ Section: Development
 Priority: optional
 Description: a text file format for describing the contents of a shared library file on Apple's MacOS computer operating system
 
+Package: libtapi
+Version: 2.0.0-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1544
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libtapi_2.0.0-2_iphoneos-arm.deb
+Size: 156414
+MD5sum: 53d741a95f632b0e40da644b640b9f37
+SHA1: b6158247a339e5966c0ce8d8728e334b5bfa2874
+SHA256: 6a47447ad6ca8e7347af7ae5bce9a85c793f3be07f8db0fb5cc5693edfcc9353
+Section: Development
+Priority: optional
+Description: a text file format for describing the contents of a shared library file on Apple's MacOS computer operating system
+
 Package: libtasn1
 Version: 4.13-1
 Architecture: iphoneos-arm
@@ -4725,6 +4807,22 @@ SHA256: 6e4b5eb0d5ace467d8b4d53b0954742beec5cdd938484e1d42f7fe1a00da9b56
 Section: Scripting
 Priority: important
 Multi-Arch: foreign
+Description: arcane macro processing engine
+Name: m4 Processor
+
+Package: m4
+Version: 1.4.18-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 560
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/m4_1.4.18-2_iphoneos-arm.deb
+Size: 101852
+MD5sum: a2dc847cf3d770e9373a71f7c79a6a55
+SHA1: ddae7028ed58f4dd91698faaf0867e2ed0e52e3a
+SHA256: 933000f45ca499fd746e642c996f53fa831f18b1ec8d60fee817e4104e82dfe6
+Section: Scripting
+Priority: important
 Description: arcane macro processing engine
 Name: m4 Processor
 

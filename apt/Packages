@@ -4042,6 +4042,23 @@ Priority: standard
 Description: OpenSSL Libraries for version 1.0 (development)
 Name: OpenSSL 1.0 Libraries
 
+Package: libssl-dev
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 3744
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0 (>= 1.0.2s)
+Filename: debs/libssl-dev_1.0.2s-1_iphoneos-arm.deb
+Size: 220436
+MD5sum: 4ff798e9c0aa13653f62ad626e9769d7
+SHA1: 79d6358fbf7ccb48eee097b2853598e80221b4c9
+SHA256: 33ba50c7dc7d59fae6bb5bb818cccef9feeb1f763c3a591bcd3696c9603545e3
+Section: Security
+Priority: standard
+Description: OpenSSL Libraries for version 1.0 (development)
+Name: OpenSSL 1.0 Libraries
+
 Package: libssl0.9.8
 Version: 0.9.8zh-1
 Architecture: iphoneos-arm
@@ -4090,6 +4107,24 @@ Size: 724458
 MD5sum: 922126a1fe157bbc48ad8e603d558e44
 SHA1: c05d67eab802433c11c0994da622365f006bf346
 SHA256: 521c23255fc14800494f045382fe75b783b1447237954c2baa7c8dff57c6b0b0
+Section: Security
+Priority: standard
+Description: OpenSSL Libraries for version 1.0
+Name: OpenSSL 1.0 Libraries
+
+Package: libssl1.0
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 6440
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Conflicts: openssl (<<1.0.2q)
+Filename: debs/libssl1.0_1.0.2s-1_iphoneos-arm.deb
+Size: 815306
+MD5sum: 77db2446c032e43eee9924a6bbcb39ae
+SHA1: 6b5afd03d23983153e9b4d875e0b047006cbaba2
+SHA256: 11f061046fc87942d6b6f954d60db03548202766497410ec8397ff2a8c94c8ad
 Section: Security
 Priority: standard
 Description: OpenSSL Libraries for version 1.0
@@ -5511,6 +5546,23 @@ Priority: standard
 Description: OpenSSL tools
 Name: OpenSSL
 
+Package: openssl
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1264
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0 (>= 1.0.2s), firmware (>=11.0) | libssl0.9.8
+Filename: debs/openssl_1.0.2s-1_iphoneos-arm.deb
+Size: 188198
+MD5sum: 5a74d9f011c59e1bdbcd60bab18c3ce2
+SHA1: 92a539cbff52ee644f957af26f29e26e8924225f
+SHA256: 0a99da2522641b710e5204f3f73bca02bd4392c654fcc3eac5e967bfed55e6a5
+Section: Security
+Priority: standard
+Description: OpenSSL tools
+Name: OpenSSL
+
 Package: org.thebigboss.repo.icons
 Version: 1.0
 Architecture: all
@@ -6881,6 +6933,36 @@ Homepage: http://www.rarlab.com/rar_add.htm
 Description: de-compresses files in rar format
 
 Package: unzip
+Version: 6.0+deb8u3-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/unzip_6.0+deb8u3-1_iphoneos-arm.deb
+Size: 90080
+MD5sum: fca80390d55d277b0ae61a41e49cebba
+SHA1: 6264d60ed6a6d4d9c1cabe793985f2d1a2133f7d
+SHA256: 85a5123d049c5b1e1205105bc569dbd5ce679f3e8f058b30a0ce56635fb1c8ca
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+
+Package: unzip
+Version: 6.0+deb9u1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/unzip_6.0+deb9u1-1_iphoneos-arm.deb
+Size: 90196
+MD5sum: 75f0c28bdfd5dd04c1f5d48ba9f8860f
+SHA1: 6fc3212fd33d1ce912f4e7fb810c6be38594149c
+SHA256: 3ad2e6282193a521dba00c8f79c80661cf4f96064f1ba75e56ba80e7ee512766
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+
+Package: unzip
 Version: 6.0-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
@@ -7061,6 +7143,23 @@ Section: Security
 Priority: optional
 Description: decryption utility for iPhone images
 Name: VFDecrypt
+
+Package: vim
+Version: 8.1.1471-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 59616
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/vim_8.1.1471-1_iphoneos-arm.deb
+Size: 5848350
+MD5sum: 04661c7c8f8efc86e4d31f2479b4e7b2
+SHA1: d11eb29a9c7dd412202d084e4010d78211b0e289
+SHA256: 70c2d051f054c8e2498097b717eceb00f0b2beeef4e4d294049fc485450caac9
+Section: Text_Editors
+Priority: standard
+Description: the best syntax highlighter, ever
+Name: Vi IMproved
 
 Package: vim
 Version: 8.1.213-1

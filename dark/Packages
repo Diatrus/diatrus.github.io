@@ -122,23 +122,24 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
 
-Package: lzma
-Version: 5.2.4-1
+Package: dpkg
+Version: 1.19.2-4dark
 Architecture: iphoneos-arm
-Maintainer: Diatrus
-Depends: grep, sed
-Replaces: xz, xz-utils
-Provides: xz, xz-utils
-Filename: debs/lzma_5.2.4-1_iphoneos-arm.deb
-Size: 139912
-MD5sum: 65b497e636d6836911ca871cd6b03f30
-SHA1: e86c3a6f5b514e9d133fdab82d8ae2cbf858b548
-SHA256: acdd3583462705886ad0532daf7dcfd266238e3894cbd8cba1ca03b6d6f36693
-Section: Archiving
-Priority: important
-Homepage: https://tukaani.org/xz/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 5952
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, file, findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
+Filename: debs/dpkg_1.19.2-4dark_iphoneos-arm.deb
+Size: 473284
+MD5sum: 9024a6841c101f3a2b1178197d7bd746
+SHA1: f52a240fa6772a5df68e998d0409bb26b67f69e9
+SHA256: 818e67303ef6af12cacbf9960bed4e6c63adf801f39504f6ce64340e625ef70d
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
 
 Package: uikittools
 Version: 2.0.1

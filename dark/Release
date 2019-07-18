@@ -1,18 +1,18 @@
-Origin: Diatrus/Misceo
-Label: Diatrus/Misceo
+Origin: Diatrus/Altum
+Label: Diatrus/Altum
 Suite: stable
 Version: 1.0
-Codename: fcahapt 
-Date: Thu, 18 July 2019 09:56:20 UTC
+Codename: fcahaltum 
+Date: Thu, 18 July 2019 10:20:32 UTC
 Architectures: iphoneos-arm
 Components: main
 Description: Mixing of Elucubratus and Electra base binaries
 MD5Sum:
- 2ea7734089c3c0804c2278abe5963532 7379 Packages
- 88e93fc5b842140035a3c79afe3de8b9 2758 Packages.bz2
- b68a2490a12ef2a2512dab011a68136a 2604 Packages.xz
+ 0f13b96456a26b125956c8610037c8c1 7540 Packages
+ 9f793e4e001b26b92107e95c0dd5b825 2796 Packages.bz2
+ c49841b3ac2dd92feea7a4dea5e1225d 2644 Packages.xz
 SHA256:
- 350d22750110b5a44479c49034cc648d11ce27f4ffbdf6b779f85510b1573090 7379 Packages
- f8bf03c9885066f7168bf1dafa49c9dacdd876b11e4def120edb90be74be1dfe 2758 Packages.bz2
- 1411f5cbe94c23fe54db00d4b112023bc5f37ff67f61e911486755ba1e0d05c0 2604 Packages.xz
+ 69e18892c095c0b79c23bc10f14a6cdbf7b8699dd189cfb153568bc2b4601e7c 7540 Packages
+ 4abf4d1e4a1fc5a8611fe4d619537476aa62dc6dfa220b78bc3f6ab445f37fc2 2796 Packages.bz2
+ 27dc693fe5a6f2b19b485354feffe74d90e29d41bc78dcbe0d5f0e9fc1cade1b 2644 Packages.xz
 

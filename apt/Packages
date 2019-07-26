@@ -216,6 +216,26 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 1.8 Strict (lib)
 
+Package: apt-lib
+Version: 1.8.0-sileo3
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui (<<99.0)
+Replaces: apt7-lib
+Provides: apt7-ssl, apt7-lib (= 1.8.0)
+Filename: debs/apt-lib_1.8.0-sileo3_iphoneos-arm.deb
+Size: 1574792
+MD5sum: 236c92ad7dcb469b1fd344a62f9ba5b1
+SHA1: 01815757298cfa7d4baa151e8fc326aff3763278
+SHA256: 5ae1ad1929c8363cd3d8f870787015ea619a28a222c179fa632d381262c1d3e7
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (lib)
+
 Package: aria2
 Version: 1.34.0-1
 Architecture: iphoneos-arm
@@ -4822,6 +4842,24 @@ Size: 139912
 MD5sum: 65b497e636d6836911ca871cd6b03f30
 SHA1: e86c3a6f5b514e9d133fdab82d8ae2cbf858b548
 SHA256: acdd3583462705886ad0532daf7dcfd266238e3894cbd8cba1ca03b6d6f36693
+Section: Archiving
+Priority: important
+Homepage: https://tukaani.org/xz/
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+
+Package: lzma
+Version: 5.2.4-2
+Architecture: iphoneos-arm
+Maintainer: Diatrus
+Depends: grep, sed
+Replaces: xz, xz-utils
+Provides: xz, xz-utils
+Filename: debs/lzma_5.2.4-2_iphoneos-arm.deb
+Size: 139734
+MD5sum: f3978a73e6b7c76a689747da3f8852ff
+SHA1: d56c0456ceb24fd2cff1f9ae9ebe443c24aed3d7
+SHA256: d98dd05ceef05fd0af99c5a5cf3a286b9b6dadfe931cde158cba197fe1c4feb1
 Section: Archiving
 Priority: important
 Homepage: https://tukaani.org/xz/

@@ -1,96 +1,4 @@
 Package: cydia-dark
-Version: 1.9.3~chimera
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 13600
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~chimera_iphoneos-arm.deb
-Size: 1592624
-MD5sum: 1a6c63a2a36ec8fe450c2358047f00a1
-SHA1: 0bd6ea4972ce7203b5757f899d255ba0a112cb4e
-SHA256: 396a5f483817f670b6592c16290dcfb91fcc39577709666fd8394eddf6de762b
-Section: Packaging
-Priority: optional
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Diatrus <me@diatr.us>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Chimera/Electra
-
-Package: cydia-dark
-Version: 1.9.3~chimera2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 8968
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: debs/cydia-dark_1.9.3~chimera2_iphoneos-arm.deb
-Size: 1290144
-MD5sum: 26420e43f16089a8c5bba0e1068cfe08
-SHA1: ee535eb683b5b300bd45d8ff33ac3310b3ff3d71
-SHA256: 99ab133b8b7908870ed89007c21cf47894cd77842c56d3493c24ae78c5710414
-Section: Packaging
-Priority: optional
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Diatrus <me@diatr.us>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Chimera/Electra
-
-Package: cydia-dark
-Version: 1.9.3~chimera3
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 8920
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: debs/cydia-dark_1.9.3~chimera3_iphoneos-arm.deb
-Size: 1290120
-MD5sum: e54609783a8dfc68de0b770895a35fbf
-SHA1: afe5ee0c8312889db13c66e2a411b1ce2f1059ba
-SHA256: 97b88b92bf322b3eb510f2e67450c299c5e7a10dbe663f334816bed478089957
-Section: Packaging
-Priority: optional
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Diatrus <me@diatr.us>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Chimera/Electra
-
-Package: cydia-dark
-Version: 1.9.3~chimera4
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 8920
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: debs/cydia-dark_1.9.3~chimera4_iphoneos-arm.deb
-Size: 1291272
-MD5sum: 82efd5cf85843ea7cfb870a442b4487a
-SHA1: a15ee40c94fa4d3c5fba796bd5e8cf03d344f794
-SHA256: 2d93106efb465083f93b0bdb7eea2ea07dbbc3ffa1a27dcf5a901740a609c5c9
-Section: Packaging
-Priority: optional
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Diatrus <me@diatr.us>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Chimera/Electra
-
-Package: cydia-dark
 Version: 1.9.3~chimera5
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -114,28 +22,6 @@ Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia for Chimera/Electra
 
 Package: cydia-lproj
-Version: 1.9.3~chimera
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 712
-Depends: cydia
-Conflicts: org.thebigboss.russiancydia
-Replaces: cydia, org.thebigboss.russiancydia
-Provides: org.thebigboss.russiancydia
-Filename: debs/cydia-lproj_1.9.3~chimera_iphoneos-arm.deb
-Size: 66928
-MD5sum: 423198b6e4ace8c6dbe7735eb337ded3
-SHA1: 1937bd69e0839ad43c74a965bc76fa27993be917
-SHA256: 0ba35ddb14c1876e3afa1f968cf670fffe4504f249fbe8fcf988b5e4551be9f7
-Section: Packaging
-Priority: required
-Description: languages and translations for Cydia
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia-lproj/
-Name: Cydia Translations
-
-Package: cydia-lproj
 Version: 1.9.3~chimera5
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -156,42 +42,4 @@ Tag: purpose::uikit, cydia::essential, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
-
-Package: org.thebigboss.repo.icons
-Version: 1.0
-Architecture: all
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 48
-Replaces: cydia, bigboss
-Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
-Size: 11530
-MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
-SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
-SHA256: 826001ef4cf513d9f49f3a8ac142addb9ca586bbad6c1410c7921f509901ee4e
-Section: Repositories
-Priority: optional
-Multi-Arch: foreign
-Description: locally cached package icons from BigBoss
-Name: BigBoss Icon Set
-
-Package: us.diatr.sileoplaceholder
-Version: 2:3
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: Diatrus
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cydia-dark, cy+cpu.arm64
-Conflicts: cydia-gui, org.coolstar.Sileo
-Replaces: org.coolstar.Sileo
-Provides: org.coolstar.Sileo
-Filename: debs/us.diatr.sileoplaceholder_2_1_iphoneos-arm.deb
-Size: 932
-MD5sum: 2fb16c832792ea12bd5e0555326f19c8
-SHA1: 1cb4f0947a7eaccb171b14de62a78eb1eb137af1
-SHA256: 7f8afcf2bb733debea027dde81bc7d6b8f31459628ff90d447c23dd300bde8c6
-Section: Packaging
-Priority: required
-Description: Install this to remove Sileo. Remove this and reinstall Sileo to get it back.
-Tag: purpose::console, role::hacker
-Name: Remove Sileo
 

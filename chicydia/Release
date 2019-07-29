@@ -7,11 +7,11 @@ Architectures: iphoneos-arm
 Components: main
 Description: Cydia for Chimera/Electra by Diatrus 
 MD5Sum:
- 38c069789448456754fde41590ef074c 3303 Packages
- f352eb93f53f97db48d042afc29e791c 1561 Packages.bz2
- 182f05ad8c6249f05574c86f2d588ae3 1492 Packages.xz
+ 11bc2c36464b2a63efb8069d66f07ee8 3303 Packages
+ 5fdc5b2d5bd73738306454abb8f47998 1557 Packages.bz2
+ 41a4a982ef20b19a65955a5b5fb8e771 1492 Packages.xz
 SHA256:
- e94aa907adf474eed41c6f210a8c6df85f96e18f711c24f4d0b74add066b4d12 3303 Packages
- 95ef058f30cd6224187badf865857f9fcc152ebd86a463ad2c09fe5df7a36d66 1561 Packages.bz2
- 97bf0cbb8b4e624f51f483ae3997b0ef11cd6e0d76fff11fee7788df522208ce 1492 Packages.xz
+ 02a41eadfb6c172d3ba8fdfcf81ffebec9e0d07376c9b8d965fe7da01e000b81 3303 Packages
+ 0c04238777c5cf646262bec420f656a50c22f2e576d8b01345809242338a42b3 1557 Packages.bz2
+ 0c4babc737de5d4efe1140f8db1f13e02f97a203e63bfa8e8cef104bd5038cd7 1492 Packages.xz
 

@@ -3,16 +3,16 @@ Label: Diatrus/Misceo
 Suite: stable
 Version: 1.0
 Codename: fcahapt 
-Date: Thu, 25 July 2019 20:38:42 UTC
+Date: Sun, 28 July 2019 22:10:16 UTC
 Architectures: iphoneos-arm
 Components: main
 Description: Mixing of Elucubratus and Electra base binaries
 MD5Sum:
- 68144f7f829f13249b29302abd8ea15a 249409 Packages
- aa691c298ec91d0d869e7c535c0d8544 54830 Packages.bz2
- 4f48fa61bfd34dec189ec6175004415c 56328 Packages.xz
+ ef67f0261d45855fb20590952c981218 250328 Packages
+ 47c98691cc48591666e647a1315cc9c7 55047 Packages.bz2
+ 38c77a448bf18df479adeb72bf3ac93c 56584 Packages.xz
 SHA256:
- 009997173f35e7edcde95633c221b9b4e8ab4820fe25ba0288165aea9085191f 249409 Packages
- 2f32c9d625c2587b19de99f720bfcdbc90fc7efef083873c274e68c680bddfd6 54830 Packages.bz2
- a0889b72d3ab3c8b50a897cfa15e98cc07532bfd222214ff54e078d9c5490880 56328 Packages.xz
+ 8b06bef42f3f15c4b6bf14563b0bff79291e3739db2a3193f04be7c033e7a7e6 250328 Packages
+ afb74ee4c1f73d53ca87cc2a69e7bfc21ffe2325f543383d3e2ba1129f5b0b66 55047 Packages.bz2
+ 0e9c111b0f1c5a2a6467b0c254dc6c64d44267b98a3783bcdbab24f46f477c2a 56584 Packages.xz
 

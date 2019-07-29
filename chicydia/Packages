@@ -9,9 +9,9 @@ Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellow
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
 Filename: debs/cydia-dark_1.9.3~chimera5_iphoneos-arm.deb
 Size: 1291396
-MD5sum: 1d9d84cebe73bf7308e400e290d412d7
-SHA1: a48a29a887041a2d43269a800b483276dd718d47
-SHA256: 3bec8b9f2069eb7a6bc0a10333b01c4b3c3028eb1675b098fc80e8c941793236
+MD5sum: d257f53a72e51ca9500186b7402f323e
+SHA1: b1a3aab0d1fb500fcecad11361e35ad09956c19e
+SHA256: e4833bd91f31edce5aca81637e6ec5d445023730558fede4bc1a3e60ba93a9fa
 Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT

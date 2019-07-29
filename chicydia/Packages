@@ -43,3 +43,41 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
 
+Package: org.thebigboss.repo.icons
+Version: 1.0
+Architecture: all
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: debs/org.thebigboss.repo.icons_1.0_all.deb
+Size: 11530
+MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
+SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
+SHA256: 826001ef4cf513d9f49f3a8ac142addb9ca586bbad6c1410c7921f509901ee4e
+Section: Repositories
+Priority: optional
+Multi-Arch: foreign
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+
+Package: us.diatr.sileoplaceholder
+Version: 2:3
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Diatrus
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cydia-dark, cy+cpu.arm64
+Conflicts: cydia-gui, org.coolstar.Sileo
+Replaces: org.coolstar.Sileo
+Provides: org.coolstar.Sileo
+Filename: debs/us.diatr.sileoplaceholder_2_1_iphoneos-arm.deb
+Size: 932
+MD5sum: 2fb16c832792ea12bd5e0555326f19c8
+SHA1: 1cb4f0947a7eaccb171b14de62a78eb1eb137af1
+SHA256: 7f8afcf2bb733debea027dde81bc7d6b8f31459628ff90d447c23dd300bde8c6
+Section: Packaging
+Priority: required
+Description: Install this to remove Sileo. Remove this and reinstall Sileo to get it back.
+Tag: purpose::console, role::hacker
+Name: Remove Sileo
+

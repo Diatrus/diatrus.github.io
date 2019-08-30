@@ -15,24 +15,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
 Package: us.diatr.appsyncunified
-Version: 32.0-4
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Installed-Size: 80
-Pre-Depends: cy+model.appletv
-Depends: firmware (>= 10.0), mobilesubstrate
-Provides: appsync
-Filename: debs/us.diatr.appsyncunified_32.0-4_appletvos-arm64.deb
-Size: 13242
-MD5sum: f17acf07e754f44cc4bbfc8d8e2ab915
-SHA1: abff7a8e09cd101f62c0989ce4ebbc40a38771f7
-SHA256: 3b83bb2aedf24ed32678a7ffe184f9c03cf134de7a0e0e35bd5a48e18f69d7d9
-Section: Tweaks
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Diatrus
-Name: AppSync Unified
-
-Package: us.diatr.appsyncunified
 Version: 32.0-5
 Architecture: appletvos-arm64
 Maintainer: Diatrus
@@ -66,33 +48,16 @@ Author: Diatrus
 Name: jtool Installer
 
 Package: us.diatr.wiivamptv
-Version: 1.0b2
+Version: 1.0b3
 Architecture: appletvos-arm64
 Maintainer: Diatrus
-Installed-Size: 5020
+Installed-Size: 10864
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/us.diatr.wiivamptv_1.0b2_appletvos-arm64.deb
-Size: 4979400
-MD5sum: 9da818c8ca83cf3ca90b7d454b5acb78
-SHA1: 441a354491242f181423354dd8c549d052200e00
-SHA256: c8987c8e483fa8e5c3b300b08ebeee6eaafa0509019705d444af76b5a71efed5
-Section: Tweaks
-Description: Play your favorite Wii songs inside your apps! A rewrite for the AppleTV of Wiivamp by Jack.
-Author: Diatrus
-Depiction: https://diatr.us/nito/depictions/wiivamptv/wiivamptv.json
-Name: WiivampTV
-
-Package: us.diatr.wiivamptv
-Version: 1.0b2-1
-Architecture: appletvos-arm64
-Maintainer: Diatrus
-Installed-Size: 5020
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/us.diatr.wiivamptv_1.0b2-1_appletvos-arm64.deb
-Size: 4979456
-MD5sum: f6eb2d3058b135cad8e8160ec04291cf
-SHA1: 4d59f96af40f5a54b5956d6c72641d8f38ca10dd
-SHA256: fddb1220227fcab749b7b6d7bc1c6f1a7ae44dacee12a7c90fc8b1a6a11250c1
+Filename: debs/us.diatr.wiivamptv_1.0b3_appletvos-arm64.deb
+Size: 10879674
+MD5sum: 1d99eedc14c3cf99983754507b71fd34
+SHA1: ef3aab7ba4c2396510d4eb702be5f133d1ecb6ed
+SHA256: 5e96b4d8bf1b054b6b19a0d3417543a3710e23fed244fcbdb9dd21b1337e1249
 Section: Tweaks
 Description: Play your favorite Wii songs inside your apps! A rewrite for the AppleTV of Wiivamp by Jack.
 Author: Diatrus

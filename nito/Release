@@ -7,6 +7,6 @@ Architectures: iphoneos-arm
 Components: main
 Description: Essential packages/tweaks for all modern NitoTV jailbreaks.
 MD5Sum:
- a46a5431c8ed14dd271e7a5ba3cc65d2 3394 Packages
- 6e6f31d55b4f1f2ae703b901ac6d8c60 1492 Packages.bz2
+ 65006299e6522db04116e8f591a0563e 2189 Packages
+ 18d41bd91cd0f315895ae730d546755a 1181 Packages.bz2
 

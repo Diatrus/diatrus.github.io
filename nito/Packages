@@ -1,3 +1,23 @@
+Package: com.linusyang.appinst
+Version: 1.1.2
+Architecture: appletvos-arm64
+Maintainer: Diatrus
+Installed-Size: 108
+Pre-Depends: firmware (>= 10.0)
+Depends: us.diatr.appsyncunified (>= 5.1)
+Filename: debs/com.linusyang.appinst_1.1.2_appletvos-arm64.deb
+Size: 25436
+MD5sum: 0f6f4d9dfdf71e58359692c1f2b6ebdc
+SHA1: 9e6ad361ec5e83edcd01e22d750fcb4a00f13874
+SHA256: 4428c5a34b911fa3122817bd4bab88ffcef96af491f73542376121874c7c2d67
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/Diatrus/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Author: Linus Yang <laokongzi+appsync@gmail.com>
+Name: appinst (App Installer)
+
 Package: ldid
 Version: 2.0.1
 Architecture: appletvos-arm64

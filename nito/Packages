@@ -1,86 +1,91 @@
 Package: com.linusyang.appinst
-Version: 1.1.2
 Architecture: appletvos-arm64
+Version: 1.1.2
+Priority: standard
+Section: Utilities
 Maintainer: Diatrus
 Installed-Size: 108
 Pre-Depends: firmware (>= 10.0)
 Depends: us.diatr.appsyncunified (>= 5.1)
-Filename: debs/com.linusyang.appinst_1.1.2_appletvos-arm64.deb
+Filename: ./debs/com.linusyang.appinst_1.1.2_appletvos-arm64.deb
 Size: 25436
 MD5sum: 0f6f4d9dfdf71e58359692c1f2b6ebdc
 SHA1: 9e6ad361ec5e83edcd01e22d750fcb4a00f13874
 SHA256: 4428c5a34b911fa3122817bd4bab88ffcef96af491f73542376121874c7c2d67
-Section: Utilities
-Priority: standard
+SHA512: ea1b94c0233e2ed0a8c986b38fbbb9c27349feab1156fc4baa53c6def03d8abdf7c69ade37b730b82201a1875b3ef2bac7c3228247822b3317128f83ec0c1150
 Homepage: https://github.com/Diatrus/AppSync
 Description: Install IPAs from the command line
 Tag: role::enduser, purpose::console
-Author: Linus Yang <laokongzi+appsync@gmail.com>
 Name: appinst (App Installer)
+Author: Linus Yang <laokongzi+appsync@gmail.com>
 
 Package: ldid
-Version: 2.0.1
 Architecture: appletvos-arm64
+Version: 2.0.1
+Priority: optional
+Section: Development
 Maintainer: Diatrus
-Filename: debs/ldid_2.0.1_appletvos-arm64.deb
+Filename: ./debs/ldid_2.0.1_appletvos-arm64.deb
 Size: 569552
 MD5sum: ae1f48bb8ecc411261381dc82a261619
 SHA1: 46b21741da7ee78638e2092c101e56c7e929090f
 SHA256: 6ba37ee822ffe21da2212bf1c25ca8d83abbebb1ff3c117b8629078858c9ee8d
-Section: Development
-Priority: optional
+SHA512: be4e39a1d46c15aa31d26b3dee66382a85cd87b80ab268abe1e5993af3d736e2669f4511b7e081693448cd9c7b1002f43ac5c1ab1f39e59d15caa01560963336
 Description: pseudo-codesign Mach-O files
 Tag: purpose::console, role::developer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
 
 Package: us.diatr.appsyncunified
-Version: 32.0-5
 Architecture: appletvos-arm64
+Version: 32.0-6
+Section: Tweaks
 Maintainer: Diatrus
-Installed-Size: 96
+Installed-Size: 80
+Provides: appsync
 Pre-Depends: cy+model.appletv
 Depends: firmware (>= 10.0), mobilesubstrate
-Provides: appsync
-Filename: debs/us.diatr.appsyncunified_32.0-5_appletvos-arm64.deb
-Size: 14428
-MD5sum: 91baf2d7ccf0a0f1f997ecad05a3db8f
-SHA1: 1af7c7c4ff3412d052cbfeecb8a13a6e22713fe0
-SHA256: aed8af9f461abcbcc3b70484b693915d3175d69fad4e6e18f2ab75e1749c3e34
-Section: Tweaks
+Filename: ./debs/us.diatr.appsyncunified_32.0-6_appletvos-arm64.deb
+Size: 13156
+MD5sum: 5ef4e50a261e44b5cc25b86432a25109
+SHA1: e6811e2bdbb4830f921d4a93ae791b978b921148
+SHA256: 74b24750f801f413769326dae0b6442a85b8b6d0c5f02a4c7c1d3cdd928147fa
+SHA512: 46c25748b843afc735f5fcf34d94f9daabeab1e7323dd7c5a2775280828392499fadf79cdcc7ab7c97ba254ab11ed778e549d07f6b8facfc0032b1404072681c
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Diatrus
 Name: AppSync Unified
+Author: Diatrus
 
 Package: us.diatr.jtool
-Version: 1.0-1
 Architecture: appletvos-arm64
+Version: 1.0-1
+Section: System
 Maintainer: Diatrus
 Pre-Depends: curl, ldid
-Filename: debs/us.diatr.jtool_1.0-1_appletvos-arm64.deb
+Filename: ./debs/us.diatr.jtool_1.0-1_appletvos-arm64.deb
 Size: 1092
 MD5sum: 4e2aeb607794fe14765b40a8fd8fe1ac
 SHA1: 04247885f537fcf71a257728d9312cfdea023ede
 SHA256: def0fc5f9cb68782533d63ac8e9d7b978134786de8dc337c512ddd3692e8f4f1
-Section: System
+SHA512: 9d0129e555c4672dcf5ea9fc4499a547fb2d0165aa6847963fb0ef25d1e03f87a7722fe056f2bda0fc97bdd6f9225cac3d19be09b44d15ef7b4c574e26035ed6
 Description: Installer for Jonathan Levin's jtool on tvOS. Does not redistribute binaries.
-Author: Diatrus
 Name: jtool Installer
+Author: Diatrus
 
 Package: us.diatr.wiivamptv
-Version: 1.0b3
 Architecture: appletvos-arm64
+Version: 1.0b3
+Section: Tweaks
 Maintainer: Diatrus
 Installed-Size: 10864
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/us.diatr.wiivamptv_1.0b3_appletvos-arm64.deb
+Filename: ./debs/us.diatr.wiivamptv_1.0b3_appletvos-arm64.deb
 Size: 10879674
 MD5sum: 1d99eedc14c3cf99983754507b71fd34
 SHA1: ef3aab7ba4c2396510d4eb702be5f133d1ecb6ed
 SHA256: 5e96b4d8bf1b054b6b19a0d3417543a3710e23fed244fcbdb9dd21b1337e1249
-Section: Tweaks
+SHA512: d7ec6aeeeff723beb67c27921a21496572a5fc46d978ed186d499a228ce303650cdb9f20bfbab4db96cb0803cf14125adb41b31f7c22ebad77b1bc5d7792d133
 Description: Play your favorite Wii songs inside your apps! A rewrite for the AppleTV of Wiivamp by Jack.
-Author: Diatrus
-Depiction: https://diatr.us/nito/depictions/wiivamptv/wiivamptv.json
 Name: WiivampTV
+Depiction: https://diatr.us/nito/depictions/wiivamptv/wiivamptv.json
+Author: Diatrus
 

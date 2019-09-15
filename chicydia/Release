@@ -1,5 +1,5 @@
-Origin: Cydia for Chimera/Electra
-Label: Cydia for Chimera/Electra
+Origin: Cydia for Chimera/Electra [[NO LONGER WORKING]]
+Label: Cydia for Chimera/Electra [[NO LONGER WORKING]]
 Suite: stable
 Version: 1.0
 Codename: fcahchimera
@@ -7,11 +7,11 @@ Architectures: iphoneos-arm
 Components: main
 Description: Cydia for Chimera/Electra by Diatrus 
 MD5Sum:
- bd2426a660a6215f72a7b6125b35a85a 3303 Packages
- 96acbe933360fe723d5c57491349f15c 1552 Packages.bz2
- e27ab3f5ed86517442e1bd2eb9d6f137 1492 Packages.xz
+ d41d8cd98f00b204e9800998ecf8427e 0 Packages
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 Packages.bz2
+ 8dc5aea5b03dff8595f096f9e368e888 32 Packages.xz
 SHA256:
- 179f8dd507888042426f5036b39854bc15c863bc01578ea7f94d12a7aeb5caa9 3303 Packages
- c100563f416ab084f8243be46a32898c719ac4d74e998baa1e0f7a08ae57dced 1552 Packages.bz2
- 1336a569cfa93445736f30b95759233027dc418b75a5ad3ff4e48fd37ce886c6 1492 Packages.xz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 Packages
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Packages.bz2
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 Packages.xz
 

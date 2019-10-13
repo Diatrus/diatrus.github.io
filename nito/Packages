@@ -1,3 +1,20 @@
+Package: com.level3tjg.bfdecrypt
+Architecture: appletvos-arm64
+Version: 1.3.2
+Section: System
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Depends: firmware(>=11.0), preferenceloader, com.nito.breezy (>=1.4-1)
+Filename: ./debs/com.level3tjg.bfdecrypt_1.3.2_appletvos-arm64.deb
+Size: 69828
+MD5sum: 6520daea7ae6a5ad866ffa7f8656bde6
+SHA1: 68f937fd817a87a237ca84ecbf2c6c1ddc6f9e17
+SHA256: 21c804401cdabe9cffa984306d7b2d97432afa6a060885a4b0c1050b83cfa114
+SHA512: d88827408068146a8a3bea00a257483b37193446ee13502c190bea2af34430d76c8e3504b45cde30706927a6918d61ca07abc12a829f569f59f63c308e3d7657
+Description: bfdecrypt for iOS 11 and newer
+Name: bfdecrypt
+Depiction: https://level3tjg.xyz/repo/depictions/?p=com.level3tjg.bfdecrypt
+Author: level3tjg <tjaygrantham@gmail.com>
+
 Package: com.linusyang.appinst
 Architecture: appletvos-arm64
 Version: 1.1.2
@@ -53,22 +70,6 @@ SHA256: 74b24750f801f413769326dae0b6442a85b8b6d0c5f02a4c7c1d3cdd928147fa
 SHA512: 46c25748b843afc735f5fcf34d94f9daabeab1e7323dd7c5a2775280828392499fadf79cdcc7ab7c97ba254ab11ed778e549d07f6b8facfc0032b1404072681c
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Name: AppSync Unified
-Author: Diatrus
-
-Package: us.diatr.jtool
-Architecture: appletvos-arm64
-Version: 1.0-1
-Section: System
-Maintainer: Diatrus
-Pre-Depends: curl, ldid
-Filename: ./debs/us.diatr.jtool_1.0-1_appletvos-arm64.deb
-Size: 1092
-MD5sum: 4e2aeb607794fe14765b40a8fd8fe1ac
-SHA1: 04247885f537fcf71a257728d9312cfdea023ede
-SHA256: def0fc5f9cb68782533d63ac8e9d7b978134786de8dc337c512ddd3692e8f4f1
-SHA512: 9d0129e555c4672dcf5ea9fc4499a547fb2d0165aa6847963fb0ef25d1e03f87a7722fe056f2bda0fc97bdd6f9225cac3d19be09b44d15ef7b4c574e26035ed6
-Description: Installer for Jonathan Levin's jtool on tvOS. Does not redistribute binaries.
-Name: jtool Installer
 Author: Diatrus
 
 Package: us.diatr.wiivamptv

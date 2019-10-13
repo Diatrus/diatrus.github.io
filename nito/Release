@@ -1,37 +1,37 @@
 Architectures: appletvos-arm
 Codename: fcahnito
 Components: main
-Date: Sun, 08 Sep 2019 02:59:43 +0000
+Date: Sun, 13 Oct 2019 15:33:36 +0000
 Description: Essential packages/tweaks for all modern NitoTV jailbreaks.
 Label: Diatrus tvOS Essentials
 Origin: Diatrus tvOS Essentials
 Suite: stable
 Version: 1.0
 MD5Sum:
- f76b3fbda74da7b58f9f6da27efc24f5             3558 Packages
- 8219b87f761a56ed6a6c9298e35239df             1827 Packages.bz2
- e5e1457bb0e60cdb08b77085df6f7d16             1780 Packages.gz
- 22f44a23dc38935b5a35344f159df2b9             1820 Packages.xz
- 020e70132657c6d601fc7b2e0f9214f7             1762 Packages.zst
- 7e12cd48a4a8da6e55cd99320fa42a45              266 Release
+ 7ce650152921c8c8dcb5beb4a18f42b6             3701 Packages
+ 016ddba38621141a69b748f252aa7d3c             1886 Packages.bz2
+ 91fd6808c98ecc61f909c44f8aaaa1ec             1809 Packages.gz
+ 9bb831622ee1eb951c1ef3ae88f941d8             1836 Packages.xz
+ d38bac4b2497b7f617f78d0a997b4a67             1786 Packages.zst
+ 3c34f2ac7cb19ec2e499b3d43b907406              266 Release
 SHA1:
- 7ae784e23bb34872c8af539992bafc24677c82a3             3558 Packages
- b97df11178ced9429f07c239db8156031994f876             1827 Packages.bz2
- c02ba8765711c8e645723b6f144d66bc24eda126             1780 Packages.gz
- bb3908102a40f0555e8acb0324db5883ec6aa6c1             1820 Packages.xz
- ed049215ef4604dc6be0b1b77a47786cf3030132             1762 Packages.zst
- 50c00f54dc231bb7659ee7c5263be82a90adcce6              266 Release
+ df09902d4cf67430c8f43757d32db0a7b411b0b3             3701 Packages
+ c02a9895484f6c1be35f1b6ae9281044ceda13ef             1886 Packages.bz2
+ dc6a1250cdd7dc9f9cdccd99240e885ecaf4276e             1809 Packages.gz
+ 0bee11569c54ffa521b7351d844ce6a835c3a8a5             1836 Packages.xz
+ 7164c06970afd3965ee92e547e83bfa3017ee39e             1786 Packages.zst
+ 8e3f6052918b1d2decc83012722890019a18a426              266 Release
 SHA256:
- d44fc67be6435292d5f3f53ddaaf8e030f213c444c3e6352e0306e0c24806c33             3558 Packages
- c0dbb78e7b5a3899f0b2abab63086f21aa0d8d36ffb10dc1e6cb999c8ff9dea9             1827 Packages.bz2
- c12bcfe30cacda933da9d6f661a3f10cd34f1a4c686fc07d889ab49714f7b73f             1780 Packages.gz
- 1365b5a015e79a7ac42bb5bbbef5b3e57b1ac44ee66daf8aac0a9b1a83488e84             1820 Packages.xz
- 61a0eb6ae24a5acf865381d7cbb918f81c91adf209259dd869d79b5d03a8a803             1762 Packages.zst
- 669c85d43d9f90716b14e8070ec9c3f83f0d12e02fd85fb0dd7e68246c6bcbb5              266 Release
+ efbd2818f923fd7bf422c2c53ff935a7cd9ec65581fba33e380d11860ba7149d             3701 Packages
+ ae10d6860cfc03f89eeeecf35f1716b0deeb41089ea809baadd5f96fb0a90586             1886 Packages.bz2
+ 4348b5aa79d2ea56033549adae85e576bb05728f02d49ca17d5aa19a577956bb             1809 Packages.gz
+ 10dfcdddfd27e7f8d08f9b0721f68fa02372429246b2fa5dadb0e9defb71fab9             1836 Packages.xz
+ c4800146fad10f67b3eca58d010a337850ac0483f16be3b05b5073b685204ec6             1786 Packages.zst
+ 98bd112c84bf14b0cbd26341760913b83b662d56e9ec129f3d726491933ce522              266 Release
 SHA512:
- a996f7744c09159e136f30a6353f3ff1581076ace1d90dda6acc88c56ab8513e2e59f5297986c1df855d2b54561577681f09772dc9a10862462036c68fa5e74f             3558 Packages
- a09f520c8891ceb5c75d777c03f499496d435617c390ea6f1c6034689dab7fe063440b3fb5a1141eabf971124a571cd065a28d4dd1e08e02c2760db342e2f533             1827 Packages.bz2
- b4e15743833da6e88e2acc8e66550ffbfc4cb4633423b1d5c787d58b7d8c6daf46498d4ce2c724cc228ad878b0e29de4845990adb65297da82e73e530e2504db             1780 Packages.gz
- ad034594fcf22e51fcc9c5588ee041daaa1d345faec5fd5ad5d73e098f42a4fd0f07b2cc89f3dc9a87ec32a9f07c82832c430b2591639d7e642562ad98e99bf5             1820 Packages.xz
- 4fd5fb2659fdc49dfd16f2974dc16624398b5449a25d6c76b3aed0bc8a72fdb3b9ce32ddcf4818ccb7d4f2dddd803ebab6141231260c30483fb2dd50a6eca7c6             1762 Packages.zst
- 1d24e43d30bf75c402182418d44239aa2243b851c14caba9221b84eb1a970562fccfe6d33f18939625126ba3854a58d40165e7480041e271b856353f51870171              266 Release
+ 00398da921db78c6da22f62609910717781fc16d695acabd17b89b98083f963119d48e56ce33082a3e1b1a8b2e27593e4a4ed10dab8e030204ef8ca40a25593d             3701 Packages
+ 7b10ed9e981ff831b52aa6e7b87b5e671a8b9efc4701f5525c6faab9a36afca960455bb03cf9d10cc0380cca508ab985bfe00df0ce599df29c905b4f2f5cab3d             1886 Packages.bz2
+ 6e6eaca063696cd7cf938f9e71621803925fe6184d319a96497ab6ced733b469d26ad89d3906c667eb56e9c173cce3f508ef1c67d3c692c082ec47db549d46c1             1809 Packages.gz
+ 62bf675cc79ca987993ba0c579ab2e4568cad2e6bdc462fd17bb36e1a50285b92852a52c25cf599dd452d7af50f473611b6242195e65a1473b2abafd05882209             1836 Packages.xz
+ 060356eb43fff1412a70d6804fa2cb15697bd4135477b68290073ca113c0796186b09f5c27e0534f6808a184568380c9b8088d3bf3b5286715d088239f69fdfc             1786 Packages.zst
+ c9eebfc66a10c13da8ce35cdb69fb77b846edc2fd9fe55b7841132d94cd8185bc5cd7ed27338fef85cfc611204902dbd97de26c64bba0e1bc245b550397abcca              266 Release

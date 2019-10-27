@@ -40,18 +40,18 @@ Name: APT (apt-key)
 Package: cydia
 Version: 1:2.1
 Architecture: iphoneos-arm
-Maintainer: Diatrus <me@diatr.us>
+Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 712
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz, cydia-dark | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_2.1_iphoneos-arm.deb
-Size: 94544
-MD5sum: e99cc5003c50ca6bb19264978ba30c8d
-SHA1: 12e0ad4bba877b2a8e90cb1e0ccb6d0357867dd9
-SHA256: d3fd3dffbdc07a4ec837fe97cf264a8cb4194223e06d43ab394e143ee613f22b
+Size: 94552
+MD5sum: e6f3ec15296b7c0fcff7debcfaaecd31
+SHA1: c262b4ba9aeaf40e0de2b23aea6c0cbac5fbcca0
+SHA256: cf81f8262aa1a498d2935a5c4f0e5170dc69e92e21e2a076e97c87de05387022
 Section: Packaging
 Priority: required
 Description: Required for Cydia/Sileo to work
@@ -149,13 +149,13 @@ Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware (>=12.2) | org.swift.libswift (>=5.0), zsh
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware (>=12.2) | org.swift.libswift (>=5.0), zsh, us.diatr.sileorespring
 Conflicts: cydia-gui (<<99.0)
 Filename: debs/org.coolstar.sileo_1.5.0_iphoneos-arm.deb
-Size: 2844212
-MD5sum: 53885ba8465791f73e737f08ce02cd84
-SHA1: a383ee09b2d5bbe4743d28655fee3c35030ecb65
-SHA256: e5376881ebdb038d571efabc099d5121533153a8dfcc374cd37aa5343ce216e3
+Size: 2844780
+MD5sum: 2953b8d2db1053bb831258068d78cade
+SHA1: 6196bfabea52980569a3a58ce212eade2f158258
+SHA256: 87b0212138c12aec733abd4c77a95eb406b76055933d8e144ff5acddbde48c22
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)

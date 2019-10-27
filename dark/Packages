@@ -164,3 +164,18 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
+Package: us.diatr.sileorespring
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Diatrus
+Depends: mobilesubstrate, org.coolstar.sileo
+Filename: debs/us.diatr.sileorespring_1.1_iphoneos-arm.deb
+Size: 1004
+MD5sum: 2114ebd44227f1db690a84eeac33ff01
+SHA1: c1bcdca156e354aef001e15941f77f7cdc9c7bf9
+SHA256: c804123d22fc4a9e60e10e0acfaf5052c1bccb82551f0dad192d64f3470e4b97
+Section: Tweaks
+Description: Adds respring capability to Sileo.
+Author: Diatrus
+Name: Respring Essential
+

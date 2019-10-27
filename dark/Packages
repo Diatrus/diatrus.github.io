@@ -1,74 +1,57 @@
 Package: apt
-Version: 1.8.0
+Version: 1.8.2-4
 Architecture: iphoneos-arm
-Maintainer: Diatrus <me@diatr.us>
-Pre-Depends: dpkg (>= 1.18)
-Depends: apt-key, apt-lib (>= 1.8.0), berkeleydb
-Replaces: apt7
-Provides: apt7 (= 1.8.0)
-Filename: debs/apt_1.8.0_iphoneos-arm.deb
-Size: 141496
-MD5sum: 1f9896aaada320f1f73d9cd537962594
-SHA1: 2e6d8b56f60de2cfefb4822d029c2ba81a6090ed
-SHA256: 3e1e439209cddb1de37ba855caa94a8089d0e442ff3acaa10f1ae5d910a1b556
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1036
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libapt (>= 1.8.2), apt-key, berkeleydb
+Conflicts: apt7 (<<1:0)
+Replaces: apt7 (<<1:0)
+Filename: debs/apt_1.8.2-4_iphoneos-arm.deb
+Size: 219990
+MD5sum: 72ea054a4f114de831b0f470ef9945fe
+SHA1: ac11be74bd665b9192d978d8a7a8fa9801f7d32e
+SHA256: faaf113656c9934b5e2681a75f08c7e6ba1ab1c3a6100df9e8fe925ba018675a
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
 Name: APT 1.8 Strict
 
 Package: apt-key
-Version: 1.8.0
+Version: 1.8.2-2
 Architecture: iphoneos-arm
-Maintainer: Diatrus <me@diatr.us>
-Pre-Depends: dpkg (>= 1.18)
-Depends: apt-lib (>= 1.8.0)
-Replaces: apt7-key
-Provides: apt7-key (= 1.8.0)
-Filename: debs/apt-key_1.8.0_iphoneos-arm.deb
-Size: 8844
-MD5sum: 5a8408ebd58f33cde405eefd0bb8e70b
-SHA1: 9d43be44ee6aa065f6096f210c4d297012900b40
-SHA256: 40baeddcc9dfb4a0fbb631972a16c1b771aa95a4f707781094b92f64fa8d5627
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 48
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: coreutils, libapt
+Conflicts: apt7-key (<<1:0)
+Breaks: apt7-key (<<1:0)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4), apt7-key
+Filename: debs/apt-key_1.8.2-2_iphoneos-arm.deb
+Size: 8888
+MD5sum: bd094cd0e864b992b0eda85533e6f325
+SHA1: 2701848ad5f2026881bb13f015c276b869bb4b57
+SHA256: 5675b5215636ff8d951e0d3b5259a15bb35df89d5b76e023bc1eb3b2c039b762
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
-Name: APT 1.8 (apt-key)
-
-Package: apt-lib
-Version: 1.8.0-sileo2
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: dpkg (>= 1.18)
-Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma
-Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui (<<99.0)
-Replaces: apt7-lib
-Provides: apt7-ssl, apt7-lib (= 1.8.0)
-Filename: debs/apt-lib_1.8.0_sileo2_iphoneos-arm.deb
-Size: 1568336
-MD5sum: 10ab06b827a8beb16bfc50682b81ae35
-SHA1: 0b193f6ccad4750610f008d4493f9cc9573a49fa
-SHA256: da3bb3181e1d2ce56a9f323c1a328fdb5b92d4383e5055aafd534b5d0030061f
-Section: Packaging
-Priority: required
-Description: the advanced packaging library from Debian
-Name: APT 1.8 Strict (lib)
+Name: APT (apt-key)
 
 Package: cydia
 Version: 1:2.1
 Architecture: iphoneos-arm
 Maintainer: Diatrus <me@diatr.us>
-Installed-Size: 704
+Installed-Size: 712
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz, cydia-dark | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_2.1_iphoneos-arm.deb
-Size: 92624
-MD5sum: 30018c327e190a95d0d42f8b2d0ef474
-SHA1: 0aa72127b3988304cd8f69994b25654659b20135
-SHA256: e63c18ddead0c30e2294e39f844afcf077840b08e6be1f4b7eb390171fc319a4
+Size: 94544
+MD5sum: e99cc5003c50ca6bb19264978ba30c8d
+SHA1: 12e0ad4bba877b2a8e90cb1e0ccb6d0357867dd9
+SHA256: d3fd3dffbdc07a4ec837fe97cf264a8cb4194223e06d43ab394e143ee613f22b
 Section: Packaging
 Priority: required
 Description: Required for Cydia/Sileo to work
@@ -81,16 +64,16 @@ Package: cydia-dark
 Version: 1.9.3~b6
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 8888
+Installed-Size: 7064
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Filename: debs/cydia-dark_1.9.3~b6_iphoneos-arm.deb
-Size: 1283836
-MD5sum: b61ad3a4a0a755abfbd7b847c18987e1
-SHA1: a7d0b69fff53efbf68e96a86a101ad1018b5b6e2
-SHA256: a4c34795805160820314827d77cfcf50a8ae43fa8772223dffbd31ec35800d83
+Size: 1213484
+MD5sum: 81e386b9ddbb0f5c83a5daf1a3272272
+SHA1: 577ddf3540f24434cf7a5bf735933f17708f164a
+SHA256: 2c8a69986c052a5d107a9bc34494003c267fa31dfae042e7df548b0645b9dea7
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
@@ -111,9 +94,9 @@ Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
 Filename: debs/cydia-lproj_1.9.3~b6_iphoneos-arm.deb
 Size: 66908
-MD5sum: 772bf4c9b440d5720ff20d9b44c4d25f
-SHA1: fcdfea022b84b237d633baed3b29bdf125e8159e
-SHA256: b461e7f5902100d99ea03821a6ea2004fe80779ba665c0f373b0a5ff7c7e09d8
+MD5sum: ae9eb94ead4962b611e6e19123f3997e
+SHA1: c2e4d87bf8faa31e6fea8319119e5ef2a1752539
+SHA256: 7469ebdcb98db68fbed7a2c8ff5e6f4ba86ec65ef6af76b6c23f74f493d35a9c
 Section: Packaging
 Priority: required
 Description: languages and translations for Cydia
@@ -122,73 +105,62 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
 
-Package: dpkg
-Version: 1.19.2-4dark
+Package: libapt
+Version: 1.8.2-5
 Architecture: iphoneos-arm
 Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 5952
-Pre-Depends: tar (>= 1.23)
-Depends: bash, bzip2, coreutils-bin, diffutils, file, findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
-Filename: debs/dpkg_1.19.2-4dark_iphoneos-arm.deb
-Size: 473284
-MD5sum: 9024a6841c101f3a2b1178197d7bd746
-SHA1: f52a240fa6772a5df68e998d0409bb26b67f69e9
-SHA256: 818e67303ef6af12cacbf9960bed4e6c63adf801f39504f6ce64340e625ef70d
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2012
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg5.0 (>= 1.8.2), gnutls
+Conflicts: apt7-lib (<<1:0), apt7 (<<1:0), apt7-key (<<1:0), com.mc.xz
+Breaks: cydia (<< 1.1.10), aptitude (<< 0.4.11.11-6), apt7-lib (<< 1:0)
+Filename: debs/libapt_1.8.2-5_iphoneos-arm.deb
+Size: 284452
+MD5sum: 2eb71af1ff3fe66e986b9a5c0891a1e9
+SHA1: 6d4a73cb1fdf8c091029c5b160519543f6cc4e1f
+SHA256: bca572d008a1631787460801dc931570121203212883128486fd18534e474daa
 Section: Packaging
 Priority: required
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: package maintainance tools from Debian
-Name: Debian Packager
+Description: the advanced packaging library from Debian
+Name: APT Strict (lib)
 
-Package: uikittools
-Version: 2.0.1
+Package: libapt-pkg5.0
+Version: 1.8.2-5
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1788
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, lz4, lzma, xz
+Conflicts: apt7-lib (<<1:0), com.mc.xz (<<5.2.4-7)
+Provides: libapt-pkg (=1.8.2)
+Filename: debs/libapt-pkg5.0_1.8.2-5_iphoneos-arm.deb
+Size: 527344
+MD5sum: 669802aa2358742d5089c48adf0eb141
+SHA1: dc0c5b102bd86d3c3869c84943618532e3ef824b
+SHA256: d83a8468db4016d14ae438060fad5fd72edb5360608a3ef8e77e9370d6aefd08
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (libapt-pkg)
+
+Package: org.coolstar.sileo
+Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: coreutils-bin
-Conflicts: cydia-gui (<= 1.1.30-3), cydia (<< 2.1-1), org.coolstar.sileo (<= 0.8b9)
-Filename: debs/uikittools_2.0.1_iphoneos-arm.deb
-Size: 21380
-MD5sum: dd95ca18fcdc353a206a4f8d4132f456
-SHA1: 56ee47b74028b680923d14bca198de585c99a22d
-SHA256: 76968d74722b126ade7ad5061c6014b745bf4c0315419796bc681f455484650d
-Section: Utilities
-Priority: optional
-Description: Command line access for UIKit/LaunchServices/CoreServices
-Tag: purpose::console, role::hacker
-Author: CoolStar <coolstarorganization@gmail.com>
-Name: UIKit Tools
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=uikittools
-
-Package: us.diatr.sileorespring
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Diatrus
-Depends: mobilesubstrate, org.coolstar.sileo
-Filename: debs/us.diatr.sileorespring_1.1_iphoneos-arm.deb
-Size: 1020
-MD5sum: 271021bdc206a9eb0cdcc4ae96558fdf
-SHA1: 11e9658735a681a5cc7ceb1fcbbf06979190256f
-SHA256: dbe992144e6caeed728089ffbd35384f6f4d0b082c86ac8bec1f7f2d33539db9
-Section: Tweaks
-Description: Adds respring capability to Sileo.
-Author: Diatrus
-Name: Respring Essential
-
-Package: us.diatr.sillyo
-Version: 1.4
-Architecture: iphoneos-arm
-Maintainer: Diatrus
-Depends: mobilesubstrate, org.coolstar.sileo, us.diatr.sileorespring
-Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.diatrus.sileo-installer, us.diatr.sillyo2, com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
-Replaces: com.diatrus.sileo-installer, us.diatr.sillyo2, com.level3tjg.sileofix, org.juulstar.sileo
-Filename: debs/us.diatr.sillyo_1.4_iphoneos-arm.deb
-Size: 1280
-MD5sum: abdbf6c04bf0487f5f6a6c4a9ff5a676
-SHA1: 1a6e158b9d8eeef3045fb4c632b6a12447c32893
-SHA256: 5ba3d23243eba8e41d24153665b367237ba9364769e304adf3e0a1804c1620d8
-Section: Tweaks
-Description: Sileo Compatibility layer for u0 black.
-Author: Diatrus
-Name: Sileo Compatibility Layer
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware (>=12.2) | org.swift.libswift (>=5.0), zsh
+Conflicts: cydia-gui (<<99.0)
+Filename: debs/org.coolstar.sileo_1.5.0_iphoneos-arm.deb
+Size: 2844212
+MD5sum: 53885ba8465791f73e737f08ce02cd84
+SHA1: a383ee09b2d5bbe4743d28655fee3c35030ecb65
+SHA256: e5376881ebdb038d571efabc099d5121533153a8dfcc374cd37aa5343ce216e3
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 

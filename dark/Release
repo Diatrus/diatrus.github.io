@@ -3,16 +3,16 @@ Label: Diatrus/Altum
 Suite: stable
 Version: 1.0
 Codename: fcahaltum 
-Date: Sun, 27 October 2019 00:34:43 UTC
+Date: Sun, 27 October 2019 00:41:13 UTC
 Architectures: iphoneos-arm
 Components: main
 Description: Mixing of Elucubratus and Electra base binaries
 MD5Sum:
- 4f18590ed45f2b8368619195562b8d34 7056 Packages
- 92f3fc6a2b1376c4e1f14c0e508e580b 2596 Packages.bz2
- b7ad7cb777896f07c7c060603bba1502 2460 Packages.xz
+ 15537138713e57ed76ebfee2c22374a6 7049 Packages
+ 1bf58a70f38c1878fb47142a96404807 2595 Packages.bz2
+ 8c4b24fd9fc660c27b1089c891d75996 2456 Packages.xz
 SHA256:
- 9d307c44a757f8f1e9508fcee39e5c1563250b92569e19cc12fb03c1eac1f447 7056 Packages
- b845ad011adcb40ee2a6ddca1b82ae1a41b0e81a9e9392424183ea734ea7ec04 2596 Packages.bz2
- f983baa1c78f1c48ba8f0b0d1127a19e63601aa619e0eb71c032e13b9c0fb355 2460 Packages.xz
+ 0f3d289079d0cfcf917a76c3024db10e031b3c4e48fb5d3c88cc1f878cc1f6f4 7049 Packages
+ 0d9d0bacbfb10ac5eef0040a6559c5b233d09b202c35e75e434559e56edb9c24 2595 Packages.bz2
+ 8b10bc603f56906dd6ad2d9ca4236e27c585455ca3dffe2dc80f7a291db7d9a0 2456 Packages.xz
 

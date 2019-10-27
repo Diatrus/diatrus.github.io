@@ -40,7 +40,7 @@ Name: APT (apt-key)
 Package: cydia
 Version: 1:2.1
 Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Diatrus <me@diatr.us>
 Installed-Size: 712
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
@@ -48,10 +48,10 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispa
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_2.1_iphoneos-arm.deb
-Size: 94552
-MD5sum: e6f3ec15296b7c0fcff7debcfaaecd31
-SHA1: c262b4ba9aeaf40e0de2b23aea6c0cbac5fbcca0
-SHA256: cf81f8262aa1a498d2935a5c4f0e5170dc69e92e21e2a076e97c87de05387022
+Size: 94452
+MD5sum: 98d4db4ac116513d174cb940bdec2b6d
+SHA1: 0114690e599f1b6ed2c8d773d9ba6d0e55d3d4a3
+SHA256: 80909ee8fc93768a337b3c86741a7f515d5b26fbd212199d194acf7b1dc42530
 Section: Packaging
 Priority: required
 Description: Required for Cydia/Sileo to work

@@ -2,11 +2,12 @@ Package: us.diatr.diatrusinstaller
 Version: 0.0001
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
+Depends: zsh
 Filename: debs/us.diatr.diatrusinstaller_0.0001_iphoneos-arm.deb
-Size: 5308112
-MD5sum: 18ee46a388fe8e8b4890d450d413e14a
-SHA1: bfca1047ce3cc7f887054b07ea8d9c2bb5854425
-SHA256: eaa7b89928e8fdd79a973875dc973421e970b73c77adc6de727c14bc673e3cd7
+Size: 5308132
+MD5sum: c0b09ef01324aa934fc33c3e1e5792cf
+SHA1: 7a95e106e934e9635f083490056852ca479f54e5
+SHA256: 528e97a1a4feca41090f0ff5129f906b8cf239d1e33c04c0e2b23ae474d11c65
 Description: App to install Diatrus' Cydia fork, APT fork, and Sileo. This allows you to uninstall Cydia, use it alongside Sileo, or use another package manager entirely and remove both Cydia and Sileo. Jailbreak your jailbreak.
 Author: Hayden Seay <me@diatr.us>
 Name: Diatrus Installer

@@ -3,10 +3,10 @@ Label: Diatrus/Altum
 Suite: stable
 Version: 1.0
 Codename: fcahaltum 
-Date: Sun, 27 October 2019 22:07:39 UTC
+Date: Tue, 29 October 2019 00:47:37 UTC
 Architectures: iphoneos-arm
 Components: main
-Description: Mixing of Elucubratus and Electra base binaries
+Description: Stuff required for Sileo or uninstalling Cydia
 MD5Sum:
  13d8ae1add7a1f2a1a70fc15b23e8813 7058 Packages
  4518ecf635b425ad8d30d0cfce306187 2608 Packages.bz2

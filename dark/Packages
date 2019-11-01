@@ -1,5 +1,5 @@
 Package: apt
-Version: 1.8.2-4
+Version: 1.8.2-5
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1036
@@ -7,11 +7,11 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libapt (>= 1.8.2), apt-key, berkeleydb
 Conflicts: apt7 (<<1:0)
 Replaces: apt7 (<<1:0)
-Filename: debs/apt_1.8.2-4_iphoneos-arm.deb
-Size: 219990
-MD5sum: 72ea054a4f114de831b0f470ef9945fe
-SHA1: ac11be74bd665b9192d978d8a7a8fa9801f7d32e
-SHA256: faaf113656c9934b5e2681a75f08c7e6ba1ab1c3a6100df9e8fe925ba018675a
+Filename: debs/apt_1.8.2-5_iphoneos-arm.deb
+Size: 147796
+MD5sum: d2b0b9f1aa668a0d7c9b9514ccfecb57
+SHA1: e810e0e7d2c3e2a69121641c7d783ab0537cec4e
+SHA256: e3f157373562e9bcbd2f4ae6bcfb812a5e4316fcd35808592ae34c04e07a4a87
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
@@ -106,7 +106,7 @@ Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
 
 Package: libapt
-Version: 1.8.2-5
+Version: 1.8.2-6
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: Hayden Seay <me@diatr.us>
@@ -115,18 +115,18 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg5.0 (>= 1.8.2), gnutls
 Conflicts: apt7-lib (<<1:0), apt7 (<<1:0), apt7-key (<<1:0), com.mc.xz
 Breaks: cydia (<< 1.1.10), aptitude (<< 0.4.11.11-6), apt7-lib (<< 1:0)
-Filename: debs/libapt_1.8.2-5_iphoneos-arm.deb
-Size: 284452
-MD5sum: 2eb71af1ff3fe66e986b9a5c0891a1e9
-SHA1: 6d4a73cb1fdf8c091029c5b160519543f6cc4e1f
-SHA256: bca572d008a1631787460801dc931570121203212883128486fd18534e474daa
+Filename: debs/libapt_1.8.2-6_iphoneos-arm.deb
+Size: 296384
+MD5sum: 78b15e554e41d949da4dea46cbf0a6d3
+SHA1: 7542968c78d45b36ec27e93493e5d781e5b454b7
+SHA256: 7c46d3925a5924f3f97ed4e9202d145721c9d24857a3ecca881b262c81277c83
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
 Name: APT Strict (lib)
 
 Package: libapt-pkg5.0
-Version: 1.8.2-5
+Version: 1.8.2-6
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1788
@@ -134,32 +134,31 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, lz4, lzma, xz
 Conflicts: apt7-lib (<<1:0), com.mc.xz (<<5.2.4-7)
 Provides: libapt-pkg (=1.8.2)
-Filename: debs/libapt-pkg5.0_1.8.2-5_iphoneos-arm.deb
-Size: 527344
-MD5sum: 669802aa2358742d5089c48adf0eb141
-SHA1: dc0c5b102bd86d3c3869c84943618532e3ef824b
-SHA256: d83a8468db4016d14ae438060fad5fd72edb5360608a3ef8e77e9370d6aefd08
+Filename: debs/libapt-pkg5.0_1.8.2-6_iphoneos-arm.deb
+Size: 542352
+MD5sum: 430c672988f14ace0658065b3d851561
+SHA1: 8ece6411264af7a746afbc92bc58d08914d7ecab
+SHA256: 3efdc62f95515f98f9d09f4af530be630de90f7570221834e1f9b13631bd0b7b
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 1.8 Strict (libapt-pkg)
 
 Package: org.coolstar.sileo
-Version: 1.5.1
+Version: 1.5.1-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), libapt (>= 1.8.0), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware (>=12.2) | org.swift.libswift (>=5.0), zsh, us.diatr.sileorespring
 Conflicts: cydia-gui (<<99.0)
 Filename: debs/org.coolstar.sileo_1.5.1_iphoneos-arm.deb
-Size: 3011880
-MD5sum: e196cfb47666120b5e841dd333c4d9c6
-SHA1: 01e580e89ca52aa27fe6f0766a4cb0b38ebbeece
-SHA256: 863e08f7de9d01ccfd1cf8a0a4ed773f4d6be9c2490e5dc7ceef9914ed29634f
+Size: 3013276
+MD5sum: 6da197e9d116534ad228be64198e9d99
+SHA1: 811748d1b49cbbbfd47366c990953a17d9b613a6
+SHA256: 119c526313f71d1068183e9d2b9c9546ce92bbefdf7344b6a489a40d73b9c586
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo

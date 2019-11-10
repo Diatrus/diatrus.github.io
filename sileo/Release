@@ -3,16 +3,16 @@ Label: Diatrus Sileo/Bootstrap Installer
 Suite: stable
 Version: 1.0
 Codename: fcahinstaller 
-Date: Fri, 01 November 2019 01:23:48 UTC
+Date: Sun, 10 November 2019 11:13:40 UTC
 Architectures: iphoneos-arm
 Components: main
 Description: The installer for Diatrus forks of things
 MD5Sum:
- b883d81bf19b30ebc6f8815821dafae6 702 Packages
- dc3b794b4d3492ab5870fdb9cb0a249d 530 Packages.bz2
- 401549e3f75f9b85cb1c602a4ae5238b 540 Packages.xz
+ d7b48ca27a2a587ee0d622d8bf5b948a 719 Packages
+ f7563575b96024ca9d8fabb22ec0dfcb 529 Packages.bz2
+ 42d1573257c90870c94d2e73d812240e 552 Packages.xz
 SHA256:
- 60ff2a32e0d229689e415dfa229244349f2c86c9080cabc678ca34b124a0f1ea 702 Packages
- 87ce7f10772b9634f8ec3755020cace7cf973032df66565a1bbd049dab87b1a2 530 Packages.bz2
- 10bb50f99befed28f4b21e2a9c5f69ae2cbe9817cf8dd7e5d26d2ced3cb16476 540 Packages.xz
+ d299d8ca715853c595a12bd002220334ae49923c4d8f6910ed3a9bc5a474894d 719 Packages
+ e287a8884bf60926d25f64f4a157a718bcabefc4f43ae620e2baecef37ddae1c 529 Packages.bz2
+ 0a5eafce921e030399a005945ea45eb0aa1d89f0984c73727fecd1cba65e2af3 552 Packages.xz
 

@@ -1,0 +1,109 @@
+Package: com.level3tjg.bfdecrypt
+Architecture: appletvos-arm64
+Version: 1.3.2-1
+Section: System
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Depends: firmware(>=11.0), preferenceloader, com.nito.breezy (>=1.4-1)
+Filename: ./debs/com.level3tjg.bfdecrypt_1.3.2-1_appletvos-arm64.deb
+Size: 69884
+MD5sum: b6b7103498bcf5d060512185c9f4e4bb
+SHA1: d978be32922b9b22f7abd779de2c6502ee3d6447
+SHA256: 4f6afb9a346e0cf8c2be78ccbeb0c687d0d3ab4f28b4564c508b02afa2184161
+SHA512: e673c8544da3687fb12e69e6dc6c5f23b8741b07c1684b702914b315105a64860e854fd0fd87cf697673b717e56f68834a3aaf3c10724eee1ec6ae29dd2eb797
+Description: bfdecrypt for iOS 11 and newer
+Name: bfdecrypt
+Depiction: https://level3tjg.xyz/repo/depictions/?p=com.level3tjg.bfdecrypt
+Author: level3tjg <tjaygrantham@gmail.com>
+
+Package: com.level3tjg.bfdecrypt
+Architecture: appletvos-arm64
+Version: 1.3.2-3
+Section: System
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Depends: firmware(>=11.0), preferenceloader, com.nito.breezy (>=1.4-9)
+Filename: ./debs/com.level3tjg.bfdecrypt_1.3.2-3_appletvos-arm64.deb
+Size: 72924
+MD5sum: 39e707cef153480343144b9ba77578ca
+SHA1: e08ed2b9e045eadea44c2ea8be40b13957f5476f
+SHA256: 4c72764203c74734c7a7cc5ebe0f15a8274ea13cbceac7ea8d74dd8a0b30bace
+SHA512: 177a72e4e65cee33cb028df11e6d78374393fd0c80830287908bc42df0e271755611d7294ad3c36f812e6a12f9b73e43afcef39a70d0cb1bdb25e4b4be8fb72e
+Description: bfdecrypt for iOS 11 to 12.1.2
+Name: bfdecrypt
+Depiction: https://level3tjg.xyz/repo/depictions/?p=com.level3tjg.bfdecrypt
+Author: level3tjg <tjaygrantham@gmail.com>
+
+Package: com.linusyang.appinst
+Architecture: appletvos-arm64
+Version: 1.1.2
+Priority: standard
+Section: Utilities
+Maintainer: Diatrus
+Installed-Size: 108
+Pre-Depends: firmware (>= 10.0)
+Depends: us.diatr.appsyncunified (>= 5.1)
+Filename: ./debs/com.linusyang.appinst_1.1.2_appletvos-arm64.deb
+Size: 25436
+MD5sum: 0f6f4d9dfdf71e58359692c1f2b6ebdc
+SHA1: 9e6ad361ec5e83edcd01e22d750fcb4a00f13874
+SHA256: 4428c5a34b911fa3122817bd4bab88ffcef96af491f73542376121874c7c2d67
+SHA512: ea1b94c0233e2ed0a8c986b38fbbb9c27349feab1156fc4baa53c6def03d8abdf7c69ade37b730b82201a1875b3ef2bac7c3228247822b3317128f83ec0c1150
+Homepage: https://github.com/Diatrus/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Name: appinst (App Installer)
+Author: Linus Yang <laokongzi+appsync@gmail.com>
+
+Package: ldid
+Architecture: appletvos-arm64
+Version: 2.0.1
+Priority: optional
+Section: Development
+Maintainer: Diatrus
+Filename: ./debs/ldid_2.0.1_appletvos-arm64.deb
+Size: 569552
+MD5sum: ae1f48bb8ecc411261381dc82a261619
+SHA1: 46b21741da7ee78638e2092c101e56c7e929090f
+SHA256: 6ba37ee822ffe21da2212bf1c25ca8d83abbebb1ff3c117b8629078858c9ee8d
+SHA512: be4e39a1d46c15aa31d26b3dee66382a85cd87b80ab268abe1e5993af3d736e2669f4511b7e081693448cd9c7b1002f43ac5c1ab1f39e59d15caa01560963336
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Name: Link Identity Editor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: us.diatr.appsyncunified
+Architecture: appletvos-arm64
+Version: 32.0-6
+Section: Tweaks
+Maintainer: Diatrus
+Installed-Size: 80
+Provides: appsync
+Pre-Depends: cy+model.appletv
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/us.diatr.appsyncunified_32.0-6_appletvos-arm64.deb
+Size: 13156
+MD5sum: 5ef4e50a261e44b5cc25b86432a25109
+SHA1: e6811e2bdbb4830f921d4a93ae791b978b921148
+SHA256: 74b24750f801f413769326dae0b6442a85b8b6d0c5f02a4c7c1d3cdd928147fa
+SHA512: 46c25748b843afc735f5fcf34d94f9daabeab1e7323dd7c5a2775280828392499fadf79cdcc7ab7c97ba254ab11ed778e549d07f6b8facfc0032b1404072681c
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Diatrus
+
+Package: us.diatr.wiivamptv
+Architecture: appletvos-arm64
+Version: 1.0b3
+Section: Tweaks
+Maintainer: Diatrus
+Installed-Size: 10864
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/us.diatr.wiivamptv_1.0b3_appletvos-arm64.deb
+Size: 10879674
+MD5sum: 1d99eedc14c3cf99983754507b71fd34
+SHA1: ef3aab7ba4c2396510d4eb702be5f133d1ecb6ed
+SHA256: 5e96b4d8bf1b054b6b19a0d3417543a3710e23fed244fcbdb9dd21b1337e1249
+SHA512: d7ec6aeeeff723beb67c27921a21496572a5fc46d978ed186d499a228ce303650cdb9f20bfbab4db96cb0803cf14125adb41b31f7c22ebad77b1bc5d7792d133
+Description: Play your favorite Wii songs inside your apps! A rewrite for the AppleTV of Wiivamp by Jack.
+Name: WiivampTV
+Depiction: https://diatr.us/nito/depictions/wiivamptv/wiivamptv.json
+Author: Diatrus
+

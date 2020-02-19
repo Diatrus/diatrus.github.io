@@ -3,16 +3,16 @@ Label: Diatrus/Altum
 Suite: stable
 Version: 1.0
 Codename: fcahaltum 
-Date: Sun, 10 November 2019 09:42:28 UTC
+Date: Tue, 18 February 2020 22:55:35 UTC
 Architectures: iphoneos-arm
 Components: main
 Description: Stuff required for Sileo or uninstalling Cydia
 MD5Sum:
- 6227b030499d341971ac5f2725d8c531 7958 Packages
- f45ca7ce57dfd481ee329e6517916e1a 2753 Packages.bz2
- d6b447c5d3781c01c5d6a82fba9b4928 2568 Packages.xz
+ 85e24633502bcd581fe3651c945678a2 6116 Packages
+ 50f423727f7cc539bfabfd59d389d610 2242 Packages.bz2
+ fea9404f938561c89b884826a22b318f 2128 Packages.xz
 SHA256:
- b454d062366cb5bb670644a82a3a321ef274b7a08b88942c86284bcc23d34888 7958 Packages
- 554973d3c6dee4ccaec96b0e573db67737d5c2f8667a63c954737d13fee51bd4 2753 Packages.bz2
- a694e4c22da74cc4b9a1dcd62c2d11941f9931ad42d3ecbc0fd50cc6a506fd1d 2568 Packages.xz
+ ae7ad7bd02ac6026688ac2ca765111e65395911d8fdb16c84853ed50916df148 6116 Packages
+ 9deae5d1fcad17ddfe69c6f018dc98e57393a1a38a160b9332546382b480167f 2242 Packages.bz2
+ 6bd3ea0e1e0b9ee946eb3fedd5d9b6be187ac375320319d9be31e27c6af5ace4 2128 Packages.xz
 

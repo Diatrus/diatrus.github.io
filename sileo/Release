@@ -1,18 +1,8 @@
-Origin: Diatrus Sileo/Bootstrap Installer
-Label: Diatrus Sileo/Bootstrap Installer
+Origin: Use Official GetSileo Repo
+Label: Use Official GetSileo Repo
 Suite: stable
 Version: 1.0
-Codename: fcahinstaller 
-Date: Sun, 10 November 2019 11:13:40 UTC
+Codename: fcahinstaller
 Architectures: iphoneos-arm
 Components: main
 Description: The installer for Diatrus forks of things
-MD5Sum:
- d7b48ca27a2a587ee0d622d8bf5b948a 719 Packages
- f7563575b96024ca9d8fabb22ec0dfcb 529 Packages.bz2
- 42d1573257c90870c94d2e73d812240e 552 Packages.xz
-SHA256:
- d299d8ca715853c595a12bd002220334ae49923c4d8f6910ed3a9bc5a474894d 719 Packages
- e287a8884bf60926d25f64f4a157a718bcabefc4f43ae620e2baecef37ddae1c 529 Packages.bz2
- 0a5eafce921e030399a005945ea45eb0aa1d89f0984c73727fecd1cba65e2af3 552 Packages.xz
-

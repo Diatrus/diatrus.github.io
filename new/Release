@@ -1,0 +1,21 @@
+Architectures: iphoneos-arm
+Codename: memo
+Components: main
+Date: Fri, 27 Mar 2020 00:03:40 +0000
+Description: Testing the memo
+Label: Diatrus Bootstrap Tests
+Origin: Diatrus Bootstrap Tests
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 1b13bc5bc8a0b4a7e588156e0cdc0664            11671 Packages.zst
+ 2277f24b598e81de52baae501eed88b5              218 Release
+SHA1:
+ cfe42705648c0e9368057a46cc9a36d63ba32d52            11671 Packages.zst
+ c8b058fc03f179675556ae6b672be517fb06de11              218 Release
+SHA256:
+ 4555095963a14441feb5d8b0c708182dc0590f250b2a356891e472950097fda8            11671 Packages.zst
+ 1ad811c6d64b4fbe1a0291e5bd4dd410ae13187c14c18e6220d58673450a032b              218 Release
+SHA512:
+ b883f4d0b327d4aa6b2e0c8bb7204fe51241daab6f3022f99ffa5e622a04b4114025639afd1e9aab2f6db2f6ba380fef292593c233a328eb68a85f4db819495b            11671 Packages.zst
+ 0dda2e7b9e0b2f8526556f74b0665df5bc0a19eef358ad2ef861bd71d8cf59de5c33f469885dad083e3e0298b5777a16bfee1672af6472f33745af815545721f              218 Release

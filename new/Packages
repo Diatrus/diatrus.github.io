@@ -124,6 +124,27 @@ SHA512: 406bfbcdf971e1cec9816b00bb4b9606694a205ae6d40c53dd90a30483e8e522852f6878
 Description: CA certs for curl, wget, git.
 Name: CA Certs
 
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6003
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb
+Size: 20722
+MD5sum: 54268824040a2681d43a81f574cf24da
+SHA1: 164289d0b2ef4d65e38fba1edbaa6319e4ef5d0b
+SHA256: 5c3b06e4d6f384f8ba9d33bf23bb60e0d866706f51f9434616e3194931c136fd
+SHA512: 5c8f7461fd1019c4b7e13a927e8b28f87f98c3cea78b238d2d7aef7a9be20b162324baea6d93fdae77515a828cd9ed559ab13c057a7971384e39d107d397c5ad
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
 Package: coreutils
 Architecture: iphoneos-arm
 Version: 8.31
@@ -553,6 +574,28 @@ SHA512: fa1122f3590d2b060bae0fb4afcd27dc895a7ced575b4c7b85941c81971b563ff387715b
 Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7100
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: ./debs/mobilesubstrate_0.9.7100_iphoneos-arm.deb
+Size: 2497090
+MD5sum: 6e418c0323bddc2435794de750be88af
+SHA1: c4d022736d6de5de9273863f7af4bc142fae1b44
+SHA256: be145e9078b105c70660c53e99b2ddc638e4a5eae5102acc48a76f67c94d9b36
+SHA512: 62cbff7b66d5a94aca4645e8e054db6dcefefe4deb223707577f9d79034627463b3769e27e74cf63620ba57682582dc5e9275db16dbbe394985a23ba35791e13
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
 Package: nano
 Architecture: iphoneos-arm

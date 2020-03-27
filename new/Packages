@@ -57,18 +57,18 @@ Name: APT
 
 Package: bash
 Architecture: iphoneos-arm
-Version: 5.0
+Version: 5.0.16
 Priority: required
 Section: Terminal_Support
 Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: readline (>= 8.0)
 Depends: grep, ncurses, readline, sed
-Filename: ./debs/bash_5.0_iphoneos-arm.deb
-Size: 399328
-MD5sum: 1d2e2b0291f2a965c76cd15815f54f78
-SHA1: 78ca163ad3ad640ff4919b04b607805864faf72b
-SHA256: aaba9cd387b165480646e11f9bd8a46862e3eddaa9d035cfe039f2e2ea377d47
-SHA512: 4158455bb4e7396c8caf49478a9aa609d9124930176099b1d1f20efa874dd77e99412e246d5021f43c57f1e75b8b34b64baf8eb9a5c68c37c2de1e7a80843d6c
+Filename: ./debs/bash_5.0.16_iphoneos-arm.deb
+Size: 399268
+MD5sum: d5097c3ea7dc323bbb8873151e14a658
+SHA1: 3d736a8ecbbb2bcfab449ec9f467fa2b9e0946c0
+SHA256: 2ed2f471f35d7d5fca64d432e58bfd622df5b31a8a627e7ad609c267bad45ff1
+SHA512: f34c7c7a38181698b79732b71692f26683a2b2eddeb1f616269835e5721f51e4b84a5a8ed9759e534cf86be2498911eaed9ff1178ad3aa7035f7caa7681696cc
 Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox
 Name: Bourne-Again SHell
@@ -672,17 +672,17 @@ Name: Profile Directory
 
 Package: readline
 Architecture: iphoneos-arm
-Version: 8.0
+Version: 8.0.4
 Priority: required
 Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
-Filename: ./debs/readline_8.0_iphoneos-arm.deb
-Size: 145844
-MD5sum: e9129e60d6abe28b5465347472bc98f5
-SHA1: d391791657d3f8344693c4bd020931840a632302
-SHA256: 20ee3e81b208af882b2c5c0a4be744c94c4af3b57074f9aba648d735131dc377
-SHA512: f4184a3a4e02e73f65c83fdc508cbd894c6abe7519cc09fe8d3b22b4f035bbb056977630f201693bf77cd2e99897652cc03c7b180177e11acf8252f1f145e965
+Filename: ./debs/readline_8.0.4_iphoneos-arm.deb
+Size: 145700
+MD5sum: 72ae24bd01bc1d01bede3ef2a7c502d6
+SHA1: ddd436f61d23ccd06161fd6467a656de5506ded7
+SHA256: d270ab951c2a3e080de1d86b34499ba8e6e36c49167fd860112778386bfcc96f
+SHA512: 8ada1c844d5e9c90aa9288ff998a5daf581dce341e940883bf29d2c32bad0bba905434796571a94e692b8f55538a5ab52b7ba37753f175fa153ab5ffcccfe685
 Description: command-line history management
 
 Package: sed

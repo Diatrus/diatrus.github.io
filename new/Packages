@@ -341,6 +341,23 @@ SHA512: 12e5f796dc35fad7534710ffe4a775c826418576ef96902d18d2e7669953e21e31b4e327
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 
+Package: git
+Architecture: iphoneos-arm
+Version: 2.26.0
+Priority: optional
+Section: Data_Storage
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: curl, libressl, gettext, libpcre2
+Filename: ./debs/git_2.26.0_iphoneos-arm.deb
+Size: 4131596
+MD5sum: f326aac35f58e76f2e8456a38d594849
+SHA1: 7c1cb5d49dcd49582f4f4a6eab446d8bbaa5da49
+SHA256: f2ceb36c89b296d684cc611c182e387698f32d9f02442929ff1b57b6cf3a102c
+SHA512: bd9097705679235a8b11e80a1cd02a3d338c0568a6b78a4e7f1d6c2ec487763029241acd952fdd9a3d2352882167abaf1b1f5c1eb25d5852d450e7945e6336c3
+Description: fast content-addressable filesystem
+Tag: purpose::console, role::hacker
+Name: Git
+
 Package: gnupg
 Architecture: iphoneos-arm
 Version: 2.2.19

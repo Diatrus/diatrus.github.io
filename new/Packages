@@ -116,11 +116,11 @@ Depends: firmware (>= 2.0)
 Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
 Replaces: org.thebigboss.cacerts
 Filename: ./debs/ca-certificates_0.0.3_iphoneos-arm.deb
-Size: 204396
-MD5sum: 0da0158bc987047b4c71a5f53b39dbf5
-SHA1: 20bfd2ec48bba9446ebb19be9fad99f400763184
-SHA256: a1177d476d07b221e9aa193072e3727e980cab0f1f38d5d8a9e5b0015f2bb2e7
-SHA512: 406bfbcdf971e1cec9816b00bb4b9606694a205ae6d40c53dd90a30483e8e522852f6878227357bf78dc4acc74a93bd8573068f8b6ed816bfe5ae4cfd3ec7f9c
+Size: 121804
+MD5sum: eae0fb73a7b78e7b9741891c39ca4be0
+SHA1: 957a9d42733a44367d8f38ab3f589ead2adb9d95
+SHA256: 672fae9b7a72e67f8beebe1aeec2a155317f7e395afdec7ad9363ddc56145e4c
+SHA512: eb2ac232c84b387d9b472b76ca48fbe10e7967937e07a4296ef715b5dd099ae3173504d27a5eabf19cfe4b185b04baf0c21e04930884b68e552d71460206e55e
 Description: CA certs for curl, wget, git.
 Name: CA Certs
 

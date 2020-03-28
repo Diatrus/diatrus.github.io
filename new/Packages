@@ -172,11 +172,11 @@ Section: Networking
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libnghttp2-14, libssh2, libressl
 Filename: ./debs/curl_7.69.1_iphoneos-arm.deb
-Size: 341880
-MD5sum: 1ea5e4e811c87414300347f3d8113cea
-SHA1: f3cea04ea0b3c839a0c63ed27e274ae44bb55f85
-SHA256: fc3c4ecfbd77a26cd091ac2f2d1fed47e4bcfd5d5f55f8b9080f4717e381b732
-SHA512: 0f2e126df5eb6acf563932cd574ef808e10cacd5be33a7a95794151c78711ada53623ec38432f6289e56130ebf515f00d507b484c7f163b0fd36c800b819fe96
+Size: 341228
+MD5sum: 5eeab10696d102967cea848376808622
+SHA1: 73a6fa3d0a3d723c2190f37940f533a2cc992b64
+SHA256: db0d45c8b4c7d3c320e801ec57be83826db2c804c42738f43b9d63578b91de46
+SHA512: fd9a010a44fc4d82591ff3a2a950c73b387031f94f12a1d4dfda37e152eeabfb0e15f790694703d254f7bc404c009f6c7ce8bb0e4dd6a77a41c062da057b4873
 Homepage: http://curl.haxx.se/
 Description: flexible multi-protocol file transfers
 Tag: purpose::console, role::hacker

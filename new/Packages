@@ -164,6 +164,24 @@ Homepage: http://www.gnu.org/software/coreutils/
 Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
 
+Package: curl
+Architecture: iphoneos-arm
+Version: 7.69.1
+Priority: standard
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libnghttp2-14, libssh2, libressl
+Filename: ./debs/curl_7.69.1_iphoneos-arm.deb
+Size: 341880
+MD5sum: 1ea5e4e811c87414300347f3d8113cea
+SHA1: f3cea04ea0b3c839a0c63ed27e274ae44bb55f85
+SHA256: fc3c4ecfbd77a26cd091ac2f2d1fed47e4bcfd5d5f55f8b9080f4717e381b732
+SHA512: 0f2e126df5eb6acf563932cd574ef808e10cacd5be33a7a95794151c78711ada53623ec38432f6289e56130ebf515f00d507b484c7f163b0fd36c800b819fe96
+Homepage: http://curl.haxx.se/
+Description: flexible multi-protocol file transfers
+Tag: purpose::console, role::hacker
+Name: cURL
+
 Package: darwintools
 Architecture: iphoneos-arm
 Version: 1.2
@@ -287,6 +305,25 @@ SHA512: 704c8124fde377898fc1e157525c7d4ef18f843cbb52f97f9aa2d4ac6e72091e0df6a451
 Homepage: http://www.gnu.org/software/findutils/
 Description: indexes and searches filesystems
 Name: Find Utilities
+
+Package: firmware-sbin
+Architecture: all
+Version: 0-1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Pre-Depends: firmware (>= 11.0)
+Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
+Filename: ./debs/firmware-sbin_0-1_iphoneos-arm.deb
+Size: 1336
+MD5sum: 5d2bc45060ca5bd6b14e8715acca3521
+SHA1: 066bef9b74c433e56fd80147403e1c43808d1b1f
+SHA256: 3f8273bd76f773f24bbf9817fe146da5e453e6536dd56f916e0fd4ede44aec48
+SHA512: 58155b6b055696e8de4da7a7190bea057b2c873c2eec26d4ae57334b96a992dd515e8b6e23c9b99196730705cfa98909f509264baa42a369cd08ddf44753f5ee
+Description: represents Telesphoreo / iPhoneOS conflicts
+Name: iPhone Firmware (/sbin)
 
 Package: gettext
 Architecture: iphoneos-arm
@@ -493,6 +530,61 @@ SHA512: 88e466c04514a9892bb8443c0db36f8b9d5307acf0adac986b51c8467cc9c2f2002b2519
 Description: GnuPG's certification management library
 Name: KSBA
 
+Package: libnghttp2-14
+Architecture: iphoneos-arm
+Version: 1.40.0
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: nghttp2, libnghttp2
+Conflicts: nghttp2, libnghttp2
+Replaces: nghttp2, libnghttp2
+Filename: ./debs/libnghttp2-14_1.40.0_iphoneos-arm.deb
+Size: 53756
+MD5sum: 043afd24916746297a5dd14087717422
+SHA1: 2143d989caba935a0fb6dec2d6ca35bd4de4b0d8
+SHA256: dd625b3063864017d12c5d1ade5981bf12b2c93f5e7e319a3cf7ef51efc93cb6
+SHA512: 8142bba61176b68eddbed14c35d84433bca3bbe20a95127aecbb46f4b94f04cda45ebdacc36e418a690dac643f415edb8aad8699b1ffa6adaa1cc9378da384fb
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (shared library)
+Tag: purpose::library, role::developera
+
+Package: libnghttp2-dev
+Architecture: iphoneos-arm
+Version: 1.40.0
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libnghttp2-14 (=1.40.0)
+Filename: ./debs/libnghttp2-dev_1.40.0_iphoneos-arm.deb
+Size: 31920
+MD5sum: 2aa4fbee3c057cb943216e46e502c5bb
+SHA1: e495c25940000eccf11e627a36a6d63f2317e409
+SHA256: 8c72f12fd67a07be1e12f210181a5d50b155ecaaf55df9a8cd0afda1f7530e66
+SHA512: 474a576a962ec2a09241ee712c9cd344919f389f546269bdd897dfb45f04c8df564d918e458d5c565cc679b0e73d9bea03fe89b5a2b6725608ac00abf27d58b8
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (development files)
+Tag: purpose::library, role::developer
+
+Package: libpcre2
+Architecture: iphoneos-arm
+Version: 10.34
+Multi-Arch: foreign
+Priority: required
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: pcre2 (=10.34)
+Conflicts: pcre2
+Replaces: pcre2
+Filename: ./debs/libpcre2_10.34_iphoneos-arm.deb
+Size: 429056
+MD5sum: 769570f99390911bfa476eb9630bcefa
+SHA1: c437111d057d7442c4df02602b45717db5f4ed2f
+SHA256: c9c314a7464672ae41f027ac6bf361bbef9c735bcafc70b390809408d9f62efb
+SHA512: 03febf62630500f802ae7f237937beeb5e5e060ba4489cc9c5b58f83a808ee448fbf4ff0ac23b067657b8b33bb2cbd7e1181c03fe57e70463144389896418d81
+Description: Perl-compatible regular expressions
+Tag: purpose::library, role::developer
+
 Package: libpcre
 Architecture: iphoneos-arm
 Version: 8.43
@@ -500,13 +592,17 @@ Multi-Arch: foreign
 Priority: required
 Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
+Provides: pcre (=8.43)
+Conflicts: pcre
+Replaces: pcre
 Filename: ./debs/libpcre_8.43_iphoneos-arm.deb
-Size: 372912
-MD5sum: a2e6d32bcdd1fa87cd3b1cd47babaf7c
-SHA1: 59f6a449e85942a6ed49186cda9d532843852b96
-SHA256: 92a9c137b9a20dacc406ff32579f650f8e732f0d18f6e015c68139771a2f5c5e
-SHA512: 86a9edcaee651d10ffab9a2b36a4d2a942755824e75eb6aa415d3a5a094777f39598e2dd17769d61173cc30e00c74de113d1d80d7cb3e4bb5b3ca20690153510
+Size: 372932
+MD5sum: 3c4ddb0cded2ca4d21c09498ef0ab241
+SHA1: 88b98e1fecba229c62ab4be0eafd42ae80c9c76f
+SHA256: c79c1ec9e7a16db2986704b7845037b65b5dcd69dd6d4f99076e535e12f0ac6b
+SHA512: 24f05c76e241c2abf9854ddf3410b41c17d2106cbf73c28e86aeb2618b4f975956b323ff8be3e5962b1f353cf7371867b94d503384e01fc3fdaf4232f18d7ef5
 Description: Perl-compatible regular expressions
+Tag: purpose::library, role::developer
 
 Package: libressl
 Architecture: iphoneos-arm
@@ -525,6 +621,23 @@ SHA256: 5702971c353730fed28766b91e61d08b866b5edd41225c29f2c594820667feb4
 SHA512: 3060237063af8267d5d0be04f71d11d7414b60be6879a3e154fa405343aa159d57cfb00ae9e07966e41b9a16c34b4ac2257aa45d05c47c77d06900d3e2f39a11
 Description: SSL library and cryptographic tools
 Name: LibreSSL
+
+Package: libssh2
+Architecture: iphoneos-arm
+Version: 1.9.0
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libressl
+Filename: ./debs/libssh2_1.9.0_iphoneos-arm.deb
+Size: 95596
+MD5sum: 728c88a6164efbe6803f9d1f50c8205e
+SHA1: c8494c7b034c1a936ffdf3cc56ec3c1fbd26bf83
+SHA256: 4f68f64066a8449aaec528ee73678ee425db617cc29b2ea679e1852ec34e46c9
+SHA512: 6ba1a6a8b5f56b52ecf43f1da96f274cb2e911e1abcc871850f795ead9262d5941c875e684e04128acc39947254ed7f4959ff3d08ca36508c7d5b88e31388d45
+Homepage: https://www.libssh2.org/
+Description: a client-side C library implementing the SSH2 protocol
+Tag: purpose::library, role::developer
 
 Package: libtasn1
 Architecture: iphoneos-arm

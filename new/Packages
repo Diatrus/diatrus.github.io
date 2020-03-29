@@ -55,6 +55,23 @@ SHA512: f541c71f89a60d0cc5a370f2a9207d550821497114cf889dfce78ba46a51bb87a6d0f608
 Description: Advanced Packaging Tool (APT)
 Name: APT
 
+Package: base
+Architecture: iphoneos-arm
+Version: 1-5
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/base_1-5_iphoneos-arm.deb
+Size: 1576
+MD5sum: 514f6504cec7d38e2b1c2e402492353a
+SHA1: eac3d39ec49c6aed1e2815f086cc8b8ddcedd9d6
+SHA256: f06c87bbb1285ad791aa5194c23429f96843a65bbe4017c7efc74b70756156e4
+SHA512: 4f26980e6d8f145391268d7ef21f2a29d844aa5213661b1046e4572e1d3ecab2126ebed0348eb10c1518dd59970547be81f0b9ce2f245e06ad55ad5b1165efbf
+Description: underlying system directory structure
+Tag: purpose::backend, role::hacker
+Name: Base Structure
+
 Package: bash
 Architecture: iphoneos-arm
 Version: 5.0.16
@@ -426,6 +443,25 @@ SHA256: ee67e301956d7227699b4018ba9828af115ada50de3cc297cf24aba69ee6ccf5
 SHA512: 5c219ecdc68b6c7f53a1085394325bb89edaa9707deddc3940c4b0069482c241783cf6dd25a5b463a7b34ce9bc0f268cf5f71a3f594589547518da3c42ed9d83
 Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
+
+Package: launchctl
+Architecture: iphoneos-arm
+Version: 23-1
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 336
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: jailbreak-resources (<< 1.0~b27)
+Filename: ./debs/launchctl_23-2_iphoneos-arm.deb
+Size: 35892
+MD5sum: 35957db18bca6456aa308cfa8a098804
+SHA1: f36e97b42f8725a2800f7a6203d653ff9f8a2063
+SHA256: 02b8fc0311de02fd70252ba90a5bb4b1746af51cb6441580755755f838195f25
+SHA512: 195fbe05d300c62765c524440c3f2aa5e3284d101c8673a7fe2fc4569dc90666e945f2c394b1e1fdf0fa7fa96e7a574ec1bcf87abeaae2fd652fe3cd1108c849
+Description: Tells launchd what to do
+Name: Launch Daemon Controller
 
 Package: less
 Architecture: iphoneos-arm

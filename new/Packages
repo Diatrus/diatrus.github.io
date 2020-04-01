@@ -996,6 +996,23 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: UIKit Tools
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=uikittools
 
+Package: unrar
+Architecture: iphoneos-arm
+Version: 5.9.2
+Multi-Arch: foreign
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/unrar_5.9.2_iphoneos-arm.deb
+Size: 154680
+MD5sum: c2fcb2a9d472cc1c43a791c30892c454
+SHA1: f28c2691d50bbe778dc2e768527597981eaaecdb
+SHA256: 871da0fa29dc484e3bd592fa1e05315a7bfab25b6192656ad50d2c9ed57a9d76
+SHA512: 10d2d6f9431b7eb97570445a13094175479fdc2a2b42fe5ca0c43576b35245c089605bfeadcd4cdde5042c050fb26cdeba23c4412b333147806ab3ea1afe56c9
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: de-compresses files in rar format
+Tag: purpose::console, role::hacker
+
 Package: unzip
 Architecture: iphoneos-arm
 Version: 6.0-25

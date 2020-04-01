@@ -862,6 +862,23 @@ SHA512: a91fb981e29f83b8a54374d041559c464ab42427cc93a767d1c77fe90905747bad8883d7
 Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
 Description: p11-glue utilities
 
+Package: p7zip
+Architecture: iphoneos-arm
+Version: 16.02+dfsg-7
+Multi-Arch: foreign
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/p7zip_16.02+dfsg-7_iphoneos-arm.deb
+Size: 1139436
+MD5sum: bde0b8125f104f3a8c4dffb5e688140c
+SHA1: 72c2115e1548bd35cba0f8fcecceaad9dca8d546
+SHA256: 1452ee66795b5cf9fdb191d869fb0a45ea404a1ed9d019a92fc6a8c2ccce9612
+SHA512: e5d48c29a96c522068cd7fca8fd51bf470310c55b38b90139805dea3a2e4f04a4a0c15459d468c93936124d3613236db30e4c93593cf379bf7000588fbc3ff22
+Description: claims to be a good compressor
+Tag: purpose::console, role::hacker
+Name: 7-zip (POSIX)
+
 Package: profile.d
 Architecture: iphoneos-arm
 Version: 0-5

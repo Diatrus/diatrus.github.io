@@ -113,11 +113,11 @@ Priority: important
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/bzip2_1.0.8_iphoneos-arm.deb
-Size: 44044
-MD5sum: 9571357d5a4cbbfb77923ac31fe34b63
-SHA1: 0a5062bb7512b1b0820b89ab0a18d8e2dc1a618a
-SHA256: bba78624a2d29946351df3b963c8ec04884926e9872863927d4d1ad4245d4855
-SHA512: c315a67a98dd76c0534b8bef550d533d5ebcc16987ddd5e60b5e0bd4bb2187945ae547b57d22520a79a7247b0c1b8b154e307f50b5f00750798ddedcbeb36e4c
+Size: 43984
+MD5sum: aa91f2e24793f53399510ca383700997
+SHA1: f38edc65a92f2a66b963254915bed574cd8b0578
+SHA256: ce478c70690e3f08885ec60466a44919b4b7de500c7daef4ca12479783fb19b7
+SHA512: 48769067ddbb658849e3a3f3b611633ff0fe4f5720c95373b8f48fe8f39a99c4f9ddaf67526d46df18ba22d716cdb6a2acf20d0902f98eaba55a5ecc1005c491
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
@@ -207,12 +207,12 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: system-cmds, uikittools (>= 2.0.0)
 Filename: ./debs/darwintools_1.2_iphoneos-arm.deb
-Size: 5144
-MD5sum: 1b5e2bd513860086493e978b57923d82
-SHA1: 9f06674a523162ab695be6fdab6be6cec36c0663
-SHA256: 685b75f115ae21789addb96d5f1dffbf678a85a15f86d7d3ec60b683f87e57a2
-SHA512: 082dd3d0feb90d38b69031d0a4e23c6233de96fe10ae952c8e43f9d6c3aa178bbb03d124f1ba0921c951fbfab4d5214c99e46fb11d4e578da940822282ef6be1
-Description: sw_vers, firmware.sh
+Size: 10272
+MD5sum: 25d0b54283d61324f3c660c099d90817
+SHA1: 6f75af536f1b0bb101e6564d603a8f050eb44ee1
+SHA256: 1b2679a935422aa4e43b0cbf23912d08c90e5be37c194c9ac5efe7bffdda50c6
+SHA512: afe68465659f73ea3c54e55b515ab3440508cf5b719645666ed7d58514884583aaf09dfa2b852f25c7c0659751e6aef3f691602572264eeede0c8b5955c6e79f
+Description: sw_vers, firmware(.sh)
 Name: Darwin Tools
 
 Package: debianutils

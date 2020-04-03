@@ -1,3 +1,19 @@
+Package: adv-cmds
+Architecture: iphoneos-arm
+Version: 174.0.1
+Multi-Arch: foreign
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: ncurses
+Filename: ./debs/adv-cmds_174.0.1_iphoneos-arm.deb
+Size: 37972
+MD5sum: 91d58de8cfc341f3293c3cb2592a7151
+SHA1: 6f69d2b3487dc68ddceaa6643e20eaf896b80ed6
+SHA256: 364fe979540f23ba7e920ac69dbaccbb8c466141254ac5d26ceecb18105ac6ae
+SHA512: f7fc9ed160502877dfd77df0cd0dd088c1bffd978d21a1ec98423e098b5acaf5a37e047225dd524549294f20f9a26d816de769642cf576a557fc7026df764b75
+Description: cap_mkdb, finger, last, locale, lsvfs, tabs
+
 Package: apt-dev
 Architecture: iphoneos-arm
 Version: 2.0.0

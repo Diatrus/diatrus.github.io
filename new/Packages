@@ -254,6 +254,25 @@ Homepage: http://www.gnu.org/software/coreutils/
 Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
 
+Package: coreutils
+Architecture: iphoneos-arm
+Version: 8.32
+Priority: standard
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: md5sum, sha1sum, coreutils-bin (=8.32), dirname, kill, mktemp, su
+Depends: bash, profile.d
+Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 118-5)
+Filename: ./debs/coreutils_8.32_iphoneos-arm.deb
+Size: 969660
+MD5sum: 8bb784493e86f53a67aa6f7f9029e86f
+SHA1: 222d094d03de705fe9004f9bd047773b4f76e10e
+SHA256: 860056a3eecd7ad7bf8021cb181cc5e19f0091208339a7c1f043b0dc8806e50d
+SHA512: 8d28722572856a6ede8faf87fbc3bca8edd74f8157d25ab31a241e73c79176447025b33129e88c2e05ea7748635c0acdc5af074e6b5098c87d0ec714a0099ddf
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
 Package: curl
 Architecture: iphoneos-arm
 Version: 7.69.1
@@ -479,6 +498,25 @@ MD5sum: b0702acdebba9c569d280d1022e82f66
 SHA1: 3d79377282b23cf48e4ba03ae20af7b56b028df7
 SHA256: 0e9967229fb2b25f090c516e00cd4a45404850e65f535c8612e0b707d8200862
 SHA512: d6a5a84329ae8cca3b98cf3e2d727f1ab53864612a33e7d5964fb8d76544aae1844819a50cb303967fbf5df3375ba0a32f09a0aa4e3c58250796c3954764d837
+Description: GNU privacy guard - a free PGP replacement
+Name: GnuPG
+
+Package: gnupg
+Architecture: iphoneos-arm
+Version: 2.2.20
+Priority: required
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: gnupg2 (=2.2.20)
+Depends: libgcrypt, libassuan, libksba, npth, libgpg-error
+Conflicts: gnupg2
+Replaces: gnupg2
+Filename: ./debs/gnupg_2.2.20_iphoneos-arm.deb
+Size: 1171488
+MD5sum: c8661883e77601ea40342a55a68f6f8c
+SHA1: 4bc7e0049c5a36a38f1a5b6609a30cee3b0447c1
+SHA256: 15aba4e59001fe04a6d1149a0061c3ba30c982c95536f5539c425623f842aeef
+SHA512: f53457afd5e79e4de8a26a1acdd34b9a3350c017d293f53ea258225f01b7207f12556b7e1d38473e2815ac2b841d654a597eaf0bb6a5321ffbab737bb11d2389
 Description: GNU privacy guard - a free PGP replacement
 Name: GnuPG
 
@@ -1039,11 +1077,11 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Provides: killall, which
 Filename: ./debs/shell-cmds_207.40.1_iphoneos-arm.deb
-Size: 14848
-MD5sum: a38c272ad9e72adab72f06c2902d698f
-SHA1: 49e7210bd875e8768b77d9bbb9219ec0a9985468
-SHA256: 454d72b0bc10d18f270043ae840c992f196ff57c175db79826b11ba0dc10cc91
-SHA512: 7a51ba2736fd51e439dae86aaf730fdc59afaae2977bce675c3ca17a5d352fa8b555a774aa305487ea77a3532c6dc2298c8849adfb4587041d5e61030a7641dc
+Size: 14816
+MD5sum: f1626dd6ac7484a5417e4499fcf80ae6
+SHA1: 345cb86adbf88232d82ad2fe0a968d92527fef7f
+SHA256: 4564799219e871c0849b97ba944638f7f34138d890f180214b6e329bda3d92c5
+SHA512: 12bf4c42ef59c010366edbd9f107b344b39864e213334517c3f21666086c8fa40be2f4b240da7668acb286ab324cb4a05cbfaa7e97296afede845a040c59d8db
 Description: killall, mktemp, renice, time, which
 Tag: purpose::console, role::hacker
 
@@ -1074,11 +1112,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Provides: login, passwd, reboot
 Depends: firmware-sbin
 Filename: ./debs/system-cmds_854.40.2_iphoneos-arm.deb
-Size: 88928
-MD5sum: 8f7c0ffd24e1f09f045da75a1dfaf07d
-SHA1: 87094072f35679185af2a52e38ddf6af5c0333d7
-SHA256: faa8325a96378c9e2986f64a36b6858c774dadbb703a81d634d6f408713f91a3
-SHA512: 95f0db5a107c5d8607048c7afcd2b0e3addc778bfe3f382bdb4db0a579408bf3249c878fd324c6c04fdef04d6d6112c81fd0309d987505cb7b674e797047c456
+Size: 88916
+MD5sum: 0471b4eb3a9f022f94f3b990cfa14bc6
+SHA1: 78d033f61d352cbf652e47ce748b3302fec8d875
+SHA256: 452e44545a0f38ace2cd0596898a411490ec911f8079341f4678b293202e6682
+SHA512: f607ed8eda236771cceabfa978ddf421f4f2cb2c63c1da008009e36880cd6a5d689531d81863222baf7c3ba80d9557cc2163330782ced1964a4aec140ed717b0
 Description: iostat, login, passwd, sync, sysctl
 
 Package: tar

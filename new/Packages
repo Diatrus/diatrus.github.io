@@ -33,6 +33,25 @@ SHA512: 485fdfd45dbfaf698c93e677fc440bc68371aee13de26b6beaed7059f19c358492aa9230
 Description: Advanced Packaging Tool (APT) Development Files
 Name: APT (Devel)
 
+Package: apt-dev
+Architecture: iphoneos-arm
+Version: 2.0.1
+Priority: standard
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt (=2.0.1)
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Replaces: libapt-pkg-dev
+Filename: ./debs/apt-dev_2.0.1_iphoneos-arm.deb
+Size: 93752
+MD5sum: 37b1020052dbf5beea7a4b70aa4023eb
+SHA1: 90e8b037797ff8132dd0d727225ec18c6283255a
+SHA256: 1a80d6e5830d7d749bdc8c96f44d8b6d4ed61e7bc4b8d6012d99bcee9c73d5c9
+SHA512: c8bea390982deff7ea12077e215e7b79ef0c3cbec8cd1efb88de1bb4b8d19fdcaeaf66eeceb15d551dfb90e24bf48d51d6a32a58c37961a36d47ab15b59e9e6c
+Description: Advanced Packaging Tool (APT) Development Files
+Name: APT (Devel)
+
 Package: apt-utils
 Architecture: iphoneos-arm
 Version: 2.0.0
@@ -48,6 +67,24 @@ MD5sum: 49214961839a0118d6e6eac515c932ab
 SHA1: a31d80a1bfa0f8030e73588ffc3e05d77bef771c
 SHA256: c7f1170c3d59154f98a9079569f58d563be0f4db6e11c482c1eae9468101e589
 SHA512: fc88884d434d3bdead41938f115329225977ef4881546cf891b62f2dd0e3301e085d5cf7aceac89f8abf3d417818c73150e31f858f5649d985bd0df1f929cc4b
+Description: Advanced Packaging Tool (APT) Extra Utilities
+Name: APT (Utilities)
+
+Package: apt-utils
+Architecture: iphoneos-arm
+Version: 2.0.1
+Priority: standard
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt (=2.0.1), berkeleydb
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Filename: ./debs/apt-utils_2.0.1_iphoneos-arm.deb
+Size: 109388
+MD5sum: eb4854dd8cc0a225f2f99c6b7dab32cf
+SHA1: e20e9a3c011cfe93cc94d1a6faabc84bd45897ab
+SHA256: 041cc2d5d36a1c5503f5f6898584677b96afa438f527ee372d2cc2478d2f0d21
+SHA512: 9f8716a63df47391026d73a26278fe10b665e8575a1908ac5a27a933051844cc2429e67cb7432cf49ffd4a112656c16e4f941c438655976558642a3e4e617557
 Description: Advanced Packaging Tool (APT) Extra Utilities
 Name: APT (Utilities)
 
@@ -68,6 +105,26 @@ MD5sum: 67caf596971c4c21b899700576657060
 SHA1: 8fc6dd719e95a3571663f4af85f6405f0b635995
 SHA256: ebe584c75e38861c3ad0021681a00ef9d622af50208c697182897ed4cc733982
 SHA512: b707c58de29fe06eba396fb5eb7831b985da10fb868941bf0354d4e747444dc885dca04c56c3a8ef3591ed02812b7c3ad5ba9284a7aa00cc0bfdf0735149a6b7
+Description: Advanced Packaging Tool (APT)
+Name: APT
+
+Package: apt
+Architecture: iphoneos-arm
+Version: 2.0.1
+Priority: required
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: apt1.8 (=2.0.1), apt-lib (=2.0.1), libapt (=2.0.1), apt-key (=2.0.1)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gnupg, dpkg (>= 1.19.0), lz4, xz-utils, zstd
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<2.0.0), libapt (<<2.0.0)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
+Filename: ./debs/apt_2.0.1_iphoneos-arm.deb
+Size: 812952
+MD5sum: 1b1337e3f8c885e334165c7c633d3985
+SHA1: 6cb7b6825dc0b3b379b52ceb001b55a91f29d1ad
+SHA256: ef23acff5e4edf0626fc6ecba0d7c9932f2cdbc3b22e93d69d8104d4f02f3bc2
+SHA512: c45328084c9610a03e13ddcbb61ecbd018567e40ecb388a02d2e46fc58df04754c20456c6f9f189fdaebe708a154b7e68fab253f1c1a1cd884b63f6dfba38a5d
 Description: Advanced Packaging Tool (APT)
 Name: APT
 

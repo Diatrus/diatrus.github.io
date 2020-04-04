@@ -378,6 +378,21 @@ Tag: cydia::essential, role::goddess
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
 
+Package: file-cmds
+Architecture: iphoneos-arm
+Version: 287.40.2
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/file-cmds_287.40.2_iphoneos-arm.deb
+Size: 59804
+MD5sum: 7663a19bda777c6b77f7f24b957cb9c4
+SHA1: 6bf803bcf6002233d19a9323f33f9755bf7bd895
+SHA256: 863695d68966a11b0a3034fe417a760ea6d18e2539b99e6ace5c5259bb7ac37b
+SHA512: 398a727cc9d54cdee0ff4996a158bc8ad6b537cfc87f48fbaf988d742ce307ebdd581cd2352f50e4c62fec4e570f05c22339b311210c2f350c61e36689641136
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
 Package: findutils
 Architecture: iphoneos-arm
 Version: 4.7.0
@@ -1016,6 +1031,22 @@ SHA512: ee39e8be163982d22e6a0c485b9cc6c37272fcb9d1b92b7f6dd079271d5c82832d5889f6
 Description: killall, mktemp, renice, time, which
 Tag: purpose::console, role::hacker
 
+Package: shell-cmds
+Architecture: iphoneos-arm
+Version: 207.40.1
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: killall, which
+Filename: ./debs/shell-cmds_207.40.1_iphoneos-arm.deb
+Size: 14848
+MD5sum: a38c272ad9e72adab72f06c2902d698f
+SHA1: 49e7210bd875e8768b77d9bbb9219ec0a9985468
+SHA256: 454d72b0bc10d18f270043ae840c992f196ff57c175db79826b11ba0dc10cc91
+SHA512: 7a51ba2736fd51e439dae86aaf730fdc59afaae2977bce675c3ca17a5d352fa8b555a774aa305487ea77a3532c6dc2298c8849adfb4587041d5e61030a7641dc
+Description: killall, mktemp, renice, time, which
+Tag: purpose::console, role::hacker
+
 Package: system-cmds
 Architecture: iphoneos-arm
 Version: 854.11.2
@@ -1031,6 +1062,23 @@ MD5sum: 74d910d89dd7cdc58c4ad16ca1710d7b
 SHA1: 1bfe84043a4a64642cc65bce8489314f149833c0
 SHA256: 2735883a673b9bddd3f21bfd23db27f82d583f4300bcf99326ffe559207c91e0
 SHA512: ac8b73c752db730284aad15aa5c31e9dd94412b1103a6b27b71871403813a30fe61fb8445f2dc3c729989dcf73b3fc4487e05b8b1dc14ea042b59752326afd90
+Description: iostat, login, passwd, sync, sysctl
+
+Package: system-cmds
+Architecture: iphoneos-arm
+Version: 854.40.2
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: login, passwd, reboot
+Depends: firmware-sbin
+Filename: ./debs/system-cmds_854.40.2_iphoneos-arm.deb
+Size: 88928
+MD5sum: 8f7c0ffd24e1f09f045da75a1dfaf07d
+SHA1: 87094072f35679185af2a52e38ddf6af5c0333d7
+SHA256: faa8325a96378c9e2986f64a36b6858c774dadbb703a81d634d6f408713f91a3
+SHA512: 95f0db5a107c5d8607048c7afcd2b0e3addc778bfe3f382bdb4db0a579408bf3249c878fd324c6c04fdef04d6d6112c81fd0309d987505cb7b674e797047c456
 Description: iostat, login, passwd, sync, sysctl
 
 Package: tar

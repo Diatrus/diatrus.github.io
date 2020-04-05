@@ -457,11 +457,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: firmware (>= 11.0)
 Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
 Filename: ./debs/firmware-sbin_0-1_iphoneos-arm.deb
-Size: 1428
-MD5sum: ed9a48be2e1de8acc933ecee524d6552
-SHA1: 6717555e3755788b77c346d500c0bd11ede1a84c
-SHA256: 827dae296176f0285a2597637fe2d07e552f3ad76371c0bada468a349ba23a88
-SHA512: bbb125fceeae45725e6adbc4245ed60b8c30a8c99d03c3989bf631ece5ebe74ce752732d386ba437adcac4cd2873416b939a43c6a36c931e976b77231b250670
+Size: 2328
+MD5sum: c635930e4209852961dc2625db1fba41
+SHA1: 5e8e2f0b30c524d6b5eae7b84a555d6ccce87499
+SHA256: 9ab1622ce10bc87572e06ac7fa8eb1c01133495a99c9bdd96e1be70c01943365
+SHA512: 30f65621c060668272e07602ec23df936282ee48d06f857263424c528e1ebfdfc0c6f1a167c75fc829f033fcce1c6303186ee9ea2dd4bdcc47dc141d4202ba93
 Description: represents Telesphoreo / iPhoneOS conflicts
 Name: iPhone Firmware (/sbin)
 

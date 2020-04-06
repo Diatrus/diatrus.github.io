@@ -299,11 +299,11 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: system-cmds, uikittools (>= 2.0.0)
 Filename: ./debs/darwintools_1.2_iphoneos-arm.deb
-Size: 10272
-MD5sum: 25d0b54283d61324f3c660c099d90817
-SHA1: 6f75af536f1b0bb101e6564d603a8f050eb44ee1
-SHA256: 1b2679a935422aa4e43b0cbf23912d08c90e5be37c194c9ac5efe7bffdda50c6
-SHA512: afe68465659f73ea3c54e55b515ab3440508cf5b719645666ed7d58514884583aaf09dfa2b852f25c7c0659751e6aef3f691602572264eeede0c8b5955c6e79f
+Size: 10304
+MD5sum: 51f24b605d12d60dfd1aa91271d68305
+SHA1: fb105f9c2891831ad853902020483876f455f703
+SHA256: a23fd5d72dcfe255c74a9b81dbc103f23def6d2c094b689ce7f6027d17e53ecc
+SHA512: 7bb95cda97001bb2c905a29c8cf5e4d25e6cd2d4f081319aa8b9f509eba075d89063248948b4cd711da3a7297442f29c6e4afc6427a18d0e5ed1474a41d67dfb
 Description: sw_vers, firmware(.sh)
 Name: Darwin Tools
 

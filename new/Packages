@@ -1093,11 +1093,11 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Provides: killall, which
 Filename: ./debs/shell-cmds_207.40.1_iphoneos-arm.deb
-Size: 14816
-MD5sum: f1626dd6ac7484a5417e4499fcf80ae6
-SHA1: 345cb86adbf88232d82ad2fe0a968d92527fef7f
-SHA256: 4564799219e871c0849b97ba944638f7f34138d890f180214b6e329bda3d92c5
-SHA512: 12bf4c42ef59c010366edbd9f107b344b39864e213334517c3f21666086c8fa40be2f4b240da7668acb286ab324cb4a05cbfaa7e97296afede845a040c59d8db
+Size: 15732
+MD5sum: 23fdae2a778bdd9ee07ea8b5aeaba505
+SHA1: 6357aa6b9bfa20b6646092db098ce5e5cb012cb8
+SHA256: b31231c569eb0021ef37d11dc2f52b4503f4caa472ecce60e72b6e262db34aca
+SHA512: e79e0db038058732fa55e98d2a06b2f42b9118e4603affa75b6264f494e985f05ffecc2318fff4c50aed9bccc05bf584ae4fe2d33dc48a39ab1bde7b7efd2a78
 Description: killall, mktemp, renice, time, which
 Tag: purpose::console, role::hacker
 

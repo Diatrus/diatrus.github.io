@@ -1021,6 +1021,21 @@ Description: claims to be a good compressor
 Tag: purpose::console, role::hacker
 Name: 7-zip (POSIX)
 
+Package: perl
+Architecture: iphoneos-arm
+Version: 5.30.1
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/perl_5.30.1_iphoneos-arm.deb
+Size: 7604232
+MD5sum: 8545bc0b746cb8f00d9944f383377725
+SHA1: f3578f7ab8ff395369f2ad9b183f59104de2acd7
+SHA256: d0e559f574ccd3770c3bb0345313ad0418cc9007d9bdcc020dd582d05fd417c9
+SHA512: 7507f41af0cd1597bf67d767dc2dd0bd9c880f7b0f8b9990195901487ceb6031348157e9c50cd4cae1034312d75b2725ac3e6937af71be31178ae1b65f2b34c3
+Description: awesome combination of sed and awk
+Name: Perl
+
 Package: profile.d
 Architecture: iphoneos-arm
 Version: 0-5

@@ -7,124 +7,67 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/adv-cmds_174.0.1_iphoneos-arm.deb
-Size: 37972
-MD5sum: 91d58de8cfc341f3293c3cb2592a7151
-SHA1: 6f69d2b3487dc68ddceaa6643e20eaf896b80ed6
-SHA256: 364fe979540f23ba7e920ac69dbaccbb8c466141254ac5d26ceecb18105ac6ae
-SHA512: f7fc9ed160502877dfd77df0cd0dd088c1bffd978d21a1ec98423e098b5acaf5a37e047225dd524549294f20f9a26d816de769642cf576a557fc7026df764b75
+Size: 57332
+MD5sum: 2a97df26ef14ce28efdb852c3f903e9d
+SHA1: 83d7fceb486c7eddc36a581882bae39e66499364
+SHA256: e9a897f5b10a795dc3a3ad05dad4d7010db43eb5645b37db555e6348765726cf
+SHA512: 837b336ab9ce61592632f147a9facea8e0626f293405f2d2ac5292f0c8fc2e84810e46bf94fb4c2c0646c6e944cae71e6fbd9f27b72562eb37fea660d6f54604
 Description: cap_mkdb, finger, last, locale, lsvfs, tabs
 
 Package: apt-dev
 Architecture: iphoneos-arm
-Version: 2.0.0
+Version: 2.0.2
 Priority: standard
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.0.0)
+Depends: apt (=2.0.2)
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
 Replaces: libapt-pkg-dev
-Filename: ./debs/apt-dev_2.0.0_iphoneos-arm.deb
-Size: 93944
-MD5sum: 00fc1f2d1bc05df4eaf34984a5ff9f97
-SHA1: 150df88cd0fe58077ae2b0badee56905ff27c4ef
-SHA256: 8e5d44abbf93940bca5ed6132d37b6eeba9174f8c65c0d1ed1349bc1b0d4f894
-SHA512: 485fdfd45dbfaf698c93e677fc440bc68371aee13de26b6beaed7059f19c358492aa9230ee502dfab17b072d931f4949ef2dac1c7bfe2569cb35f034761cc36c
-Description: Advanced Packaging Tool (APT) Development Files
-Name: APT (Devel)
-
-Package: apt-dev
-Architecture: iphoneos-arm
-Version: 2.0.1
-Priority: standard
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.0.1)
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Replaces: libapt-pkg-dev
-Filename: ./debs/apt-dev_2.0.1_iphoneos-arm.deb
-Size: 93752
-MD5sum: 37b1020052dbf5beea7a4b70aa4023eb
-SHA1: 90e8b037797ff8132dd0d727225ec18c6283255a
-SHA256: 1a80d6e5830d7d749bdc8c96f44d8b6d4ed61e7bc4b8d6012d99bcee9c73d5c9
-SHA512: c8bea390982deff7ea12077e215e7b79ef0c3cbec8cd1efb88de1bb4b8d19fdcaeaf66eeceb15d551dfb90e24bf48d51d6a32a58c37961a36d47ab15b59e9e6c
+Filename: ./debs/apt-dev_2.0.2_iphoneos-arm.deb
+Size: 93724
+MD5sum: c74b1b88dfff6c3e21496c6c3ab3ab11
+SHA1: ee1e9154f6a35ee4e62bf8fc177348b7cbf58d08
+SHA256: 82764b0cf3e7a21c986e93634d11f33451cbaf9c350a6ca31136ffedbf552e63
+SHA512: dd7d8e17c8772436442db6523d64cd97fcce8ce42a2e3e5dd6f56d2418cfecd8759c4e85cdad260c09256b252f24201226e36c338375a591b4d2c439af74a64d
 Description: Advanced Packaging Tool (APT) Development Files
 Name: APT (Devel)
 
 Package: apt-utils
 Architecture: iphoneos-arm
-Version: 2.0.0
+Version: 2.0.2
 Priority: standard
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.0.0), berkeleydb
+Depends: apt (=2.0.2), berkeleydb
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Filename: ./debs/apt-utils_2.0.0_iphoneos-arm.deb
-Size: 109452
-MD5sum: 49214961839a0118d6e6eac515c932ab
-SHA1: a31d80a1bfa0f8030e73588ffc3e05d77bef771c
-SHA256: c7f1170c3d59154f98a9079569f58d563be0f4db6e11c482c1eae9468101e589
-SHA512: fc88884d434d3bdead41938f115329225977ef4881546cf891b62f2dd0e3301e085d5cf7aceac89f8abf3d417818c73150e31f858f5649d985bd0df1f929cc4b
-Description: Advanced Packaging Tool (APT) Extra Utilities
-Name: APT (Utilities)
-
-Package: apt-utils
-Architecture: iphoneos-arm
-Version: 2.0.1
-Priority: standard
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.0.1), berkeleydb
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Filename: ./debs/apt-utils_2.0.1_iphoneos-arm.deb
-Size: 109388
-MD5sum: eb4854dd8cc0a225f2f99c6b7dab32cf
-SHA1: e20e9a3c011cfe93cc94d1a6faabc84bd45897ab
-SHA256: 041cc2d5d36a1c5503f5f6898584677b96afa438f527ee372d2cc2478d2f0d21
-SHA512: 9f8716a63df47391026d73a26278fe10b665e8575a1908ac5a27a933051844cc2429e67cb7432cf49ffd4a112656c16e4f941c438655976558642a3e4e617557
+Filename: ./debs/apt-utils_2.0.2_iphoneos-arm.deb
+Size: 109576
+MD5sum: 6c480337bf139348e904e263c43407ca
+SHA1: 6d2a9e5a4d900455e0167a43376237b2ef0b2420
+SHA256: aad783a4e5ccd6aa2b371e203ccc27470c11166d4914dc273921e0f11a4d8f2c
+SHA512: a0db9fad98df652acb5757aee5b9c0f61b86b6de8f69fa8acc52c2b443bd509a902fa2a9cddb5d1ac38cd26ed731e39686c6504fe76f08abfaacacc36b0f5053
 Description: Advanced Packaging Tool (APT) Extra Utilities
 Name: APT (Utilities)
 
 Package: apt
 Architecture: iphoneos-arm
-Version: 2.0.0
+Version: 2.0.2
 Priority: required
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
-Provides: apt1.8 (=2.0.0), apt-lib (=2.0.0), libapt (=2.0.0), apt-key (=2.0.0)
+Provides: apt1.8 (=2.0.2), apt-lib (=2.0.2), libapt (=2.0.2), apt-key (=2.0.2)
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: gnupg, dpkg (>= 1.19.0), lz4, xz-utils, zstd
+Depends: gnupg, libgcrypt, dpkg (>= 1.19.0), lz4, xz-utils, zstd
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<2.0.0), libapt (<<2.0.0)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: ./debs/apt_2.0.0_iphoneos-arm.deb
-Size: 811724
-MD5sum: 67caf596971c4c21b899700576657060
-SHA1: 8fc6dd719e95a3571663f4af85f6405f0b635995
-SHA256: ebe584c75e38861c3ad0021681a00ef9d622af50208c697182897ed4cc733982
-SHA512: b707c58de29fe06eba396fb5eb7831b985da10fb868941bf0354d4e747444dc885dca04c56c3a8ef3591ed02812b7c3ad5ba9284a7aa00cc0bfdf0735149a6b7
-Description: Advanced Packaging Tool (APT)
-Name: APT
-
-Package: apt
-Architecture: iphoneos-arm
-Version: 2.0.1
-Priority: required
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Provides: apt1.8 (=2.0.1), apt-lib (=2.0.1), libapt (=2.0.1), apt-key (=2.0.1)
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: gnupg, dpkg (>= 1.19.0), lz4, xz-utils, zstd
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<2.0.0), libapt (<<2.0.0)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: ./debs/apt_2.0.1_iphoneos-arm.deb
-Size: 812952
-MD5sum: 1b1337e3f8c885e334165c7c633d3985
-SHA1: 6cb7b6825dc0b3b379b52ceb001b55a91f29d1ad
-SHA256: ef23acff5e4edf0626fc6ecba0d7c9932f2cdbc3b22e93d69d8104d4f02f3bc2
-SHA512: c45328084c9610a03e13ddcbb61ecbd018567e40ecb388a02d2e46fc58df04754c20456c6f9f189fdaebe708a154b7e68fab253f1c1a1cd884b63f6dfba38a5d
+Filename: ./debs/apt_2.0.2_iphoneos-arm.deb
+Size: 814632
+MD5sum: 0c16eee82a44654c2e1220a472300810
+SHA1: b5a74727dac26ebcfb586167fde0653b36273c3f
+SHA256: c2efa4749ff99067ecffafc312a85d8e2d9d957844f56142f2fa01a285527c1e
+SHA512: 8b5a8904e528ae37aacd383e7153b34a63de8dd526354f73d16fb8132114f156c7852ed2b7bbd2929cb9b513698a5965b3d174e2ef9563c144461a631fc8ed4b
 Description: Advanced Packaging Tool (APT)
 Name: APT
 
@@ -136,11 +79,11 @@ Essential: yes
 Section: System
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/base_1-5_iphoneos-arm.deb
-Size: 1688
-MD5sum: 1a14e36733b1e3f37050a4c9ccf8580d
-SHA1: 60d048dc93a904c8ab748095b7ccc950cd7c503f
-SHA256: 5e8fbb52f8060a0c16702578ee00d2098e5452e41c8edeac8d2f7eabf40f8e1e
-SHA512: b45ab6fa8ed355fd747848ac3e6c0b1b4179a8393f0f80866e22d264295968c4e5e9d12fc950f5cff354e06a49e56d0dfe2b1e4abe0aad13888e76f58299c5db
+Size: 1696
+MD5sum: 8958ccc9b8f39d4e928ad33c66bef591
+SHA1: f387ec962f50adaeef29a13cef79998b1de8f6f7
+SHA256: 2094d40289a5972045058198723f737370806d09bfa840c9b02e69094314a13d
+SHA512: 5edd77c7f85fcf443057373dabf55e24d4942d72a62b47a938a31a080ab9878b3b4b1c41a94547942288a3a61719c93ef0ea4f7996542ba6237b268e36a777e0
 Description: underlying system directory structure
 Tag: purpose::backend, role::hacker
 Name: Base Structure
@@ -154,14 +97,29 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: readline (>= 8.0)
 Depends: grep, ncurses, readline, sed
 Filename: ./debs/bash_5.0.16_iphoneos-arm.deb
-Size: 399968
-MD5sum: b503eefc0bec4a65d30ec0fee1a4e76a
-SHA1: 80e0072a0b0967ce2907867dd3c9ef6f995625f8
-SHA256: cc94204828840ca2355ef78947f0baaec0be7c234b41e993e46304bd61d22fc3
-SHA512: 403134120b330fdda6e9cf84680cce66bbf394d4b19db179406ce322de9d1c05d6d3292dccc3eab934be9e4ad22c025d808c75b298d1eeeceb1163b3839e669e
+Size: 400416
+MD5sum: 465d3d0b309643c11c7c1eb9c0c84448
+SHA1: dde11def214833e0d85a8cd4cdb6c1351fa574d5
+SHA256: 85017afa22fcb0b77594d8b30c4ed56f7b7291a88724c9f3cb6d9a3c22000182
+SHA512: e7cb525041054bc99482e3a36a8f33d307aae37f5498158df5e45f606e507d0f693f405f37ab993e988afc027bd1be25b371f97019a69059697670fe88599e41
 Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox
 Name: Bourne-Again SHell
+
+Package: basic-cmds
+Architecture: iphoneos-arm
+Version: 55
+Multi-Arch: foreign
+Priority: important
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/basic-cmds_55_iphoneos-arm.deb
+Size: 12684
+MD5sum: c33b4e8a217acd262cff2c6f9ed890bc
+SHA1: ee65b943171ceb50f50327fde31c944d9285c51c
+SHA256: cf1bc751799ae6f8d2c51ac55165f7a578e70ba1d9998ebb150fe46e6cf037c1
+SHA512: b6b3d8b83c048cbca4d6c38b9ddb42e02d60b6ad740e19c05441192bb4b9e9e39e4b8f46126bb24f65bb6930660fb26a6c053c309c3447b5752a6259318201fa
+Description: msg, uudecode, uuencode, write
+Tag: purpose::console, role::hacker
 
 Package: berkeleydb
 Architecture: iphoneos-arm
@@ -170,11 +128,11 @@ Priority: standard
 Section: Data_Storage
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/berkeleydb_18.1.32_iphoneos-arm.deb
-Size: 699688
-MD5sum: a6a188d2f3106e3df10bca06e3b1a9c3
-SHA1: eba0903fbceabf4779540b57dc287095e9944cda
-SHA256: 4ad1edc66d12b0390a2600ef520244d38d84f25746d31ec33bf77fbff04201a4
-SHA512: 5ef1ebd8435a8b35c7dc8d9818a1493435d01dcb4e11f41182212a2b10c73773d1a3db19a2172503a87cb6e380158729fa0a86ce0c8499b837b1b9e664957e18
+Size: 699904
+MD5sum: 6a73e6e13ac3dc6ca6538f2f9d0dac6f
+SHA1: 4db2c0a8751d774df5bfd5a8fc5c9973217a379d
+SHA256: 171dc60d6cd34bca4f5484f9a72e8658e1a2212408ea04fba99a44e876993fec
+SHA512: d8dc4521952738d7b9f7cb045773d7657fe20e429bbfb75403d8af9797be02bde317cac5c4ca3c47dcfbea848ba95596752a501a0ecfa1642ec4a9314e7be386
 Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
 Description: Oracle's embeddable database engine
 Name: Berkeley DB
@@ -186,11 +144,11 @@ Priority: important
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/bzip2_1.0.8_iphoneos-arm.deb
-Size: 43984
-MD5sum: aa91f2e24793f53399510ca383700997
-SHA1: f38edc65a92f2a66b963254915bed574cd8b0578
-SHA256: ce478c70690e3f08885ec60466a44919b4b7de500c7daef4ca12479783fb19b7
-SHA512: 48769067ddbb658849e3a3f3b611633ff0fe4f5720c95373b8f48fe8f39a99c4f9ddaf67526d46df18ba22d716cdb6a2acf20d0902f98eaba55a5ecc1005c491
+Size: 43992
+MD5sum: c8f36c774ae80b9d7f8d1096ed03798a
+SHA1: 925c73b462bfe974a8baf4cbb150f21c04b3f8a8
+SHA256: abf0e499762cd8d568a58ce8440debd5468f959d5daba09cbe8bac9a6da06aaa
+SHA512: 742e0bee7de1c7fece9e32f02a9a02a1667ceeab0d9e404dbacc03ec4d3d148ce5df9e45d9844aa3784a97277ef3e4f7f1dc7cd117dce1439d09698e0dd7ba3d
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
@@ -206,53 +164,13 @@ Depends: firmware (>= 2.0)
 Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
 Replaces: org.thebigboss.cacerts
 Filename: ./debs/ca-certificates_0.0.3_iphoneos-arm.deb
-Size: 121900
-MD5sum: e3155b25369b0ad7a60f0541618c4ca2
-SHA1: 05873523ceb16391699f921c844d3b73b360e820
-SHA256: 09b706e09662800428317a215f5f9e1a5495c4c2ffb518b7659dc2795f5309e1
-SHA512: 2ca7d28d143009322bab804ce12f3d82b4dfc3576f77dc1ac24a57c25e3dad3fa9e3ee941f424a7bcafb4fe65199bbe7a2b26516fcd3303fbbab958f6e41192e
+Size: 121904
+MD5sum: 035450e3d3d47b781bc5476159c11c0c
+SHA1: e96fa65763cac27959a35090d7438c6f0270170d
+SHA256: ea5b3eacd0b45f0afb81120d256ae5bcf05be480b50709053af2e73c9bd911b0
+SHA512: 17df757a1564956d24675886f72bb9065ab43bd5807af1334a63f5ebc0534c87c72ae836d0dc85ca67e9556e36e4ae7c2ed1bccd4d7b999ae0bfa7e9c614f542
 Description: CA certs for curl, wget, git.
 Name: CA Certs
-
-Package: com.saurik.substrate.safemode
-Architecture: iphoneos-arm
-Version: 0.9.6003
-Priority: optional
-Section: Tweaks
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 176
-Depends: mobilesubstrate (>= 0.9.3367+38)
-Conflicts: safe-mode-fixer-ios7
-Replaces: safe-mode-fixer-ios7
-Filename: ./debs/com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb
-Size: 20722
-MD5sum: 54268824040a2681d43a81f574cf24da
-SHA1: 164289d0b2ef4d65e38fba1edbaa6319e4ef5d0b
-SHA256: 5c3b06e4d6f384f8ba9d33bf23bb60e0d866706f51f9434616e3194931c136fd
-SHA512: 5c8f7461fd1019c4b7e13a927e8b28f87f98c3cea78b238d2d7aef7a9be20b162324baea6d93fdae77515a828cd9ed559ab13c057a7971384e39d107d397c5ad
-Description: safe mode safety extension (safe)
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Substrate Safe Mode
-Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
-
-Package: coreutils
-Architecture: iphoneos-arm
-Version: 8.31
-Priority: standard
-Section: Utilities
-Maintainer: Hayden Seay <me@diatr.us>
-Provides: md5sum, sha1sum, coreutils-bin (=8.31), dirname, kill, mktemp, su
-Depends: bash, profile.d
-Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 118-5)
-Filename: ./debs/coreutils_8.31_iphoneos-arm.deb
-Size: 966780
-MD5sum: 9e63e71b91d679458555fab847ede226
-SHA1: 556d3b79751d60ae49457c68d237d7e8013c7307
-SHA256: f21f9c026cd09ffc17753661ddbaad85f559d1e346e18969145b2354270a4956
-SHA512: b228895691ae2aa8205786e51c082670fb57cf0d63ed30e5809a1f6710e48ce4c674e278e66588f63d2cd678c94e95938818838c617bc853f1d7fef1d33b1f54
-Homepage: http://www.gnu.org/software/coreutils/
-Description: core set of Unix shell utilities from GNU
-Name: Core Utilities
 
 Package: coreutils
 Architecture: iphoneos-arm
@@ -264,11 +182,11 @@ Provides: md5sum, sha1sum, coreutils-bin (=8.32), dirname, kill, mktemp, su
 Depends: bash, profile.d
 Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 118-5)
 Filename: ./debs/coreutils_8.32_iphoneos-arm.deb
-Size: 969660
-MD5sum: 8bb784493e86f53a67aa6f7f9029e86f
-SHA1: 222d094d03de705fe9004f9bd047773b4f76e10e
-SHA256: 860056a3eecd7ad7bf8021cb181cc5e19f0091208339a7c1f043b0dc8806e50d
-SHA512: 8d28722572856a6ede8faf87fbc3bca8edd74f8157d25ab31a241e73c79176447025b33129e88c2e05ea7748635c0acdc5af074e6b5098c87d0ec714a0099ddf
+Size: 977648
+MD5sum: 76dc3b0dd470b6473e101aa928bbe392
+SHA1: 5418a71e4e0152ab559eed52f3a1bd0b8231a504
+SHA256: e87a0004cf510389469e5d16f5cfc2e4e96cd9e71735dba6e3a3aa9320b3c0b4
+SHA512: 14e716722dee6c4c7fc04ffab2fd3c8d23fbda42bc612de9e645074fa8ee1242b856b8bd4c6124d56f96f0e4184a4dcd735bce77b118f5e2ffd82540beab2c70
 Homepage: http://www.gnu.org/software/coreutils/
 Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
@@ -281,11 +199,11 @@ Section: Networking
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libnghttp2-14, libssh2, libressl
 Filename: ./debs/curl_7.69.1_iphoneos-arm.deb
-Size: 340296
-MD5sum: 2e60e85aac213c8879657b083eca8aaa
-SHA1: 435f9eee29d35db8c228a4ed851572edbf0c6225
-SHA256: 4f91f80e5ffbb7963016e89aa5db7b550d73395955a3d7485d0958dc86ea7c9d
-SHA512: 6972ad8eef46e46b917aaa57af1987d220a836e58a6a2184771182217abf9f7ceef7d2f80eab20579e474efa1f186a34b19b8964b4e50fbb4f947d33621e4f7b
+Size: 340552
+MD5sum: ca4caa0cd52f268c62890aad8f222ef1
+SHA1: 877d54c10a52efd90b6f6291557fb1274e0a4418
+SHA256: b62b2dfb98b9c8c878b41fc70d038228ccee7e362dc96e3553aba9b3813ddb42
+SHA512: a041cffa23182cc5526a380e0abfa314e67bcb1f6bd6652ccd947be8ac505a6f79a7154b2b226cd808ccb6ce3d7dc7c90db8f8e6d11896ee712de3841317a321
 Homepage: http://curl.haxx.se/
 Description: flexible multi-protocol file transfers
 Tag: purpose::console, role::hacker
@@ -299,11 +217,11 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: system-cmds, uikittools (>= 2.0.0)
 Filename: ./debs/darwintools_1.2_iphoneos-arm.deb
-Size: 10304
-MD5sum: 51f24b605d12d60dfd1aa91271d68305
-SHA1: fb105f9c2891831ad853902020483876f455f703
-SHA256: a23fd5d72dcfe255c74a9b81dbc103f23def6d2c094b689ce7f6027d17e53ecc
-SHA512: 7bb95cda97001bb2c905a29c8cf5e4d25e6cd2d4f081319aa8b9f509eba075d89063248948b4cd711da3a7297442f29c6e4afc6427a18d0e5ed1474a41d67dfb
+Size: 10312
+MD5sum: 3901b8e1c41e6c45ddd02ae67a219343
+SHA1: cad0e2c60d42838a604e7407680dff268d368159
+SHA256: e269b98c23103c26435aec79bb8a8c6b92ae85bd9368937ad4681d3eec5cc807
+SHA512: c55b48f3ccb8f28cc579889614195f28837302519564c7db5c7e2d86c2b62d31792aa5acf7f447990342bb8becaf04fcdd32a1aef15bbef7893425e2510edf6e
 Description: sw_vers, firmware(.sh)
 Name: Darwin Tools
 
@@ -315,11 +233,11 @@ Essential: yes
 Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/debianutils_4.9.1_iphoneos-arm.deb
-Size: 7328
-MD5sum: 6e0e8d787535fe8adac39dd43414645c
-SHA1: 84d71149ed95170b438738a7149c490bbc86c326
-SHA256: 702a3a1af3da28ccbbb55dfa3a719e7da698a494c7ea876678a54b0229cbb305
-SHA512: ac37421581886cda230b725bc0f2c46a34b6d3f8e118630989ffeaf301167d684353ada312e8bed0e3293d6dee0858e953ca8f487ba61f6b4de6ac639d4bb362
+Size: 7344
+MD5sum: ba14d7cd3462e5ad07e156daee8aa5ca
+SHA1: 0c3bb47cca70e6b6617118e66a882433dbbee0cb
+SHA256: 700ecdf02dcc0102385ee4b2b1e9e60328e9a1950558e41a1c24ade1663fa8f9
+SHA512: f7598c95e75bb407f2a11ceb4735e2fdfc7bff99f86f760169478636ba7d4e4a75f5c094cc1caca44be44b3ebf9818dfa6a2ffe8f2dff581912aedcaf9777649
 Description: pretty much just run-parts. yep? run-parts
 Name: Debian Utilities
 
@@ -331,11 +249,11 @@ Priority: important
 Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/diffutils_3.7_iphoneos-arm.deb
-Size: 117200
-MD5sum: e425d611d5dce8689531f93196e15d1d
-SHA1: 5bb949330eb2d141f29fcc50f30287d071823765
-SHA256: 8b7698dc8d51e0a1813d8a5ceb5783527e6e48f57ce5652868e53071f12a5f8f
-SHA512: a19712301f58d80f2830bd062b0800f70f4d051f17e08152a9f4c226e610548631ad9262c57b6dc71f5e6b1a043dd3e15265145754bb40639d882e06a19577aa
+Size: 117188
+MD5sum: 1d4ed2717bea1f80df343fb4750b0b4b
+SHA1: 348a3691a1c5d3ceb01c8c58999522ea02e82e7e
+SHA256: 031e76d2fb95d586f5dd2c9a7b43bb5c8c0e945955f465396830aa8d8949b8c2
+SHA512: 639410ac73a28b697952aec8f84a6a484bc096d1f74ec2706769063928d1bc975ec01c866ae70fd55d7ebef457af157e22e6f6bd604bc9ce049ab109b841dead
 Homepage: http://www.gnu.org/software/diffutils/
 Description: compare two files for differences
 Name: Diff Utilities
@@ -348,11 +266,11 @@ Essential: yes
 Section: System
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/diskdev-cmds_593.230.1_iphoneos-arm.deb
-Size: 54832
-MD5sum: d02bad434e48a7cc2c4b435187e03c08
-SHA1: 9b1b2c2ff6e2a49860d365a5382a46f273f0cb78
-SHA256: d453e70bf8a5f0e3937481af8be8abc4d07473a988daaf14aaf2264fc8052c17
-SHA512: 147ede7fe01023d39c1f3da2c357c5402f18182d623fe2f13ebd3361ed3412de48d9595aacf13b2b5347a9a1c8d63dabc7c2881694b18470796947e791a5fc27
+Size: 58848
+MD5sum: 13210f023792cb8e1217854482ffc58f
+SHA1: 62ff0b72171fe4b1f62316edfd370e90baf4f013
+SHA256: a04760345406787f607c7804d73b26d2a476f6fab791c3b434a0e0969892532d
+SHA512: 2e861ec234ef15b7a803b32d7fcf4ec577d8d8cfb07ccc9ce5224aeac8b8420df33eed113b240c80ffce80e9f42cbf56610d134647528ede1311f155c55755f8
 Description: mount, quota, fsck, fstyp, fdisk, tunefs
 Tag: purpose::console, role::sysadmn
 
@@ -365,11 +283,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Depends: dpkg, perl
 Replaces: dpkg-perl
 Filename: ./debs/dpkg-dev_1.20.0_iphoneos-arm.deb
-Size: 158184
-MD5sum: fa1f504192db2d3eb7f54881dd980ab3
-SHA1: 46b262ffaed6dbaf67053e2552eb3f0994083cf7
-SHA256: ff7b092b0abf34516c4e4c5915b74906ab8797d160c4e0104e81ff3a03e217ff
-SHA512: 72bcdf26170afc6c73afd8bdcd801d1708f6bf8bc6aa7842053a56b19764201385a5b35c2109c387d4bce8521a905014e06d1daa88c001b07b1e54faeee68a36
+Size: 158156
+MD5sum: 25de60f75bca895d2047a610075f2e71
+SHA1: 15e7b9ecef77f24ae5d254f6808e7a9d71152fa7
+SHA256: 61c1b3bf9d541793dd91c03a30e86b2d1e298c3a19c2e56683362e629d798aa6
+SHA512: 26ab08d52fb253323687ee1ed757ff7fc206185393e70d9324b0b42370a5c8c7b655d91a9cd65842a64d736edce40a976ee88bc1e31477bffda05444407a308b
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
@@ -384,11 +302,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: tar (>= 1.23)
 Depends: bash, coreutils, diffutils, tar, xz-utils
 Filename: ./debs/dpkg_1.20.0_iphoneos-arm.deb
-Size: 233244
-MD5sum: 3ed75e9b18c390a007d2ab3037f1b6a7
-SHA1: bce0956088e472abf04fb5cd328708f9507ca38b
-SHA256: 5c0687ea358a5b8fa0f1b06398268c28165d0463c6d27265b0e2f6ded89ab775
-SHA512: ce029df407f041655768e9b1e2bd6fc44dea67e1127f60403f8b6cbeb101a353434b4731a5d2895de8d3c6995882ce7484f84cb708b75ff0bda8c2652916cadd
+Size: 233152
+MD5sum: 679db4332a72dfe54ca820e5e1206bd7
+SHA1: 334de22ba4d0d648cd6415944d938b38edc0db8b
+SHA256: 6ef2bd332c3981cdc33055150de21d2bd9d4cacd2d24ceeb2b78cf1ff87e6026
+SHA512: dcaa5a82b3b9dc91e47aa9f80fa23068339f59c7266624cede3b87428a1ac64d51af3eb082b1ce8fd4c87b32e5ff6d6a199b1a60409ee1be79e2aeb8a6bf95a9
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager
@@ -404,10 +322,10 @@ Pre-Depends: bootstrap | dpkg (>= 1.19.0)
 Depends: cydia | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
 Filename: ./debs/essential_0-3_iphoneos-arm.deb
 Size: 916
-MD5sum: 7aa6c1ef74f8a1f2dd4b82ff90faf71b
-SHA1: b37a220907985757cc91b02c7d6b2541d9755dc7
-SHA256: 99cc7df85a9ae8d95fc1854d735654c7123ab39a380f6be5aaf27cb7ac70ba1e
-SHA512: bc9e99ed02d436474d1f5bee611d4357beb25ef322183d3bb902eec290805b721289c6ecfa59e70a7aa019f58b546d3d2810e50835535525fe79c2aedcbc8bee
+MD5sum: f60ba939e19b0ebd17ebbf0e973f0775
+SHA1: 248ba8f0fb229a1f045af98e6eac15399fc25beb
+SHA256: e7a4bc1b07e7436ab2e6d3ccfa796676d9fbf27895e90a61a5877121b7683661
+SHA512: 9a7edd4f6350bb41d501b904e04a5b2be5c0438ff79df4176035dfd818de2134d4353b2315dc42d738e8d6dfa4c37b13003c866234f8137d3a83b116a76912c1
 Description: contains nothing, represents everything
 Tag: cydia::essential, role::goddess
 Depiction: http://cydia.saurik.com/info/essential/
@@ -415,16 +333,16 @@ Name: Essential
 
 Package: file-cmds
 Architecture: iphoneos-arm
-Version: 287.40.2
+Version: 272.250.1
 Priority: important
 Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
-Filename: ./debs/file-cmds_287.40.2_iphoneos-arm.deb
-Size: 59804
-MD5sum: 7663a19bda777c6b77f7f24b957cb9c4
-SHA1: 6bf803bcf6002233d19a9323f33f9755bf7bd895
-SHA256: 863695d68966a11b0a3034fe417a760ea6d18e2539b99e6ace5c5259bb7ac37b
-SHA512: 398a727cc9d54cdee0ff4996a158bc8ad6b537cfc87f48fbaf988d742ce307ebdd581cd2352f50e4c62fec4e570f05c22339b311210c2f350c61e36689641136
+Filename: ./debs/file-cmds_272.250.1_iphoneos-arm.deb
+Size: 64996
+MD5sum: 84783ca05b143c9e5cd533d015b42042
+SHA1: 1bc947180942855affa64eb37d03b84ea1d67b6e
+SHA256: 7958e66b93d8790292f833ceccdc007b329afd9582ff0a5343b39ab13f2c4b2e
+SHA512: 1c78c4d47d7258ea1b401a5e568bd79758e42b112bfdb95158686952fb8e3b5f4f4343b7591a5bee20d54e0c01a2a376cd7a84a7979eec4a8535ca5d258d121b
 Description: chflags, compress, ipcrm, ipcs, pax
 Tag: purpose::console, role::hacker
 
@@ -437,11 +355,11 @@ Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: bash, sed, shell-cmds
 Filename: ./debs/findutils_4.7.0_iphoneos-arm.deb
-Size: 166336
-MD5sum: d60478b1ec8a268a498910f7649201bc
-SHA1: 485a9deef018c21f07c8d5ba485e94cf85a1e05e
-SHA256: a476721728d3d05e9e0bb18d1e9236dddf99e13fda015799cb8d9e3b79792862
-SHA512: b7a558caacf72e2309df576ac7f3dc590cf36486ad7c45c2486ff32673741db674910267eef050fe0ef84521cedfdabe6205972d95922653c7f85e05ea398f9b
+Size: 166404
+MD5sum: 7a07d2dc7197d16a1c6895c19ade548b
+SHA1: ae5bae26edb7da47d48d6423212d0cb299d88a90
+SHA256: d4c66906c323cc95c1438e264f90e6874ebeb2c82e787b4b2b08e66457036848
+SHA512: e9b0b80d70bc2dd29977d941f61ab00a248e6eb82b585e756a277ef94e24cdafed8be2a571f646b3e6e3b320a9642a341638621dcc593c81de3d406827911104
 Homepage: http://www.gnu.org/software/findutils/
 Description: indexes and searches filesystems
 Name: Find Utilities
@@ -458,10 +376,10 @@ Pre-Depends: firmware (>= 11.0)
 Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
 Filename: ./debs/firmware-sbin_0-1_iphoneos-arm.deb
 Size: 2328
-MD5sum: c635930e4209852961dc2625db1fba41
-SHA1: 5e8e2f0b30c524d6b5eae7b84a555d6ccce87499
-SHA256: 9ab1622ce10bc87572e06ac7fa8eb1c01133495a99c9bdd96e1be70c01943365
-SHA512: 30f65621c060668272e07602ec23df936282ee48d06f857263424c528e1ebfdfc0c6f1a167c75fc829f033fcce1c6303186ee9ea2dd4bdcc47dc141d4202ba93
+MD5sum: 30f86d7bce11eacdcd16d1aa04a8c3d8
+SHA1: 275fe98affd67fc7f7f4373af6f92239d845d84b
+SHA256: 53cdb306064aed8b16bfb35cbe1bd3079b7d2c06617f2846494a752bc67ef3cb
+SHA512: a8062774d65e7445e6fce93a52e5f82281c5fb2832b235d754a4450445926143cd665e39760a3627a2b7ff28d1ac2ea235b60a1c8742a279920cb450d7cf8fd0
 Description: represents Telesphoreo / iPhoneOS conflicts
 Name: iPhone Firmware (/sbin)
 
@@ -473,11 +391,11 @@ Section: System
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/gettext_0.20.1_iphoneos-arm.deb
-Size: 919088
-MD5sum: b4496475808dbe592f391f0bb09050d3
-SHA1: 03fca566fe4e3e9107bb8581cafb972fc93c12c3
-SHA256: a54cc1933099dcadf36c919c51d955829f08c367d0daf81034d39bee0399defe
-SHA512: ce27d31a80df4e63cd9042809f3111581152f841fc8195e964964719311563c94e40024ff5503ac78b108e3033c3c961ab26b730a1b3e11560698014a31f1302
+Size: 696292
+MD5sum: d82701f3eff5f0edec014a9b23a1abac
+SHA1: 07b8d1882d40a9ab42bcc03dd2cd1271a749bff6
+SHA256: fc8412e30033e5162e76095f63293a9a83be5762a42555087cb384377dc65b01
+SHA512: a9d015693ccb3114f3886aa08a4a2aa509156f45e09aa4ec6ef6c2d7f2e403c7e8171e1c5b789b9f767e21f65abb3e0ee08a3729eae1fb50e003dc4fbdc7be97
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 
@@ -489,33 +407,14 @@ Section: Data_Storage
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: curl, libressl, gettext, libpcre2
 Filename: ./debs/git_2.26.0_iphoneos-arm.deb
-Size: 4148848
-MD5sum: 5375e45eb2f59f690d6a9e391160cc4a
-SHA1: a5be5f448cdac5cce2c7b3bbff0ec802069dddea
-SHA256: bb34876826db717d8ce0e051740df523da4840425346ccb5b611f0302f7f7e00
-SHA512: 677217cf857252cbb843009aca14fc6a6320cb61dd775823038f73468618d9660bb525a4b7dd3e97fdc935d81e88452555f0cc1d4a02944b2301cbb1c6edf81e
+Size: 4150732
+MD5sum: 739825c2a8da39747ca275c9dc74d169
+SHA1: bb56a6105316ef81ee9bcbe02406d2c4d69e47f2
+SHA256: 672c496988639d8194cdac5c704208c97cfa849d441545c0d799d1e40d03debd
+SHA512: 88f14ac3021adf5fe7d641b195b76a06d9eee5afd9967086e1170b2b308c6635cc9d15afb4092455b9d17ad62313de6e06f28323a3a4a3280c54880d0b29fe74
 Description: fast content-addressable filesystem
 Tag: purpose::console, role::hacker
 Name: Git
-
-Package: gnupg
-Architecture: iphoneos-arm
-Version: 2.2.19
-Priority: required
-Section: Security
-Maintainer: Hayden Seay <me@diatr.us>
-Provides: gnupg2 (=2.2.19)
-Depends: libgcrypt, libassuan, libksba, npth, libgpg-error
-Conflicts: gnupg2
-Replaces: gnupg2
-Filename: ./debs/gnupg_2.2.19_iphoneos-arm.deb
-Size: 1169420
-MD5sum: b0702acdebba9c569d280d1022e82f66
-SHA1: 3d79377282b23cf48e4ba03ae20af7b56b028df7
-SHA256: 0e9967229fb2b25f090c516e00cd4a45404850e65f535c8612e0b707d8200862
-SHA512: d6a5a84329ae8cca3b98cf3e2d727f1ab53864612a33e7d5964fb8d76544aae1844819a50cb303967fbf5df3375ba0a32f09a0aa4e3c58250796c3954764d837
-Description: GNU privacy guard - a free PGP replacement
-Name: GnuPG
 
 Package: gnupg
 Architecture: iphoneos-arm
@@ -528,27 +427,27 @@ Depends: libgcrypt, libassuan, libksba, npth, libgpg-error
 Conflicts: gnupg2
 Replaces: gnupg2
 Filename: ./debs/gnupg_2.2.20_iphoneos-arm.deb
-Size: 1171488
-MD5sum: c8661883e77601ea40342a55a68f6f8c
-SHA1: 4bc7e0049c5a36a38f1a5b6609a30cee3b0447c1
-SHA256: 15aba4e59001fe04a6d1149a0061c3ba30c982c95536f5539c425623f842aeef
-SHA512: f53457afd5e79e4de8a26a1acdd34b9a3350c017d293f53ea258225f01b7207f12556b7e1d38473e2815ac2b841d654a597eaf0bb6a5321ffbab737bb11d2389
+Size: 1171136
+MD5sum: ce1b2d603263f189330d5722daf3473f
+SHA1: a7a3e1837ddd1e17570ff5ffe1499bcbcd694bf4
+SHA256: 5cbcc7bc4ff6ec4bdd4d060288b4ef6fab1e3ce5addf72e8e5cd47c3453c7c3c
+SHA512: 1b40b6e5721da7b4c7df662f88b84a71a1475c19ab109f3893eeb6d7a5f017c9dd1dea6e95aef8a1644c55afadbbe65582738d7cab80b7e6bdc4662c288d41bd
 Description: GNU privacy guard - a free PGP replacement
 Name: GnuPG
 
 Package: gnutls
 Architecture: iphoneos-arm
-Version: 3.6.12
+Version: 3.6.13
 Priority: optional
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libgcrypt, gettext (>=0.20.0), libgmp10, libidn2, libunistring, nettle, p11-kit, readline
-Filename: ./debs/gnutls_3.6.12_iphoneos-arm.deb
-Size: 946512
-MD5sum: 37302fe7145cb460ca00242fb9597047
-SHA1: ad92bee6e51c50a1455136d7cd421991394a2c21
-SHA256: 04947cc6941599ecbc67ca16b917b6f98c60a3b7e80f36cbced847fa2526ad0e
-SHA512: 1b7593fc4962fb2e8a88b19b9c29521708b2357dbc68913c65cc7482f29590ae08bec642e0f8f891572776d3673f91f858a33432c49f156258be03ad009e65fb
+Filename: ./debs/gnutls_3.6.13_iphoneos-arm.deb
+Size: 948068
+MD5sum: fdd2d5707792171b60a1ccdc77b194b4
+SHA1: b620b91a4d875d56bfd38488c85dbcc38ac21dd3
+SHA256: 265894b1a5d6b6df77bd9ebd5ee25462309fbf4767dac110d8ca0d53d8d7ee3e
+SHA512: 1aa40b2faca785373a2894d659284dec309635b8ebadcdd8272297810b793b03f4b3a4301fe17f0736aa43264acffdc76fe03e3b931b01f83dba6ed86b6a9c46
 Homepage: http://www.gnu.org/software/gnutls/
 Description: free sofware alternative to OpenSSL
 Name: GnuTLS
@@ -562,11 +461,11 @@ Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libpcre
 Filename: ./debs/grep_3.3_iphoneos-arm.deb
-Size: 96432
-MD5sum: a19aa71709aa3ed36162943afd2834bd
-SHA1: ebbb9c507e5076a072facdab114a517c87baa3d2
-SHA256: 57848a83bd62369affcb2bc8f1bc4ce362524f058be69b19b69cf3c6c991baeb
-SHA512: ae0d2c5fdc2d48af267ec6d80b5ffd8f153cae54c78915824eb3e1c20e594d299d4f4ea94130e8b6910751385378eaa0add3da6313ab6672038c01180ab2317c
+Size: 96476
+MD5sum: c66d87827c8ddbce441b402abf872b60
+SHA1: 840fd3f963c78157807886747e190b645198b35b
+SHA256: ff7a0872651555b2041a2de61e45839ea5209e9f2ca3036ef558b52e18102eff
+SHA512: 5e18ea55b3a523aca6a520c8f7356ae62c5a586ca9ca3409686aeb8820ec223abf41034e3377b9add6239de6c89dd8a60e68fcb74f9534d55941f7ddee63251a
 Homepage: http://www.gnu.org/software/grep/
 Description: searches files for regular expressions
 
@@ -578,11 +477,11 @@ Priority: required
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/gzip_1.10_iphoneos-arm.deb
-Size: 58520
-MD5sum: 53bde7ee9f3149ac41364c801b76c69b
-SHA1: d84830fca06fe14a78adf84711e469405d84f657
-SHA256: 912ede8725e60f5cb9315b96c2ee73303487be065e671d4730872c69fbbde07b
-SHA512: b163fd8452670f6b8e4ac9e96dfb7fe1e30d5c61723532996119a71c986600330b327290f72ee1f262b8f0ca53753e9acb1108d7f06b1a2e959144ca7f554d9e
+Size: 58500
+MD5sum: 830ef231ded2a0eb570117132be80e8c
+SHA1: 2615d035e8623a7882db578593b54d3ae5c5d32f
+SHA256: 111704b8d9ee84379cf778bba4cf8d6f99a437cd71500263af38a46f0eac6bfa
+SHA512: 5c44230af8241be2d16ddfd1386fb1c98bb39685628e75b385d514f5bb2bbfe8f50c5add111a41e5451ebb245ec7ce22986d1b429d9195a1ebe6643c828faa60
 Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
 
@@ -597,11 +496,11 @@ Installed-Size: 336
 Pre-Depends: dpkg (>= 1.14.25-8)
 Replaces: jailbreak-resources (<< 1.0~b27)
 Filename: ./debs/launchctl_23-2_iphoneos-arm.deb
-Size: 35916
-MD5sum: ba6f305ee49e2e2b051f4354259a8879
-SHA1: 49229949590f0740b629bfbfccb942ef631f1051
-SHA256: eec88ac9317d50516c92249ce09eea2be94b1da0f7665b0d83b3e699d0258cfc
-SHA512: 367f8a3a85664adc7c69dddff632db842bb428f3cab2c78ea4f32e02d29b3579e6d4505d8c0fe435ae77c18a7bb0b32ef7ea9a1171338ed4d16d70e94e229375
+Size: 35936
+MD5sum: 0dfa8057d17b9bba7d15d978848b33be
+SHA1: f48bd62adf8e83175a71a37bc2fb200d5240b00b
+SHA256: d6aca2bf8191ce9ab2a8100c3189e3768fa1fc258fa55596e93560c6a6e4b9be
+SHA512: 9cbe74f87d069d2d57171437edb1119d99cdef37188ee14e8aec2841ac159e9944f97804d9249f7844ec3c163ebfe3c30d5a7414d54ec4db06069029e27fc43e
 Description: Tells launchd what to do
 Name: Launch Daemon Controller
 
@@ -615,11 +514,11 @@ Provides: more
 Depends: ncurses, libpcre
 Replaces: system-cmds (<= 433.4-11)
 Filename: ./debs/less_530_iphoneos-arm.deb
-Size: 73536
-MD5sum: 81e4f48092574cc5d94892579a88e37d
-SHA1: 82d3411b96b5ec8d799847c9e3f405f22cb255d9
-SHA256: 81554503151a474fafb6fd990e31ea32f780aa90aae2c2bd36dadcf41c023c66
-SHA512: a9cbfd8e6cb06f7d25805b1735e622468fc0f7e9ac98a8c1075dd3e17559db3792c0d0c52cdd8837c7fdc2ecacb7f23e0c0f8965e520397d1495bef60c34ef9a
+Size: 73516
+MD5sum: 9e5cb8167294e18650984984c5096c74
+SHA1: 0004c25b8bbf7814f1996e237402a607e4063497
+SHA256: be49c4175cd7510b28ef3089a1b6bf69a057b6ab49ca657445b7853f4c069338
+SHA512: 14ba9f5ff1adc4a4ff8af8b41b4520d24d0d3dd0edef7143695f61edf74029e67abd7d89e00a7841759c13f1e447ef8c897a0eeb58a32bf4f9331afd50fa195d
 Description: provides less information than more does
 
 Package: libassuan
@@ -631,11 +530,11 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libgpg-error
 Filename: ./debs/libassuan_2.5.3_iphoneos-arm.deb
-Size: 37460
-MD5sum: 3eec6b08fdfdc1cfb41ba1474c9460c9
-SHA1: cb021971146efc57320d1b9bbcfcbfc6d8ddd9ce
-SHA256: 5927b14f163e985f14dab46c9ba7d4c8e203acec7a07f6e3ccd5f07162ec099f
-SHA512: af2a29731d9c42c9266640738cad8d04728c8e0354e0526b912120f1d8a4d9ffc1cbf907a6fb2409d494c2d5cbbc86b8a5504c701bf37cf9bf698174e303a455
+Size: 37444
+MD5sum: 19761304785d538641e510cda33610e9
+SHA1: 7668c6168dd69af7f45fd63e67248b43746c8e02
+SHA256: abec3058d291b3fded8b0b3a606b2ee587c7aec4960cf0248502cf56446b12b4
+SHA512: e362e726b54dc5ff7ac7bec9d17701b4c53a2df471dc28b0a4e658f879a5ec9cbcb954a4acf7bc4379042feac8796a924f98653b63591814cc0aaacbf6c0c54a
 Description: GnuPG's inter-process communication
 Name: Assuan
 
@@ -651,11 +550,11 @@ Depends: libgpg-error
 Conflicts: gcrypt (<< 1.8.5)
 Replaces: gcrypt
 Filename: ./debs/libgcrypt_1.8.5_iphoneos-arm.deb
-Size: 359988
-MD5sum: 67d99a0b04e9b4991f722a006d898cd8
-SHA1: 37c2c71f8b4eb84ecc1f1c35bba128d22077770d
-SHA256: d12e7d9db7289ce4953cd6ffbc595becdf750bcd2ed95b47ec74c476b54d8abd
-SHA512: 79374e0b1b527e6eb9168dabac8e7bca1bd60a267c6032d3eaf7dd4c8ea9d94d4972d905e81ae08fc40f9a4870bf3e7aae5662f073fdd487c0f0dbb400600e2c
+Size: 360972
+MD5sum: 73f9a9c260625d5932ef6c37cf7c20a7
+SHA1: 389883a02391221af197b788a310269f33210440
+SHA256: 01c6ad9b63dda72eeb6d4249a9d269111afc5cef981834a83b4c1ef4508ee3d9
+SHA512: aba71cbbc6abc56a7ec3e549ffb1a8c4580ee29880cba29a2177b3be1a5e542805d59d84fe4d85e2de6d547e6347e02fff85ff6194f209598bb68869a2bb41e9
 Description: LGPL cryptographic algorithm library
 Name: GNU Cryptography
 
@@ -667,11 +566,11 @@ Priority: optional
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/libgmp10_6.2.0_iphoneos-arm.deb
-Size: 224920
-MD5sum: 790d616864bee366e972c6bd09b4b505
-SHA1: ed24d29e6d38f782c88583db938f749076fb8382
-SHA256: b65645205a9490ed55d66a12102faf209cd44de1b14e1e91c055ce98708da5d2
-SHA512: 4d6d7a6bbd37acf88eb3aafe0d3669a37e140c59f8d0be58899152cebad48b6fe0fef8297e1ad392365f55a851ac292271575150c703f52670529cce038939a8
+Size: 225040
+MD5sum: 57dd3e348204d28ac66441bd80edf957
+SHA1: 08e6148d2e807f15a13e3218d66ba4edc0265a87
+SHA256: 79aa850a856102f7d88312544d03a7b42af481eca8b7e03d8ba9af820e2e602d
+SHA512: 3e9d9a82af154f1ce31bdb3fb0475e03ee08d5d5552511beaf5824bc7049c88dfde0a02cf75aed4f575d59c20471cd89f193f00ac11aa31a332ac79fc9d8eebe
 Homepage: https://gmplib.org/
 Description: GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers. There is no practical limit to the precision except the ones implied by the available memory in the machine GMP runs on. GMP has a rich set of functions, and the functions have a regular interface.
 Name: GNU Multiple Precision Arithmetic Library
@@ -684,11 +583,11 @@ Priority: optional
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/libgpg-error_1.37_iphoneos-arm.deb
-Size: 95052
-MD5sum: 290478d34a6a672762d70c4ed795a453
-SHA1: 874cc8b0f4173e877a408b305e3aaeaaa49f373a
-SHA256: 8ee196c88c78149e086490b7a1a10eb81f84df78e6bfb8e985231c154dadbdac
-SHA512: 8f0df1469e0216b48b92ca11043c5d6dd22ea2939bf4de9c699089c54990e78b9679fd06e4e8fcc30845f9cb3590082231bc3c3fc8d848fd9460c3887b6cfa91
+Size: 95020
+MD5sum: 2ca1c52f61a79cd5c4e7884ab6bc13b2
+SHA1: f2d1d25308e5919608369de8d10c14ca69ac3da2
+SHA256: 82d06bcf7b97cef0a3abd1abf62215ccb12b7e1548de63ad6e1c2648f4851f16
+SHA512: 6e5b3990ae9beac74ba99d061dc54c1ab859a85cc22f0a79e94eb95d44121daede55490cde6b43044f952cc3b98937c9b506f6884bd0312bf5404bff3932e65c
 Description: GnuPG's error management library
 Name: GnuPG Errors
 
@@ -700,11 +599,11 @@ Priority: optional
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/libidn2_2.3.0_iphoneos-arm.deb
-Size: 92096
-MD5sum: 2c1ea0a65774b8536eb24417a62b89cf
-SHA1: 358d1f813e2980248a2927af734cf9233f1d63af
-SHA256: afbc9b1e8e0e70bfd54332c2f16c5a9aad711bb823549fc1e3ff5ea10378e3a0
-SHA512: 0a644d71743529f3ab9a0e2bd7d6027218773ba1ccb70ed836dc5b1654768fa542dfdb845193a5a93d5aceac8fb25184589df6f0a7d7eb2fbceac31e0df128f5
+Size: 92012
+MD5sum: 25c6907e27b7204ac285ec152189e9cd
+SHA1: 96851c947ca32a118923f79944e86aca2c812f27
+SHA256: 7a1465e00f6288429ddb331c1f5ca5363a0479d06ea48f0ca10c33e3c1a7cf06
+SHA512: 726e0e5ef19b91187ef64e47e876de99ef244c4b007e66349543b9a4acd3bd390689f62d88cc7606e8b152ab8689a7a0883be1061dadac2325f64bb29e75cfff
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Libidn2 is an implementation of the IDNA2008 + TR46 specifications
 
@@ -717,11 +616,11 @@ Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libgpg-error
 Filename: ./debs/libksba_1.3.5_iphoneos-arm.deb
-Size: 87912
-MD5sum: 52488f692d2b30cae301550e88b86730
-SHA1: 70c8415f968e40953107aa2c53de484c1d47d9dc
-SHA256: 822291c2899b815e88853e688220e1e56c8165ac59d79c1a2f642343ac12cc0e
-SHA512: 845ea96cb2757e98e91fcde9e3b226acc8dbcdab60611795319a9716f7294d2466d11cf53720d47642042c47895a987e7c8f22fe58a3367526269f7e785c4ba3
+Size: 87880
+MD5sum: 4d660f70ce9dc4665861363905459a37
+SHA1: 7cda15c29aca8e058ce75a02788a850f51474e72
+SHA256: e91596b6e28ec47463f18f1552f3062be80db72e399f18450efae80dd3f04d7d
+SHA512: 74df8fbcf466bdda1847501afb30f437e57be85b28eecc0d0c1f13fcaa5265cff1a7b0ad663a1a50320db3527c89557b3e231240fc023dc03af8e4ece79d0968
 Description: GnuPG's certification management library
 Name: KSBA
 
@@ -735,11 +634,11 @@ Provides: nghttp2, libnghttp2
 Conflicts: nghttp2, libnghttp2
 Replaces: nghttp2, libnghttp2
 Filename: ./debs/libnghttp2-14_1.40.0_iphoneos-arm.deb
-Size: 53540
-MD5sum: feb6ca58b5623d437ec8fe25be0217bd
-SHA1: bc051ad4d151aa7aef80befc9a4088aa8c0518ba
-SHA256: 88e2f26639f556387c4f0d585fe018ec36dbdf983c4ce158751652bf1ce313ef
-SHA512: dc28833e2c368c4e17c386179b240c09ca0c4489e4f1e46e53ad1c25f8180800743270208f6db802ef46199f71fe177e81f1c9e2caf0e4e1b4bc502d50bcd3ff
+Size: 53504
+MD5sum: ce1e4a93110471d9c2e9efbac4688559
+SHA1: 08c18c14792e87d0022259c9077f5ab866229ecf
+SHA256: 2d7513a38f21c34d8584c4189ed42d19b1f5f81e02411ba75d82af1f145bc1e2
+SHA512: 54219388fce5dcdbe018b2e39b3587f2761afe0085e5e20aece27abe466cc65259ae7cfb8b34f7c18b6822442638b9376758e34d81c46f81f269999af19771c6
 Homepage: https://nghttp2.org/
 Description: library implementing HTTP/2 protocol (shared library)
 Tag: purpose::library, role::developera
@@ -752,11 +651,11 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libnghttp2-14 (=1.40.0)
 Filename: ./debs/libnghttp2-dev_1.40.0_iphoneos-arm.deb
-Size: 32072
-MD5sum: 879ca21fcaba5005b949ac3bca9bf71a
-SHA1: 977cec7df523bbe433003d6cfdb8dcc12b620b23
-SHA256: 844bb101e4b9c7f07af34493d641829a8e968b6f23848e80de5106c2b9b93bd1
-SHA512: 46ed63b1f7163331926c41e594995433bc3e15200917514c93c0241928f6b298b94fc3063157c151f35c752d3a10f12c89f31248cbcb5dcddbe9f63dbb85294a
+Size: 32076
+MD5sum: 33d97990304a663c86f287c7327c8d1e
+SHA1: 59e4fd0c340d717b9e2183de14649909b40752d3
+SHA256: a0828d5bbe22e24767e4f71382af248b0782fe748d7df30be77d5cc290b55e35
+SHA512: 756ae6a89917d8e78d807f480139667cb74f75b46c5a29d97c29a39e1e4f4e6a1c72d6b89f669ad85d19107cfd06c8ae8421f1d073b5af1e87301dae0d4dd187
 Homepage: https://nghttp2.org/
 Description: library implementing HTTP/2 protocol (development files)
 Tag: purpose::library, role::developer
@@ -772,11 +671,11 @@ Provides: pcre2 (=10.34)
 Conflicts: pcre2
 Replaces: pcre2
 Filename: ./debs/libpcre2_10.34_iphoneos-arm.deb
-Size: 423508
-MD5sum: 2e73af301e82f9b7025e4edb42f7aee4
-SHA1: f5520ea0785a84ec0ec9052e34b9e7d5795f493a
-SHA256: 8fcb30f0090f6dd0e125c2f14e9b9846c648b2648f50bae6fee16056060f2f06
-SHA512: 8e80e715d85664ae7600ab120ef6eb1b969c85584496a5528ce75d659ddb286a8264f0a8607b3025876351b283ff067eeff1ab0a6f375424b454d456990064db
+Size: 423496
+MD5sum: d81462883cc7dc172c2a5b04424d8768
+SHA1: 536c432f622d8b6bfe3dd842e9051d8f97e4a853
+SHA256: 509f8279be321ee5b0655e7862c2d3513d968560e14334cfc4f26340c05ec6f3
+SHA512: 105bfad4449c67eec4a70a9b804b7d321b7ddf40ca6cee5797fc19d5c6d35b50e6b4f2d5c99f635d2d45946f243c050dc6b0571e50db7a60312eea36e55f41fa
 Description: Perl-compatible regular expressions
 Tag: purpose::library, role::developer
 
@@ -791,11 +690,11 @@ Provides: pcre (=8.43)
 Conflicts: pcre
 Replaces: pcre
 Filename: ./debs/libpcre_8.43_iphoneos-arm.deb
-Size: 367124
-MD5sum: 0012b0d55611085810cb2478db64e01e
-SHA1: 885a978fad9095f21bab1bf10a2e77824c9e20ca
-SHA256: a82213cd1601b11835d8f86dbc3e1aa8627ca168fecf0b2513d6a2e280ad1634
-SHA512: 4dca75c5fa0e0bb53935f8cf5eb9f34223ac0983020f83ab04f083e76006cdf9b16e3f0842f76ef1bd9cd0e34a8ac84346ceea7d9cf418a4b5acdd1ee62b5559
+Size: 367200
+MD5sum: dff967dc2872b8867f210103bb740b6d
+SHA1: 655a76cfc000110e0980122879a272dc0de92063
+SHA256: 8d75123693099545cb8e414992db6ed347eb44ac4970dcfd38da52d2e40abda3
+SHA512: 4fc4c088330fd30359a71da6977e955ab3daea15657dc2f4f725489214d48e34924dc3918dc5fdea2a375c52d249b726df5c572539d713865741f27e508d13aa
 Description: Perl-compatible regular expressions
 Tag: purpose::library, role::developer
 
@@ -809,11 +708,11 @@ Provides: openssl (=3.0.2), libssl0.9.8, libssl1.0, libssl1.1, libssl1.1.1
 Conflicts: openssh (<=7.6p1-5)
 Replaces: openssl, libssl0.9.8, libssl1.0, libssl1.1, libssl1.1.1
 Filename: ./debs/libressl_3.0.2_iphoneos-arm.deb
-Size: 1159432
-MD5sum: 698d085df1a60d622741d6d515638032
-SHA1: 2422f68bb4e3ccb4fe8321bb587210a58f6a56a1
-SHA256: b0923e846f941d3b3b8b314f12a305dd233d153ba93cbf9879ce8e39f9e336c5
-SHA512: 00498ecbfaa6a63faba14ecdfa2d4e954c5f2cbc57e396e38f63ae35f96da5491a235f744e6b23b349c8b0b2f279aa392b51f8d62f7b72e2edc8b52a19582518
+Size: 1159868
+MD5sum: 58c7c31e5853c0426051858a346e68b2
+SHA1: 89ccb555118301e93317cf1e4ca84049e075b733
+SHA256: 986e3e8c159b0b4534a461338689775e0fb40954c086963c07c4680831f90b14
+SHA512: 6ef91ccc9a3bcbafef18709cc62a74c30c5c7fc5d0075b648d82ddec208865116648d1f25fdd1ca122ac09e1c999136d268da87514ec1ea45bbf7568e7386754
 Description: SSL library and cryptographic tools
 Name: LibreSSL
 
@@ -825,11 +724,11 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libressl
 Filename: ./debs/libssh2_1.9.0_iphoneos-arm.deb
-Size: 95604
-MD5sum: 43880d6f5930ceae0038c532c443c681
-SHA1: 786620daca474e24d05eac3952f741b0b3e27eb2
-SHA256: 5fe73f6b184218124ec00f0a9bcce90337784d5b3b756c068ea57cf90fd76484
-SHA512: 92c2ad4a81316c390907c76ef8f7576ace2c6033cdf671755c3d83902f1bfaa156e8a2fd83954031faa6c83e7f44da25a464ccca0bdb13577c91b833e13ce5e4
+Size: 95672
+MD5sum: 754d55b5d82d76247688896bc337a2c1
+SHA1: d419231fe52ed5fac193b22df26274d6a1a3d118
+SHA256: e86bbee07c371856158f9283e78799e1ccb1f600cc31225398a8121229d588cf
+SHA512: 88d66ce0cf8c8f8c80d74ba2d8ebccf03f35a342220e7bbf793788ccde4ccaf265b992ddd9e07a8098b45ce8e885e73a380b333b4d0fc77e2c20b2c0429d6f88
 Homepage: https://www.libssh2.org/
 Description: a client-side C library implementing the SSH2 protocol
 Tag: purpose::library, role::developer
@@ -842,11 +741,11 @@ Priority: optional
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/libtasn1_4.16.0_iphoneos-arm.deb
-Size: 42568
-MD5sum: 7e14c5e2be214a85f37e27174395efe7
-SHA1: c6ce95351684b1ef8908952112a86cc04a74320e
-SHA256: 2c3b6caf8cafbd2977e1f53c1062f3730c766059a62ff5d90d4b7783ae5256cf
-SHA512: 5d211a98e41c1f8582909be2865aa981625ea616e1bd865a68ad0cdeba16e930f3edbb054d9e7e6d3729ebddf527a2a3812b93dc838016d4835227e896db7823
+Size: 42552
+MD5sum: ec0621b08cdb02092b4b6f3f00d3070f
+SHA1: 99b769c2d345993f2775890d3883242b647f561c
+SHA256: cd782057d6d5a21ff6cf06edf7a80285e774979a96c8945ab278ee177af2e801
+SHA512: 954d602b1068463c7085b53eca8462795fea13db3c01f933da0aede85a96959d1a34672849471b19bd476139886d34fcbccb48173089d1b3ec15b357400ed825
 Homepage: https://www.gnu.org/software/libtasn1
 Description: Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages
 
@@ -858,11 +757,11 @@ Priority: optional
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/libunistring_0.9.10_iphoneos-arm.deb
-Size: 417468
-MD5sum: 1e0b0ff3a81899177abd8f7eac050f0b
-SHA1: 27f3630b414f8c7f323174aeaf75e9160aaf04f5
-SHA256: 8ccfb790ab91f33b6b91e4842d649408c595198e945cb6340d43cc1bd7d43e86
-SHA512: e4b69739cc37d33958e664dc30c3550802a128e5ed7ffda7b696a88328e537d41c9fd2aee523e7b948c4ef0720040c997d1fb477ddd032e268b52847946095cb
+Size: 417012
+MD5sum: f1997d2d1554a4d8b06954f5d74466ee
+SHA1: d45b46587497982948d00834af51dc65e038609a
+SHA256: ecaa1437bdbcb0879b76eb16833c6d2da9eb36d22988c7e095a90ad0c5ff1746
+SHA512: eaaa8860f8b569a50449d1713c6c779dd89a3398cc0d1b7dec7c710f4f5156b44c5ab7460ecfb4c90ad8de07cf7d175159014e6c1d0c30e88a29db57def76862
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Unicode string library for C
 
@@ -875,35 +774,13 @@ Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/lz4_1.9.2_iphoneos-arm.deb
 Size: 96992
-MD5sum: 6d492e3c41f12589c766c4f9e0832252
-SHA1: 9a19dfe951ec4270139a7d77d4fb1298e97bc8c6
-SHA256: abb763b6ed6de311107826e5a9572f9e6a3c5a314d2b797a0d00f849e70938b9
-SHA512: e64d089012f32f08d1cbc06514733d9e9414b5f88316e6839d5079c15b324eafe1789020c289240986467ee3d6afde2ecdcc34484812cea46c078c29481cd244
+MD5sum: 26aa62a332051a471368dbe166efd7ac
+SHA1: 8991755c6d51096a99c84ea424445c6821dc25a9
+SHA256: 756a9e968839ef3562d08358787f2a4eb6b1d5f6d407b80956ce06995755837f
+SHA512: 1ffa3419ca66e9afabffe496f83150b983260008919e1ca3fa93cdb99bcbf30e3276b65fad20b224a955e6c14daaec6356c71e71d9aa2ba233081bd7fd7a194f
 Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
-
-Package: mobilesubstrate
-Architecture: iphoneos-arm
-Version: 0.9.7100
-Priority: optional
-Section: System
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: com.saurik.substrate.safemode
-Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Replaces: cycript (<= 0.9.594), com.saurik.substrate
-Filename: ./debs/mobilesubstrate_0.9.7100_iphoneos-arm.deb
-Size: 2497090
-MD5sum: 6e418c0323bddc2435794de750be88af
-SHA1: c4d022736d6de5de9273863f7af4bc142fae1b44
-SHA256: be145e9078b105c70660c53e99b2ddc638e4a5eae5102acc48a76f67c94d9b36
-SHA512: 62cbff7b66d5a94aca4645e8e054db6dcefefe4deb223707577f9d79034627463b3769e27e74cf63620ba57682582dc5e9275db16dbbe394985a23ba35791e13
-Description: powerful code insertion platform
-Name: Cydia Substrate
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
 Package: nano
 Architecture: iphoneos-arm
@@ -913,11 +790,11 @@ Section: Text_Editors
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/nano_4.5_iphoneos-arm.deb
-Size: 170356
-MD5sum: 023b46913b7744069460aded67d87a00
-SHA1: 4d89448270ec97354a4f9beaeb60294f15d67cf9
-SHA256: 125857096af1c9799f0cec231becddc9e7e32913ac07794de6e2f72b0fc2d952
-SHA512: ba5530e726dd8291105667f0d2877bd413da3acf165289b1620cfa6b93ffde900eafb25c992f6be530edf2f95596890a0a45b659a496df402e07d272013962b8
+Size: 170236
+MD5sum: 94d77a190b7e2e9f9349bfb5e3cd9039
+SHA1: 7d292bbefb7f65a96287dd096f1da3cfc98a4813
+SHA256: 2073084e80249b9c4509bfb3f87e2485ea92fc32236d7c74d3fc52ea851aa0df
+SHA512: dc18a8c554ebda248267d9b15e9132ac6161e5289dc61d68520810bc6c4ea62e9cf16ef37340577c18cb76f39c06274e1b9b43d6c7d2a43efcac9afa40dfcd8f
 Description: completely free, modern clone of Pico
 
 Package: ncurses
@@ -928,11 +805,11 @@ Section: System
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: coreutils
 Filename: ./debs/ncurses_6.1_iphoneos-arm.deb
-Size: 300772
-MD5sum: 9efc609f8c89bbc710754e3e874484f9
-SHA1: d03030cf1de2763a5ee547ebf9ba030482b3fdd6
-SHA256: b8b6bd74167209cbc3fb8aa24c7b969298a4491a85c08c123274cd484e2e3b09
-SHA512: 7b4024af73505c39a4c442ea6f8bc36819af1f409a6f9ba9b1de97449a598abf3de1d06c27cf40390e95db3080778ee2c8bf85152dc65c4faddcc350898a07ec
+Size: 300468
+MD5sum: 363de0b6d10ce7625ead529e011bf4be
+SHA1: e22efde614d23ae5d398593a226fedb0e43daeae
+SHA256: 371b56da617c3cd8c98a152337098fe91d43aa4bf404e4549b087f83615249d7
+SHA512: d0c77b0f634fa458b05057ed5a33b0919a35c217c2414467984a1ab81e1acbd0cff2ed8fc680149cab7b2ebcdda8d99bd2d427b56157d01d73e82752214fe1a0
 Description: feature-complete terminal library
 Name: New Curses
 
@@ -944,11 +821,11 @@ Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libgmp10
 Filename: ./debs/nettle_3.5.1_iphoneos-arm.deb
-Size: 284380
-MD5sum: e44b66a04d87d90c35826c54d4b51628
-SHA1: 10308cc2705382915ff2eb4edd6a5f6a070c83f5
-SHA256: 616772ae7f75d63a1b3229fb86b002f72f6c033c13b488586ad5caf4273fc16a
-SHA512: 169e4ff992f4cca5dbdbe43398cad9957b68ee72a5da4419c85944d421d41bb1282ee1a3d708cf4f6980731e6602f70b25f2391c833a25bfa4bd85d3495a010d
+Size: 284548
+MD5sum: 8bc3f91682e674edc7378a1046137bbc
+SHA1: 0b2411ad1db8ed2a7af4bfe5b7a3d109c0f02b13
+SHA256: 6538568993b4b9491d2b3ed3f7bbd9a07e273eebbc2299dc3134bcaefaedd826
+SHA512: 18579bf594ce8f17ba96557ea5fb8e58d72c0c9b22c3d3aef437e90314008754e08d245bdc5ab855de5e48b3b3e0695917f4306e61fe07c08579a021c3bc1243
 Homepage: https://gmplib.org/
 Description: Nettle is a cryptographic library
 Name: Nettle
@@ -962,11 +839,11 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Conflicts: gnupth
 Filename: ./debs/npth_1.6_iphoneos-arm.deb
-Size: 11404
-MD5sum: 5817b8d680733c8d75956a644a285964
-SHA1: e15e2215a947369de7d9d6412144d52028489a6f
-SHA256: 4c3910e9bfb362870008205e44446bf29215fd7234de7eb38b92c75d16d4bef9
-SHA512: 7cdc6d303ef0a9a0c52dbb872e5b340d0340dc8f1ee876a2f7f09e0daeec27a8b4f0c563d39a95a6e551009dca603cff568304565cc6aaf55cf14e646a12d0ca
+Size: 11416
+MD5sum: a645516e29727a2b1356e8d640f20206
+SHA1: 36fac6a0ce246b339712be04e66df18ad4e4d77a
+SHA256: 9ecb878e343f521682895f39f4a5a5e2a05948ddb87bfb19cb617cc3ae028275
+SHA512: 762b17c2da70d5f9813af412fa954713ef5df6500fb11e8c358e2aabcf0e9fa193f8ee829eb95c6852083e05523a7234f529add921e83f4fe540d94da6c36a4d
 Description: portable threading library used by X
 Name: New GNU Portable Threads
 
@@ -978,11 +855,11 @@ Section: Networking
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libressl
 Filename: ./debs/openssh_8.2_iphoneos-arm.deb
-Size: 653784
-MD5sum: 9d3f6cf498af2d55caaaf866380b4ac3
-SHA1: b10532afe6ede7556799802b22ecfd4ed8f9f101
-SHA256: 4d40146a28be9f9756ee1c27676a4e47e2b4b21c6c637c0caa5e89aa532255fa
-SHA512: 787ad4fc49fa46628fc45a470b13dd19e98f19afae6516378edf40d015b8466a97014412fc0db089bbe84c339fd4a5d7771db5dd8df868a4e912a0ee05c66946
+Size: 653088
+MD5sum: 7c06192588c9c19312f4417d78734e74
+SHA1: 592930fbd5e1dada8a83af6a8ee8d86a02c9134b
+SHA256: 778126aaf26c0e5e3c92f1637153624cac49cc8b32de74bd3f4c0fc3d1efafda
+SHA512: 69f3278f7cbdd4256b8abcc8f6c97b2ebf9491234566b5b69f2968cb1284fb8f85fe09f2844842fd12970f86f265b47052cb8ccf7b3839a5cd2a710e8e4dbb91
 Description: secure remote access between machines
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
@@ -996,11 +873,11 @@ Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libtasn1
 Filename: ./debs/p11-kit_0.23.20_iphoneos-arm.deb
-Size: 508044
-MD5sum: 4126b542055a5719324fb8ce15ba5aab
-SHA1: 5b4b1c3bec5d90e8f52586c8370b781bca221955
-SHA256: b2569e21dbf85350b25f657730adad9b37047c9a846070b3785650ffbe0c1fcf
-SHA512: a91fb981e29f83b8a54374d041559c464ab42427cc93a767d1c77fe90905747bad8883d7cddd7a2f66bcbd2a4883924a96d50debc075f1356e5a10779455c7a4
+Size: 509980
+MD5sum: 3d5ef86dd9b59ae9f3c4b8a88b6f78ff
+SHA1: 07657b7239f3560ff6454f3568eb8cb53a3b2224
+SHA256: cbed23556d94938611a5f96c3b726f85a9fa9b8d24dafeecd1e5b128089fa6f0
+SHA512: fad3331c218a661ab41988b91303d008edca71cec1bdf515fcab3d8e9336aa4b3dc13350d0021fe1c7c633a7dfc78426819a2484a90e168c924b983a9ae9b91f
 Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
 Description: p11-glue utilities
 
@@ -1012,11 +889,11 @@ Priority: optional
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/p7zip_16.02+dfsg-7_iphoneos-arm.deb
-Size: 1139436
-MD5sum: bde0b8125f104f3a8c4dffb5e688140c
-SHA1: 72c2115e1548bd35cba0f8fcecceaad9dca8d546
-SHA256: 1452ee66795b5cf9fdb191d869fb0a45ea404a1ed9d019a92fc6a8c2ccce9612
-SHA512: e5d48c29a96c522068cd7fca8fd51bf470310c55b38b90139805dea3a2e4f04a4a0c15459d468c93936124d3613236db30e4c93593cf379bf7000588fbc3ff22
+Size: 1139456
+MD5sum: 31514cb074584298d7d38d54d08a58a1
+SHA1: f2eb9847d2d8707773892bd13145ba85733a7cba
+SHA256: 71f1a8e811289e80d3c183ae50db1c239236fe5318dba91b4c7c6ba1cf8cd306
+SHA512: 8cd31360b9fe6d0b88ab34375191e27c8a0f4e5f0a2276ec75801ab56722e957c47a1a35564184f6aec2dd224a07706270eead6d8590cc9ce57cf450ec3a196d
 Description: claims to be a good compressor
 Tag: purpose::console, role::hacker
 Name: 7-zip (POSIX)
@@ -1028,11 +905,11 @@ Priority: optional
 Section: Scripting
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/perl_5.30.1_iphoneos-arm.deb
-Size: 7604232
-MD5sum: 8545bc0b746cb8f00d9944f383377725
-SHA1: f3578f7ab8ff395369f2ad9b183f59104de2acd7
-SHA256: d0e559f574ccd3770c3bb0345313ad0418cc9007d9bdcc020dd582d05fd417c9
-SHA512: 7507f41af0cd1597bf67d767dc2dd0bd9c880f7b0f8b9990195901487ceb6031348157e9c50cd4cae1034312d75b2725ac3e6937af71be31178ae1b65f2b34c3
+Size: 7607076
+MD5sum: cbe1042e1f844d55ce2e410b5e071132
+SHA1: bfecade88d196af7fcf05273420e288355db5bcf
+SHA256: b9bb52ab8e67692eb24e234e9619fa3574ef4546cf3355c8a15865a16eaa923a
+SHA512: f30fa044b7626b39d85ee7493a7a2dbc7d599652506fbfd2001e285559160339ba8148bd70f3e2542d885f1363f0a362adca653ebefd8bda4f581cf0af2fc2f8
 Description: awesome combination of sed and awk
 Name: Perl
 
@@ -1046,10 +923,10 @@ Pre-Depends: system-cmds (>=805.220.1)
 Depends: bash | zsh
 Filename: ./debs/profile.d_0-5_iphoneos-arm.deb
 Size: 1268
-MD5sum: 8cd67e21bce0305b178ea93312def76f
-SHA1: b05e1594d0b00445777a20123a33d29a0ad4e76e
-SHA256: 46886c609f766e997e760b774a164c6d2b607468e575133582e8c77cd4986bc4
-SHA512: f104955551bc6dbc9c304c31e36d4ac51d409d7c39fe28adebfbbe991e67ec03d0acb24818b45761518042f85462b1a68d24764b3c76006cb83380b3136fe9d7
+MD5sum: abefbfcfa55335416e1729d2c89fe83d
+SHA1: 98a2338ee75209947c512b2c72feca0de2c33e70
+SHA256: 2c817fd3b65b636b8c76fdafbb705c92c97ecec1cb8def61f2f099936e5b720c
+SHA512: 3f859e0c656ecf65dd8cb531cc59a0c37d402b5125e40d16ef1cd0d8719c02a22bb8736290d40263c2ba70d36dc6eb625eeccab3069dc30570c3caa7daceb5af
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
 
@@ -1061,11 +938,11 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/readline_8.0.4_iphoneos-arm.deb
-Size: 146052
-MD5sum: a6d5d7bdd86838f29b4f1e4b8463d906
-SHA1: 3c66a43bf5e8ae3460e13a443cc529ddd1fc24dc
-SHA256: b772daf550448df16a546057a7f4f985d1a025035f9ae54d53287f2f4b9c2ae8
-SHA512: a8bbf957a4d3c28104e0d5c50d70e28e5f019c064f03929ddf51b57ae9e7479f737f771706ec94dcb52ce3e2efd5ebcb6d48dd24d65f73df98b71227ebf71cf4
+Size: 146072
+MD5sum: d5ab345ee809a78708c6105cf158ba1a
+SHA1: c383c25f80fccae9eaf010978f397b656d6abb7b
+SHA256: fbf5cd539f035b76c784a78b75cd06558a47f6a5a5ed53675a95c6ed5a65aa8f
+SHA512: 003a8fd55ef57c0d53b950e3ba51077dd5bcb619c12cb3245439e2504f06b9bceb5a866220058e3d7faa3d33c119193d99ffc6f5373d1835b7fd0276e5e97777
 Description: command-line history management
 
 Package: sed
@@ -1076,29 +953,13 @@ Priority: important
 Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/sed_4.7_iphoneos-arm.deb
-Size: 83568
-MD5sum: fb88a5239e19b6c0069444317293b9de
-SHA1: 50f8953523994ed059d2c505ef55b71341231469
-SHA256: 6e0999d6dad3bf7b6f1be0d72677f5f0c7a070e692fc4a9bc4a010c7d8357103
-SHA512: d0c7a063af92ff4abe075f7fb87bd02d429c6ff15b0c5ae511f95438650bfcf6a61677c6aebfc5c10504da4c63f860aadf36c7bba45935857ea09f1bc8d0b623
+Size: 83560
+MD5sum: 9d880320ab3654d68097f85d12265f78
+SHA1: df516df05986978499af4f2594c49cc8da28e25c
+SHA256: 0293170dcc57ecdd770330cea0592adfdc8954f175264b655932c07274ad1e89
+SHA512: ef08c8e5be9d91951cf2987ac75fd8d98eb4a86809871a0e9c29067d381283256dd4c80a7800cfbcafb567614bc14f5b7a345f9b8c0495524318e576030ddd76
 Homepage: http://www.gnu.org/software/sed/
 Description: edits streams of text using patterns
-
-Package: shell-cmds
-Architecture: iphoneos-arm
-Version: 207.11.1
-Priority: important
-Section: Administration
-Maintainer: Hayden Seay <me@diatr.us>
-Provides: killall, which
-Filename: ./debs/shell-cmds_207.11.1_iphoneos-arm.deb
-Size: 14864
-MD5sum: 5cfdd5a872549562f052ea165d9fc315
-SHA1: 5d068d32e78cd0a2e23531b4ecbc766630b511fb
-SHA256: 11059d930cf2f3c1af77d90c7abcb7f6957e1cbcd7cd2da8f124a3aad9520856
-SHA512: ee39e8be163982d22e6a0c485b9cc6c37272fcb9d1b92b7f6dd079271d5c82832d5889f6b43d27d6899872236e9addd23b8c75bf9320e0b6d0ad75819261acb1
-Description: killall, mktemp, renice, time, which
-Tag: purpose::console, role::hacker
 
 Package: shell-cmds
 Architecture: iphoneos-arm
@@ -1108,30 +969,13 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Provides: killall, which
 Filename: ./debs/shell-cmds_207.40.1_iphoneos-arm.deb
-Size: 15732
-MD5sum: 23fdae2a778bdd9ee07ea8b5aeaba505
-SHA1: 6357aa6b9bfa20b6646092db098ce5e5cb012cb8
-SHA256: b31231c569eb0021ef37d11dc2f52b4503f4caa472ecce60e72b6e262db34aca
-SHA512: e79e0db038058732fa55e98d2a06b2f42b9118e4603affa75b6264f494e985f05ffecc2318fff4c50aed9bccc05bf584ae4fe2d33dc48a39ab1bde7b7efd2a78
-Description: killall, mktemp, renice, time, which
+Size: 16728
+MD5sum: 0298e54e8c9a0eceba9a77b16b20d817
+SHA1: 8fbfbd5bb13559cc7ba170e81b811c1af96b9666
+SHA256: 620b684e794c8c4841aa494828a26516c68da39a0b381457991f85ae939e20ab
+SHA512: e3aeab29bc3f14d7af261f5a8c8d0941b6a0bba6023647190d4110eda82a660495c61536aa3dc579578f046ed413b11fca8725df5cb3c3ecd356c4c8ac8d6192
+Description: killall, renice, script, time, which, getopt, what
 Tag: purpose::console, role::hacker
-
-Package: system-cmds
-Architecture: iphoneos-arm
-Version: 854.11.2
-Priority: required
-Essential: yes
-Section: Administration
-Maintainer: Hayden Seay <me@diatr.us>
-Provides: login, passwd, reboot
-Depends: firmware-sbin
-Filename: ./debs/system-cmds_854.11.2_iphoneos-arm.deb
-Size: 88920
-MD5sum: 74d910d89dd7cdc58c4ad16ca1710d7b
-SHA1: 1bfe84043a4a64642cc65bce8489314f149833c0
-SHA256: 2735883a673b9bddd3f21bfd23db27f82d583f4300bcf99326ffe559207c91e0
-SHA512: ac8b73c752db730284aad15aa5c31e9dd94412b1103a6b27b71871403813a30fe61fb8445f2dc3c729989dcf73b3fc4487e05b8b1dc14ea042b59752326afd90
-Description: iostat, login, passwd, sync, sysctl
 
 Package: system-cmds
 Architecture: iphoneos-arm
@@ -1143,11 +987,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Provides: login, passwd, reboot
 Depends: firmware-sbin
 Filename: ./debs/system-cmds_854.40.2_iphoneos-arm.deb
-Size: 88916
-MD5sum: 0471b4eb3a9f022f94f3b990cfa14bc6
-SHA1: 78d033f61d352cbf652e47ce748b3302fec8d875
-SHA256: 452e44545a0f38ace2cd0596898a411490ec911f8079341f4678b293202e6682
-SHA512: f607ed8eda236771cceabfa978ddf421f4f2cb2c63c1da008009e36880cd6a5d689531d81863222baf7c3ba80d9557cc2163330782ced1964a4aec140ed717b0
+Size: 92692
+MD5sum: 48760a6db3a768934e520c9f6e75b76c
+SHA1: 496b2bf89b638c24b590307ddeec5379bc6f3a98
+SHA256: 6cffb2d2ebc5de867b3f5817ae72aefd26302fc9d16bf3e7a547a532eaf963a0
+SHA512: 509c35fa4cc3c065cfe19c3d7f7c480521c9bc9fc3bcc653d2d5890e681c52cbbfa62db49f4de1313a45643a1573f8ecb14adeb065bb509bae3ab7329f214a52
 Description: iostat, login, passwd, sync, sysctl
 
 Package: tar
@@ -1158,11 +1002,11 @@ Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: bzip2, gzip, xz-utils, zstd
 Filename: ./debs/tar_1.32_iphoneos-arm.deb
-Size: 201032
-MD5sum: e9b4ad954000114df4e5c5be8b7c9a1c
-SHA1: 80098339392a883716d39789940553fdd23672e4
-SHA256: d828d9e51ec034fe3f5e283877a5bf130b173514b90f3ef7eb5ce17ccac1d5cc
-SHA512: 425e3441eb8b13ce2fcf7940ba49a17b43b5701007a13bdc462232eb6d725b8960277982342070c3614131028a4756db84ee47888960954a82a61f9002d92e6d
+Size: 200848
+MD5sum: 4dca48edeb9c7a23206cae99a3f984f4
+SHA1: 3e5ff0ff3c0efe038cbcf34fe976aa8c4200f166
+SHA256: 9982700978297c6b0fc3549a82dfea8b98f366915b36086b1c2776f32e8c714e
+SHA512: 0d71c083cfe5b440fe647ffae723d68cc92beebc51e3cd4813d8a31659bd04faae320b78f0872102f6ed614e669c9f1b48f94177241818404fac9203d4ea7914
 Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives
 Name: Tape Archive
@@ -1176,11 +1020,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Depends: coreutils, findutils
 Conflicts: cydia-gui (<= 1.1.30-3), org.coolstar.sileo (<= 0.8b9)
 Filename: ./debs/uikittools_2.0.2_iphoneos-arm.deb
-Size: 22012
-MD5sum: 6028e2646b2c153d7a2d3babc5d9c6c2
-SHA1: eec202d6e2a0cb22b45c491e8f0401225cc92c79
-SHA256: a6e6832ee404b424a2a18000853393c8d268b5abce7ba20a1865cbded7e9b5de
-SHA512: c7add908523778b86ded0314b521325e5d43822b2095d3c0f519800b084e8dac073799d314758494f6d1c5b8b5119f3d7c05f70ca0b15979097d3bd75c28dee7
+Size: 22000
+MD5sum: 57c4fe7fda7a2fc9ae06911fae081528
+SHA1: b7ef2d7d036a16fddf198292c8bb5d39c8e37ce2
+SHA256: 5ebb1c7d65e7d1d820702b3606aa53e981bc9688f6bfcd13770a40381793a02b
+SHA512: 78e024265e34246130cb5c0a672cd561c6ab1de7c4a1f4d24c873c948311e200665ca0b05a9a0957f69c6a7dcd195f2d1d44b87914e529498798efe98749c73d
 Description: Command line access for UIKit/LaunchServices/CoreServices
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: UIKit Tools
@@ -1194,11 +1038,11 @@ Priority: optional
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/unrar_5.9.2_iphoneos-arm.deb
-Size: 154680
-MD5sum: c2fcb2a9d472cc1c43a791c30892c454
-SHA1: f28c2691d50bbe778dc2e768527597981eaaecdb
-SHA256: 871da0fa29dc484e3bd592fa1e05315a7bfab25b6192656ad50d2c9ed57a9d76
-SHA512: 10d2d6f9431b7eb97570445a13094175479fdc2a2b42fe5ca0c43576b35245c089605bfeadcd4cdde5042c050fb26cdeba23c4412b333147806ab3ea1afe56c9
+Size: 154724
+MD5sum: 6ecabeca993b201bcffc2b76e0a453f4
+SHA1: 13814905949c52c58a26c12d389c0740db3f39df
+SHA256: 49d81fae85f1f585025935b9f781e309743101072fb6e15fd05ecacb9ad1db1f
+SHA512: 6ba050f947b9aa6f55e26d11d2510e784ecbbe54bee617402784b6b75f6107957bbfa113d201db9a64e6449b8b144b26bc876003ea142f5de07ce155fd6917ea
 Homepage: http://www.rarlab.com/rar_add.htm
 Description: de-compresses files in rar format
 Tag: purpose::console, role::hacker
@@ -1210,11 +1054,11 @@ Priority: important
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/unzip_6.0-25_iphoneos-arm.deb
-Size: 86248
-MD5sum: f3bcb8b0c151535f5d373a481140aac3
-SHA1: 40c9b61d3e69e7d41cc3c392955c1ed2ae262927
-SHA256: 077f95e3b1c1c98895ca2605dbb034cdd17ccc037ed73b4eb89428e5c893d633
-SHA512: af5bf6bdee13de0c1fc9da99ccf56ca4716850f571cca7bae5f6050fe26b5fb71630d4c40ecd877b2784a6e1c3e5a41304068d0a14e82377d0510b8f61c8445b
+Size: 86244
+MD5sum: e54b18d1da44f36ff1d27b267273be23
+SHA1: e05dc9758f5cf63576c60214ff3ad9387e2efed8
+SHA256: f4279f644a7739bd6fc5365224327c4114fed0041e168ae6f6b48a22a2a85a9c
+SHA512: 20f0d2d3927e1808d554ed29fe6b46dbad6551e5537a8e0d9810465234348b1ae89a2b183697c60a3edc6eab392221f059db03bfd67d82ae7a91b207d3d8012b
 Description: de-compesses files in zip format
 Tag: purpose::console, role::hacker
 
@@ -1228,11 +1072,11 @@ Provides: xz (=5.2.4), lzma (=5.2.4)
 Depends: grep, sed
 Replaces: xz, lzma
 Filename: ./debs/xz-utils_5.2.4_iphoneos-arm.deb
-Size: 194012
-MD5sum: b9efdaa07b6db4e24b1530577e861ae9
-SHA1: 80ad7c8ae5cbe77cc60591a5451ba3fd3ef21349
-SHA256: e974ddd63b9a0b0e63bab44c3d508da8a43a0480f9ae86b249e3281ed974b7e8
-SHA512: 9fa9dbf139afa6cf57ba3f0e7922a1431fdfd041afda0017f47988746553f80f8517afb199ff7d7da27ecdb23b06cc6e7ff791feb637f048bf264c04a2b9f2bd
+Size: 193904
+MD5sum: 0c0eba236ef0c5aa379adec7c3f5b25a
+SHA1: d3c34c12f4a1051a1fbab8247c73867bc4536d9e
+SHA256: 18d142e09d212fc8a3cc46f0ecff5eec3ed9cba0d8a053cf2c89764b79e3f36e
+SHA512: 9a45e6a08d1d954c1340cd963697ba942ed15fe24713c3a171448d3e419374b099fa7ae6258241f8ac26cd0efd3b1c7ff953018b6d12e5527c3e31db6ce88f33
 Homepage: https://tukaani.org/xz/
 Description: slower, but better, compression algorithm
 Name: XZ Utils
@@ -1245,11 +1089,11 @@ Priority: important
 Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/zip_3.0-11_iphoneos-arm.deb
-Size: 105124
-MD5sum: 90d1d3102e75c666cb5fe70558056b8b
-SHA1: 9cb97ac4c3be08e79d22faad29399bde27cbf50a
-SHA256: 25e7a35f88203a85c8d715ed4f7bd8745e20df3f20c52589b7be674221d53cec
-SHA512: 50fd1f1c158aeb4ca94a98e85cc3338a4b0f93cb0c1215ed6e2109b2fc5594dc27bc59b8737456342615805f3645ccd7bd01ada850964aea2aa97d57a86bc53f
+Size: 105068
+MD5sum: 50be9ba35cf4e4ae9c6fb4a6f99f74f4
+SHA1: 5dee26dd3893dda9dd9ccd6ff7b247ee6641b8df
+SHA256: eef2c3d7fb0adc6c69c8f67354a518e64b0beef6561a75bb98743a76a91047e4
+SHA512: 184848eb94488995ae59986d7a4183491b0c70dd86e954690348cb76967d73d4f6194392b865173565ebd4043a92045230d58b3cafa288ef796c9a0e6508ff9a
 Description: standard Windows compression tool
 Tag: purpose::console, role::hacker
 
@@ -1261,11 +1105,11 @@ Section: Terminal_Support
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses, libpcre
 Filename: ./debs/zsh_5.8_iphoneos-arm.deb
-Size: 1522876
-MD5sum: 38e7f882fcda1fa44a934f3575792a97
-SHA1: 365f56a1321559ec4c204d30204eb760d684f1fb
-SHA256: 0d644a1d83ab508d82c6d7bbd92fbf1488a94c30531f5dda1fcb9b3e75a397f8
-SHA512: 4a61ab55cddd31b110cc10d77f632b886ad2f17be4c98a0a708c015e6ee5ee850ac606facc86bc32d14914e99b6dfa9aea02f5788a60ce26567a682955d77f5e
+Size: 1522736
+MD5sum: 184cce8a864c06756cf58d0f10f07fe0
+SHA1: 8d392859107183580eabfe59de45b2c8593145d0
+SHA256: a6e5042ff290c4c89a67bebe95835733736d25b5067ce3cef8bf968f23fff532
+SHA512: 05990a375a59824dceca28aae6d0d8854219eeec8a5ac8351d6b0be4a5f077b117024c61d5a3a81d92d155d272be8d8a414dc9164ddcd0cf4338fdd26512d6d3
 Description: a shell with interactive features
 Name: Z Shell
 
@@ -1277,11 +1121,11 @@ Section: Archiving
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: lz4, xz-utils
 Filename: ./debs/zstd_1.4.4_iphoneos-arm.deb
-Size: 359724
-MD5sum: ab405325e1a35ee9481350f3f4ffecbd
-SHA1: f7b1382a921cd6056f70890d5d16c695b0d3e039
-SHA256: 8ce87b8f4beff660fa54b949bc6c4d5f212bdc7ba9f511d1acb20e8888c571e8
-SHA512: 819e9035ccbbd26406cc2a9c37ec6dd7bfede02fc219a35f7fda2df7b278168f0020dbac71316c203b19fcf68542313dc7523fd0884ffaa570d5e1e1293e4615
+Size: 359736
+MD5sum: aedf2133d26e8bbb36c492a5f003db00
+SHA1: 2ab013c76655e8326a052c5d0211b2a0f813032a
+SHA256: 721715620487d3dbf3a8a098b4e6c6f174c6ffbff920bc7eddf93d14885b6fb8
+SHA512: f539e6888cd3e245b2e033b8c493883e9e60bf1b8e8051de950ec6f94cffc557350d9529e9c60598a1db1923d1a2ce0b3f4af8bba94472ad28a46692e2b001ca
 Description: Modern compression algorithm by Facebook.
 Name: Zstandard
 

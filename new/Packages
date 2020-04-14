@@ -172,6 +172,27 @@ SHA512: 17df757a1564956d24675886f72bb9065ab43bd5807af1334a63f5ebc0534c87c72ae836
 Description: CA certs for curl, wget, git.
 Name: CA Certs
 
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6003
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb
+Size: 20722
+MD5sum: 54268824040a2681d43a81f574cf24da
+SHA1: 164289d0b2ef4d65e38fba1edbaa6319e4ef5d0b
+SHA256: 5c3b06e4d6f384f8ba9d33bf23bb60e0d866706f51f9434616e3194931c136fd
+SHA512: 5c8f7461fd1019c4b7e13a927e8b28f87f98c3cea78b238d2d7aef7a9be20b162324baea6d93fdae77515a828cd9ed559ab13c057a7971384e39d107d397c5ad
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
 Package: coreutils
 Architecture: iphoneos-arm
 Version: 8.32

@@ -844,13 +844,16 @@ Version: 1.1.1f
 Priority: standard
 Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
+Provides: libressl
 Depends: ca-certificates
+Conflicts: libressl
+Replaces: libressl
 Filename: ./debs/libssl1.1_1.1.1f_iphoneos-arm.deb
-Size: 1151368
-MD5sum: 0abb8849e9f1adc0ba1200fcff3520f1
-SHA1: a704484330c58ee0b59804f70e55a0a786e6b93a
-SHA256: a7f104cfffedcf460a3235409af59d7d7637d86a1220a9993b270c197dc795fe
-SHA512: dd563e292ff8318756a222f71d537b62fced9f95792b32e5cfa5eaa48563d7b5fe0b0f53bd2830ae1bc314f5a194b2b8911547e47a03172bb0f3dfd93f916303
+Size: 1151364
+MD5sum: a77255a7fb8ac42a0af2dfc2a76bfa3c
+SHA1: 2fd971c4eec9820566ab8cd72315c3e456d50303
+SHA256: aebafac36955b4ccd66ef11e53177f3f7c1bf1851e7369d756f041ee44eb0846
+SHA512: b92fdb1bc4677a21db0d58ffea13ce7b4c3c5e3979e4c3f17e6834eb8172b4f82042b184394e187082b5db3e1192dca3063357c503f5020c6d8e7cc33aa05a8f
 Description: OpenSSL Libraries for version 1.1.x
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries

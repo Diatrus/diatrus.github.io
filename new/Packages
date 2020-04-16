@@ -556,6 +556,22 @@ SHA512: 5ba45a05b32a1afe30ebd4cc8d8f0d0cd913092f23098bb029bd38dd16c830da5b341611
 Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
 
+Package: htop
+Architecture: iphoneos-arm
+Version: 2.2.0
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: ncurses (>= 6.0)
+Filename: ./debs/htop_2.2.0_iphoneos-arm.deb
+Size: 53680
+MD5sum: 5d2b65e2ccb51a067fa57abb9efa101a
+SHA1: af32e32ce6923adf96d4ce2981b41dd72b566377
+SHA256: 00920ea05523fe7245f7f624f14a8c33232acbf0dc34526bab3a30add332431f
+SHA512: 2ba199b7f657474a5abb2c3917a4b15bafc6b186ed70412da5c09b2c678962faed0fd938c33307d558d66413e5425f439ad9d28bf807d927fbb3c2ca8bc36466
+Description: An interactive process viewer for Unix systems.
+Tag: purpose::console, role::hacker
+
 Package: inetutils
 Architecture: iphoneos-arm
 Version: 1.9.4
@@ -931,15 +947,15 @@ Version: 7.0.0
 Priority: optional
 Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
-Depends: bash, gawk
+Depends: bash (>= 5.0), gawk
 Conflicts: com.matdev.neofetch-ios
 Replaces: com.matdev.neofetch-ios
 Filename: ./debs/neofetch_7.0.0_iphoneos-arm.deb
-Size: 73504
-MD5sum: b2813afa45f74d68913eea50c6b21eba
-SHA1: 0bf7fe3c68dc1b60a4b5d0e0f9865ca8aed51eb3
-SHA256: a34861a22449ea8d45065f255aba83a37c3bf529751026f00fd9db62f268c7a3
-SHA512: cf50434bd3a1694205e2d1355543446bda2e7a29fbc7925ef44e4a8c6e7c79857c08d2aeb2703d7bba24561f65ec9f9fc63e0ca58f7bd2e77121a7b67230eef1
+Size: 73532
+MD5sum: dc7bae81db692f4d2171e7d96672db80
+SHA1: 2fb261c625ded7bf71fabbddcc19719055856ea7
+SHA256: c9af71bb0330a26a60c11fcaad46a86e18c1c792309a2b471dfb109327d1dc83
+SHA512: 4e5939110d9419d4d01d2c519f358508894680ff8bdf1db968591c94644a8748cc979ac231bb59ec97507b534114cc1ea5de9e5a783e6355b093fdc113404776
 Homepage: https://github.com/dylanaraps/neofetch
 Description: Shows System Information with Distribution Logo
  Neoftech is a cross-platform and easy-to-use system information

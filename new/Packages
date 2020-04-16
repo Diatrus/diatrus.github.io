@@ -80,10 +80,10 @@ Section: System
 Maintainer: Hayden Seay <me@diatr.us>
 Filename: ./debs/base_1-5_iphoneos-arm.deb
 Size: 1668
-MD5sum: 575f4714456955a8b34077da6e5e96f6
-SHA1: 7c7e51929827bff49d322c0e38d857626d8b607d
-SHA256: 8c4aaa1d0bbfc4a180128aa3fc647a182893c1ad65af795b56208f4e8c349fcf
-SHA512: a2511048b7a7b35af8939fced41ef9f8884e0bd9d6f09233f4898adeef0da4162dab4277c1b6e0b30b6e9612e7d3dd01a322f05efdd16ae748bd18a3556d0ebe
+MD5sum: 5f8efebc68397946ddcea94aca9ffb76
+SHA1: 065a373c32c0456ff99de102d09dc23ff9cc7315
+SHA256: fe8376f36dfb93ab4d548358ed8e418d018cdbdc707b798dea8801faff0811fe
+SHA512: f011a5df11352f801eb71e9ed2bef62e06f60a2f7485edf18e97ac1738e56cd9a1f899aad0695fcf56aaaaf877305ef73f2bd13bb8a5799aba752b1a0ee0fdce
 Description: underlying system directory structure
 Tag: purpose::backend, role::hacker
 Name: Base Structure
@@ -375,10 +375,10 @@ Pre-Depends: bootstrap | dpkg (>= 1.19.0)
 Depends: cydia | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
 Filename: ./debs/essential_0-3_iphoneos-arm.deb
 Size: 916
-MD5sum: 29ff23c3cd5c7c3d586b8d12ce8ea13e
-SHA1: 49dc43b6a5524bef99503de4e557d9cbef2502c6
-SHA256: 18dde1844b3722237219d450b19c801d570cb867e5437257c8f14a9274f21418
-SHA512: 2b5548cf06a7c3088a781a91edc6660485853952a3a0877feef592979d2934da42a640ac552e333d50a8e845ccb2ad88f5ee0f41d23eaf6e600e6a4d039f946e
+MD5sum: 890b9d694e198ac6cc65dedcf388863b
+SHA1: a4fd0b1f806501ae88c0bae19c5e1fe2239eaca2
+SHA256: 04488f539201a19bcf16c629b0a8f6b867af253a327ca3d4b8ee8b63fe040c36
+SHA512: 436ba1a03110f4d7f2f234f4f31a45c1902f91382f4dd25667395746503f81a62091d91d6e6912cbdbe0402e920b1391389404d8b8c972099e6ae2786f88d427
 Description: contains nothing, represents everything
 Tag: cydia::essential, role::goddess
 Depiction: http://cydia.saurik.com/info/essential/
@@ -602,10 +602,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Replaces: jailbreak-resources (<< 1.0~b27)
 Filename: ./debs/launchctl_23-2_iphoneos-arm.deb
 Size: 35928
-MD5sum: 70a91652b4e9be82a9d67339ae6292bd
-SHA1: e21be536fe96aa872593e1771ca533db2e20775c
-SHA256: 864cbec317bb9601a3fd240e3bc6213ed5bc4c421c78f95c1c287e7432e33942
-SHA512: 761850d3648f4940a4024f3fe3c784de96306a5b5188a885daed456672c0667fc90a1a57d3520aa9c1bd73589f505418558091d08e9ef25e92baf4dc588e9fb2
+MD5sum: fe0677bce73c503bd1eea303b950f6d1
+SHA1: 66c98fa9174a2a89135df9b7182ef4ea41921fb1
+SHA256: 362fbfd18b29d33cab0b3e640e4034da132374888c4244f09312b5833f38f6be
+SHA512: ebbac6ceb10d9334a932f3349f11e1bbb8023713bd810c449d73a768f703572cac3df92cd746b3b926feae082e9c6b3098370b6f2b6506fe15dbde942cab0f26
 Description: Tells launchd what to do
 Name: Launch Daemon Controller
 
@@ -662,6 +662,23 @@ SHA256: 7fe9b2d10c9023c8f6b36c12d84f7a672c694adabd8094b3f075f65b418f0385
 SHA512: 9ec27c177f60b86e4db3ab5502cb751edea2a993c6c96db537097227300dd0c994cb32124903759206c022cb918651cc6924b8fe81af9c46aa32cbe3711eb52b
 Description: LGPL cryptographic algorithm library
 Name: GNU Cryptography
+
+Package: libgdbm
+Architecture: iphoneos-arm
+Version: 1.18.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: readline (>= 8.0)
+Filename: ./debs/libgdbm_1.18.1_iphoneos-arm.deb
+Size: 75644
+MD5sum: 8dcdf56299a504a9480d95b3a926dddf
+SHA1: 84c20f29a8e941241125716cea135712df7939ca
+SHA256: 1d745593c84d611265a429ba7ac20de10dfc5ea113f446f5a7d1c1945332925f
+SHA512: f97f9aa3a2640bba02cec33dadf0334eb32409bc1728cc11dc0a6a2c7c25a29357e267287a213b5c9b291bf0e8d367107033458d115f78cd5335ff3bffdb3c4f
+Homepage: https://www.gnu.org.ua/software/gdbm
+Description: GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.
+Tag: purpose::library, role::developer
 
 Package: libgmp10
 Architecture: iphoneos-arm
@@ -804,6 +821,22 @@ SHA512: 294ea941da43a1fd6b37c199d5dd4987ff1d74398e259a206d3bce8b74254fee48d07abb
 Description: Perl-compatible regular expressions
 Tag: purpose::library, role::developer
 
+Package: libpipeline
+Architecture: iphoneos-arm
+Version: 1.5.2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/libpipeline_1.5.2_iphoneos-arm.deb
+Size: 33948
+MD5sum: 833f9e9fac31fd0cc77bcf977f80dad0
+SHA1: 1e0976721b43c38282e7c1a9b835166b94a8431e
+SHA256: f2f840251de31454e509fbbaf53a0fb42cbc01715a6183d6046696fc10a921f5
+SHA512: 191182af59f59b84699c9092fb469f7fa75952d1881cda3a04551c4bd5e6976284b01b4e8c1a7e2d04fc928776873a3836d8685d0b6b2726a9315fdcae824044
+Homepage: http://savannah.nongnu.org/projects/libpipeline
+Description: Library for manipulating pipelines of subprocesses
+Tag: purpose::library, role::developer
+
 Package: libssh2
 Architecture: iphoneos-arm
 Version: 1.9.0
@@ -906,6 +939,23 @@ SHA512: c64b2d95a3c323993f4c69581abb16cf8f77c9e08a8aa351d75a224c4fd13c337f30a6fc
 Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
+
+Package: man-db
+Architecture: iphoneos-arm
+Version: 2.9.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libgdbm, libpipeline
+Filename: ./debs/man-db_2.9.1_iphoneos-arm.deb
+Size: 245088
+MD5sum: 688f5f9e5bd9609a34fcb92a8714d86d
+SHA1: 4fd73b3dce5b2a95d7c4fa88fb07f5539282b355
+SHA256: 9970b294be24492d30b0d0c32b11da36ab9bb51d64068f6b11f65d0b7aec482b
+SHA512: 4b24496a6561427943e7b162543fa07f31a608d22c82419cd25e454788d019915b553741a9b48fd208ad9782e9c4b5b7939123d9ae5ad0da17f1e304c13fa28b
+Homepage: https://nongnu.org/man-db/
+Description: tools for reading manual pages
+Tag: purpose::library, role::developer
 
 Package: mobilesubstrate
 Architecture: iphoneos-arm
@@ -1126,11 +1176,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: system-cmds (>=805.220.1)
 Depends: zsh
 Filename: ./debs/profile.d_0-5_iphoneos-arm.deb
-Size: 1412
-MD5sum: 9efe55530201e58a13b42e9b133d0c99
-SHA1: 331ac080db1f3075da99c3cfc0a3c8c83a39438b
-SHA256: 37999698cc8f90eb5436c39d9b6a21d11a0f4752159fc9f9493f27b2429b48d0
-SHA512: 5b3f559ad683d280b5861b2c08a6908417fc5e914fd9a0a234f762f03bbfc401ca08eb0f78f948cb2ecdfd5530da82081a8994e8315d1fc0a61873d7fc7e8a2c
+Size: 1416
+MD5sum: 3415fcdcc2e3ba68a8c1e5c73facddb9
+SHA1: 181b37d987b634ecd9c195395700e5bbacb7b992
+SHA256: a83ee24b42d47eeec6761651b5718851a269bab198ffa70a9e4a67d5f5e91601
+SHA512: 21b7b06fbcd1b6e73637b8ff40c7a6e053cabe2f74ccc79dd5cb07e49ec05cbe56db0d9cc027bbca1b935aff6dd454cd3ae7e9104ea752a3fe484c36ae57d6da
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
 

@@ -436,6 +436,24 @@ SHA512: 9cba38a20783f669b65fd0fd390bea4c83100cc439ff376e482203065d571be8938f1566
 Description: represents Telesphoreo / iPhoneOS conflicts
 Name: iPhone Firmware (/sbin)
 
+Package: gawk
+Architecture: iphoneos-arm
+Version: 5.1.0
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/gawk_5.1.0_iphoneos-arm.deb
+Size: 307792
+MD5sum: 150fa3ed41cd005bb46bd7ab867acc1d
+SHA1: 89e466fbffecc5e5fdcdec7bb6b958902b5c070b
+SHA256: bfc7a1446928451a58d728115b52cc50ba53df3eda3770ebbe2fdf54089e39b2
+SHA512: 46e724e81eb3911562c8f327b97462c82265bd83d80ec7f3a9d013058c2044ede8522a3ccbbfd2f46b21103fe6031ab1ddf46cfb1078fb273d252dbc7e7b850a
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU's heavy-weight implementation of awk
+Tag: purpose::console, role::hacker
+Name: Gawk
+
 Package: gettext
 Architecture: iphoneos-arm
 Version: 0.20.2
@@ -906,6 +924,28 @@ SHA256: 715a6a1487ec6b37fb0327e2fdadf47fe3f7ca672ac9af1e921c5202334f1b9f
 SHA512: 00b68f76be98796053ec0746c2970737bf046b4b3f4021ba63166728add1ce44909785a30aa909eca8e9a498e6eab440fb3205a362213e91ce593eb02ead4871
 Description: feature-complete terminal library
 Name: New Curses
+
+Package: neofetch
+Architecture: iphoneos-arm
+Version: 7.0.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: bash, gawk
+Replaces: com.matdev.neofetch-ios
+Filename: ./debs/neofetch_7.0.0_iphoneos-arm.deb
+Size: 73512
+MD5sum: 27d122c925c249c53992353cbec753c2
+SHA1: 303176a04960c555a0f2d98966ad617307d568a2
+SHA256: 9b6cdc6e1b4214d7558cbc320fe2bfbfb44d630ec8cdf9101367636b88b77d1c
+SHA512: 9673274aa34663b8a7c592f613eae724f30898150cd8f354792f54f9dbc5c578881dea7738420fd998d9db1f51f9d5f7137b055089cdfe53c7777b206b1c508b
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+ Neoftech is a cross-platform and easy-to-use system information
+ command line script that collects your system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+Author: Dylan Araps <dylan.araps@gmail.com>
 
 Package: nettle
 Architecture: iphoneos-arm

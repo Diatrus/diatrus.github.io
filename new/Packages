@@ -581,11 +581,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Provides: hostname, ping, telnet
 Depends: ncurses, readline
 Filename: ./debs/inetutils_1.9.4_iphoneos-arm.deb
-Size: 279820
-MD5sum: dc09e428e5e356584a80b152ec18fdc6
-SHA1: 47ea64434d023ede25d9aa4de127e2b69f80fbbb
-SHA256: d981a998fe2e1532f41ce8d0f9664b7210031a2f80047bf91b4700b54da37811
-SHA512: c028bf4b6e568c80dfcc4796e77ed1fb41b369e7ac0c2400dfdf42c60b111c2e46f57b390818dfd3f01b111fd3741d97a199d5ee01b8d11ea68e3d33e39b203e
+Size: 279768
+MD5sum: 8192079c09523ebd03a4e481126d52ad
+SHA1: 26366df9ac3fa5ce07eb7d9b7dcf622dbc6f0568
+SHA256: df8146239499568a785576d1aafcef8583f581be1cca03a8562e198f51820deb
+SHA512: a5bd9b7e59d993ada95510cc0fd07feed75bd69c2405528bb82e5f0a45fd2c783058960ca5184cebdcbcf74a954c7c563f3abcee158167bd22580c754f635ee0
 Homepage: http://www.gnu.org/software/inetutils/
 Description: ftp, inetd, ping, rlogin, telnet, tftp
 Tag: purpose::console, role::hacker
@@ -1240,11 +1240,11 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/top_125_iphoneos-arm.deb
-Size: 34308
-MD5sum: 783450bf03c2a961d02120a40e30b08a
-SHA1: e72f93fc51f60fcf65f4d55ba6892daa244d3b63
-SHA256: 6c6a62882ee96cd4a9ce74bd5dd09abdab5dd5d20512cee688fdc082b61950af
-SHA512: 2ab2481316699bc96930ee3952fc1a6c8985d1b140556f4dc97566bb9412164550512ccadbb4325f6567053486e30c35106aa2d05cfb9b08f83a4d381da70d0f
+Size: 34360
+MD5sum: 819fb6b3e324ab50d526aa95165ca71f
+SHA1: 35fc0701e07cc8198fe504e649f25a7166b1ba50
+SHA256: 7148d067ca1d64ef54642bf5439a5dc035f510575dfa4d43a906fc5c4a98817b
+SHA512: a89b67dca2422892e77e2a4e14819b54744d967b5120ce6c8eed7c5bd3fcf2f796e4e4284dc31c50328da11d7f881e962368b2738580f070c0242e4cb98feaf0
 Description: at-a-glance process watching tool
 Tag: purpose::console, role::hacker
 

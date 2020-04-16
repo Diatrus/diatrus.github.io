@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm
 Codename: memo
 Components: main
-Date: Thu, 16 Apr 2020 22:23:31 +0000
+Date: Thu, 16 Apr 2020 22:35:28 +0000
 Description: Testing the memo
 Label: Diatrus Bootstrap Tests
 Origin: Diatrus Bootstrap Tests
 Suite: stable
 Version: 1.0
 MD5Sum:
- c922eb2b88e93d05f9c712fcdf994795            52360 Packages
- 7f6d90fa799f671fb2d8aaca3f6430d3            17812 Packages.bz2
- 61ae6455f399e07e3dbd4736e5d96f92            18424 Packages.xz
- 75cbc225cfd973fa06fd5ab7012a551d            18765 Packages.zst
- 40e7689e3b8e4d35cc54518aa92749de              218 Release
+ b15b9616e16ea7863e0698621d94a304            52360 Packages
+ 0b7fc8ee2bacf6ff3041c6a975f863b7            17816 Packages.bz2
+ b4f350d96a44a7a51c4800189cad6f8e            18424 Packages.xz
+ 3de9657cc4fee932694d5d5aecd63993            18756 Packages.zst
+ d935353d9aba181199fc9d458dbe9d86              218 Release
 SHA1:
- 7d5eac90b4f434289feecedce347d7b77a861c0f            52360 Packages
- 8048e7dcda43e2b3ef5f9758f60db030a9f8ef5f            17812 Packages.bz2
- 0e9207c59843d81f8ef2829ad027db97114a2076            18424 Packages.xz
- d96ec229913d4ebe376fbd086afca02f91ae89f0            18765 Packages.zst
- 204738ec9da3bf5bc87b4bc3d3117d6f9cc32cc6              218 Release
+ 587712c0d47325fd88a63022c38a8296c5bcaa6e            52360 Packages
+ 2ac544c22eaa287b01d3121d33de358e11f1a380            17816 Packages.bz2
+ ec1725d3278cccdf4a1879f164895a69e6509827            18424 Packages.xz
+ b4f279ebcd82c0393defb1778f41d096a9a361c5            18756 Packages.zst
+ 1b3fc8ffb3e1d05040638499b141f4caf2514d1b              218 Release
 SHA256:
- 2e3a56d1aa32d73a36eec3b4ca3c5a81b0a537fb56f851a44199e8e9c324b439            52360 Packages
- 314f2d9dc201913ebbece3d68ca4002e5ef7ed7bb254a32f0cb0bc45f64b21f4            17812 Packages.bz2
- a2105edf08f482ee1c974ed522504e3f4684ad4e63f6ea59883bc94b1e70aa02            18424 Packages.xz
- 45d775b7d6eda4c29bff057f04949268f403e86a28d24a12f3ccfcccc7cc3d5f            18765 Packages.zst
- b55f7427ebc201ad0d552be27a9a34346ecbc79591f8028606a3479b7e2b084e              218 Release
+ 373c15554e127000c34b8059a1f32f4c1043d7d39a6b931cafc9858e30dc671f            52360 Packages
+ 53704ea7f164ba90cfe54e05fd51582a9148264b241f9526033e311e3f23347c            17816 Packages.bz2
+ 1a5cef787d614e0df47897d46a36db490d2ec40328036ff51342ce4aff013c3e            18424 Packages.xz
+ ba43b871965ebf881dfc718fcc44837f450f2ffae35f8d4b46c3dcf68af6608c            18756 Packages.zst
+ 71574ee8ad970f95fba876115ea38a010a45524a67037ba3a973816fd35889e4              218 Release
 SHA512:
- 4ebd5af9a70df99e788f3f711ee6772834d2c88db3e67ea5aefa3588c1a64fb425e7bbd08462a98d7d4a841bcbe709ac5cb3397269ca5227a2722d9dea738e38            52360 Packages
- 9d42c6fdb5110f1464b7674580ed59cb70775d4dd05d20c70fe4eb047097873faba21063d8cab89656e95d37bb107e7225e57e3bed6184d0e72d5135ea281447            17812 Packages.bz2
- e4cef8703e928f762dabc904161b12e109df2bf51dfa0aa1ecdd9bd7fe9999b05361274537ec1f1800bac6a2f380f8a89c99a85048eed73ca232229a9b7c3631            18424 Packages.xz
- 77070319c0d970d0c86e18c9efb0b0402d66908c410f4878a4e6d0c60413db0b0dcdbfbc21932c4d06b3c36b3d481c26d28b5df2c590287f27fbd7eaff086f1b            18765 Packages.zst
- a25ce8409339e1953463fa925129b6c45456c0f496d98e94b428b7bf93d41073a6ab14a6e9bc5a997949a05a5d688a6adc19da19e507a938c7675d426a24a6ae              218 Release
+ 0dd322337db90d4872d294f782464834c83917dc6dcaf98e96f2548c0239bdb2cbbfabb72ecf78abcd9c5efe6833fab6e24f2fb40a85d72075fa5247afcd6ade            52360 Packages
+ aedf2d62401af55161cf2ec4093ac2df4f7772db2897bffc1ed7ceafe62da470ec8c9812c2889093afb833c6f89fee31d2c519221caa8cfa4e95d70e4323aa95            17816 Packages.bz2
+ 3e51cf12891932241fdef51f7b7d5006aae8e5c611eea65cd3435de42ce7ee6ab260e7bc45cfe28aeab3dbad7b26946c456da018da92ca6f6965afc30113376a            18424 Packages.xz
+ 42c09c3a4d82b8e33c1d5ecb0e879afa610a3d50c2683ce1ff714e8239c8eeaff1c51285f469ef503cf3145ae5777e56dee2429537798af6e966246f0a0e2448            18756 Packages.zst
+ 91529e87460c3636589cc3decd11dc3267448f8d8d78654d5718a95eb6aada625c641b73071922af4099eef2dbbb1fc374e672261068ee7ca840a0ae1f49068e              218 Release

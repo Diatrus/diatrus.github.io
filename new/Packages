@@ -571,11 +571,11 @@ Depends: libgpg-error
 Conflicts: gcrypt (<< 1.8.5)
 Replaces: gcrypt
 Filename: ./debs/libgcrypt_1.8.5_iphoneos-arm.deb
-Size: 360900
-MD5sum: 3307f6d0b970a44bb7e62ed67cd6fc17
-SHA1: 3be8d1b56fefd28225dca970e44774bc618e56d3
-SHA256: e2648ccfefc4980dc65731f9d51aee7ece4faebe2651fdf1d8557866e3d8b819
-SHA512: cd63bd4c74ff5d1cd329abfd2873ad79a7a65e501af8a6e57a5292806c39044490b884efa364ac404ee25249f46caf53909c6f98c81a87aaaa366c6b8ab32193
+Size: 360724
+MD5sum: ebfc07731e9af15daf1e1f06da93a67f
+SHA1: ebfb8385d946831cec338d4efbd6d59212cc6984
+SHA256: b69948b87966e25327b207cd711d400cfefc09c79c67c4e7a3bae0075aff89c2
+SHA512: c4afc2cac618686570c6dceed10cd0f22c3cf099b61e994376a5c205e4b4d53f5dc7e754b36e8151c0c0e152c9db32445dbf1ae9dc04b38150ab24d38cc058f5
 Description: LGPL cryptographic algorithm library
 Name: GNU Cryptography
 

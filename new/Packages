@@ -547,11 +547,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Provides: hostname, ping, telnet
 Depends: ncurses, readline
 Filename: ./debs/inetutils_1.9.4_iphoneos-arm.deb
-Size: 275532
-MD5sum: d69ce70d5b002a7fb05b9d5a739cbdad
-SHA1: 7a541d5c3b51466db759d2f0bcdb7cb90ab2cf65
-SHA256: 7ded7e27b9bc25f25a7b72dfd145d445b9353195cbf92f9f0761c2bcf356f943
-SHA512: f9642aaf5932a32d677b97f53229dad30979508ac69294d223e5293c612c19d20d8824d8fa7dcedf8756253a97b589c1f754aa6eeb61b467d3ded7d782f52f8e
+Size: 275436
+MD5sum: 3e4f958a85081bb1314cae03ef2607c5
+SHA1: 985895359f6be9d693f4404bf6c1fbad80cbe1f8
+SHA256: 2bbf56105d1202b4abd4a507c51a755a4fe0c2998d5c0653cb6c3d8ebfae48f7
+SHA512: 1ce62e691daccaeb08f1ccddd177549b81efd4eb769906c1b63f1e14566d783c61aee8f71ce271b180b1dcc5d09b3f063122a3678ba64fdc3ccfadef445dd7e7
 Homepage: http://www.gnu.org/software/inetutils/
 Description: ftp, inetd, ping, rlogin, telnet, tftp
 Tag: purpose::console, role::hacker

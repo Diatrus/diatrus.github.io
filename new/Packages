@@ -216,14 +216,14 @@ Priority: standard
 Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
 Provides: md5sum, sha1sum, coreutils-bin (=8.32), dirname, kill, mktemp, su
-Depends: bash, profile.d
+Depends: zsh, profile.d
 Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 118-5)
 Filename: ./debs/coreutils_8.32_iphoneos-arm.deb
-Size: 1006424
-MD5sum: d73246d685749b8de0cc3bdf9692ec54
-SHA1: 4612f6e51dcac296cc469a303f0463f7a4c0128e
-SHA256: b35f1438adfe5e3e0b707c116b464b7c6731b8cd8880113f87a7a4c8ef13da6e
-SHA512: adcc8914f5758e6f53b0df07b61cbc125a6c93abb957a3528320b8ccea9f0603b1d64bde72d723cc0b0d7a7fe3aae8fce56c9f596939f265a60ca82223a41d73
+Size: 1006008
+MD5sum: c6c760e29fa99e4d267b0e034cc8a424
+SHA1: 8da8815efaa4f0e47080daec985d4a20237f9798
+SHA256: bf4d7e4e49e2f6e7ec10f938252e7b467cb1371e51fcd2a421aa45e2022316a9
+SHA512: 19560940fee7a68c0bb09330b0f4ed0e1961192c602bf3d04985f566996f53063916e81401dedff1154e68c4d0c1b4159d60b389d794a5e547780067c11227d3
 Homepage: http://www.gnu.org/software/coreutils/
 Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
@@ -336,11 +336,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Depends: dpkg, perl
 Replaces: dpkg-perl
 Filename: ./debs/dpkg-dev_1.20.0_iphoneos-arm.deb
-Size: 158212
-MD5sum: 4df48004315ef2eac3444ee58dc5f0b8
-SHA1: 6a3c95367076e5f47f8b27a0c974703699d5291d
-SHA256: a9eb00a6f5460a7b3ddbb957357cccc35398792ed37d875e0a8da531a4f6d1d5
-SHA512: 00c5fe50630ee9d21ab13bd540897413b2229bc5f088d727618e49bd53ee3c8fa6b862e78b3a90220ccbda21160fd83c2929981462ef4c1119bde052374e861c
+Size: 158192
+MD5sum: 16c9f9250e10d9268818027f8346a080
+SHA1: 30c610e917eb1ffde70f895b7e2fe2ce7658ad7a
+SHA256: 67bdd28b2ad4ddbc8d77005c998ca3454411e99ceb1bbaa771750d7adbb93038
+SHA512: 6c39e0f17b4d66886287cff10f55c764b535cce018eaa587772c77ace431acd4ec4abea4164c16d2ac8bb48107a70e730ee448a104aa5510014f2b93e91f2543
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
@@ -353,13 +353,13 @@ Essential: yes
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: tar (>= 1.23)
-Depends: bash, coreutils, diffutils, tar, xz-utils
+Depends: zsh, coreutils, diffutils, tar, xz-utils
 Filename: ./debs/dpkg_1.20.0_iphoneos-arm.deb
-Size: 232992
-MD5sum: e4239de26484f40cb6f51e73b5c94689
-SHA1: 1c8e569bbc8abf97986e6e6452aa7e4b20cb3b04
-SHA256: a6f5d485b53b7263fef9c6c2350888e565e1ed055bbd2d453169a877eb90fed9
-SHA512: 868d94e2c978aa7e4c7d556e6998bdd91fa90b4d12f3b6c0a97968c37f5d01d1483ca06308bde1122786cd85a2ae9789f819f836fcaea78a51dffb494abb5936
+Size: 233152
+MD5sum: 612b30dccf7ca0e10c356c39692485a3
+SHA1: b980bf6de71aeb0fd90421e22abdd0de26cfb43c
+SHA256: 3cd6494befa4f368ce64b5cc0dc45392f85a95deac20bfd7de8694354b50928a
+SHA512: 6f6bc5fc4fe8295dc2db7a37495fcd251152675f2c8e2ba2ef9faf7c9144cd927043cce3381dd6dbc23989d76afd9d631c17c162dd1e8e76260a4a6591a4b520
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager
@@ -406,13 +406,13 @@ Multi-Arch: foreign
 Priority: important
 Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
-Depends: bash, sed, shell-cmds
+Depends: zsh, sed, shell-cmds
 Filename: ./debs/findutils_4.7.0_iphoneos-arm.deb
-Size: 194624
-MD5sum: 5bc7b000cba4d670338eb79863bf2679
-SHA1: ee029de97fb6b79bd02abf16026417372182bf12
-SHA256: 67c23ecb247d3c9d0410c32694802112c5bd9669a68d931495283fc0118df099
-SHA512: b5fc9e32aec1b707f5d7b0dec7628bb30ed9986703ad916352e8791135a7d04a1e4c96659aec11da6231e773d31827a1585362862cf921902ba50d42edaa9b64
+Size: 194636
+MD5sum: 8dfdba7224516ee0d9221f8f868e3644
+SHA1: e263739fc4c52c040b7d919432d9a1d4f069a0a4
+SHA256: ce236387bc9e203e9660d40c674dcb9100f4bff1f94e065e810f2885d1b940ea
+SHA512: 6024d93e0dc31aec7c562e226924a863334b256faecebcddc917f4792d1ff3047e432cb2c16af322b8b0d5d143cf96f9d0280758f781c60e98370ca0f77c3723
 Homepage: http://www.gnu.org/software/findutils/
 Description: indexes and searches filesystems
 Name: Find Utilities
@@ -829,11 +829,11 @@ Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libssl1.1 (= 1.1.1f)
 Filename: ./debs/libssl-dev_1.1.1f_iphoneos-arm.deb
-Size: 1308
-MD5sum: dda417c12eaa92f81aca6237cdf01bca
-SHA1: 3891c618e508cebd41a401d762f5d83fd7af0ac1
-SHA256: 863c6222f244a9957d82913c7cadb4a01578a10ee723f9230c0543062cb00acc
-SHA512: b4ad0cf367bdf3c706bb608b9c25614db739c0888e4a2e0ac1fd799868ace7e29873396f965a72342657cb03229a0c5836e35f31277d9e9d882193e7e98d57ee
+Size: 1312
+MD5sum: b64a170acc867740f914b7cf9ead11c4
+SHA1: 13b3b8c9494177bd38dc3ce2058fdd82c1fa33cc
+SHA256: 65ebea6ad137db6d2f408e618053d6d20274bc037b85d1b0ab604d55b31b7739
+SHA512: da3ba86ed15bd6f2683728fcbd6b94e0eaa9803d3e97804a2a21263ee5af28fc118a64408c69fa9dcd4d0d42253cdaad274cd2662968b05843a816db771e08ff
 Description: OpenSSL Libraries for version 1.1 (development)
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries (Devel)
@@ -1059,11 +1059,11 @@ Section: Security
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libssl1.1 (= 1.1.1f)
 Filename: ./debs/openssl_1.1.1f_iphoneos-arm.deb
-Size: 219952
-MD5sum: 47e38fb3aebe9cb6c3b27838f9a7e029
-SHA1: 15c85fc29a9aa345eea0348fb29b614ee5d9d13a
-SHA256: c311198c45223a94482a0979753d8dab80cbd69d577489dd8155f9d9cec35622
-SHA512: 94939f9a209a7800e71993bc48a2c6a012dc7fbb18eb97e39816d580313d9421b8ce13bd479105e147698eb94f46c481d713832ffbbeb4bb1074025670bb6450
+Size: 219968
+MD5sum: 77cbfd80543bf9f02901b12f316b41d5
+SHA1: d9b6c83c1b39d0c61017d6a4d11be6da5de7b16a
+SHA256: 4e001426631bd2d95cba1fec8458762e89c8d9a1e75fc467a96d8456befa8c9a
+SHA512: bcc676d16e5a043ed77a03e5829ca211ec50d26e1c466453861d8f7fe35c63d03088356200f40def1121195e04417a9fc747dda2c482e051bd332669bea4d1bb
 Description: OpenSSL tools
 Tag: purpose::library, role::developer
 Name: OpenSSL

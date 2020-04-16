@@ -137,6 +137,22 @@ Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
 Description: Oracle's embeddable database engine
 Name: Berkeley DB
 
+Package: bootstrap-cmds
+Architecture: iphoneos-arm
+Version: 116
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/bootstrap-cmds_116_iphoneos-arm.deb
+Size: 75944
+MD5sum: e6425def6a2034fb1ead8dab68401090
+SHA1: a6f5bf0cf4328a6942a3703c2521dfac5fcdea1a
+SHA256: a743a26064a1a51f08b40945994121f1808ab9c18ffb03a0ff716816839b4cad
+SHA512: e207891cef1fb1213322205a43832ad56a20974ec2bc0011e2e5f89d78d0df780648b232b5d01cb4216b921372b0d0136cb39acf47fc215888e1b78dc342226c
+Description: Mach interface and stub generator
+Tag: purpose::console, role::developer
+Name: Bootstrap Commands
+
 Package: bzip2
 Architecture: iphoneos-arm
 Version: 1.0.8

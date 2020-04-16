@@ -906,6 +906,23 @@ Homepage: https://gmplib.org/
 Description: Nettle is a cryptographic library
 Name: Nettle
 
+Package: network-cmds
+Architecture: iphoneos-arm
+Version: 596
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 9.0) | rtadvd
+Filename: ./debs/network-cmds_596_iphoneos-arm.deb
+Size: 176244
+MD5sum: 77688ee70b601a57097ca3d52535ff63
+SHA1: e20e6f757ea7642adf738b25651ca7841e95744b
+SHA256: bd556d607cb65e0b165d35d262524714514c82c0ef6b1ffb8c5299e715ac9a9f
+SHA512: af601cbe6a45f943f7fdc8874f0aad6678d53e071ae0a1aac0c655d474cd1897d56c9dd7f2edc55266237d2f38a62a0e1f9668cee7701475bcf4b6d529ce55de
+Description: arp, ndp, traceroute, mnc, mtest, traceroute6, ifconfig, ip6addrctl, netstat, ping6, route, rtsol
+Tag: purpose::console, role::hacker
+Name: Network Commands
+
 Package: npth
 Architecture: iphoneos-arm
 Version: 1.6

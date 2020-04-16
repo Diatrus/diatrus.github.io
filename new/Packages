@@ -538,6 +538,24 @@ SHA512: 5ba45a05b32a1afe30ebd4cc8d8f0d0cd913092f23098bb029bd38dd16c830da5b341611
 Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
 
+Package: inetutils
+Architecture: iphoneos-arm
+Version: 1.9.4
+Priority: standard
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: hostname, ping, telnet
+Depends: ncurses, readline
+Filename: ./debs/inetutils_1.9.4_iphoneos-arm.deb
+Size: 275532
+MD5sum: d69ce70d5b002a7fb05b9d5a739cbdad
+SHA1: 7a541d5c3b51466db759d2f0bcdb7cb90ab2cf65
+SHA256: 7ded7e27b9bc25f25a7b72dfd145d445b9353195cbf92f9f0761c2bcf356f943
+SHA512: f9642aaf5932a32d677b97f53229dad30979508ac69294d223e5293c612c19d20d8824d8fa7dcedf8756253a97b589c1f754aa6eeb61b467d3ded7d782f52f8e
+Homepage: http://www.gnu.org/software/inetutils/
+Description: ftp, inetd, ping, rlogin, telnet, tftp
+Tag: purpose::console, role::hacker
+
 Package: launchctl
 Architecture: iphoneos-arm
 Version: 23-1

@@ -12,3 +12,7 @@ bzip2 -c9 Packages > Packages.bz2
 apt-ftparchive release -c ./configs/new.conf . > Release
 
 echo "Done updating!"
+
+git add -A
+git commit -am "Update repo"
+git push

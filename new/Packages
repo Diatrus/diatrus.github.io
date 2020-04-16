@@ -278,6 +278,22 @@ SHA512: 41ec1e7f271e63078c56ea4366891d580fbd6b19f2d1ca6ba5352bfdefd1115b4794606e
 Description: pretty much just run-parts. yep? run-parts
 Name: Debian Utilities
 
+Package: developer-cmds
+Architecture: iphoneos-arm
+Version: 66
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/developer-cmds_66_iphoneos-arm.deb
+Size: 45620
+MD5sum: 3c7c6c01e99e963bb6985dfc8bf5b2ed
+SHA1: f0c70d33d80675c9973bc7531e183e4b8ea42bc1
+SHA256: 22661ed9c39522401d90f6f2e2794346929581f617f85747c63d22d0d38f66e3
+SHA512: cfcf5ca8ef9d555ece7a3542a6a57bd1451bf2ef69135180c71f69c8bf387df4137053de3ab837e8498bd6aeccbf4b1c8092009cb3de575faaf30dcd06b5df1c
+Description: ctags, error, rpcgen, unifdef
+Tag: purpose::console, role::developer
+
 Package: diffutils
 Architecture: iphoneos-arm
 Version: 3.7
@@ -1029,12 +1045,12 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Provides: killall, which
 Filename: ./debs/shell-cmds_207.40.1_iphoneos-arm.deb
-Size: 16728
-MD5sum: bba23ec8048b83f47dfdaaf6a919ee86
-SHA1: 044e7ab2850e824762faeb37cd67cc722b4bee14
-SHA256: b37c37e479025849256a85438e0b31e8fbe35f7f60d9e632264b10a3ddcb6439
-SHA512: d017926351025fc7fc99f55c212a04465705f817bb695bd522c43ccc1007d1142eb8a05047cb00273e1b77ae15e5b99b8bb8c5055072c136d632d021476cf431
-Description: killall, renice, script, time, which, getopt, what
+Size: 25676
+MD5sum: 86f5dbc6f44de964b18a62e371285a68
+SHA1: 00928d1c9b4d50bdce3cc1c8a8e99138ee2dcd0b
+SHA256: d4bfb5bb611c449ef92039177ba2d70abbce9acc27fec948ffc19efb86f12758
+SHA512: caf37b3b6c1be9a27523f24acad738d161368002e217c3445ff064f7756007494933f62ffc172bc0e9c903d16f89bee7c632d8b4e5508adf37fa0ca7293ebbde
+Description: killall, renice, script, time, which, getopt, what, hexdump
 Tag: purpose::console, role::hacker
 
 Package: system-cmds

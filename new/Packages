@@ -399,6 +399,21 @@ SHA512: ff95dcda9189306fcd4272de20cdf6b558fa1857e0fdaccdcfc25d514efa94754455db87
 Description: chflags, compress, ipcrm, ipcs, pax
 Tag: purpose::console, role::hacker
 
+Package: file
+Architecture: iphoneos-arm
+Version: 5.38
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/file_5.38_iphoneos-arm.deb
+Size: 297024
+MD5sum: 02694b64867c3e95e2731658c42eb369
+SHA1: c483257e00cc12e8f4c6c2d07866228c8c0fb674
+SHA256: 23c18affe8c94c39b66452233ceb0e39b98388596c5747fce47d594e799e5331
+SHA512: 5f793abbdaa8b1bd0a16c0a90918b22ec65862137e3286dd212debce364b5b9fa792931bdf3cc13b87bbccb3343fd9415e1571fae2c89a520d9c184e97044af9
+Description: guesses the type of a file from contents
+Tag: purpose::console, role::hacker
+
 Package: findutils
 Architecture: iphoneos-arm
 Version: 4.7.0

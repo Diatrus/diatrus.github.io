@@ -384,6 +384,22 @@ Tag: cydia::essential, role::goddess
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
 
+Package: fakeroot
+Architecture: iphoneos-arm
+Version: 1.24
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: shell-cmds (>= 118-8)
+Filename: ./debs/fakeroot_1.24_iphoneos-arm.deb
+Size: 49148
+MD5sum: 39714d9a98e353284583b8e6b9c45ee9
+SHA1: 2d663018f75749a341564c7036fc65abcb0df5f7
+SHA256: 0d81d4c891b93013d29a20e4c6592c42882199de0810cbd7c5cd3013e0ae0dbf
+SHA512: befb4668728a7e595e533d3e571b6076745386bdaa56a91a411433cbd346df1e04718fd9b6cf9815e7edc252b7c0fc813b1be52e5a8ba80bab4e0ea482bce32e
+Description: tool for simulating superuser privileges
+Tag: purpose::console, role::developer
+
 Package: file-cmds
 Architecture: iphoneos-arm
 Version: 272.250.1

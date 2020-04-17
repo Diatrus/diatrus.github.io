@@ -540,6 +540,22 @@ SHA512: f6ec3dce4bfe929f1ed154ec966bb44b546a4ef5cced50c386d9bc6a885f6bcc381c3529
 Homepage: http://www.gnu.org/software/grep/
 Description: searches files for regular expressions
 
+Package: groff
+Architecture: iphoneos-arm
+Version: 1.22.4
+Multi-Arch: foreign
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/groff_1.22.4_iphoneos-arm.deb
+Size: 1921816
+MD5sum: 99cbb878518c4b548a65e34e774aab41
+SHA1: e1d4b059ddb4202788026871a301ff602427f59d
+SHA256: ccf32b10cedc8b0ef1805502d752d83b5e1a34795da56220b0c5536cd51f078c
+SHA512: a9904f02943e8829dca06f6b961467e5c0783356955f6def5e1653fdeee135a85b769e893679095979db5cc75ceb043726de537632585ecc097bfa7ec4371102
+Homepage: https://www.gnu.org/software/groff/
+Description: GNU troff text-formatting system
+
 Package: gzip
 Architecture: iphoneos-arm
 Version: 1.10

@@ -690,6 +690,23 @@ SHA512: 8ba61b16edd32be13bba0913955d6977b782668cafc66370581d4f3fadc3fc355a41b614
 Description: GnuPG's inter-process communication
 Name: Assuan
 
+Package: libevent
+Architecture: iphoneos-arm
+Version: 2.1.11
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libssl1.1
+Filename: ./debs/libevent_2.1.11_iphoneos-arm.deb
+Size: 239768
+MD5sum: a4509b252f6ae3e12e32bb1f23e2792b
+SHA1: 2ce550422ff93b9fef82c80fa58fbe6c5da80e2f
+SHA256: bff5e876f21b94822819256d8877dfaaf26168c9b6690d10b2475613ad9be538
+SHA512: 68b192703641b9c6cb6fe4a387cd2064cc511d3fa823d4dd913b7f8743a77447d096c2e4645dfff574e8c8a8c6f3d2960f2c342aa42cc76892f3ce7f572a12a8
+Homepage: http://libevent.org/
+Description: provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
+Tag: purpose::library, role::developer
+
 Package: libgcrypt
 Architecture: iphoneos-arm
 Version: 1.8.5
@@ -969,6 +986,23 @@ SHA256: 5dcaca5a1c35b35d51fb44bddbf3e614f6c6f8299b10cd8d876f4a88a3d32390
 SHA512: cfc6d3ae95ff1d2832c7501e4b3831c48e14487f851258ea94af0f136be0fbf69cc822c1306c1c1bcbc28bacc73c4bc021fcfbe9267135c33e6ce5e268fc8b38
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Unicode string library for C
+
+Package: libutf8proc
+Architecture: iphoneos-arm
+Version: 2.5.0
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/libutf8proc_2.5.0_iphoneos-arm.deb
+Size: 55424
+MD5sum: 672c8dfd2be934647c0a2e4d56fa5284
+SHA1: f52db96ef7b85be77bad74f12f93ca2a898f8f77
+SHA256: 7b62f16d77734cec02fe8fd772f506e2e383cc8b404b6656845e72ffb23c5e8e
+SHA512: 97b7926d642d7a830a240250c138aaa4934f53e42d8f02c29776bc7157b585e6a343e5e347edc137c96b9ff4e418432a5bd40a5edf030635d2c099c86319fc57
+Homepage: http://juliastrings.github.io/utf8proc/
+Description: a small, clean C library that provides Unicode normalization, case-folding, and other operations for data in the UTF-8 encoding
+Tag: purpose::library, role::developer
 
 Package: lz4
 Architecture: iphoneos-arm
@@ -1327,6 +1361,22 @@ SHA512: eaf64c96af9c077267421612c8d0524c9a4f46fd1557f02a8a1b50554eb9c13886a8af5a
 Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives
 Name: Tape Archive
+
+Package: tmux
+Architecture: iphoneos-arm
+Version: 3.0a
+Priority: important
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libevent, libutf8proc, ncurses
+Filename: ./debs/tmux_3.0a_iphoneos-arm.deb
+Size: 242628
+MD5sum: 2c3f925654dbf46439e04e2a3b8e8cf4
+SHA1: 5a1d7ba46c09d12f9c654e795c425f2db4b40aef
+SHA256: 2b5bd9dfb2f22a90114ba76ea55828216b821536bf1d66f6457191f6afff5734
+SHA512: 64ed463fe68293c8868b9967fe3e50cf69ff52d231862f06b63dc31373078c019199386075546d628d44754e860ae4949b108b3bafbd0f513be1587e2bdd496c
+Description: multiplexes a terminal into many
+Tag: purpose::console, role::hacker
 
 Package: top
 Architecture: iphoneos-arm

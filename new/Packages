@@ -1452,15 +1452,30 @@ Version: 8.2.0550
 Priority: standard
 Section: Text_Editors
 Maintainer: Hayden Seay <me@diatr.us>
+Depends: ncurses, xxd
 Filename: ./debs/vim_8.2.0550_iphoneos-arm.deb
-Size: 6082296
-MD5sum: 7f2beda500c3fff82de36c39a265c907
-SHA1: ce19f1d8dcaf916918058e95a3198712538f867f
-SHA256: 275c1e5a91e2dc84e7ae65d06c381273d63c39e0f19c5bb52194b11f4aac160d
-SHA512: fe24ec4597ccd05436d4e93d648bdc8ec19dcadda342b71c7a90ae172c3ef765d9ea76f67a1210621f23c5edb6c53bc851d9340724946861679f49fb8569f406
+Size: 6022088
+MD5sum: 729ffe8a0cd31553a792f27b1647308e
+SHA1: e33114c07f3344ab52e44fb9ab8749a514237b46
+SHA256: f5ccc2acd5bb147f788a1ece5e25d9b7732a38d21945b59494194eb2f8b96ffe
+SHA512: be5dbff27b3ad050497028dda9e7c4f4bb793344fec8f25ddcb31f83ad0112a799127453db5aa0199629301e09e49b2a3535401f7876d7e66d95e7ffdf01fcb8
 Description: the best syntax highlighter, ever
 Tag: purpose::console, role::hacker
 Name: Vi IMproved
+
+Package: xxd
+Architecture: iphoneos-arm
+Version: 8.2.0550
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/xxd_8.2.0550_iphoneos-arm.deb
+Size: 61232
+MD5sum: 70d7d8703c6fc37655680e8c7db2d7bd
+SHA1: 586e04fb2759fc1c1ea55f984775fe8f490a2ca5
+SHA256: 35c0960d7ece52a9cd06ceab7a8a354b96ba635f0998a709337a37c6ebd1f086
+SHA512: 74d3c4c422070c67989d6693c4cb7bf486d6166a61995af6bd94401efaa86ddbe812550485d016e460c4de2b61ec2bf12ccf8ebd574f96fdecb5adc88485040d
+Description: tool to make (or reverse) a hex dump
 
 Package: xz-utils
 Architecture: iphoneos-arm

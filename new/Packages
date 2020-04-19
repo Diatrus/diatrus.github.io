@@ -645,12 +645,12 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/iokittools_91_iphoneos-arm.deb
-Size: 16008
-MD5sum: 384e2368a91cba46810e2e6d25861348
-SHA1: f688767a9531faefca563711afb7ce25ddcc5f8b
-SHA256: bf1611b73519d2a1122c6a149291cd2e0a71ca65b10b55c93ae9239d0b0b1327
-SHA512: 508e67c05c8cac116e0f40ccd84a171363eb7b28b0beace71ff51e14e85bf38c0047818bb1e77dd8da48d8ee6c67fbe48209449703b7fc704d0adec7a46be884
-Description: ioalloccount, ioclasscount, ioreg
+Size: 5460
+MD5sum: c3fac3f19cf78470a82896923c4d7eb7
+SHA1: cc14aed391bc1be07d6d462de03bc6420cbc7968
+SHA256: 33ef28a6d5bf7e17345282c5d83a44fa6daa825123b42bd5d5a778589cc4476f
+SHA512: 0dfa18664d9512fa66c142ebc6f04714e0f8dc6b3fb7b28fa46649ea496219e3f7f4caee5dea2138ef63b9b9b7efb33e7799eba5fe6c85bfc389e7e2d5314fe7
+Description: ioalloccount, ioclasscount
 Tag: purpose::console, role::hacker
 Name: IOKit Tools
 

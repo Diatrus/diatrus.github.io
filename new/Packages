@@ -1030,11 +1030,11 @@ Section: Administration
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/lsof_62_iphoneos-arm.deb
-Size: 820
-MD5sum: 4bea15aec556c86734ee72a001d74a70
-SHA1: be045c883dae1f4b32a1914f1052e9dc9139d96e
-SHA256: ec6237e4302622b8afe98dcb5f6e1e891a10d5091575aa534ab16f56992bbfb3
-SHA512: fd5166bff6ea25aa795a970061a8412db6fd14dd01d6e09be4b07f0c419a2a2b82db6451dad73ac6719713925517d1b0bd24a86122085f7c8d027d1e707778ac
+Size: 80576
+MD5sum: 8af8284e16e9af3bd0219e56d0d2fa70
+SHA1: 7213e0ff58cf65dd2ca8463c37fa15656f806ec8
+SHA256: 939f3ff093f412c161c5239247fa1cc2acf216db4cc2e9cd96e3a829a936fd5a
+SHA512: 188d3c220e8b22f65dd955541598997f8a7c7a329f887b9e4279b8aeabcb0918eaef50b612ac53c1eef49f50dcdac202d9d7575c8eed6c37135f956f158a8348
 Description: shows what files programs have open
 Tag: purpose::console, role::developer
 

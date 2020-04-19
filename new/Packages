@@ -666,11 +666,11 @@ Provides: more
 Depends: ncurses, libpcre
 Replaces: system-cmds (<= 433.4-11)
 Filename: ./debs/less_530_iphoneos-arm.deb
-Size: 94836
-MD5sum: b72598ab2dd0a202be72ba6013ccb82d
-SHA1: cee0f2bb589a0dfc81dbbbb85c200c577932733f
-SHA256: 2ae9579ab16e21ba0701f1a5db216a85d993d324c0f55305e50f930915a6583a
-SHA512: 5f70095ff0ceb9f3df80a4a5bde28074fbf498548aa157a31f434dd8fa8907da27088b18f760ae52e92f5a94f41ee096798e94cb52b60ee34c63f1c83c347099
+Size: 95064
+MD5sum: 1001a1e294cf788cb5d2e6f80a5de687
+SHA1: 46658eeeb3d5f9ac1bfdaeef2a5cf1ff09bda326
+SHA256: e4e53f93d0eddfd511017d6303b01b92ba5a3d210fc01919e52df65e42021177
+SHA512: 8d7e91ef33b0948b7485612678b43e2060e54b9df25a407b04e67feb9710437018134defab89eb9bb67c541a2f20b0ad6261b9b48e61c5432a68d3229203dbf9
 Description: provides less information than more does
 
 Package: libassuan
@@ -1257,11 +1257,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: system-cmds (>=805.220.1)
 Depends: zsh
 Filename: ./debs/profile.d_0-5_iphoneos-arm.deb
-Size: 1444
-MD5sum: 05b5c42a434508a9160a27c0209c9d9d
-SHA1: ae7eea1d1a2282808a84fe47101803a9a8c0f151
-SHA256: c77c6a4e6cd13f52e7e2c21f3f5c75cbe093eb0a17393505f7723a88e55c253e
-SHA512: aba450ec9b200507131945c1388ac28f269bc95270f586a144369adaf7cb5db0391729276d662f939e575767bcc754cf21d706e3815831c7c1121eb5b96f01f3
+Size: 1452
+MD5sum: b80c05803a19b6d56a80343b1c9b98d4
+SHA1: c873af69e39fe33844c275f08fbbde27632ecf87
+SHA256: 18b32549d8c5c27bbfbeab090e906e068ff4f2cb648fa9ae1f648e9dc6c6a811
+SHA512: 52280bc1bc6cefc88ae4c7711e671b99035ec31f2d9569fcf1810aec88180364732cd14b0a131d393cf04ca5edc817b4fb848c414adccd2426e3e0056a2fa6f2
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
 

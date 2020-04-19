@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: memo
 Components: main
-Date: Sun, 19 Apr 2020 23:17:35 +0000
+Date: Sun, 19 Apr 2020 23:17:43 +0000
 Description: Testing the memo
 Label: Diatrus Bootstrap Tests
 Origin: Diatrus Bootstrap Tests
@@ -12,22 +12,22 @@ MD5Sum:
  dac83aad6e00076712ca8911410a81e5            20610 Packages.bz2
  ce2c1df6c1d74eebc949352d87ee1ec2            21424 Packages.xz
  1cc6be41d8eec52bf8bb4cebe1ae2286            21750 Packages.zst
- 2b6577d6ca6dcb0950a2fc71fee59764              218 Release
+ a7b23f76dc66e5997e05da05bb9939e6              218 Release
 SHA1:
  e63eb9561a4e3cac2672ca360e8eedbc0345a5cf            61418 Packages
  76bb7de8d3356a58a880022c60fdc30acc2fe3ab            20610 Packages.bz2
  58e6186e5e98cf93714afe687435f76f837e1c27            21424 Packages.xz
  beda5b9efbb817839a9ae733fb6c153ce7ef80ca            21750 Packages.zst
- 59854426d191b233859cb6ca1225458a9721c2ad              218 Release
+ 14719c320941658e4eafbaa643a1c18d975f8c66              218 Release
 SHA256:
  1c6907eaf95118ba003ce38799f521d33795aec3edf0e4a6c167d1ab98de36a0            61418 Packages
  20ef24f6ebb29120a11288d10ac4afddefc26b37348deb4ff93b1e37302d6aae            20610 Packages.bz2
  f4c5cd8c7fb22ce33d21e9433507ab66b2887b67c6cb708f9c59a22600dd5545            21424 Packages.xz
  394abe8787e0d821474d62a62e338b39129eadfc93e7b8bfd66fb09614bf6abe            21750 Packages.zst
- 68cc246b73c4c4b43c26fbd36f3c4d3ca7df2828acf143b3afd682e67929cfef              218 Release
+ a755bda043012c2c0dfd909c84cd601f04dc1b2ce959c3bf3e0f9143cd45a25b              218 Release
 SHA512:
  46110ba05d3f382d865cf92b119e0f92668f6d0246623d9d7d79f531aa552782b42c1b8942cd94c0fd35417dc79d11dd4f2573cb25bfbbae1bf5d7e207d675a1            61418 Packages
  e164e37b8677ab6acd99899d03111e2ecf02d640f1b630006f63678c1deb03635a0e78760421fc8b8e242a98caa1a9d4b2f2a488bd93de87b67cc0ef96b8f5d1            20610 Packages.bz2
  8aa92d33477c6f91c134d530d1f40b2108e0af4b8a8a817adf4207228223f65e8fd8f80d524cf63cb57994162eae9d125f58e2b2c7da711d716a00b083819173            21424 Packages.xz
  a4adc98ea27f1f5a1e811a8c470c7adec9500cf0d229c85a2046ebc8faee5f15aaad57822eae770d6467af264d8e221275738cb95efb5be20602eafd3f4beb28            21750 Packages.zst
- 4a6a48025f577f8bce3fe843c9ad1ce5bdbe77fcf8ee3f2acfaeab90ed8d53b4aaed8d394bcc983122fa6ccff7f4d74fd07798adadc4062879a7dda231d56493              218 Release
+ 3f05f33d7d3df706b9f7f6ddf81048de595d155b1683cfd9afdd67df7f9602f5365d5741c3820b945657bee61c65dda53ab16cc2911a23ac8622fea365aa3c44              218 Release

@@ -1068,11 +1068,11 @@ Section: Text_Editors
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/nano_4.9.2_iphoneos-arm.deb
-Size: 183620
-MD5sum: 4dd2c8bc4fc2513291f4f00bd764796e
-SHA1: ba0803799afd184fc0dbaeb5ad25eeac4be77dc7
-SHA256: 460d4c96dc2876ac7c201ed0277ae35549e8f8bce96bf52c644becf3b6c46e5b
-SHA512: 18ae22e47e939b317588a1a53483add53057348d77a4b49cfbc9d5180481162e9ea77a77f9baf017e7892eb81d9d4bccc2140f60be8b3b676d07c45a741ea560
+Size: 183948
+MD5sum: f12dab4846dfb00304aa8d60d1e7afd5
+SHA1: 14de043841c06aac0105be82ddd2c4c4038c1449
+SHA256: 8b2e8873175ed6db2d90481fe3b8d28dd721883c09bc060690c8f230af8348e0
+SHA512: a976499b0985e9ca52877f2d5a5bdeff8e8dfda5151d69349842866a9bebd75bd1bff1eb3b348cc246b314ed128d4ed2fafd30baf375f54a551577d4a2167d38
 Description: completely free, modern clone of Pico
 
 Package: ncurses
@@ -1257,11 +1257,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: system-cmds (>=805.220.1)
 Depends: zsh
 Filename: ./debs/profile.d_0-5_iphoneos-arm.deb
-Size: 1416
-MD5sum: 3415fcdcc2e3ba68a8c1e5c73facddb9
-SHA1: 181b37d987b634ecd9c195395700e5bbacb7b992
-SHA256: a83ee24b42d47eeec6761651b5718851a269bab198ffa70a9e4a67d5f5e91601
-SHA512: 21b7b06fbcd1b6e73637b8ff40c7a6e053cabe2f74ccc79dd5cb07e49ec05cbe56db0d9cc027bbca1b935aff6dd454cd3ae7e9104ea752a3fe484c36ae57d6da
+Size: 1436
+MD5sum: 9b741a85850dcc677e0acd16a8dd5ae4
+SHA1: b701b79a2fe1f68670296dd270d4b0a866bc57e6
+SHA256: fd46e333bde681c217ca70c958d44534b66efe80d243c42f3d223cca23d556c4
+SHA512: 4e6ae48b1719006c5309d3ab7211133f94bb6b1bd289b15047033ff1c3e4d3fc18adb1c242dada083e0bb610ce0c29b30c3ced193226e7feeb6d836bf647a46b
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
 
@@ -1445,6 +1445,22 @@ SHA256: 62a0c06d61ae0e2c818f6d145725942fca9c2d001da9015e794a06fe01389a63
 SHA512: f3b83502d7c2a4ea27482a208375688ba22af17416d90a9f769bcba708f0be619fb0c37325b37b9a6c1ad8b6e579587883bc66bcb57b2592f23b3d290b798181
 Description: de-compesses files in zip format
 Tag: purpose::console, role::hacker
+
+Package: vim
+Architecture: iphoneos-arm
+Version: 8.2.0550
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/vim_8.2.0550_iphoneos-arm.deb
+Size: 6082296
+MD5sum: 7f2beda500c3fff82de36c39a265c907
+SHA1: ce19f1d8dcaf916918058e95a3198712538f867f
+SHA256: 275c1e5a91e2dc84e7ae65d06c381273d63c39e0f19c5bb52194b11f4aac160d
+SHA512: fe24ec4597ccd05436d4e93d648bdc8ec19dcadda342b71c7a90ae172c3ef765d9ea76f67a1210621f23c5edb6c53bc851d9340724946861679f49fb8569f406
+Description: the best syntax highlighter, ever
+Tag: purpose::console, role::hacker
+Name: Vi IMproved
 
 Package: xz-utils
 Architecture: iphoneos-arm

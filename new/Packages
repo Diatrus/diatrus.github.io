@@ -1021,6 +1021,23 @@ Homepage: http://juliastrings.github.io/utf8proc/
 Description: a small, clean C library that provides Unicode normalization, case-folding, and other operations for data in the UTF-8 encoding
 Tag: purpose::library, role::developer
 
+Package: lsof
+Architecture: iphoneos-arm
+Version: 62
+Multi-Arch: foreign
+Priority: standard
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: ncurses
+Filename: ./debs/lsof_62_iphoneos-arm.deb
+Size: 820
+MD5sum: 4bea15aec556c86734ee72a001d74a70
+SHA1: be045c883dae1f4b32a1914f1052e9dc9139d96e
+SHA256: ec6237e4302622b8afe98dcb5f6e1e891a10d5091575aa534ab16f56992bbfb3
+SHA512: fd5166bff6ea25aa795a970061a8412db6fd14dd01d6e09be4b07f0c419a2a2b82db6451dad73ac6719713925517d1b0bd24a86122085f7c8d027d1e707778ac
+Description: shows what files programs have open
+Tag: purpose::console, role::developer
+
 Package: lz4
 Architecture: iphoneos-arm
 Version: 1.9.2

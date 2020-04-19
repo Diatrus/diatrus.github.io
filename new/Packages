@@ -1101,11 +1101,11 @@ Section: Text_Editors
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: ncurses
 Filename: ./debs/nano_4.9.2_iphoneos-arm.deb
-Size: 183748
-MD5sum: 30e587d900eb8b14fc2a3d709c0df738
-SHA1: 788a372875c93a30746254d99c743234d746d776
-SHA256: 608200ed362721e19f51c6a3fb19b92dcbd9f532abcbe08e329715a42914b52f
-SHA512: 2c506a2fea8069be7745f20567af9babbae729aafa39a0935caeed78c5cd2cd5a54951b5ce6bec596c38a2586d76a4f8a6454d11d34aec5437f6f2abf4318c15
+Size: 454524
+MD5sum: f23326997722f56795df40f13f0c0265
+SHA1: ea4cd7fd07bf847589f28c46ce0499509d750ef0
+SHA256: 906dc29cc2f587074874bf98ce74882ea626fcf01b8ea929a31812a5cf5bf950
+SHA512: 804c0ac7786e24f27364b3a9813cd86c7f8775205bb3c2e2af8f69bf9f84fe594bc26e1b887407b055117cbecba28396e5a127f3b4e759eb8ab9fc6e64bf5642
 Description: completely free, modern clone of Pico
 
 Package: ncurses

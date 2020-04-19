@@ -666,11 +666,11 @@ Provides: more
 Depends: ncurses, libpcre
 Replaces: system-cmds (<= 433.4-11)
 Filename: ./debs/less_530_iphoneos-arm.deb
-Size: 95064
-MD5sum: 1001a1e294cf788cb5d2e6f80a5de687
-SHA1: 46658eeeb3d5f9ac1bfdaeef2a5cf1ff09bda326
-SHA256: e4e53f93d0eddfd511017d6303b01b92ba5a3d210fc01919e52df65e42021177
-SHA512: 8d7e91ef33b0948b7485612678b43e2060e54b9df25a407b04e67feb9710437018134defab89eb9bb67c541a2f20b0ad6261b9b48e61c5432a68d3229203dbf9
+Size: 95020
+MD5sum: 2143524c4518923c3e722365e834c5b9
+SHA1: a09ac767841a16381db4dac1bf9d62081880c5b7
+SHA256: 897b910dae239d3789f49413ece6ce869662a2ef36ebebea90b00d896bbbf9a2
+SHA512: 5cd0e1edcde9faca115fd40cf0084d3cd5557841f6837f0014997588db9370b42aee8c7848d8a4f4ad0885cb839b716a223025dc8dd47b62855c7d08490f0f14
 Description: provides less information than more does
 
 Package: libassuan

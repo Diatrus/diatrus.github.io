@@ -97,11 +97,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: readline (>= 8.0), profile.d (>= 0-5)
 Depends: grep, ncurses, readline, sed
 Filename: ./debs/bash_5.0.16_iphoneos-arm.deb
-Size: 400752
-MD5sum: 9c8237a63734d8d87549a66f0e3c12d1
-SHA1: 8addf5096eddb8ab542687aa827ca2318d6c68ef
-SHA256: 52f28ed64dbdfae87fa7454f6a0933afee722ef460532c032654753dd7be344d
-SHA512: 4ca0a2900fe96ac264f52f969b7413944676d6a514a67fc5970a2c0ca82911e253d38b37dbeb0df2cad6effaf05ac9943f48174a07a9e461f07fe27f470a16dc
+Size: 400088
+MD5sum: ebe834b873676ef0c72d85b9482a2246
+SHA1: 822c80a2682cd73905b800d5d9137a30ebbe9140
+SHA256: 96cb9233fad1f71745a34ba2eb184644257ccd05d742366928cf3c0ed7bf6e7e
+SHA512: 1f92ff43198acf653646535be0481c7c9a6ed984eb61a4ab096f6cecfa01cca0e76dccb81df563dc31b47c581b49cbf576062dd917979459d88743b51859fb70
 Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox
 Name: Bourne-Again SHell
@@ -1038,6 +1038,22 @@ Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
 
+Package: make
+Architecture: iphoneos-arm
+Version: 4.3
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/make_4.3_iphoneos-arm.deb
+Size: 91856
+MD5sum: 28fff3cb6ecaaa1b61834a02fb0d76a9
+SHA1: fca09d287755b0c45cbe22c4fdd94e36e696bc44
+SHA256: be3a1ab3fe675f2af68f67b17b63b85cad2d9290d382ee8dfb15bba891d8a47b
+SHA512: c3c20f085b36999616ad9b1e1e75780a6ad582fe2ea4c03167d45353101e55f333d0634ce2b303159a4859ca2aee70a455758da8903d6c9b4de3dbba72ddea68
+Description: dependency-based build environments
+Tag: purpose::console, role::hacker
+Name: Make
+
 Package: man-db
 Architecture: iphoneos-arm
 Version: 2.9.1
@@ -1274,11 +1290,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: system-cmds (>=805.220.1)
 Depends: zsh
 Filename: ./debs/profile.d_0-5_iphoneos-arm.deb
-Size: 1452
-MD5sum: b80c05803a19b6d56a80343b1c9b98d4
-SHA1: c873af69e39fe33844c275f08fbbde27632ecf87
-SHA256: 18b32549d8c5c27bbfbeab090e906e068ff4f2cb648fa9ae1f648e9dc6c6a811
-SHA512: 52280bc1bc6cefc88ae4c7711e671b99035ec31f2d9569fcf1810aec88180364732cd14b0a131d393cf04ca5edc817b4fb848c414adccd2426e3e0056a2fa6f2
+Size: 1348
+MD5sum: 90917ba4f12e01518f4f2f8a603f95d0
+SHA1: 6e52d7a095e098995c9807397b383134a7feef38
+SHA256: 984c448c2a44d845d601228c34b1f4d424c0a9ea003167c73d86af5d2c357d13
+SHA512: ffad5f24f6676612a808b8d96ffbce7ffed7ac8a5bc18457db78a2880640fe9c7eb3f63dcf3ca7fdab0b99cd1b39f9995cc1563bbe502734a50d2b3c1c8a4b1c
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
 
@@ -1538,11 +1554,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Provides: bash
 Depends: ncurses, libpcre
 Filename: ./debs/zsh_5.8_iphoneos-arm.deb
-Size: 1831264
-MD5sum: 0509e3ae3d0c26d962418260c60440f6
-SHA1: 0720affaf25a4caf8232bbe4ba4641b8377a3736
-SHA256: fc4bb5c5df7a0bbde3e96521b9e222334b1d2933f22b9f5f0dcbe5fbeb88ea21
-SHA512: a14c5e9be05fd6df857753c1b1d8e401ea3d724fa24471924f4bb6dc94d83a053d86070ddf23b7a644c97424394075a9820a18b2e3062a6f69ff0b9be4e3cafa
+Size: 1831280
+MD5sum: 539879cdd207f79ee6b617e69c39c7b6
+SHA1: 941be24839a79c6bbb36067868a9765e5a9fb100
+SHA256: 1ec5d9aecc4c94ec204927b14699aff59f6dc80eaf8e55b04389a3b59d23b127
+SHA512: ccf0ff4ac94b1becdbc8fcbfd2760709940f8fac49f5bf660099e9964da36e496cd4be1853a1b28a5f04ccedf4ba24a39cf9b53aedbcb198da2180e2a4e47048
 Description: a shell with interactive features
 Name: Z Shell
 

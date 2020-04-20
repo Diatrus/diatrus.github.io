@@ -969,6 +969,22 @@ Homepage: http://savannah.nongnu.org/projects/libpipeline
 Description: Library for manipulating pipelines of subprocesses
 Tag: purpose::library, role::developer
 
+Package: libpng16
+Architecture: iphoneos-arm
+Version: 1.6.37
+Multi-Arch: foreign
+Priority: optional
+Section: Multimedia
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/libpng16_1.6.37_iphoneos-arm.deb
+Size: 199568
+MD5sum: db290069f46f535639da40202af67edd
+SHA1: e811918b4483851d30b4b4c51531d7291c7d3182
+SHA256: 856fba3a76923d731cc1e403f6bc4f3b58fa358fa6442f39061f66b8893ee565
+SHA512: abc59d5f3d8678929827e66e94c73ed71d99935afb3a7853bb1b0a7b4e273e51473ff761181b8ad8be1bd79ba988a016223d74d9cc34da196e9dd370f0e70ef4
+Description: library for manipulating PNG files
+Tag: purpose::library, role::developerInstalled-Size: 864
+
 Package: libssh2
 Architecture: iphoneos-arm
 Version: 1.9.0
@@ -1492,6 +1508,25 @@ SHA256: 8baf14f0f7bf9139510919607ee0281e0eacd3aeef2b5c823fe038799085b41b
 SHA512: 9bcd28df0c4632e158ab896437850b924f0202effa9d9f5b528d67b1b0d7fafa5b25d6195090780c753094d4151a1c5bfc704d0c448e907a509ba9325d38c3ff
 Description: killall, renice, script, time, which, getopt, what, hexdump
 Tag: purpose::console, role::hacker
+
+Package: socat
+Architecture: iphoneos-arm
+Version: 1.7.3.4
+Priority: optional
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 688
+Depends: libssl1.1, readline
+Filename: ./debs/socat_1.7.3.4_iphoneos-arm.deb
+Size: 149736
+MD5sum: 9469e2a09facd85d7b574dee1b6ba1ae
+SHA1: c5a293983724c408879ffd604ff31fe8247bc586
+SHA256: 7c01332db5dba2b58e6f2dabfc8a373aca8f5c762d131f24e679e02f74543ce5
+SHA512: a7766bad7c2584dcd11c942d7675324487cb3e7dc7700f8448b772ed0f12dcc330e7e3f62d0b280118393259451cb152bcd0b79cb2b6fa302a68b1310c435a58
+Homepage: http://www.dest-unreach.org/socat/
+Description: "netcat++" (post-increment, not pre-)
+Tag: purpose::console, role::hacker
+Name: SOcket CAT
 
 Package: system-cmds
 Architecture: iphoneos-arm

@@ -1355,6 +1355,22 @@ Description: claims to be a good compressor
 Tag: purpose::console, role::hacker
 Name: 7-zip (POSIX)
 
+Package: patch
+Architecture: iphoneos-arm
+Version: 2.7.6
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: ./debs/patch_2.7.6_iphoneos-arm.deb
+Size: 93816
+MD5sum: bfa35a8a471977973873cc7c78b3d02e
+SHA1: 414aa3f95bf5ffbf03855bf92b0a6edb2840abb0
+SHA256: 4fab43f6a5609b3ad9e4a3eb7b9a975eb97d0a7b989e1c25a92853313d0d6aec
+SHA512: 8408fa93d0244a30d177e840d2b35af9557315a4487d55592a67f2955968e2cfe0d189e2b6b5b4049db12af8aa952a3df85cd07db36216f952c6c3048ffb88ac
+Description: merge a difference onto a file
+Tag: purpose::console, role::hackerInstalled-Size: 288
+
 Package: perl
 Architecture: iphoneos-arm
 Version: 5.30.2
@@ -1370,6 +1386,26 @@ SHA256: 27e4e1764471bc5f8b02cd454116a46ba46e9e4341ae2bb8b5e6e95b167f67e9
 SHA512: a0696cd7f3bef63521eddd3ce88c8ded8f3415746cc1cefe6c6e706f65f3513543081ed488706e66591bb13b8764c4c5a614dbe80341c26e51afed03a41cb777
 Description: awesome combination of sed and awk
 Name: Perl
+
+Package: pincrush
+Architecture: iphoneos-arm
+Version: 0.9.2
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 68
+Depends: libpng16
+Filename: ./debs/pincrush_0.9.2_iphoneos-arm.deb
+Size: 7328
+MD5sum: aded2a369884ab3f123e2420bcb7a240
+SHA1: 4fada62a3fbc6e4885389209c3d5534aa8f0d545
+SHA256: 5e243f57fc257e0f4601c32dd23aa127b6cd4a770fbc8c549cc01bf20616bd2c
+SHA512: beb0515b374943f25465b39df8f283f151e5358506fcaac26730c977a36f54b5c28eef10cbdc05961bcfc26247a00996342afc28c7e1081d763a9a0832377b4c
+Homepage: http://howett.net/pincrush
+Description: optimize PNGs just like Apple does
+ pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
+Tag: purpose::console, role::hacker
+Author: Dustin Howett <dustin@howett.net>
+Name: pincrush
 
 Package: profile.d
 Architecture: iphoneos-arm

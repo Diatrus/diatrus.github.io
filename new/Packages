@@ -1672,6 +1672,23 @@ SHA512: 92ce506b8ae2ab9041d3e3cf851de49fc9f41a47b120f83ee224513aadafd2f494374a36
 Description: de-compesses files in zip format
 Tag: purpose::console, role::hacker
 
+Package: uuid
+Architecture: iphoneos-arm
+Version: 1.6.2
+Priority: important
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 272
+Filename: ./debs/uuid_1.6.2_iphoneos-arm.deb
+Size: 36416
+MD5sum: 1514e778fadc58b1040921376d4d5b8b
+SHA1: d0a676a177b077aa31064470236f90f6721391f9
+SHA256: 604f3210c14fb0bd8554c6de96f9fde286078a239aa1d47bf983a057dfdc06c3
+SHA512: 6d322106a71bc14189eab35900709963995254092524700f24d4360bf1399d5697b0bf895bad1fcb1dca551e4f6e6df8fb161a58f6da77a856172babd3f008af
+Description: universally unique identifiers
+Tag: purpose::library, purpose::console, role::developer
+Name: UUID Generator
+
 Package: vim
 Architecture: iphoneos-arm
 Version: 8.2.0550
@@ -1689,6 +1706,40 @@ SHA512: 6efc7233aedf9240e46ce62fcb3c56e34174ee608f55d2c98bbdadaaafef2bb4153146dc
 Description: the best syntax highlighter, ever
 Tag: purpose::console, role::hacker
 Name: Vi IMproved
+
+Package: wget2
+Architecture: iphoneos-arm
+Version: 1.99.2
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1756
+Depends: libssl1.1, libpcre2, gettext, xz-utils, libnghttp2, libidn2
+Filename: ./debs/wget2_1.99.2_iphoneos-arm.deb
+Size: 293980
+MD5sum: 5369268eac1a6bba237d15a97ab34921
+SHA1: fe06b7fcf817ed6f8f6599eaac986ad4aadf90e0
+SHA256: c1e1ef824cd30587b54d604fd6e449676f4ec10d072cf330ad3b0aff23e9e49c
+SHA512: 19ee747a1a4554a9ee62798df49ea1425213e8dd22335da482078ff081a506012440224530a712138f0555398492520d23f4369ab0e1a4aaaee026a7f5c07beb
+Description: simple HTTP file transfer client, but there's 2
+Tag: purpose::console, role::hacker
+
+Package: wget
+Architecture: iphoneos-arm
+Version: 1.20.3
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3404
+Depends: libssl1.1, libpcre2, gettext, libunistring
+Filename: ./debs/wget_1.20.3_iphoneos-arm.deb
+Size: 575876
+MD5sum: 6531086a3f8b612fd07d45845c3412b9
+SHA1: 59ebe1c28d5c708a445494be24c1c4c41ce1ac3c
+SHA256: d10a289be1ca3299d296c43bc123ca82bb1693cf0caf30f8e5a3087b41c77558
+SHA512: 72320966beb85a1fbb67e9142e126440a16391cd766c8179c910ac0d5b016ade085bce3fd37f2fb8ca02245db9e6a527d2edabcd2f8538930f419fd701923ad4
+Description: simple HTTP file transfer client
+Tag: purpose::console, role::hacker
 
 Package: xxd
 Architecture: iphoneos-arm

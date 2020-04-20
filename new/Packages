@@ -192,11 +192,11 @@ Depends: firmware (>= 2.0)
 Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
 Replaces: org.thebigboss.cacerts
 Filename: ./debs/ca-certificates_0.0.3_iphoneos-arm.deb
-Size: 121916
-MD5sum: aece8cf920e6fcfab838b10e7ab43177
-SHA1: 1151c843d4d34415ff8a940f1605df528ae1abc6
-SHA256: 1b22a1c21e0df23012141dbb4095726a5962db49615a2adae42ec335cabbad50
-SHA512: 4023ecbc32705482c9fea8bbc8904b7b564fdd3b8b2e4ae4e92df72ec2c726f499fe7cd9ac716c940d3c89fa86bd178cc20057d2d34995e159308ad45fcbb744
+Size: 121932
+MD5sum: e666b0f87e72c9f13bb9533589faa913
+SHA1: e47beb9d4e6555113a316a04ec1090542baedc1a
+SHA256: 510f8fabeedcdec81fa70ebc3ecff1bdbbfc3e67fadfa4990b78fa0b1ae82ae4
+SHA512: 836ac5ec286e4c7793f75742ac9dce6fc3c358c931ebfe79ffd3c6e81c53e90b41e2c89bf1b927e5f596128126f953daa389243566102ba00546cf5fd909b389
 Description: CA certs for curl, wget, git.
 Name: CA Certs
 
@@ -1012,11 +1012,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 28
 Depends: libssl1.1 (= 1.1.1f)
 Filename: ./debs/libssl-dev_1.1.1f_iphoneos-arm.deb
-Size: 1332
-MD5sum: 4a30340a74c25557ac28202bec8e95ed
-SHA1: 417f103dd6323518c9b3edb9436b0a1d4d618204
-SHA256: cfbbf22c11704ff248c93cafc7fbd09548f00a0b645c4ad767a69e28d41adb3f
-SHA512: ae41666f8367aa87cfefc84260e558985596b735496a5187afd4f380e4cb582651f9bd428da1408cb72233d0125bdb34d377093bc8dbd489f2a2023f0248a7bb
+Size: 1328
+MD5sum: 6b6eb57925cfbd69a0e9925de0837553
+SHA1: e43080c67bf8910a80a00263da497c308f7de793
+SHA256: 84ad8866dc1774a46c2c0dec1f9e83eef433da68f86727777e54dead056005e5
+SHA512: 3cf9df10f836112027f89f652e45c85fd2d5ad29c10d4fd8246cfe9596239895a3e804c20f2a7b6ae96b8ba3eda5086598603242638195763fdaf0f9c8e8af92
 Description: OpenSSL Libraries for version 1.1 (development)
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries (Devel)
@@ -1033,11 +1033,11 @@ Depends: ca-certificates
 Conflicts: libressl
 Replaces: libressl
 Filename: ./debs/libssl1.1_1.1.1f_iphoneos-arm.deb
-Size: 1151120
-MD5sum: 1742d9dd3a26b00ad4b1b38ac397a0e7
-SHA1: 999cde6328847fb6bc5f33f525799676b5a1224c
-SHA256: 001d12ce32ec8af80994408da7186079fedc0bbbf2be687c9693d58ea8df5125
-SHA512: 203a0a08c7af1c7f68900e4da95bdbbdea1a975111b57b9b05b4e2e42e03088d9e50397e67601606fa1bbae42f1a0e976a8c205a631b86d51dddf35d8045db9d
+Size: 1150212
+MD5sum: 77c561c639957d052e33d44e8b7fa7f6
+SHA1: b1be371675c455ea9bb07614118cdb936f79366a
+SHA256: 66a0823d1501ae25173a77dab5e110b5d799f448cf3683f0cbfcf5bc459a981c
+SHA512: 9203bbce3167d67600ed6ae35e0173b84252707cde11d881418f2d4a76d38592b99898e4b99307873b6705193256312ddfba62ae719ec001762f058311016653
 Description: OpenSSL Libraries for version 1.1.x
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries
@@ -1326,11 +1326,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 732
 Depends: libssl1.1 (= 1.1.1f)
 Filename: ./debs/openssl_1.1.1f_iphoneos-arm.deb
-Size: 219984
-MD5sum: 4d34cbdaa89e0ac07bfdeb2c80faa74a
-SHA1: d57f1795af8c1c6191461df7a1d5dbdf436f6a9b
-SHA256: 6a36f9a6574a688e40a36c17340fcc1242369f38e98a1203d8fbd743758b1260
-SHA512: 49dc26bb2f04665e6936cf2554dde401152315ce9d10e15903b1d7b7970519848d4e4e3c997f7b5ec64079c5593d4ab970ba5c4b62395028f78f9e1372eb2660
+Size: 219748
+MD5sum: d473af9ab4e602cd4b7e0296e4d80ef1
+SHA1: dac3540137f5af0957b8b17e6401f91e38f2d78f
+SHA256: 48249a25d66524b6ca9a2a92a4478a9a2ab5c915d261e7c85951fcc61c21f207
+SHA512: 1358c162290cc7b1c2dc74f0b297e8e1f89e602210f463e2351fa2ba0ca67ef171472d6682677a561c0312fb7c334b26a7bb6feb7c1c6dbea2853b3c9bd162ce
 Description: OpenSSL tools
 Tag: purpose::library, role::developer
 Name: OpenSSL
@@ -1713,14 +1713,14 @@ Version: 1.99.2
 Priority: important
 Section: Networking
 Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1756
+Installed-Size: 1724
 Depends: libssl1.1, libpcre2, gettext, xz-utils, libnghttp2, libidn2
 Filename: ./debs/wget2_1.99.2_iphoneos-arm.deb
-Size: 293980
-MD5sum: 5369268eac1a6bba237d15a97ab34921
-SHA1: fe06b7fcf817ed6f8f6599eaac986ad4aadf90e0
-SHA256: c1e1ef824cd30587b54d604fd6e449676f4ec10d072cf330ad3b0aff23e9e49c
-SHA512: 19ee747a1a4554a9ee62798df49ea1425213e8dd22335da482078ff081a506012440224530a712138f0555398492520d23f4369ab0e1a4aaaee026a7f5c07beb
+Size: 277904
+MD5sum: fb9e5fccb11154c25eadbad356fb4c8c
+SHA1: 891de7abfc8ce1d30ee242d6b2ada34fa02a7151
+SHA256: 7950550e97f2efcfca649dde39cb05698f4a93a8fe2f731863583d1fb9088623
+SHA512: 09ed68277b8e3c5c1878a4d0456a87fd007aef1a0578fa29a92cb604a9d1aa08a17be1a8e23a492b23dc85a3753ee72e74b83bf4b3788c3e87f016f20f3be1f2
 Description: simple HTTP file transfer client, but there's 2
 Tag: purpose::console, role::hacker
 
@@ -1730,14 +1730,14 @@ Version: 1.20.3
 Priority: important
 Section: Networking
 Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 3404
+Installed-Size: 3388
 Depends: libssl1.1, libpcre2, gettext, libunistring
 Filename: ./debs/wget_1.20.3_iphoneos-arm.deb
-Size: 575876
-MD5sum: 6531086a3f8b612fd07d45845c3412b9
-SHA1: 59ebe1c28d5c708a445494be24c1c4c41ce1ac3c
-SHA256: d10a289be1ca3299d296c43bc123ca82bb1693cf0caf30f8e5a3087b41c77558
-SHA512: 72320966beb85a1fbb67e9142e126440a16391cd766c8179c910ac0d5b016ade085bce3fd37f2fb8ca02245db9e6a527d2edabcd2f8538930f419fd701923ad4
+Size: 565884
+MD5sum: a49d419aa6056cb2cb44dbd52f8155a0
+SHA1: 62d9dd53492c4269bcbb61e8758ae0a9068bbaf9
+SHA256: 9bd5e9f16a031c1bb62bc6ca7616b40a186bae9effe09d19137f8633e69c19c6
+SHA512: 52bac767249cbdef2d7435a9b8b0087f517e5241437eeb9b9dea20735283cff50bb734bc94e70f3314eca85a50947c4dce1ca7cbcd85fdf77392043bfc731b3b
 Description: simple HTTP file transfer client
 Tag: purpose::console, role::hacker
 

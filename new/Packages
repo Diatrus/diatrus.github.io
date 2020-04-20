@@ -1538,11 +1538,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 4124
 Depends: gettext
 Filename: ./debs/sudo_1.8.31p1_iphoneos-arm.deb
-Size: 642844
-MD5sum: 79bba08bfc142767c18febe89e32e60b
-SHA1: 0184d8c460fc194fdf84d57377849e560a832cae
-SHA256: 0f3f03c65a8de2d7f9f8a76e4df0afbaf655cd6e9c30befa3522d70b58739c2e
-SHA512: 30b1ac720c2c97959f2a67c6933f2d06d4cf6b8aeff16085ed68a2805fcaac8f704571f8a9fd62c0bb2dd34ee6c2680cb6e2471a959e4be5e90de49fe5717e5a
+Size: 642808
+MD5sum: b165951106a87086c4e7bea54f0b52ba
+SHA1: fbcf11e820456dd71dfbc03aa0aa2069b3f38753
+SHA256: 4b0405667b4639b7a18ca347b572e1d2f83182d11cfbfc5f822f5b8ffce39f71
+SHA512: e1128f4a15a9b99e9888dc24a6e07e3c464b29c44d0381788daeb827fd21bb3b649c4f669b444dd5a3d31e83bbdc9dcf966ac9788b0472e17b1a73e24aabe222
 Description: temporarily assume root priviledges
 Tag: purpose::console, role::hacker
 Name: Sudo

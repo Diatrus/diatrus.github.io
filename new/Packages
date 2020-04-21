@@ -1335,6 +1335,25 @@ Description: OpenSSL tools
 Tag: purpose::library, role::developer
 Name: OpenSSL
 
+Package: org.coolstar.sileobeta
+Architecture: iphoneos-arm
+Version: 1.7.5b1
+Section: Packaging
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: ./debs/org.coolstar.sileobeta_1.7.5b1_iphoneos-arm.deb
+Size: 3089908
+MD5sum: 9fe53cc4e6553ccceb92711b230eb4e5
+SHA1: 9af5268981b254f6cba4d7c13809933721c2101f
+SHA256: ae61401e7da3121be2bc2e00e2d160ed0910db63750a90137dba60c4187c1659
+SHA512: e05677788307d312e32faac5ae0a7f0c6b156f4e3dbf9668c3205de17fb5495cbc46806c0612e7a49fe2530b7139c4f77c1236bfbc0fc5a1b0ba592ba3d3957f
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+SileoDepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+Name: Sileo (Beta Channel)
+Author: Sileo Team <getsileoapp@gmail.com>
+
 Package: p11-kit
 Architecture: iphoneos-arm
 Version: 0.23.20

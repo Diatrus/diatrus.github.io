@@ -1335,20 +1335,41 @@ Description: OpenSSL tools
 Tag: purpose::library, role::developer
 Name: OpenSSL
 
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 1.7.4
+Priority: required
+Section: Packaging
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: ./debs/org.coolstar.sileo_1.7.4_iphoneos-arm.deb
+Size: 3154316
+MD5sum: 37469c72e4e498eb2dc247989d451d75
+SHA1: a4e0b36576e94837d78a98c8b79dd6015bd6f0cb
+SHA256: fb5dd723137b41db839c99fc19b90cdded2b2e745f31e65a92e31c7f922ee0c1
+SHA512: cab7fcf9b25e74543e8395f3ed95b163396068f1e90ee1a9d41e19cea693cbc05282b5cf60dd234cbb918754cc8766fc521884f62f770ae109b3929bb7ca06b5
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+SileoDepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+
 Package: org.coolstar.sileobeta
 Architecture: iphoneos-arm
 Version: 1.7.5b1
 Section: Packaging
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo
 Conflicts: cydia-gui (<<99.0)
 Filename: ./debs/org.coolstar.sileobeta_1.7.5b1_iphoneos-arm.deb
-Size: 3089908
-MD5sum: 9fe53cc4e6553ccceb92711b230eb4e5
-SHA1: 9af5268981b254f6cba4d7c13809933721c2101f
-SHA256: ae61401e7da3121be2bc2e00e2d160ed0910db63750a90137dba60c4187c1659
-SHA512: e05677788307d312e32faac5ae0a7f0c6b156f4e3dbf9668c3205de17fb5495cbc46806c0612e7a49fe2530b7139c4f77c1236bfbc0fc5a1b0ba592ba3d3957f
+Size: 3089912
+MD5sum: 66e7686b51fcef993f0a2b9115520640
+SHA1: b5d6ccdafb52d0a97e8e098aa4dfb9d23a1f41ec
+SHA256: a179d3ca72f4726d3e9af209aa06e91194f5e76c4723bbeff9caa48dbd1c7ecf
+SHA512: bb887c105325acc3e56b64011186b9a2c72ae93c8874aadf17b4d9fc4acbf7742a7adaa5faccf62b1fd52cbb837749f798795d8df686c46a02a1755ec451e310
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
 SileoDepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 Name: Sileo (Beta Channel)

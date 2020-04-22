@@ -1,0 +1,33 @@
+Architectures: iphoneos-arm
+Codename: memo
+Components: main
+Date: Wed, 22 Apr 2020 05:57:52 +0000
+Description: Testing the memo
+Label: Diatrus Bootstrap Tests
+Origin: Diatrus Bootstrap Tests
+Suite: stable
+Version: 1.0
+MD5Sum:
+ d73ff0022add960925205a5e2c8f5f2b            74014 Packages
+ ab2ba2af4d0a9fdc9bc3c89fd7c95832            23832 Packages.bz2
+ e6ae89c488c2efe354fc93c03dab7745            24632 Packages.xz
+ 51d293649406d9c48e2f1dc7c18d7c4b            24997 Packages.zst
+ 1a903ec73e39f6a2073dace9f669ba1f              218 Release
+SHA1:
+ 2a06e94a78e373c7c970ac53d9a0e7ebf93cfce2            74014 Packages
+ cadbea2be348fd3608973d134e7e0f544342b932            23832 Packages.bz2
+ 40b0d08c614b278de0f5a8e996a13e9648d442c3            24632 Packages.xz
+ 17c62e3fbddd663d130c3089cc55e8d35abfe42f            24997 Packages.zst
+ 3fd191de2655cc1fb5163e6f5f04c548969244dd              218 Release
+SHA256:
+ 99e0e2fc16f21f56573edd018fa30e364c03fa73639c7df59aebfabf23fad344            74014 Packages
+ 02f3b7e82b62e2f72d45db32dad4faf93c33ad8d1b32a07305e663126b38e8ca            23832 Packages.bz2
+ 36fd8a171c5f377ae7846dad1d6c8e0e3e7a39fd84accf263d1c132839e59cb9            24632 Packages.xz
+ 36492bd46e7987eefb61a299fb5bcd038ee82e8817347ab48f0a4aa84a3472aa            24997 Packages.zst
+ 9446bd840624d3991a7a61120c35c5b58b340e58717c34181f9fab62842bec76              218 Release
+SHA512:
+ 4d6898ab4575f0d3c3579e86153ca1760038a1fafe0b2ea14870f45a2fc8308d6c2deb2dd11daff1522629179664ebdaeefed9d4fc80b66ce5c48cac15662a17            74014 Packages
+ 7f06fb1cebdbda919fca7c0f32fb64c75b774e30402559b588b0418c8bf2318da65bb5a8c4944e7bd315bb5d483cb8a327864b07dabed02cd183df2936547af3            23832 Packages.bz2
+ febf736ea0b8879dba9d2d17f18b6ac71a4be50f505309ebc9b10c3a7e3b9854f13cf2c3a06d8bf0e39da0ef98dcd1060fd9d1726011726d2bfc5df882349fd8            24632 Packages.xz
+ c753d4989993c57620d0db7c49402b5c8b2e13ab923a372d5e60a026a0d1448ba31736f44330a3f52a39cc3200dc76327fe2e5b5e868fe4815b076d94ba33e96            24997 Packages.zst
+ 7c59d21a62778acc3d639db05c788f13476ce1276051799727e428ccc586cc0c08b63748470f5f87b7173b55d3c296799847097bd84f486aa2477f8e86109d39              218 Release

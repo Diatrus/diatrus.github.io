@@ -1021,6 +1021,24 @@ Description: OpenSSL Libraries for version 1.1 (development)
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries (Devel)
 
+Package: libssl-dev
+Architecture: iphoneos-arm
+Version: 1.1.1g
+Priority: standard
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 28
+Depends: libssl1.1 (= 1.1.1g)
+Filename: ./debs/libssl-dev_1.1.1g_iphoneos-arm.deb
+Size: 1332
+MD5sum: cbbde08ed9300ba119c8a4fde6b876d0
+SHA1: 4cab2c1d6684630070e92e9342b4f2ddf5279775
+SHA256: 40c6d3c6cf24ed8cb279ca0089bba22ea16cc80c8a2012f9b181df3e2e0ba1ea
+SHA512: cc7d5207a1fede974691d7b921e95a94ea8c3bc803275eda61df6203a41874cd49239ff8feafa9117ee98c861d5ded187f79c10ebaafcf55303c833ea5d058ca
+Description: OpenSSL Libraries for version 1.1 (development)
+Tag: purpose::library, role::developer
+Name: OpenSSL 1.1.x Libraries (Devel)
+
 Package: libssl1.1
 Architecture: iphoneos-arm
 Version: 1.1.1f
@@ -1038,6 +1056,27 @@ MD5sum: 77c561c639957d052e33d44e8b7fa7f6
 SHA1: b1be371675c455ea9bb07614118cdb936f79366a
 SHA256: 66a0823d1501ae25173a77dab5e110b5d799f448cf3683f0cbfcf5bc459a981c
 SHA512: 9203bbce3167d67600ed6ae35e0173b84252707cde11d881418f2d4a76d38592b99898e4b99307873b6705193256312ddfba62ae719ec001762f058311016653
+Description: OpenSSL Libraries for version 1.1.x
+Tag: purpose::library, role::developer
+Name: OpenSSL 1.1.x Libraries
+
+Package: libssl1.1
+Architecture: iphoneos-arm
+Version: 1.1.1g
+Priority: standard
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3220
+Provides: libressl
+Depends: ca-certificates
+Conflicts: libressl
+Replaces: libressl
+Filename: ./debs/libssl1.1_1.1.1g_iphoneos-arm.deb
+Size: 1151544
+MD5sum: 704e4ef620160b211ae8cc8d1af1971e
+SHA1: 67af41634a5e019539fbf0d9895b197f36a1deca
+SHA256: 9f3337a2814d1390a12ddbe4b7b6886a6be8fe9f6df4ca535edfaddbf5324b6a
+SHA512: 8bc4cc85318f002941cb240299813233ff691eb52e70c0f68756980f9526395a4f9d3965079820977556479b3ececcb4ddb3e918522ca2a96e2f932242de5b13
 Description: OpenSSL Libraries for version 1.1.x
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries
@@ -1331,6 +1370,24 @@ MD5sum: d473af9ab4e602cd4b7e0296e4d80ef1
 SHA1: dac3540137f5af0957b8b17e6401f91e38f2d78f
 SHA256: 48249a25d66524b6ca9a2a92a4478a9a2ab5c915d261e7c85951fcc61c21f207
 SHA512: 1358c162290cc7b1c2dc74f0b297e8e1f89e602210f463e2351fa2ba0ca67ef171472d6682677a561c0312fb7c334b26a7bb6feb7c1c6dbea2853b3c9bd162ce
+Description: OpenSSL tools
+Tag: purpose::library, role::developer
+Name: OpenSSL
+
+Package: openssl
+Architecture: iphoneos-arm
+Version: 1.1.1g
+Priority: standard
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 732
+Depends: libssl1.1 (= 1.1.1g)
+Filename: ./debs/openssl_1.1.1g_iphoneos-arm.deb
+Size: 220056
+MD5sum: 4b1568bf257e98251c3fcdbf3ec45c56
+SHA1: cc76c6678e2a7bc7c377f5321236e92fe4522c79
+SHA256: 556d30a2bdec0f7601ad1d2314acb92557c8214f60ea1d8d13a4e17c13f7bf58
+SHA512: 56236218802898c8418d3125681a1f0914a6899a6658a0ac4fed41b3388f0e375a8c11675e9aa0ebea64f48632b60a29195d930de327ec6ab251f16fd9687971
 Description: OpenSSL tools
 Tag: purpose::library, role::developer
 Name: OpenSSL

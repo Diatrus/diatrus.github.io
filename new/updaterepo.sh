@@ -2,7 +2,7 @@
 script_full_path=$(dirname "$0")
 cd $script_full_path
 
-rm Packages Packages.zst Release
+rm Packages Packages.xz Packages.zst Release
 
 apt-ftparchive packages ./debs > Packages
 zstd -c19 Packages > Packages.zst
@@ -16,3 +16,4 @@ echo "Done updating!"
 git add -A
 git commit -am "Update repo"
 git push
+

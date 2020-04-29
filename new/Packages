@@ -396,11 +396,11 @@ Installed-Size: 2704
 Pre-Depends: tar (>= 1.23)
 Depends: bash, coreutils, diffutils, tar, xz-utils, bzip2, gzip, gettext, zstd
 Filename: ./debs/dpkg_1.20.0_iphoneos-arm.deb
-Size: 235060
-MD5sum: a25bef590c18302f08f647c1b9dc28ec
-SHA1: 39c023a301872d1de8dfba388b85768ffe8a48c3
-SHA256: 0b1e2fa6190c828c214f975b948652a9a717cc9db503d674fe844014e2ab53c9
-SHA512: 25f762ca36aff49e9ee4166f00aa8841eb073bcefd797ea7adb09e1a858f47b30986875bb77e8c782ce102103f31d13352fa3ad33e3fb184366cc649bd13878b
+Size: 234976
+MD5sum: 2e37752133b5de3a8ef7bb28ec1d01ea
+SHA1: 125bb5aad4728b5637a3961ec33a0597e7b618c3
+SHA256: 35a2278c9d0409abeff27bef0582f424830c52625b36772000da4270dfbc473e
+SHA512: 71229b8c18091de7207c87e82facfa5103475d060eb203e5fb0f49b1138ffccf8a682edf3573309f1cb4decc95a815c59d7d28816e23a23778b54efc88d7b2fc
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager

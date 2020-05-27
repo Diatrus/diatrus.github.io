@@ -1,8 +1,0 @@
-Origin: Use Official GetSileo Repo
-Label: Use Official GetSileo Repo
-Suite: stable
-Version: 1.0
-Codename: fcahinstaller
-Architectures: iphoneos-arm
-Components: main
-Description: The installer for Diatrus forks of things

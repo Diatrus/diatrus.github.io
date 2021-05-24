@@ -13,9 +13,5 @@ for arch in iphoneos-arm darwin-arm64 darwin-amd64; do
     xz -c9 ./Packages > ./Packages.xz
     zstd -q -c19 ./Packages > ./Packages.zst
 
-    $FTPARCHIVE contents pool > \
-        ./${contents}
-    xz -c9 ./${contents} > ./${contents}.xz
-    zstd -q -c19 ./${contents} > ./${contents}.zst
     $FTPARCHIVE release -c config/zebra.conf . > Release 2>/dev/null
 done

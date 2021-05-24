@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm darwin-arm64 darwin-amd64
 Codename: big_sur
 Components: main
-Date: Mon, 24 May 2021 04:11:24 +0000
+Date: Mon, 24 May 2021 04:14:23 +0000
 Description: Zebra APT Repo
 Label: Zebra
 Origin: Zebra
@@ -17,19 +17,10 @@ MD5Sum:
  37f2beb993bb33a99782a6409851de06            18384 Contents-iphoneos-arm
  2682cd0979cde543ca5480b75f071501             1520 Contents-iphoneos-arm.xz
  92c259349d789c74c3226d08ac86e2ca             1471 Contents-iphoneos-arm.zst
- c8b1db87b34f4537a35c60051dc79b8e              210 Release
- d770b5036b24c6d93031a879c68175ba             1069 binary-darwin-amd64/Packages
- de25331bf01fc4e004e226911b40d724              780 binary-darwin-amd64/Packages.xz
- a553296214c52365dec24a2f810cc676              696 binary-darwin-amd64/Packages.zst
- 3fe0a6f7a2ab51b6173696953418cc3e             1651 binary-darwin-amd64/Release
- 34ec438f492f5cdd10b592a5bd127611             1035 binary-darwin-arm64/Packages
- a3c63075e5027900f43e19e0dab48dc4              748 binary-darwin-arm64/Packages.xz
- 46b29ef3adc11d1193687e1b765bc937              667 binary-darwin-arm64/Packages.zst
- dd007e42a0d20233ed59411042108d80             1651 binary-darwin-arm64/Release
- a3a965e4a60e873cccd9856a04a82453              839 binary-iphoneos-arm/Packages
- 150c6744ed6ed8a44a652532b357cfd1              640 binary-iphoneos-arm/Packages.xz
- 0c90bbf7e8d9124940e15ec5109df878              563 binary-iphoneos-arm/Packages.zst
- adb78065a187367130abc822d9763caf             1651 binary-iphoneos-arm/Release
+ 717db796b6bdc038003d2da5eac7234a             2943 Packages
+ a7ba5d16a8a9cedad36e946df71a8b42             1488 Packages.xz
+ 7f37d04685621126e08cd5b3268fce06             1423 Packages.zst
+ b3c28b6a2b28432eb91a0ba455f4f849              210 Release
 SHA1:
  1ccaef38aaa7fe1dbede3da00ebcfb2eb1c44214            18384 Contents-darwin-amd64
  5d1ab9059ec080456b63952a0d9b86bae8d2adb6             1520 Contents-darwin-amd64.xz
@@ -40,19 +31,10 @@ SHA1:
  1ccaef38aaa7fe1dbede3da00ebcfb2eb1c44214            18384 Contents-iphoneos-arm
  5d1ab9059ec080456b63952a0d9b86bae8d2adb6             1520 Contents-iphoneos-arm.xz
  a8ad7b639034173d017ce16cb0870dfb1bd37708             1471 Contents-iphoneos-arm.zst
- 6c1f6064ce5678fa42bd4de2c7cba066eb3fba8e              210 Release
- ad0f07cf52829fc211acc3ccb71f8128f1986813             1069 binary-darwin-amd64/Packages
- 29e782d916f7c481973d22afd24573eb54e37ac3              780 binary-darwin-amd64/Packages.xz
- 6e0a35a919f2d8134f8fa2036878bdab16ce3ce2              696 binary-darwin-amd64/Packages.zst
- 774bcfa6e26390d8ceeb5cec6c4bfc47785fb2d5             1651 binary-darwin-amd64/Release
- 6b9c7658bf8a7848534d7db0457a5840b1e93944             1035 binary-darwin-arm64/Packages
- 267d6d31ace26dd722d58c2d37caf17b1d2b9079              748 binary-darwin-arm64/Packages.xz
- 9786acc27ba17f99f865dd93d99fb4a0e5b4b2e0              667 binary-darwin-arm64/Packages.zst
- 07d73cd127cd804e25ad5e38c66b0a158a93746e             1651 binary-darwin-arm64/Release
- 85073cf097786c53decec2b836eb655f7604673b              839 binary-iphoneos-arm/Packages
- d54c2759dc13d049cd6839dea60f5e2f6e824832              640 binary-iphoneos-arm/Packages.xz
- bd6d88fbad8d93ca3fbaa033d048fa5fda95fa3c              563 binary-iphoneos-arm/Packages.zst
- 118940890b4cf4aad37fa98fd2b0e7b99d4f07d4             1651 binary-iphoneos-arm/Release
+ 568a35bd233de1e95e815fa243d9b82923e34f21             2943 Packages
+ ef9b22a0a3925ae6203e6807b859c7446d7e24f5             1488 Packages.xz
+ 284e00da5ffb5a411f2478fd50f3c23647e20024             1423 Packages.zst
+ 5ede7dbe7566f632933a06dbdc2f84a89edac5d5              210 Release
 SHA256:
  9482bf8571ddcac4529ca3f64c55f278738f15a51239f8aff46f31bae06b7bca            18384 Contents-darwin-amd64
  e19421b928e3c8c9217487adf501fe1f30cfe03b884c4a3f0b4290f574e37bfd             1520 Contents-darwin-amd64.xz
@@ -63,19 +45,10 @@ SHA256:
  9482bf8571ddcac4529ca3f64c55f278738f15a51239f8aff46f31bae06b7bca            18384 Contents-iphoneos-arm
  e19421b928e3c8c9217487adf501fe1f30cfe03b884c4a3f0b4290f574e37bfd             1520 Contents-iphoneos-arm.xz
  6c64a2b485fd6c15187704cd40d39f0fd0e1c797007b1cca6c9eb3ad7c6db1d3             1471 Contents-iphoneos-arm.zst
- 46bd2a4d3b546ad28607ba30b88f0cab7722bab48dfeceee55353a5d733ad64e              210 Release
- 47bc85f924bfcdd8ad4a731c0b08a6e55eea6221f44583af015fe758612a23e9             1069 binary-darwin-amd64/Packages
- b15f4bc0bba0e2178a396d57809c5938ad1ea33379cf1f885d23e41c70e480fe              780 binary-darwin-amd64/Packages.xz
- b0ae9e880fe25764d2f0d36583ff9b610cb4a8b54eef6ebb57681406fe4e9321              696 binary-darwin-amd64/Packages.zst
- ae35ae20b9e538f8fd4fa63a3c14eb474602e560fb3fbed42a85baf5319c2964             1651 binary-darwin-amd64/Release
- 2bdebb54585b15f89213e19cdda079d8c14eeb30f58fb83d868528c8aeee0781             1035 binary-darwin-arm64/Packages
- 8da761f34288ffec003333ae6702a9b2ed55bb3f30ac4e8af935001980d3c498              748 binary-darwin-arm64/Packages.xz
- f942f1110b1eb44d5148bcaf1dc3137d9900f810283f24d850414b178b2a533b              667 binary-darwin-arm64/Packages.zst
- daaac6bcdc49c60e502ec3e54d29fb9d6820fe7de5caaa19665fe1d5f6055e8f             1651 binary-darwin-arm64/Release
- aa6b2509c027c02b50ae2e689d89c95d03803d57e21aed001b82d9d40bab90e5              839 binary-iphoneos-arm/Packages
- a6e8eaec3f8bf2cd74599af7333016e9d64e2ced12b4ed3158fa07df2dc61283              640 binary-iphoneos-arm/Packages.xz
- 2be54f385c28ccf8143455c0cca9a0a8f9eef905a156231bef151f417903f28d              563 binary-iphoneos-arm/Packages.zst
- c74cfe8fffcab8448952136856312efb4a9555f0898c14c81db47dbcd8fd7414             1651 binary-iphoneos-arm/Release
+ df7add7329868045154cd031ab517c1132a4a8d3d8341c8b9d92affe09d07a3c             2943 Packages
+ e6d749c94e7cae85ef6c9a6628722cfbe28af9d954bbeabea8845b22f60e5ecb             1488 Packages.xz
+ f66f667e13e7fe08dec41b9ba93e54f45a560dc0382a3d3cab54cfc1eb856a24             1423 Packages.zst
+ f344a06a042445f73b9671e6e23db963ade686fec20c8c399f333243f0d69ccd              210 Release
 SHA512:
  836e259e731dc50ff808383dc51f70b723a6aba3f653d63b6a17b9fd396ab34080e7f68c0934174004acad5b712c8a2ddc636489ee14dc59e37e87e2c1163b7f            18384 Contents-darwin-amd64
  a03bc8adc7793ceec502b03ed709c30ca3991700ff4a29a718f6c6300fccb4a1add9e15abdd2789977f77fe37d14fe6e711de74d13b8101d1c06ce323a210fa4             1520 Contents-darwin-amd64.xz
@@ -86,16 +59,7 @@ SHA512:
  836e259e731dc50ff808383dc51f70b723a6aba3f653d63b6a17b9fd396ab34080e7f68c0934174004acad5b712c8a2ddc636489ee14dc59e37e87e2c1163b7f            18384 Contents-iphoneos-arm
  a03bc8adc7793ceec502b03ed709c30ca3991700ff4a29a718f6c6300fccb4a1add9e15abdd2789977f77fe37d14fe6e711de74d13b8101d1c06ce323a210fa4             1520 Contents-iphoneos-arm.xz
  53ab2d8d48c61228ffe868b41e1363bf1bf56df32aa30855c7aae4c3663168d123b4fa60d26ceee52c87c8efe15e604d8886ea0952c109c7c00a38638600ab02             1471 Contents-iphoneos-arm.zst
- 35e4b9eb87417bbf1a53241477ab55424b0d706530103721b0c25c1e213908c4ce513c62d91e33419e6e50affc1ac8f4540a55ad7b2f083a1de1b81ae39d9399              210 Release
- 36005b45bfa2b6bb348f83ac4b7c3aff7eadaacd39db3a9d3b6fb7ba51f37c5ab716687b243c5839bf90439f31337b240c89c3e2b0e62e418c308042e0736691             1069 binary-darwin-amd64/Packages
- 7ca7b85655316b772c92d5bfda6ad2fafe4ac8064e491969382fe8ec709260e9d9168a1a93c8c8db51511a4f6f32c1ee1791f4e15c8f2ebc97281d6283b107f5              780 binary-darwin-amd64/Packages.xz
- 6cd52b78d9ac38d80c1904151b6b7cb2c64ef2a91a42cf10ad2a2357305405d6ff9166ccf502b071f72d8e082626f5d8eb7de401e96fcf4d1ef5c69e14994c78              696 binary-darwin-amd64/Packages.zst
- 0f0ca1d39632d21f4116ef534fbbb8adfe6d49b435fbbbf3d6ed17789213c7434970a6cb1ed1d865b6b9d0a2f9f5cf42b2ef22ba11b58e5e46fab572510ab4fc             1651 binary-darwin-amd64/Release
- 6dfa462fe4cd1b6313ecb3cbda0f9a0783b7c4640556e24bdf55987c8fc87932bee4c0ab5152c0b2e8500e844ad3b80d388b1d01ba7f269574ba459a71bb69fd             1035 binary-darwin-arm64/Packages
- d346850fe7cd805c46587ba14b017ec0b4cbe160633fa971002c1e120d29f659a8040571b865fb027997f3649e19b95d9a831674cd74586f62ce701786c0c972              748 binary-darwin-arm64/Packages.xz
- e06d6d3dcb3539d71407b45c73acebf381d3aede181c5783f709a66b4fddbac50f292d1e2a4cae96d4eb7e8dc8031015431513574b9d0cf9211068a79228d2ed              667 binary-darwin-arm64/Packages.zst
- 10aa0a4c307f0e7b53eb0e4b5fec6df89752ee6a7e187a91990a03380fe40a0ee2b1b93234f81a3eeb06a1767ed9511ded1e1daa72cc7eac54dce8696b30e7c3             1651 binary-darwin-arm64/Release
- a0e2897f7e994398ffc7fdee1999cf6e4dbe62b9a0da9a62ecdca4b73046dd34bb26d8d861fac885b7b3958008947fbb02d4571dc11377d4ad788854c611ce1a              839 binary-iphoneos-arm/Packages
- 8d9646899d771cd9538bcebe6c9cb4b2c61afbaf6c5c3eb8bb5b5d01a145b4ad3eb929181ad843a70606c9ab5399175c8531cb8003166ab0099e75644e208c99              640 binary-iphoneos-arm/Packages.xz
- 28f4548076614bcc57b2c20e07edc70d30d82f33c3102ec1d3266cb6ee49270a6509a4f0a4eab42cba5e9d36c1f6e26738e0faf40e7136db446ea2f0e41455c9              563 binary-iphoneos-arm/Packages.zst
- 9aa48e75828c0636a06d38bf7e14bd3592ee4fafe571753f65aa7958d2540db70077d57672d054181e4435528c3193e72063346c569fea3c4242174cf384eec6             1651 binary-iphoneos-arm/Release
+ 1585b228f899fcd9a1202d210fb9fead758580161f6efd0af4853966968aae94e87a1fae78ad3db8388a624d269e2262a1f1436f5068f217142609e5b29c5b19             2943 Packages
+ e19df1dd22085a412c5bfe7e84a8b7f492a69ad8e4476a3a6f1d33836dd354d2efdaad3fe58969936bec3f03fce02775f506836336917ef9445bc554a1205af0             1488 Packages.xz
+ 6b350063636b556f749ab7e327e4c436c443ea50fbde62f27e51e4ee033cd512a043096159b4015ef3b9577f88e8388da39fad627116fcb55365812b65f4fcd5             1423 Packages.zst
+ 72f5a9bc916a99bda07e1e1c9836f772863b5349346b6957acb80373cec30f2f7491431eb6dc81940cb1df000d7b90623823cea4d1246160e7007c639d46857f              210 Release

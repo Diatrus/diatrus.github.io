@@ -1,0 +1,22 @@
+Package: tigervnc-common
+Architecture: darwin-amd64
+Version: 1.11.0
+Section: X11
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 240
+Filename: pool/tigervnc-common_1.11.0_darwin-amd64.deb
+Size: 46458
+MD5sum: 5fc41979d792641174edb1089bf90851
+SHA1: b853754982192276c0ea26bdada898a4ca8fce07
+SHA256: efb0a3bdf84d96b7130ca0cdf5d150c4365f52866d0c716ce61a37b01d162541
+SHA512: 73045b7a8034fd5bb54a4d13bc6f95c742131a989b7982ec3a7cd875e8b097502466808485a048217ebe710c6388ec156e04b84270fdb131e3d655dce809789e
+Description: Virtual network computing; Common software needed by servers
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ It is implemented in a client/server model. This package provides the
+ vncpasswd and vncconfig tools as well as the common infrastructure for
+ tigervnc-scraping-server and tigervnc-standalone-server packages.
+

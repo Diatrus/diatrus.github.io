@@ -1,0 +1,24 @@
+Architectures: darwin-arm64
+Date: Mon, 24 May 2021 04:11:24 +0000
+Label: Zebra
+Origin: Zebra
+MD5Sum:
+ 34ec438f492f5cdd10b592a5bd127611             1035 Packages
+ a3c63075e5027900f43e19e0dab48dc4              748 Packages.xz
+ 46b29ef3adc11d1193687e1b765bc937              667 Packages.zst
+ 40f94243d66f5bbd446a62df07d87f96               93 Release
+SHA1:
+ 6b9c7658bf8a7848534d7db0457a5840b1e93944             1035 Packages
+ 267d6d31ace26dd722d58c2d37caf17b1d2b9079              748 Packages.xz
+ 9786acc27ba17f99f865dd93d99fb4a0e5b4b2e0              667 Packages.zst
+ 993782fc357af927ff3132a17c85390f9b2a101c               93 Release
+SHA256:
+ 2bdebb54585b15f89213e19cdda079d8c14eeb30f58fb83d868528c8aeee0781             1035 Packages
+ 8da761f34288ffec003333ae6702a9b2ed55bb3f30ac4e8af935001980d3c498              748 Packages.xz
+ f942f1110b1eb44d5148bcaf1dc3137d9900f810283f24d850414b178b2a533b              667 Packages.zst
+ 8f181a2ded03c25aadbb7e1386f6069f84f228ff79b1a3116a377bd301339a30               93 Release
+SHA512:
+ 6dfa462fe4cd1b6313ecb3cbda0f9a0783b7c4640556e24bdf55987c8fc87932bee4c0ab5152c0b2e8500e844ad3b80d388b1d01ba7f269574ba459a71bb69fd             1035 Packages
+ d346850fe7cd805c46587ba14b017ec0b4cbe160633fa971002c1e120d29f659a8040571b865fb027997f3649e19b95d9a831674cd74586f62ce701786c0c972              748 Packages.xz
+ e06d6d3dcb3539d71407b45c73acebf381d3aede181c5783f709a66b4fddbac50f292d1e2a4cae96d4eb7e8dc8031015431513574b9d0cf9211068a79228d2ed              667 Packages.zst
+ c578cab9f1df92df8016e9bcf276b7da84ab6f4b1f1acac56a1e66a6b6f534eaffddbd72150a4b0a4fc42aba3e8cc8f76fea82bfded34663aff9d33acaa09d64               93 Release
